@@ -4,7 +4,7 @@ This repository is a landing page for [ACEP](https://uaf.edu/acep)'s support of 
 
 The **Alaska Energy Statistics** is a long-running collection of data and reports about  energy production, consumption, and related topics specific to the state of Alaska.  The workbooks are developed to provide community & utility level datasets that support regional and statewide aggregations for use in the report.
 
-This is part of a 40+ year effort to create and maintain high level views of teh state's energy profile that are useful for policy makers, buinesess, researches, and others interested in Alaska's energy sector.  
+This is part of a 40+ year effort to create and maintain high level views of the state's energy profile that are useful for policy makers, buinesess, researches, and others interested in Alaska's energy sector.  
 
 - [Alaska Energy Authority](https://www.akenergyauthority.org/), is the state's energy office and lead agency for statewide energy policy and program development.
 - [Alaska Center for Energy and Power](https://uaf.edu/acep), a research center at the University of Alaska Fairbanks (UAF)
