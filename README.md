@@ -17,6 +17,14 @@ This repository is home to the 2023 efforts to cover the 10 year gap in the Alas
 The `energy-stats-workbooks` Excel files for years 2011 - 2021 are available for download using the following links: 
 
 
+[2011_energy_stats_workbook](https://github.com/downloads/acep-uaf/ak-energy-statistics-2011_2021/test2011.csv)
+
+https://raw.github.com/user/repository/branch/filename 
+
+
+[2011_energy_stats_workbook](https://raw.github.com/acep-uaf/ak-energy-statistics-2011_2021/main/test2011.csv) 
+
+
 
 
 ### Historical Reports & Workbook
