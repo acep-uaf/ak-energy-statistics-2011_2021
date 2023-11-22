@@ -22,9 +22,19 @@ The `energy-stats-workbooks` Excel files for years 2011 - 2021 are available for
 https://raw.github.com/user/repository/branch/filename 
 
 
-[2011_energy_stats_workbook](https://raw.github.com/acep-uaf/ak-energy-statistics-2011_2021/main/test2011.csv) 
+[2011_energy_stats_workbook](https://acep-uaf.github.io/ak-energy-statistics-2011_2021/test2011.csv) 
 
 
+<a href="/test2011.csv" download="2011"><img src="/test2011.csv" /></a>
+
+<a href="./test2011.csv" download="./test2011.csv">2011 workbook</a>
+
+
+
+<button onclick="window.open('/test2011.csv')">Download 2011</button>
+
+
+https://acep-uaf.github.io/ak-energy-statistics-2011_2021/test2011.csv
 
 
 ### Historical Reports & Workbook
