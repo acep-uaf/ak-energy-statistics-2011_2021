@@ -1,6 +1,6 @@
-# 2023-ak-energy-statistics
+# ak-energy-statistics-2011_2021
 
-This repository is a landing page for [ACEP](https://uaf.edu/acep)'s support of the Alaska Energy Statistics workbooks and reports. 
+This repository is the landing page for [ACEP](https://uaf.edu/acep)'s support of the Alaska Energy Statistics workbooks and reports. 
 
 The **Alaska Energy Statistics** is a long-running collection of data and reports about  energy production, consumption, and related topics specific to the state of Alaska.  The workbooks are developed to provide community & utility level datasets that support regional and statewide aggregations for use in the report.
 
@@ -12,7 +12,7 @@ This is part of a 40+ year effort to create and maintain high level views of the
 
 ### Latest Report & Workbook
 
-This repository is home to the 2023 efforts to cover the 10 year gap in the Alaska Energy Statistics efforts. 
+This repository is home to the 2023 efforts to cover the 10 year gap in the Alaska Energy Statistics workbooks and reports. 
 
 The `energy-stats-workbooks`
 
@@ -28,9 +28,8 @@ The `energy-stats-workbooks`
 
 2011-2021
 - Neil McMahon (DOWL Inc) - Created/updated 2011-2021 workbooks
-- Steve Colt
-- Gwen Holdmann
-
+- Steve Colt 
+- Gwen Holdmann 
 - Ian MacDougall 
-- Vanessa Raymond
-- Dayne Broderson
+- Vanessa Raymond 
+- Dayne Broderson 
