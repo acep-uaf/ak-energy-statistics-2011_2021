@@ -23,6 +23,13 @@ The `energy-stats-workbooks` Excel files for years 2011 - 2021 are available for
 
 <button onclick="window.open('/test2013.csv')">Download 2013 Excel Workbook</button>
 
+<a href="/test2013.csv" download> 
+  2013 Energy Stats Workbook
+</a>
+
+
+
+
 ### Historical Reports & Workbook
 
 - 2011 Alaska Energy Statistics 
