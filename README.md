@@ -1,4 +1,4 @@
-# ak-energy-statistics-2011_2021
+# Alaska Energy Statistics, 2011 - 2021
 
 This repository is the landing page for [ACEP](https://uaf.edu/acep)'s support of the Alaska Energy Statistics workbooks and reports. 
 
@@ -14,7 +14,9 @@ This is part of a 40+ year effort to create and maintain high level views of the
 
 This repository is home to the 2023 efforts to cover the 10 year gap in the Alaska Energy Statistics workbooks and reports. 
 
-The `energy-stats-workbooks`
+The `energy-stats-workbooks` Excel files for years 2011 - 2021 are available for download using the following links: 
+
+
 
 
 ### Historical Reports & Workbook
