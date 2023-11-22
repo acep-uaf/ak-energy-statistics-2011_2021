@@ -18,6 +18,8 @@ This repository is home to the 2023 efforts to cover the 10 year gap in the Alas
 
 The `energy-stats-workbooks` Excel files for years 2011 - 2021 are available for download using the following links: 
 
+<hr>
+
  ### 2011 Energy Statistics Workbook
 <a href="/test2011.csv" download> 
   <button> Download 2011 Energy Stats Workbook </button>
@@ -34,7 +36,7 @@ The `energy-stats-workbooks` Excel files for years 2011 - 2021 are available for
 <a href="/test2013.csv" download> 
   <button> Download 2013 Energy Stats Workbook </button>
 </a>
-
+<hr>
 
 ## Historical Reports & Workbook
 
