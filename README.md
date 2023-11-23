@@ -21,23 +21,15 @@ The `energy-stats-workbooks` Excel files for years 2011 - 2021 are available for
 <hr>
 
 ### 2011 Energy Statistics Workbook 
-<a href="/test2011.csv" download> 
-  <button> Download 2011 Energy Stats Workbook </button>
-</a>
+<a href="/test2011.csv" download>Download 2011 Workbook</a>
 <hr>
 
 ### 2012 Energy Statistics Workbook
-
-<a href="/test2012.csv" download> 
-  <button> Download 2012 Energy Stats Workbook </button>
-</a>
+<a href="/test2012.csv" download>Download 2012 Workbook</a>
 <hr>
 
 ### 2013 Energy Statistics Workbook
-
-<a href="/test2013.csv" download> 
-  <button> Download 2013 Energy Stats Workbook </button>
-</a>
+<a href="/test2013.csv" download>Download 2013 Workbook</a>
 <hr>
 
 ## Historical Reports & Workbook
