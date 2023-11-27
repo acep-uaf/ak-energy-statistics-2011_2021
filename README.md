@@ -19,9 +19,8 @@ This repository is home to the 2023 efforts to cover the 10 year gap in the Alas
 
 ## Historical Reports & Workbook
 
-- 2011 Alaska Energy Statistics 
-  - Report: 1960-2011 [http://hdl.handle.net/11122/3913](http://hdl.handle.net/11122/3913) - prepared by [ISER]
-  - ISER [Report & Workbook @ ScholarWorks](https://scholarworks.alaska.edu/handle/11122/3852)
+- Pre 2011
+  - [Report: 1960-2011](https://scholarworks.alaska.edu/handle/11122/3852) - prepared by ISER
 
 
 ## Contributors
