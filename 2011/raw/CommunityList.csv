@@ -1,0 +1,331 @@
+"Region: AN=Arctic Northwest, SE=South East, SC=South Central, SW=SouthWest, YU=Yukon",...2,...3,...4,...5,...6,...7,...8,...9,...10
+Table B. Communities Served by Certified Utilities in Alaska,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Community Name,Utility Name,PCE,AEA Energy Region,Census Region,Native Corporation Region,Region,Community Feature ID,Community Latitude,Community Longitude
+Ester,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Fairbanks North Star,Doyon,SC,1397658,64.847222200000004,-148.0144444
+Two Rivers,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Fairbanks North Star,Doyon,SC,1397685,64.872222199999996,-147.03833330000001
+Akhiok,"Akhiok, City of",PCE Eligible Inactive,Kodiak,Kodiak Island,Koniag,SC,1398007,56.945555599999999,-154.17027780000001
+Akiachak,Akiachak Native Community,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1398011,60.909444399999998,-161.4313889
+Akiak,Akiak City Council,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1398012,60.912222200000002,-161.2138889
+Alakanuk,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU,1398042,62.688888900000002,-164.6152778
+Aleknagik,Nushagak Electric Cooperative,PCE Eligible Active,Bristol Bay,Dillingham (CA),Bristol Bay,SW,1398091,59.273055599999999,-158.6177778
+Allakaket,Alaska Power & Telephone Company,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1398129,66.565555599999996,-152.64555559999999
+Anaktuvuk Pass,North Slope Borough Power & Light,PCE Eligible Active,North Slope,North Slope,Arctic Slope,AN,1398235,68.143333299999995,-151.7358333
+Anchorage,"Anchorage Municipal Light & Power, Chugach Electric Assn Inc",PCE Ineligible,Railbelt,Anchorage,Cook Inlet,SC,1398242,61.2180556,-149.9002778
+Anderson,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Denali,Doyon,YU,1398245,64.344166700000002,-149.18694439999999
+Saint Mary's,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU,1398261,62.0530556,-163.1658333
+Aniak,Aniak Light & Power,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1398286,61.578333299999997,-159.52222219999999
+Anvik,Alaska Village Electric Cooperative,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1398335,62.656111099999997,-160.2066667
+Arctic Village,Arctic Village Electric Company,PCE Eligible Inactive,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1398382,68.126944399999999,-145.53777779999999
+Barrow,Barrow Utilities & Electric Cooperative Inc.,PCE Ineligible,North Slope,North Slope,Arctic Slope,AN,1398635,71.290555600000005,-156.7886111
+Beaver,Beaver Joint Utilities,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1398776,66.359444400000001,-147.39638890000001
+Bethel,Bethel Utilities Corporation,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1398908,60.792222199999998,-161.75583330000001
+Big Delta,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Southeast Fairbanks (CA),Doyon,YU,1398949,64.152500000000003,-145.84222220000001
+Birch Creek,Birch Creek Village Electric,PCE Eligible Inactive,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1399049,66.259035499999996,-145.81901680000001
+Cantwell,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Denali,Doyon,YU,1399788,63.391666700000002,-148.9508333
+Central,Gold Country Energy,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1400106,65.572500000000005,-144.80305559999999
+Chalkyitsik,Chalkyitsik Village Council,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1400128,66.654444400000003,-143.7222222
+Chefornak,Naterkaq Light Plant,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1400188,60.16,-164.2658333
+Chevak,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU,1400219,61.527777800000003,-165.5863889
+Chickaloon,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,1400239,61.796666700000003,-148.4627778
+Chignik,"Chignik, City of",PCE Eligible Active,Bristol Bay,Lake and Peninsula,Bristol Bay,SW,1400269,56.295277800000001,-158.40222220000001
+Chignik Lagoon,Chignik Lagoon Power Utility,PCE Eligible Active,Bristol Bay,Lake and Peninsula,Bristol Bay,SW,1400274,56.308439300000003,-158.53023909999999
+Chistochina,Alaska Power & Telephone Company,PCE Eligible Active,Copper River/Chugach,Valdez-Cordova (CA),Ahtna,YU,1400333,62.571782800000001,-144.6541704
+Chitina,Chitina Electric Inc,PCE Eligible Active,Copper River/Chugach,Valdez-Cordova (CA),Ahtna,SC,1400337,61.515833299999997,-144.43694439999999
+Chuathbaluk,Middle Kuskokwim Electric,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1400376,61.5719444,-159.245
+Chugiak,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,1400378,61.388888899999998,-149.4819444
+Circle,Circle Electric Utility,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1400404,65.825555600000001,-144.06055559999999
+Clark's Point,"Clark's Point, City of",PCE Eligible Inactive,Bristol Bay,Dillingham (CA),Bristol Bay,YU,1400426,58.844166700000002,-158.55083329999999
+College,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Fairbanks North Star,Doyon,SC,1400578,64.856944400000003,-147.8027778
+Copper Center,Copper Valley Elec Assn Inc,PCE Ineligible,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC,1400669,61.976959800000003,-145.32972939999999
+Crooked Creek,Middle Kuskokwim Electric,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1400824,61.87,-158.1108333
+Delta Junction,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Southeast Fairbanks (CA),Doyon,SC,1401104,64.037777800000001,-145.7322222
+Dillingham,Nushagak Electric Cooperative,PCE Eligible Active,Bristol Bay,Dillingham (CA),Bristol Bay,SW,1401203,59.0397222,-158.45750000000001
+Diomede,Diomede Joint Utilities,PCE Eligible Active,Bering Straits,Nome (CA),Bering Straits,AN,1401213,65.753765200000004,-168.92314999999999
+Dot Lake,Alaska Power & Telephone Company,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Southeast Fairbanks (CA),Doyon,YU,1401364,63.661388899999999,-144.06444440000001
+Douglas,Alaska Electric Light & Power Company,PCE Ineligible,Southeast,Juneau,Sealaska,SE,1401374,58.275555599999997,-134.39250000000001
+Eagle,Alaska Power & Telephone Company,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Southeast Fairbanks (CA),Doyon,YU,1401499,64.788055600000007,-141.19999999999999
+Eagle River,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,1401545,61.321388900000002,-149.56777779999999
+Eagle Village,Alaska Power & Telephone Company,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Southeast Fairbanks (CA),Doyon,YU,1401553,64.7805556,-141.11361110000001
+Eek,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1401666,60.218888900000003,-162.02444439999999
+Egegik,Egegik Light & Power Co,PCE Eligible Active,Bristol Bay,Lake and Peninsula,Bristol Bay,SW,1401686,58.215555600000002,-157.37583330000001
+Eklutna,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,1401727,61.458055600000002,-149.36222219999999
+Ekwok,Alaska Village Electric Cooperative,PCE Eligible Active,Bristol Bay,Dillingham (CA),Bristol Bay,SW,1401738,59.349722200000002,-157.47527779999999
+Elfin Cove,Elfin Cove Utility Commission,PCE Eligible Active,Southeast,Hoonah-Angoon (CA),Sealaska,SE,1401787,58.194444400000002,-136.34333330000001
+Elim,Alaska Village Electric Cooperative,PCE Eligible Active,Bering Straits,Nome (CA),Bering Straits,AN,1401788,64.617500000000007,-162.2605556
+Emmonak,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU,1401837,62.777777800000003,-164.52305559999999
+Evansville,Alaska Power & Telephone Company,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1401936,66.922777800000006,-151.50805560000001
+Fairbanks,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Fairbanks North Star,Doyon,YU,1401958,64.837777799999998,-147.7163889
+Fort Yukon,Gwitchyaa Zhee Utilities Company,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1402276,66.564722200000006,-145.2738889
+Fox,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Fairbanks North Star,Doyon,SC,1402342,64.958055599999994,-147.61833329999999
+Gakona,Copper Valley Elec Assn Inc,PCE Ineligible,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC,1402448,62.301944399999996,-145.3019444
+Galena,"Galena, City of",PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1402457,64.733333299999998,-156.92750000000001
+Gambell,Alaska Village Electric Cooperative,PCE Eligible Active,Bering Straits,Nome (CA),Bering Straits,AN,1402463,63.779722200000002,-171.74111110000001
+Glennallen,Copper Valley Elec Assn Inc,PCE Ineligible,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC,1402643,62.109166700000003,-145.54638890000001
+Golovin,Golovin Power Utilities,PCE Eligible Active,Bering Straits,Nome (CA),Bering Straits,AN,1402760,64.5433333,-163.02916669999999
+Grayling,Alaska Village Electric Cooperative,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1402921,62.903611099999999,-160.06472220000001
+Gulkana,Copper Valley Elec Assn Inc,PCE Ineligible,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC,1403046,62.271388899999998,-145.3822222
+Gustavus,Gustavus Electric Co,PCE Eligible Active,Southeast,Hoonah-Angoon (CA),Sealaska,SE,1403078,58.413333299999998,-135.7369444
+Healy,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Denali,Doyon,YU,1403275,63.856944400000003,-148.96611110000001
+Holy Cross,Alaska Village Electric Cooperative,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1403447,62.199444399999997,-159.77138890000001
+Hoonah,Inside Passage Electric,PCE Eligible Active,Southeast,Hoonah-Angoon (CA),Sealaska,SE,1403488,58.11,-135.4436111
+Hooper Bay,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU,1403493,61.531111099999997,-166.09666669999999
+Hughes,Hughes Power & Light,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1403596,66.048888899999994,-154.25555560000001
+Huslia,Alaska Village Electric Cooperative,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1403644,65.698611099999994,-156.39972220000001
+Igiugig,Igiugig Electric Company,PCE Eligible Active,Bristol Bay,Lake and Peninsula,Bristol Bay,SW,1403706,59.3277778,-155.89472219999999
+Iliamna,"I-N-N Electric Coop, Inc",PCE Eligible Active,Bristol Bay,Lake and Peninsula,Bristol Bay,SW,1403763,59.7567965,-154.91108370000001
+Juneau,Alaska Electric Light & Power Company,PCE Ineligible,Southeast,Juneau,Sealaska,SE,1404263,58.301944399999996,-134.4197222
+Kokhanok,Kokhanok Village Council,PCE Eligible Active,Bristol Bay,Lake and Peninsula,Bristol Bay,SW,1404333,59.439444399999999,-154.77611110000001
+Kaktovik,North Slope Borough Power & Light,PCE Eligible Active,North Slope,North Slope,Arctic Slope,AN,1404349,70.131944399999995,-143.6238889
+Kalskag,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1404378,61.537222200000002,-160.3052778
+Kaltag,Alaska Village Electric Cooperative,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1404379,64.327222199999994,-158.72194440000001
+Karluk,Alutiiq Power Company,PCE Eligible Active,Kodiak,Kodiak Island,Koniag,SC,1404456,57.5719444,-154.4555556
+Kasaan,Alaska Power & Telephone Company,PCE Eligible Active,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE,1404468,55.538888900000003,-132.40083329999999
+Kasigluk,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1404483,60.895555600000002,-162.5180556
+King Salmon,Naknek Electric Association,PCE Eligible Active,Bristol Bay,Bristol Bay,Bristol Bay,SW,1404738,58.688333299999996,-156.66138889999999
+Wales,Alaska Village Electric Cooperative,PCE Eligible Active,Bering Straits,Nome (CA),Bering Straits,AN,1404755,65.609166700000003,-168.08750000000001
+Kipnuk,Kipnuk Light Plant,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1404781,59.938888900000002,-164.04138889999999
+"Knik, Fairview","Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,1404853,NA,NA
+Kodiak,Kodiak Electric Assn Inc,PCE Ineligible,Kodiak,Kodiak Island,Koniag,SC,1404875,57.79,-152.40722220000001
+Koliganek,New Koliganek Village Council,PCE Eligible Active,Bristol Bay,Dillingham (CA),Bristol Bay,SW,1404914,59.728611100000002,-157.28444440000001
+Kongiganak,Puvurnaq Power Company,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1404934,59.953273099999997,-162.8951327
+Kotlik,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU,1404964,63.0341667,-163.55333329999999
+Koyuk,Alaska Village Electric Cooperative,PCE Eligible Active,Bering Straits,Nome (CA),Bering Straits,AN,1404981,64.931944400000006,-161.15694439999999
+Koyukuk,"Koyukuk, City of",PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1404984,64.880277800000002,-157.7008333
+Kwethluk,Kwethluk Incorporated,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1405119,60.812222200000001,-161.43583330000001
+Kwigillingok,Kwigillingok Power Company,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1405122,59.864444399999996,-163.13416670000001
+Lake Minchumina,Minchumina Power Company,PCE Ineligible,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,SW,1405185,63.8827778,-152.31222220000001
+Larsen Bay,Larsen Bay Utility Company,PCE Eligible Active,Kodiak,Kodiak Island,Koniag,SC,1405216,57.54,-153.97861109999999
+Levelock,Levelock Electrical Coop,PCE Eligible Active,Bristol Bay,Lake and Peninsula,Bristol Bay,SW,1405300,59.114166699999998,-156.85888890000001
+Lime Village,Lime Village Electric Utility,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1405351,61.356388899999999,-155.43555559999999
+Lower Kalskag,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1405763,61.512222199999997,-160.3580556
+Manley Hot Springs,TDX Manley Generating LLC,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1405922,65.001111100000003,-150.63388889999999
+Manokotak,Manokotak Power Company,PCE Eligible Active,Bristol Bay,Dillingham (CA),Bristol Bay,SW,1405927,58.981388899999999,-159.05833329999999
+Marshall,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU,1405984,61.877777799999997,-162.08111109999999
+McGrath,Mcgrath Light & Power,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,SW,1406131,62.9563889,-155.59583330000001
+Atqasuk,North Slope Borough Power & Light,PCE Eligible Active,North Slope,North Slope,Arctic Slope,AN,1406178,70.469166700000002,-157.39944439999999
+Mekoryuk,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1406211,60.388055600000001,-166.185
+Mentasta Lake,Alaska Power & Telephone Company,PCE Eligible Active,Copper River/Chugach,Valdez-Cordova (CA),Ahtna,YU,1406241,62.921111099999997,-143.7691667
+Minto,Alaska Village Electric Cooperative,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1406419,65.150411000000005,-149.34970799999999
+Moose Creek,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Fairbanks North Star,Doyon,SC,1406548,64.709999999999994,-147.14361109999999
+Mountain Village,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU,1406655,62.085555599999999,-163.72944440000001
+Nabesna,Copper Valley Elec Assn Inc,PCE Ineligible,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC,1406770,62.371944399999997,-143.0086111
+Naknek,Naknek Electric Association,PCE Eligible Active,Bristol Bay,Bristol Bay,Bristol Bay,SW,1406798,58.728333300000003,-157.01388890000001
+Napakiak,Napakiak Ircinraq,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1406829,60.696666700000002,-161.9519444
+Napaskiak,Napaskiak Electric Utility,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1406834,60.708055600000002,-161.76611109999999
+Nenana,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Yukon-Koyukuk (CA),Doyon,SC,1406940,64.563888899999995,-149.09305560000001
+New Stuyahok,Alaska Village Electric Cooperative,PCE Eligible Active,Bristol Bay,Dillingham (CA),Bristol Bay,SW,1406972,59.4527778,-157.31194439999999
+Newhalen,"I-N-N Electric Coop, Inc",PCE Eligible Active,Bristol Bay,Lake and Peninsula,Bristol Bay,SW,1406978,59.72,-154.89722219999999
+Newtok,Ungusraq Power Company,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1406985,60.942777800000002,-164.62944440000001
+Nightmute,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1407008,60.479444399999998,-164.72388889999999
+Nikolai,"Nikolai, City of",PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,SW,1407022,63.013333299999999,-154.375
+Nome,"Nome Joint Utility Systems, Banner Wind LLC",PCE Eligible Active,Bering Straits,Nome (CA),Bering Straits,AN,1407125,64.501111100000003,-165.4063889
+Nondalton,"I-N-N Electric Coop, Inc",PCE Eligible Active,Bristol Bay,Lake and Peninsula,Bristol Bay,SW,1407129,59.973611099999999,-154.84583330000001
+North Pole,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Fairbanks North Star,Doyon,YU,1407230,64.751111100000003,-147.34944440000001
+Northway,Alaska Power & Telephone Company,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Southeast Fairbanks (CA),Doyon,YU,1407253,62.961666700000002,-141.93722220000001
+Northway Village,Alaska Power & Telephone Company,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Southeast Fairbanks (CA),Doyon,YU,1407254,62.982222200000002,-141.9516667
+Nulato,Alaska Village Electric Cooperative,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1407321,64.7194444,-158.1030556
+Nunapitchuk,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1407339,60.896944400000002,-162.4594444
+Old Harbor,Alaska Village Electric Cooperative,PCE Eligible Active,Kodiak,Kodiak Island,Koniag,SC,1407483,57.2027778,-153.3038889
+Oscarville,Bethel Utilities Corporation,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1407624,60.722777800000003,-161.77000000000001
+Ouzinkie,"Ouzinkie, City of",PCE Eligible Active,Kodiak,Kodiak Island,Koniag,SC,1407684,57.923611100000002,-152.50222220000001
+Palmer,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,1407737,61.599722200000002,-149.1127778
+Pedro Bay,Pedro Bay Village Council,PCE Eligible Active,Bristol Bay,Lake and Peninsula,Bristol Bay,SW,1407862,59.787222200000002,-154.10611109999999
+Perryville,Native Village of Perryville,PCE Eligible Active,Bristol Bay,Lake and Peninsula,Bristol Bay,SW,1407902,55.913984599999999,-159.16327670000001
+Petersville,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,1407927,62.496388899999999,-150.7655556
+Pilot Point,Pilot Point Electric Utility,PCE Eligible Active,Bristol Bay,Lake and Peninsula,Bristol Bay,SW,1407992,57.564166700000001,-157.5791667
+Pilot Station,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU,1407993,61.938888900000002,-162.875
+Pitkas Point,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU,1408054,62.032777799999998,-163.28777779999999
+Platinum,"Platinum, City of",PCE Eligible Inactive,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1408072,59.013055600000001,-161.81638889999999
+Point Hope,North Slope Borough Power & Light,PCE Eligible Active,North Slope,North Slope,Arctic Slope,AN,1408110,68.348611099999999,-166.73472219999999
+Point Lay,North Slope Borough Power & Light,PCE Eligible Active,North Slope,North Slope,Arctic Slope,AN,1408115,69.743857000000006,-163.008442
+Port Alsworth,Tanalian Electric Cooperative,PCE Eligible Active,Bristol Bay,Lake and Peninsula,Cook Inlet,SW,1408208,60.202500000000001,-154.31277779999999
+Port Lions,Kodiak Electric Assn Inc,PCE Ineligible,Kodiak,Kodiak Island,Koniag,SC,1408218,57.8675,-152.8822222
+Quinhagak,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1408462,59.748888899999997,-161.9158333
+Rampart,Rampart Village Council,PCE Eligible Inactive,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1408519,65.504999999999995,-150.16999999999999
+Red Devil,Middle Kuskokwim Electric,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1408580,61.761111100000001,-157.3125
+Ruby,"Ruby, City of",PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1408878,64.739444399999996,-155.4869444
+Russian Mission,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU,1408925,61.784999999999997,-161.32027780000001
+Saint Michael,Alaska Village Electric Cooperative,PCE Eligible Active,Bering Straits,Nome (CA),Bering Straits,AN,1408977,63.478055599999998,-162.03916670000001
+Savoonga,Alaska Village Electric Cooperative,PCE Eligible Active,Bering Straits,Nome (CA),Bering Straits,AN,1409106,63.694166699999997,-170.47888889999999
+Scammon Bay,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU,1409133,61.8427778,-165.5816667
+Shageluk,Alaska Village Electric Cooperative,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1409306,62.682222199999998,-159.56194439999999
+Nunam Iqua,Nunam Iqua Electric Company,PCE Eligible Active,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU,1409405,62.533611100000002,-164.84111110000001
+Shishmaref,Alaska Village Electric Cooperative,PCE Eligible Active,Bering Straits,Nome (CA),Bering Straits,AN,1409434,66.256666699999997,-166.07194440000001
+Slana,Alaska Power & Telephone Company,PCE Eligible Active,Copper River/Chugach,Valdez-Cordova (CA),Ahtna,YU,1409698,62.706944399999998,-143.96111110000001
+Sleetmute,Middle Kuskokwim Electric,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1409747,61.702500000000001,-157.1697222
+South Naknek,Naknek Electric Association,PCE Eligible Active,Bristol Bay,Bristol Bay,Bristol Bay,SW,1409961,58.715555600000002,-156.99805559999999
+Stebbins,Alaska Village Electric Cooperative,PCE Eligible Active,Bering Straits,Nome (CA),Bering Straits,AN,1410158,63.522222200000002,-162.28805560000001
+Stevens Village,Stevens Village Ira Council,PCE Eligible Inactive,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1410198,66.006388900000005,-149.09083330000001
+Stony River,Middle Kuskokwim Electric,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1410241,61.783055599999997,-156.58805559999999
+Sutton-Alpine,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,1410456,NA,NA
+Takotna,Takotna Community Assoc Inc,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,SW,1410562,62.9886111,-156.06416669999999
+Talkeetna,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,1410591,62.3238889,-150.1094444
+Tanacross,Alaska Power & Telephone Company,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Southeast Fairbanks (CA),Doyon,YU,1410618,63.385277799999997,-143.34638889999999
+Tanana,Tanana Power Company Inc,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1410629,65.171944400000001,-152.07888890000001
+Tununak,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1410644,60.585555599999999,-165.25583330000001
+Tazlina,Copper Valley Elec Assn Inc,PCE Ineligible,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC,1410694,62.0588695,-145.4284212
+Teller,Alaska Village Electric Cooperative,PCE Eligible Active,Bering Straits,Nome (CA),Bering Straits,AN,1410730,65.263611100000006,-166.3608333
+Tetlin,Alaska Power & Telephone Company,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Southeast Fairbanks (CA),Dyon,YU,1410765,63.135051199999999,-142.52387959999999
+Togiak,Alaska Village Electric Cooperative,PCE Eligible Active,Bristol Bay,Dillingham (CA),Bristol Bay,SW,1411039,59.061944400000002,-160.37638889999999
+Tok,Alaska Power & Telephone Company,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Southeast Fairbanks (CA),Doyon,YU,1411046,63.336666700000002,-142.9855556
+Toksook Bay,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1411060,60.533775200000001,-165.1036627
+Tonsina,Copper Valley Elec Assn Inc,PCE Ineligible,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC,1411105,61.655833299999998,-145.1752778
+Tuluksak,Tuluksak Traditional,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1411295,61.102499999999999,-160.96166669999999
+Tuntutuliak,Tuntutuliak Community,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1411324,60.3430556,-162.66305560000001
+Unalakleet,Unalakleet Valley Electric Cooperative,PCE Eligible Active,Bering Straits,Nome (CA),Bering Straits,AN,1411517,63.873055600000001,-160.78805560000001
+Venetie,Venetie Village Electric,PCE Eligible Inactive,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1411644,67.013888899999998,-146.41861109999999
+Wainwright,North Slope Borough Power & Light,PCE Eligible Active,North Slope,North Slope,Arctic Slope,AN,1411728,70.636944400000004,-160.03833330000001
+Wasilla,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,1411788,61.5813889,-149.43944440000001
+White Mountain,"White Mountain, City of",PCE Eligible Active,Bering Straits,Nome (CA),Bering Straits,AN,1411989,64.681388900000002,-163.40555560000001
+Willow Creek,Copper Valley Elec Assn Inc,PCE Ineligible,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC,1412074,61.819722200000001,-145.21222220000001
+Valdez,Copper Valley Elec Assn Inc,PCE Ineligible,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC,1412465,61.130833299999999,-146.34833330000001
+Ambler,Alaska Village Electric Cooperative,PCE Eligible Active,Northwest Arctic,Northwest Arctic,NANA,AN,1412509,67.086111099999997,-157.85138889999999
+Anchor Point,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1412516,59.7766667,-151.83138890000001
+Buckland,"Buckland, City of",PCE Eligible Active,Northwest Arctic,Northwest Arctic,NANA,AN,1412684,65.979722199999998,-161.12305559999999
+Clam Gulch,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1412797,60.2311111,-151.39361109999999
+Cohoe,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1412828,60.368611100000003,-151.3063889
+Deering,Ipnatchiaq Electric Company,PCE Eligible Active,Northwest Arctic,Northwest Arctic,NANA,AN,1412894,66.075555600000001,-162.71722220000001
+Nanwalek,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1412986,59.356388899999999,-151.9208333
+Homer,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1413141,59.642499999999998,-151.5483333
+Kachemak,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1413247,59.67,-151.43416669999999
+Kalifornsky,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1413260,60.4183333,-151.29
+Kasilof,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1413283,60.337499999999999,-151.27444439999999
+Kenai,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1413299,60.554444400000001,-151.2583333
+Kiana,Alaska Village Electric Cooperative,PCE Eligible Active,Northwest Arctic,Northwest Arctic,NANA,AN,1413311,66.974999999999994,-160.42277780000001
+Kivalina,Alaska Village Electric Cooperative,PCE Eligible Active,Northwest Arctic,Northwest Arctic,NANA,AN,1413348,67.726944399999994,-164.53333330000001
+Kobuk,Kobuk Valley Electric Company,PCE Eligible Active,Northwest Arctic,Northwest Arctic,NANA,AN,1413362,66.907222200000007,-156.8811111
+Kotzebue,Kotzebue Electric Association,PCE Eligible Active,Northwest Arctic,Northwest Arctic,NANA,AN,1413378,66.898333300000004,-162.59666669999999
+Ninilchik,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1413634,60.051388899999999,-151.66888890000001
+Noatak,Alaska Village Electric Cooperative,PCE Eligible Active,Northwest Arctic,Northwest Arctic,NANA,AN,1413638,67.571111099999996,-162.9652778
+Noorvik,Alaska Village Electric Cooperative,PCE Eligible Active,Northwest Arctic,Northwest Arctic,NANA,AN,1413646,66.838333300000002,-161.03277779999999
+Port Graham,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1413800,59.351388900000003,-151.82972219999999
+Salamatof,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1413901,60.615375,-151.3194369
+Selawik,Alaska Village Electric Cooperative,PCE Eligible Active,Northwest Arctic,Northwest Arctic,NANA,AN,1413930,66.603888900000001,-160.00694440000001
+Seldovia,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1413937,59.438055599999998,-151.7113889
+Shungnak,Alaska Village Electric Cooperative,PCE Eligible Active,Northwest Arctic,Northwest Arctic,NANA,AN,1413983,66.888055600000001,-157.13638889999999
+Soldotna,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1414025,60.487777800000003,-151.05833329999999
+Sterling,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1414063,60.537222200000002,-150.76472219999999
+Tyonek,Chugach Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1414206,61.068055600000001,-151.1369444
+Seward,"Seward, City of",PCE Ineligible,Railbelt,Kenai Peninsula,Chugach,SC,1414598,60.1041667,-149.4422222
+Sitka,"Sitka, City & Borough of",PCE Ineligible,Southeast,Sitka,Sealaska,SE,1414736,57.0530556,-135.33000000000001
+Skagway,Alaska Power & Telephone Company,PCE Ineligible,Southeast,Skagway,Sealaska,SE,1414754,59.4583333,-135.31388889999999
+Sunrise,Chugach Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1415091,60.889722200000001,-149.42111109999999
+Tatitlek,Tatitlek Village Ira Council,PCE Eligible Active,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC,1415193,60.864722200000003,-146.67861110000001
+Tenakee Springs,"Tenakee Springs, City of",PCE Eligible Active,Southeast,Hoonah-Angoon (CA),Sealaska,SE,1415210,57.780833299999998,-135.2188889
+Whittier,Chugach Electric Assn Inc,PCE Ineligible,Railbelt,Valdez-Cordova (CA),Cook Inlet,SC,1415757,60.773055599999999,-148.6838889
+Wrangell,"Wrangell, City of",PCE Ineligible,Southeast,Wrangell,Sealaska,SE,1415843,56.470833300000002,-132.37666669999999
+Yakutat,Yakutat Power Inc,PCE Eligible Active,Southeast,Yakutat,Sealaska,SE,1415858,59.546944400000001,-139.7272222
+Goodnews Bay,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1415910,59.118888900000002,-161.58750000000001
+Houston,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,1416613,61.630277800000002,-149.81805560000001
+Nikiski,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1416651,60.690277799999997,-151.28888889999999
+Nuiqsut,North Slope Borough Power & Light,PCE Eligible Active,North Slope,North Slope,Arctic Slope,AN,1416680,70.217500000000001,-150.97638889999999
+Twin Hills,Twin Hills Village Council,PCE Eligible Active,Bristol Bay,Dillingham (CA),Bristol Bay,SW,1416737,59.079166700000002,-160.27500000000001
+Butte,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,1416898,61.542222199999998,-149.03333330000001
+Crown Point,"Seward, City of",PCE Ineligible,Railbelt,Kenai Peninsula,Chugach,SC,1417059,60.4222222,-149.3666667
+Nikolaevsk,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1417063,59.811944400000002,-151.6105556
+Moose Pass,Chugach Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1417076,60.487499999999997,-149.3688889
+Trapper Creek,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,1417100,62.316666699999999,-150.23138890000001
+Willow,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,1417146,61.747222200000003,-150.03749999999999
+Adak,TDX Adak Generating LLC,PCE Eligible Active,Aleutians,Aleutians West (CA),Aleut,SW,1418109,51.88,-176.65805560000001
+Akutan,"Akutan, City of",PCE Eligible Active,Aleutians,Aleutians East,Aleut,SW,1418123,54.135555600000004,-165.77305559999999
+Atka,"Atka, City of",PCE Eligible Active,Aleutians,Aleutians West (CA),Aleut,SW,1418170,52.196111100000003,-174.2005556
+Cold Bay,G & K Inc,PCE Eligible Active,Aleutians,Aleutians East,Aleut,SW,1418448,55.185833299999999,-162.7211111
+False Pass,"False Pass, City of",PCE Eligible Active,Aleutians,Aleutians East,Aleut,SW,1418574,54.850833299999998,-163.41499999999999
+King Cove,"King Cove, City of",PCE Eligible Active,Aleutians,Aleutians East,Aleut,SW,1418792,55.061666700000004,-162.31027779999999
+Nelson Lagoon,Nelson Lagoon Electrical Coop,PCE Eligible Active,Aleutians,Aleutians East,Aleut,SW,1418948,56.000615199999999,-161.206974
+Nikolski,Umnak Power Company,PCE Eligible Active,Aleutians,Aleutians West (CA),Aleut,SW,1418954,52.938055599999998,-168.8677778
+Port Heiden,Port Heiden Utilities,PCE Eligible Active,Bristol Bay,Lake and Peninsula,Bristol Bay,SW,1419072,56.932561399999997,-158.6249699
+Saint George,"Saint George, City of",PCE Eligible Active,Aleutians,Aleutians West (CA),Aleut,SW,1419161,56.6,-169.54166670000001
+Saint Paul,Saint Paul Municipal Electric,PCE Eligible Active,Aleutians,Aleutians West (CA),Aleut,SW,1419163,57.122222200000003,-170.27500000000001
+Sand Point,TDX Corporation,PCE Eligible Active,Aleutians,Aleutians East,Aleut,SW,1419182,55.339722199999997,-160.49722220000001
+Unalaska,"Unalaska, City of",PCE Eligible Active,Aleutians,Aleutians West (CA),Aleut,SW,1419424,53.873611099999998,-166.53666670000001
+Dutch Harbor,"Unalaska, City of",PCE Eligible Active,Aleutians,Aleutians West (CA),Aleut,SW,1419726,53.889800000000001,-166.54220000000001
+Angoon,Inside Passage Electric,PCE Eligible Active,Southeast,Hoonah-Angoon (CA),Sealaska,SE,1420113,57.503333300000001,-134.58388890000001
+Brevig Mission,Alaska Village Electric Cooperative,PCE Eligible Active,Bering Straits,Nome (CA),Bering Straits,AN,1420670,65.334722200000002,-166.4891667
+Chilkat Valley,Inside Passage Electric,PCE Eligible Active,Southeast,Haines,Sealaska,SE,1421022,59.399701999999998,-135.89640890000001
+Cooper Landing,Chugach Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1421192,60.49,-149.8341667
+Cordova,Cordova Electric Cooperative,PCE Eligible Active,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC,1421215,60.542777800000003,-145.75749999999999
+Chenega Bay,Chenega Ira Council,PCE Eligible Active,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC,1421254,60.063333299999996,-148.01138889999999
+Craig,Alaska Power & Telephone Company,PCE Eligible Active,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE,1421260,55.476388900000003,-133.14833329999999
+Girdwood,Chugach Electric Assn Inc,PCE Ineligible,Railbelt,Anchorage,Cook Inlet,SC,1422161,60.942500000000003,-149.16638889999999
+Haines,Alaska Power & Telephone Company,PCE Eligible Active,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE,1422400,59.228588999999999,-135.44411400000001
+Hope,Chugach Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1422645,60.920277800000001,-149.64027780000001
+Hydaburg,Alaska Power & Telephone Company,PCE Eligible Active,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE,1422709,55.208055600000002,-132.8266667
+Kake,Inside Passage Electric,PCE Eligible Active,Southeast,Petersburg (CA),Sealaska,SE,1422926,56.975833299999998,-133.9472222
+Ketchikan,Ketchikan Public Utilities,PCE Ineligible,Southeast,Ketchikan Gateway,Sealaska,SE,1423039,55.342222200000002,-131.64611110000001
+Klawock,Alaska Power & Telephone Company,PCE Eligible Active,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE,1423100,55.552222200000003,-133.09583330000001
+Loring,Alaska Power & Telephone Company,PCE Ineligible,Southeast,Ketchikan Gateway,Sealaska,SE,1423422,55.602499999999999,-131.63611109999999
+McKinley Park,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Denali,Doyon,SC,1423625,63.732777800000001,-148.91416670000001
+Metlakatla,Metlakatla Power & Light,PCE Ineligible,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE,1423661,55.129166699999999,-131.5722222
+Pelican,Pelican Utility,PCE Eligible Active,Southeast,Hoonah-Angoon (CA),Sealaska,SE,1424201,57.960833299999997,-136.22749999999999
+Petersburg,"Petersburg, City of",PCE Ineligible,Southeast,Petersburg (CA),Sealaska,SE,1424228,56.811266699999997,-132.95124250000001
+Primrose,"Seward, City of",PCE Ineligible,Railbelt,Kenai Peninsula,Chugach,SC,1424646,60.343611099999997,-149.34416669999999
+Shaktoolik,Alaska Village Electric Cooperative,PCE Eligible Active,Bering Straits,Nome (CA),Bering Straits,AN,1669434,64.333888900000005,-161.1538889
+Thorne Bay,Alaska Power & Telephone Company,PCE Eligible Active,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE,1669435,55.687777799999999,-132.52222219999999
+Coffman Cove,Alaska Power & Telephone Company,PCE Eligible Active,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE,1669437,56.013888899999998,-132.82777780000001
+Atmautluak,Atmautluak Tribal Utilities,PCE Eligible Active,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW,1699811,60.866944400000001,-162.27305559999999
+Whale Pass,Alaska Power & Telephone Company,PCE Eligible Active,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE,1744590,56.115277800000001,-133.12083329999999
+Halibut Cove,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1781963,59.594999999999999,-151.22499999999999
+Eyak,Cordova Electric Cooperative,PCE Eligible Active,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC,1805281,60.526294,-145.6351157
+Alatna,Alaska Power & Telephone Company,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1865542,66.557222199999998,-152.70722219999999
+Bear Creek,"Seward, City of",PCE Ineligible,Railbelt,Kenai Peninsula,Chugach,SC,1865547,60.164166700000003,-149.39500000000001
+Beluga,Chugach Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1865548,61.141111100000003,-151.0827778
+Diamond Ridge,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1865549,59.6761111,-151.5575
+Dot Lake Village,Alaska Power & Telephone Company,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Southeast Fairbanks (CA),Doyon,YU,1865550,63.650833300000002,-144.04388890000001
+Funny River,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1865552,60.501944399999999,-150.7622222
+Gateway,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,1865553,61.572777799999997,-149.24083329999999
+Lake Louise,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,1865556,62.281388900000003,-146.55111110000001
+Lowell Point,"Seward, City of",PCE Ineligible,Railbelt,Kenai Peninsula,Chugach,SC,1865557,60.072499999999998,-149.4411111
+Nelchina,Copper Valley Elec Assn Inc,PCE Ineligible,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC,1865559,61.991944400000001,-146.76861109999999
+Point MacKenzie,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,1865561,61.3597222,-149.9783333
+Tanaina,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,1865567,61.626944399999999,-149.42805559999999
+Tolsona,Copper Valley Elec Assn Inc,PCE Ineligible,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC,1865569,62.083888899999998,-146.07027780000001
+Big Lake,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,1866933,61.521388899999998,-149.9544444
+Chase,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,1866934,62.449166699999999,-150.10166670000001
+Chiniak,Kodiak Electric Assn Inc,PCE Ineligible,Kodiak,Kodiak Island,Koniag,SC,1866935,57.631944400000002,-152.1825
+Copperville,Copper Valley Elec Assn Inc,PCE Ineligible,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC,1866937,62.043888899999999,-145.4205556
+Covenant Life,Alaska Power & Telephone Company,PCE Eligible Active,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE,1866938,59.417222199999998,-136.02500000000001
+Deadhorse,TDX North Slope Generating Company,PCE Ineligible,North Slope,Northwest Arctic,NANA,SC,1866941,70.205555599999997,-148.51166670000001
+Fox River,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1866945,59.858333299999998,-150.95833329999999
+Fritz Creek,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1866947,59.736111100000002,-151.29527780000001
+Happy Valley,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1866949,59.947222199999999,-151.7322222
+Hollis,Alaska Power & Telephone Company,PCE Eligible Active,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE,1866952,55.556666700000001,-132.63638889999999
+Jakolof Bay,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1866953,59.4469444,-151.51027780000001
+Kenny Lake,Copper Valley Elec Assn Inc,PCE Ineligible,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC,1866955,61.719166700000002,-144.9483333
+Klukwan,Inside Passage Electric,PCE Eligible Active,Southeast,Hoonah-Angoon (CA),Sealaska,SE,1866956,59.403888899999998,-135.88444440000001
+Lazy Mountain,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,1866958,61.626111100000003,-148.94555560000001
+Meadow Lakes,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,1866961,61.624722200000001,-149.6011111
+Mendeltna,Copper Valley Elec Assn Inc,PCE Ineligible,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC,1866962,62.066111100000001,-146.44999999999999
+Mosquito Lake,Alaska Power & Telephone Company,PCE Ineligible,Southeast,Haines,Sealaska,SE,1866963,59.529166699999998,-136.09111110000001
+Naukati Bay,Alaska Power & Telephone Company,PCE Eligible Active,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE,1866964,55.873611099999998,-133.18472220000001
+Northway Junction,Alaska Power & Telephone Company,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Southeast Fairbanks (CA),Doyon,YU,1866965,63.002222199999999,-141.77722220000001
+Pleasant Valley,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Fairbanks North Star,Doyon,SC,1866967,64.881388900000005,-146.86861110000001
+Ridgeway,Homer Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,1866972,60.5319444,-151.0852778
+Womens Bay,Kodiak Electric Assn Inc,PCE Ineligible,Kodiak,Kodiak Island,Koniag,SC,1866977,57.682222199999998,-152.66861109999999
+Badger,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Fairbanks North Star,Doyon,YU,1893447,64.8,-147.53333330000001
+Chignik Lake,Chignik Lake Electric Utility,PCE Eligible Active,Bristol Bay,Lake and Peninsula,Bristol Bay,SW,1893911,56.255555600000001,-158.76249999999999
+Bettles,Alaska Power & Telephone Company,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,1926949,66.918888899999999,-151.51611109999999
+Deltana,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Southeast Fairbanks (CA),Doyon,YU,2418552,63.8721715,-145.21772999999999
+Farm Loop,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,2418580,61.638906800000001,-149.14214999999999
+Fishhook,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,2418582,61.744017200000002,-149.23613
+Four Mile Road,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Yukon-Koyukuk (CA),Doyon,YU,2418586,64.602834099999995,-149.12006
+Glacier View,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,2418599,61.907483499999998,-147.50484
+Harding-Birch Lakes,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Fairbanks North Star,Doyon,SC,2418611,64.371402399999994,-146.59909999999999
+Knik River,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,2418662,61.460011199999997,-148.91237000000001
+Kodiak Station,Kodiak Electric Assn Inc,PCE Ineligible,Kodiak,Kodiak Island,Koniag,SC,2418665,57.765866699999997,-152.60004000000001
+Lakes,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,2418681,61.6052854,-149.30661380000001
+Alcan Border,Alaska Power & Telephone Company,PCE Ineligible,Yukon-Koyukuk/Upper Tanana,Southeast Fairbanks (CA),Doyon,YU,2418762,62.6747868,-141.13140000000001
+Andreafsky,Alaska Village Electric Cooperative,PCE Eligible Active,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU,2418771,62.071503,-163.279515
+Buffalo Soapstone,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,2418798,61.716232499999997,-149.09998999999999
+Salcha,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Fairbanks North Star,Doyon,YU,2419205,64.523990400000002,-146.90209999999999
+Silver Springs,Copper Valley Elec Assn Inc,PCE Ineligible,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC,2419219,62.019198400000001,-145.35541000000001
+Susitna North,"Matanuska Electric Association, Enerdyne, LLC",PCE Ineligible,Railbelt,Matanuska-Susitna,Cook Inlet,SC,2419240,61.796256399999997,-148.85051000000001
+Healy Lake,Alaska Power & Telephone Company,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Southeast Fairbanks (CA),Doyon,YU,2419534,63.987230799999999,-144.69983250000001
+New Allakaket,Alaska Power & Telephone Company,PCE Eligible Active,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU,2419536,66.542680000000004,-152.64769000000001
+Chena Ridge,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Fairbanks North Star,Doyon,YU,2582710,64.794090699999998,-148.03574549999999
+Farmers Loop,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Fairbanks North Star,Doyon,YU,2582712,64.906182400000006,-147.695391
+Goldstream,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Fairbanks North Star,Doyon,YU,2582713,64.9339114,-148.0083822
+Point Possession,Chugach Electric Assn Inc,PCE Ineligible,Railbelt,Kenai Peninsula,Cook Inlet,SC,2582716,60.923099000000001,-150.68820740000001
+South Van Horn,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Fairbanks North Star,Doyon,YU,2582717,64.809084799999994,-147.7854312
+Steele Creek,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Fairbanks North Star,Doyon,YU,2582718,64.929533199999995,-147.39532819999999
+Whitestone,"Golden Valley Elec Assn Inc, Aurora Energy LLC Chena, Alaska Environmental LLC",PCE Ineligible,Railbelt,Southeast Fairbanks (CA),Doyon,SC,2582719,64.152837500000004,-145.90640529999999

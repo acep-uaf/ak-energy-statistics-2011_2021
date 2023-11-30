@@ -1,0 +1,35 @@
+"Note: Table 2.6a is NOT inclusive of all industrial self generators in Alaska, but only those who report to the Energy Information Administration for which public data is available.
+
+Doyon Utilities LLC owns and operates the utility infrastructure that provides service to three military facilities in Alaska; Fort Greely, JBER Richardson and Fort Wainwright. In 2007, Doyon Utilities LLC was awarded 50-year utility privatization contracts. The power related utilities Doyon Utilities owns and operates since fall 2008 is as follows:
+Fort Greely: Central Heat & Power Plant, Heat Distribution System & Utilidors; and Electrical Distribution System
+JBER Richardson: Natural Gas Distribution System; and Electrical Distribution System
+Fort Wainwright: Central Heat & Power Plant, Heat Distribution System & Utilidors; and Electrical Distribution System
+
+Prime Movers: Gas Turbine (GT), Reciprocating Internal Combustion Engine (IC), Steam Turbine (ST)
+Fuel Types: Distillate Fuel Oil (DFO), Natural Gas (NG), Other Gases-fossil fuel derived (OG), Other Biomass Liquids (OBL), Sub-bituminous Coal (SUB)",...2,...3,...4,...5,...6,...7,...8,...9,...10,...11
+"Table 2.6a  Installed Capacity, Fuel Used and Net Generation by Industrial and Military Self Generators (kW, Physical Units, MWh), 2011",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Self Generator Name,Type,Prime Mover,"Installed Capacity, kW",Fuel Used,Fuel Used (units),Fuel Type,Net Generation (MWh),Source,Fuel Used (MMBtu),NA
+Tesoro Alaska Petroleum,Industrial,GT,8000,1722,Gallons,DFO,17.167000000000002,EIA,228,NA
+NA,NA,NA,NA,833555,Mcf,NG,57110.769,EIA,750199,NA
+NA,NA,NA,NA,10900,Mcf,OG,2738.3040000000001,EIA,35970,NA
+Unisea Inc,Industrial,IC,15500,2425080,Gallons,DFO,28063.662,EIA,357988,NA
+NA,NA,NA,NA,440202,Gallons,OBL,3286.538,EIA,41924,NA
+University of Alaska Fairbanks,Industrial,IC,9600,2982,Gallons,DFO,29.400000000000002,EIA,393,NA
+NA,NA,ST,13000,481866,Gallons,DFO,2766.895,EIA,63103,NA
+NA,NA,NA,NA,63912,Mcf,NG,2837.8230000000003,EIA,63912,NA
+NA,NA,NA,NA,74745,Short Tons,SUB,51303.623,EIA,1121175,NA
+Westward Seafoods Inc,Industrial,IC,6600,1650852,Gallons,DFO,21484,EIA,231119,NA
+Doyon Utilities LLC,Military,ST,22500,301623,Short Tons,SUB,143877.90900000001,EIA,4765644,NA
+U S Air Force-Eielson AFB Central Heat & Power Plant,Military,IC,8500,21966,Gallons,DFO,249,EIA,3033,NA
+NA,NA,ST,25000,173199,Short Tons,SUB,74114,EIA,2624412,NA
+U S Army-Fort Greely Power Plant,Military,IC,7400,9534,Gallons,DFO,159.74,EIA,1314,NA
+"Southern Southeast Regional Aquaculture Assn, Inc. (Burnett River Hatchery)",Industrial,HY,80,NA,NA,NA,NA,NA,NA,NA
+"PB Energy, Inc. (Dry Spruce)",Industrial,HY,75,NA,NA,NA,NA,NA,NA,NA
+"Armstrong Keta, Inc. (Jetty Lake)",Industrial,HY,249,NA,NA,NA,NA,NA,NA,NA
+Whitestone Power and Communications. (Whitestone),Industrial,HY,100,NA,NA,NA,NA,NA,NA,NA
+Total,NA,NA,116604,4594002,NA,DFO,388038.83,NA,657178,Distillate Fuel Oil
+NA,NA,NA,NA,440202,NA,OBL,169638.18100000001,Industrial,41924,Other Biomass Liquids
+NA,NA,NA,NA,897467,NA,NG,218400.649,Military,814111,Natural Gas
+NA,NA,NA,NA,10900,NA,OG,NA,NA,35970,Other Gases
+NA,NA,NA,NA,549567,NA,SUB,NA,NA,8511231,Sub-bituminous Coal
+NA,NA,NA,NA,NA,NA,NA,NA,NA,10060414,Total

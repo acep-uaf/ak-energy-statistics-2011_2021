@@ -1,0 +1,252 @@
+"(1) The column labeled Fossil Fuel Turbines include, gas and steam turbines as well as combined cycle systems. For detail information regarding prime mover and fuel type used at each plant, please refer to Table 2.4a.
+Fossil Fuel Turbines:
+     Gas Turbine (combustion-turbine) produces electricity by passing hot gases produced from combustion of natural gas or distillate oil through the turbine. 
+     Steam turbine (fossil-fueled) the fuel is burned in a boiler to produce steam; the steam turns the turbine to produce electricity. 
+     Combined Cycle generators produce electricity from otherwise lost waste heat exiting from one or more gas (combustion) turbines. The exiting heat is routed to a conventional boiler or to a heat recovery steam generator for utilization by a steam turbine in the production of electricity. This process increases the efficiency of the electric generating unit. 
+Internal Combustion Reciprocating Engine (diesel) generators have cylinders in which the combustion of fuel takes place and the engine provides mechanical energy to drive the generator to produce electricity. 
+Hydroelectric power is produced from flowing water that spins a turbine connected to a generator. 
+Wind turbine produces electricity by converting kinetic energy into mechanical energy to drive electric power generators.
+
+If 'Community Name' is blank, it indicates that the Utility serves multiple communities. For a full list of the communities served by each utility, please refer to the 'Community List' worksheet.",...2,...3,...4,...5,...6,...7,...8,...9,...10,...11,...12,...13,...14,...15,...16
+"Table 2.1b  Installed Capacity by Prime Mover by Plant by Certified Utilities (Percent Distribution), 2011",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Utility/IPP Name,Plant Name,Community Name,"Total Capacity, kW (1)",Fossil Fuel Turbines,Internal Combustion,Hydroelectric,Wind Turbine,Source,PCE Utility/Community,Notes,Abbr.,AEA Energy Region,Census Region,Native Corporation Region,AKEPS Region
+"Akhiok, City of",Akhiok,Akhiok,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Inactive,0,AKHIK,Kodiak,Kodiak Island,Koniag,SC
+Akiachak Native Community,Akiachak,Akiachak,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,AKIANCE,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Akiak City Council,Akiak,Akiak,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,AKIA,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+"Akutan, City of",Akutan,Akutan,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,AKUT,Aleutians,Aleutians East,Aleut,SW
+Alaska Electric Light & Power Company,Annex Creek,Juneau,1,0,0,1,0,EIA-F923,PCE Ineligible,0,AEL&P,Southeast,Juneau,Sealaska,SE
+Alaska Electric Light & Power Company,Auke Bay,Juneau,1,0.93093922651933703,6.9060773480662987E-2,0,0,EIA-F923,PCE Ineligible,0,AEL&P,Southeast,Juneau,Sealaska,SE
+Alaska Electric Light & Power Company,Gold Creek,Juneau,1,0,0.83505154639175261,0.16494845360824742,0,EIA-F923,PCE Ineligible,0,AEL&P,Southeast,Juneau,Sealaska,SE
+Alaska Electric Light & Power Company,Lake Dorothy,Juneau,1,0,0,1,0,EIA-F923,PCE Ineligible,0,AEL&P,Southeast,Juneau,Sealaska,SE
+Alaska Electric Light & Power Company,Lemon Creek,Juneau,1,0.60291734197730962,0.39708265802269044,0,0,EIA-F923,PCE Ineligible,0,AEL&P,Southeast,Juneau,Sealaska,SE
+Alaska Electric Light & Power Company,Salmon Creek 1,Juneau,1,0,0,1,0,EIA-F923,PCE Ineligible,0,AEL&P,Southeast,Juneau,Sealaska,SE
+Alaska Electric Light & Power Company,Snettisham,Juneau,1,0,0,1,0,EIA-F923,PCE Ineligible,0,AEL&P,Southeast,Juneau,Sealaska,SE
+Alaska Environmental LLC,Alaska Environmental,NA,1,0,0,0,1,AEA-Wind Report,PCE Ineligible,Plant is also know as Delta Wind. Alaska Environmental LLC is an independent power producer that sells all its power to GVEA.,AKENV,Railbelt,Southeast Fairbanks (CA),Doyon,YU
+Alaska Power & Telephone Company,Allakaket,"Allakaket, Alatna",1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,Provides power to Alatna via intertie. Data includes Alatna's information.,ALASPCA,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Alaska Power & Telephone Company,Bettles,"Bettles, Evansville",1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,Provides power to Evansville via intertie. Data includes Evansville's information.,ALASPCA,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Alaska Power & Telephone Company,Chistochina,Chistochina,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,Receives power from Slana via intertie.,ALASPCA,Copper River/Chugach,Valdez-Cordova (CA),Ahtna,YU
+Alaska Power & Telephone Company,Coffman Cove,Coffman Cove,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,Part of the Alaska Power Company's grid on Prince of Wales Island.,ALASPCA,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Power & Telephone Company,Craig,"Craig, Klawock",1,0,1,0,0,EIA-F923,PCE Eligible Active,"Part of the Alaska Power Company's grid on Prince of Wales Island. Provides to Hollis, Hydaburg, Klawock, Thorne Bay and Kaasan.",ALASPCA,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Power & Telephone Company,Viking,Craig,1,0,1,0,0,EIA-F923,PCE Eligible Active,"Provides power to Hollis, Klawock, Thorne Bay/Kasaan and Hydaburg via intertie.",ALASPCA,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Power & Telephone Company,Black Bear Lake,"Craig, Klawock, Hollis, Hydaburg, Thorne Bay, Kasaan, Coffman Cove",1,0,0,1,0,EIA-F923,PCE Eligible Active,"Provides power to Hollis, Klawock, Thorne Bay/Kasaan and Hydaburg via intertie.",ALASPCA,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Power & Telephone Company,South Fork,"Craig, Klawock, Hollis, Hydaburg, Thorne Bay, Kasaan, Coffman Cove",1,0,0,1,0,EIA-F923,PCE Eligible Active,Receives power from Craig via intertie.,ALASPCA,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Power & Telephone Company,Eagle,"Eagle, Eagle Village",1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,Provides power to Eagle Village via intertie. Data includes Eagle Village's information.,ALASPCA,Yukon-Koyukuk/Upper Tanana,Southeast Fairbanks (CA),Doyon,YU
+Alaska Power & Telephone Company,Goat Lake,"Haines, Covenant Life, Skagway",1,0,0,1,0,EIA-F923,PCE Eligible Active,Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.,ALASPCA,Southeast,Skagway,Sealaska,SE
+Alaska Power & Telephone Company,Haines,Haines,1,0,0.95605242868157281,4.3947571318427137E-2,0,"EIA-F923, AEA-Hydro Report",PCE Eligible Active,Plant is also referred to as Lutak. Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.,ALASPCA,Southeast,Haines,Sealaska,SE
+Alaska Power & Telephone Company,Skagway,Skagway,1,0,0.77272727272727271,0.22727272727272727,0,"EIA-F923, AEA-Hydro Report",PCE Eligible Active,Plant is also referred to as Dewey Lake. Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.,ALASPCA,Southeast,Skagway,Sealaska,SE
+Alaska Power & Telephone Company,Healy Lake,Healy Lake,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASPCA,Yukon-Koyukuk/Upper Tanana,Southeast Fairbanks (CA),Doyon,YU
+Alaska Power & Telephone Company,Hollis,Hollis,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,Part of the Alaska Power Company's grid on Prince of Wales Island. Receives power from Craig. Refer to Craig for fuel use and cost.,ALASPCA,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Power & Telephone Company,Hydaburg,Hydaburg,1,0,1,0,0,EIA-F923,PCE Eligible Active,Part of the Alaska Power Company's grid on Prince of Wales Island. Receives power from Craig. Refer to Craig for fuel use and cost.,ALASPCA,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Power & Telephone Company,Naukati Bay,Naukati Bay,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASPCA,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Power & Telephone Company,Northway,"Northway, Northway Village",1,0,1,0,0,EIA-F923,PCE Eligible Active,Provides power to Northway Village via intertie. Data includes Northway Village's information.,ALASPCA,Yukon-Koyukuk/Upper Tanana,Southeast Fairbanks (CA),Doyon,YU
+Alaska Power & Telephone Company,Kasidaya Creek,Skagway,1,0,0,1,0,EIA-F923,PCE Eligible Active,Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.,ALASPCA,Southeast,Skagway,Sealaska,SE
+Alaska Power & Telephone Company,Slana,"Slana, Chistochina",1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,Provides power to Chistochina via intertie. Includes Chistochina's fuel use and fuel cost.,ALASPCA,Copper River/Chugach,Valdez-Cordova (CA),Ahtna,YU
+Alaska Power & Telephone Company,False Island,"Thorne Bay, Kasaan",1,0,1,0,0,EIA-F923,PCE Eligible Active,Part of the Alaska Power Company's grid on Prince of Wales Island. Receives power from Craig. Refer to Craig for fuel use and cost. Includes data for Kaasan.,ALASPCA,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Power & Telephone Company,False Island,"Thorne Bay, Kasaan",1,0,1,0,0,EIA-F923,PCE Eligible Active,Part of the Alaska Power Company's grid on Prince of Wales Island. Receives power from Craig. Refer to Craig for fuel use and cost. Includes data for Kaasan.,ALASPCA,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Power & Telephone Company,Thorne Bay Plant,"Thorne Bay, Kasaan",1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,Part of the Alaska Power Company's grid on Prince of Wales Island. Receives power from Craig. Refer to Craig for fuel use and cost. Includes data for Kaasan.,ALASPCA,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Power & Telephone Company,Tok,"Tok, Tanacross",1,0,1,0,0,EIA-F923,PCE Eligible Active,"Provides power to Tanacross, Tetlin and Dot Lake via intertie. Includes Tanacross' information. Fuel use and cost also includes Tetlin's and Dot Lake's information.",ALASPCA,Yukon-Koyukuk/Upper Tanana,Southeast Fairbanks (CA),Doyon,YU
+Alaska Power & Telephone Company,Whale Pass,Whale Pass,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASPCA,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Village Electric Cooperative,Alakanuk,Alakanuk,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,ALASVEC,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,Ambler,Ambler,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASVEC,Northwest Arctic,Northwest Arctic,NANA,AN
+Alaska Village Electric Cooperative,Anvik,Anvik,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASVEC,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Alaska Village Electric Cooperative,Brevig Mission,Brevig Mission,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASVEC,Bering Straits,Nome (CA),Bering Straits,AN
+Alaska Village Electric Cooperative,Chevak,Chevak,1,0,0,0,1,AEA-Wind Report,PCE Eligible Active,0,ALASVEC,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,Chevak,Chevak,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASVEC,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,Eek,Eek,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASVEC,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Alaska Village Electric Cooperative,Ekwok,Ekwok,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,EKWO,Bristol Bay,Dillingham (CA),Bristol Bay,SW
+Alaska Village Electric Cooperative,Elim,Elim,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,ALASVEC,Bering Straits,Nome (CA),Bering Straits,AN
+Alaska Village Electric Cooperative,Emmonak,Emmonak,1,0,0.82608695652173914,0,0.17391304347826086,EIA-F923,PCE Eligible Active,0,ALASVEC,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,Gambell,Gambell,1,0,0.84210526315789469,0,0.15789473684210525,"EIA-F923, AEA-Wind Report",PCE Eligible Active,0,ALASVEC,Bering Straits,Nome (CA),Bering Straits,AN
+Alaska Village Electric Cooperative,Goodnews Bay,Goodnews Bay,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASVEC,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Alaska Village Electric Cooperative,Grayling,Grayling,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASVEC,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Alaska Village Electric Cooperative,Holy Cross,Holy Cross,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASVEC,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Alaska Village Electric Cooperative,Hooper Bay,Hooper Bay,1,0,0.84210526315789469,0,0.15789473684210525,"EIA-F923, AEA Wind Report",PCE Eligible Active,0,ALASVEC,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,Huslia,Huslia,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASVEC,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Alaska Village Electric Cooperative,Upper Kalskag,"Kalskag, Lower Kalskag",1,0,1,0,0,EIA-F923,PCE Eligible Active,Provides power to Lower Kalskag via intertie. Fuel use and cost data includes information for Lower Kalskag.,ALASVEC,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Alaska Village Electric Cooperative,Kaltag,Kaltag,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASVEC,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Alaska Village Electric Cooperative,Kasigluk,"Kasigluk, Nunapitchuk",1,0,0.84210526315789469,0,0.15789473684210525,"EIA-F923, AEA Wind Report",PCE Eligible Active,Provides power to Nunapitchuk via intertie.  Fuel use and cost includes Nunapitchuk's information.,ALASVEC,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Alaska Village Electric Cooperative,Kiana,Kiana,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,ALASVEC,Northwest Arctic,Northwest Arctic,NANA,AN
+Alaska Village Electric Cooperative,Kivalina,Kivalina,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,ALASVEC,Northwest Arctic,Northwest Arctic,NANA,AN
+Alaska Village Electric Cooperative,Kotlik,Kotlik,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,ALASVEC,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,Koyuk,Koyuk,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,ALASVEC,Bering Straits,Nome (CA),Bering Straits,AN
+Alaska Village Electric Cooperative,Marshall,Marshall,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASVEC,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,Mekoryuk,Mekoryuk,1,0,0.77876106194690264,0,0.22123893805309736,"AEA-Village Assessment, AEA Wind Report",PCE Eligible Active,0,ALASVEC,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Alaska Village Electric Cooperative,Minto,Minto,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASVEC,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Alaska Village Electric Cooperative,Mountain Village,Mountain Village,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,ALASVEC,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,New Stuyahok,New Stuyahok,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASVEC,Bristol Bay,Dillingham (CA),Bristol Bay,SW
+Alaska Village Electric Cooperative,Nightmute,Nightmute,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,"Receives power from Toksook Bay via intertie. For fuel use and cost, please refer to Toksook Bay.",ALASVEC,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Alaska Village Electric Cooperative,Noatak,Noatak,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,ALASVEC,Northwest Arctic,Northwest Arctic,NANA,AN
+Alaska Village Electric Cooperative,Noorvik,Noorvik,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,ALASVEC,Northwest Arctic,Northwest Arctic,NANA,AN
+Alaska Village Electric Cooperative,Nulato,Nulato,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASVEC,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Alaska Village Electric Cooperative,Nunapitchuk,Nunapitchuk,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,Receives power from Kasigluk. Please refer to Kasigluk for fuel use and cost.,ALASVEC,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Alaska Village Electric Cooperative,Old Harbor,Old Harbor,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASVEC,Kodiak,Kodiak Island,Koniag,SC
+Alaska Village Electric Cooperative,Pilot Station,Pilot Station,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,ALASVEC,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,Quinhagak,Quinhagak,1,0,0.7857142857142857,0,0.21428571428571427,"EIA-F923, AEA Wind Report",PCE Eligible Active,0,ALASVEC,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Alaska Village Electric Cooperative,Russian Mission,Russian Mission,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASVEC,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,Saint Mary's,"Saint Mary's, Andreafsky, Pitkas Point",1,0,1,0,0,EIA-F923,PCE Eligible Active,Provides power to Andreafsky and Pitkas Point via intertie. Includes Andreafsky's information. Fuel use and cost also includes Pitkas Point.,ALASVEC,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,Saint Michael,Saint Michael,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,ALASVEC,Bering Straits,Nome (CA),Bering Straits,AN
+Alaska Village Electric Cooperative,Savoonga,Savoonga,1,0,0.89473684210526316,0,0.10526315789473684,"EIA-F923, AEA Wind Report",PCE Eligible Active,0,ALASVEC,Bering Straits,Nome (CA),Bering Straits,AN
+Alaska Village Electric Cooperative,Scammon Bay,Scammon Bay,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,ALASVEC,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,Selawik,Selawik,1,0,0.86021505376344087,0,0.13978494623655913,"EIA-F923, AEA Wind Report",PCE Eligible Active,0,ALASVEC,Northwest Arctic,Northwest Arctic,NANA,AN
+Alaska Village Electric Cooperative,Shageluk,Shageluk,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASVEC,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Alaska Village Electric Cooperative,Shaktoolik,Shaktoolik,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASVEC,Bering Straits,Nome (CA),Bering Straits,AN
+Alaska Village Electric Cooperative,Shishmaref,Shishmaref,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,ALASVEC,Bering Straits,Nome (CA),Bering Straits,AN
+Alaska Village Electric Cooperative,Shungnak,"Shungnak, Kobuk",1,0,1,0,0,EIA-F923,PCE Eligible Active,Provides power to Kobuk via intertie. Fuel use and cost includes Kobuk's information.,ALASVEC,Northwest Arctic,Northwest Arctic,NANA,AN
+Alaska Village Electric Cooperative,Stebbins,Stebbins,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,ALASVEC,Bering Straits,Nome (CA),Bering Straits,AN
+Alaska Village Electric Cooperative,Teller,Teller,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASVEC,Bering Straits,Nome (CA),Bering Straits,AN
+Alaska Village Electric Cooperative,Togiak,Togiak,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,ALASVEC,Bristol Bay,Dillingham (CA),Bristol Bay,SW
+Alaska Village Electric Cooperative,Toksook Bay,"Toksook Bay, Nightmute, Tununak",1,0,0.80952380952380953,0,0.19047619047619047,"EIA-F923, AEA Wind Report",PCE Eligible Active,Provides power to Nightmute and Tununak via intertie. Fuel use and cost includes Nightmute's and Tununak's information.,ALASVEC,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Alaska Village Electric Cooperative,Tununak,Tununak,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,"Receives power from Toksook Bay via intertie. For fuel use and cost, please refer to Toksook Bay.",ALASVEC,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Alaska Village Electric Cooperative,Wales,Wales,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALASVEC,Bering Straits,Nome (CA),Bering Straits,AN
+Alaska Village Electric Cooperative,Wales,Wales,1,0,0,0,1,AEA-Wind Report,PCE Eligible Active,0,ALASVEC,Bering Straits,Nome (CA),Bering Straits,AN
+Alutiiq Power Company,Karluk,Karluk,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ALUTPC,Kodiak,Kodiak Island,Koniag,SC
+Anchorage Municipal Light & Power,Anchorage 1,Anchorage,1,1,0,0,0,EIA-F923,PCE Ineligible,0,ML&P,Railbelt,Anchorage,Cook Inlet,SC
+Anchorage Municipal Light & Power,AWWU Conduit,Anchorage,1,0,0,1,0,AEA-Hydro Report,PCE Ineligible,0,ML&P,Railbelt,Anchorage,Cook Inlet,SC
+Anchorage Municipal Light & Power,Eklutna Lake,Anchorage,1,0,0,1,0,EIA-F923,PCE Ineligible,0,ML&P,Railbelt,Anchorage,Cook Inlet,SC
+Anchorage Municipal Light & Power,George M Sullivan Generation Plant 2,Anchorage,1,1,0,0,0,EIA-F923,PCE Ineligible,0,ML&P,Railbelt,Anchorage,Cook Inlet,SC
+Aniak Light & Power,Aniak,Aniak,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,ANIALPC,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Arctic Village Electric Company,Arctic Village,Arctic Village,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Inactive,0,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+"Atka, City of",Atka,Atka,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ATKA,Aleutians,Aleutians West (CA),Aleut,SW
+Atmautluak Tribal Utilities,Atmautluak,Atmautluak,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ATMATU,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Aurora Energy LLC Chena,Aurora Energy,Fairbanks,1,1,0,0,0,EIA-F923,PCE Ineligible,Aurora Energy LLC is an independent power producer that sells all its power to GVEA.,AURORA,Railbelt,Fairbanks North Star,Doyon,YU
+"Banner Wind, LLC",Banner Peak Wind Farm,Nome,1,0,0,0,1,AEA-Wind Report,PCE Eligible Active,"Banner Wind, LLC. is an independent power proucer, who sells all its power to Nome Joint Utility Systems.",0,Bering Straits,Nome (CA),Bering Straits,AN
+Barrow Utilities & Electric Cooperative Inc.,Barrow,Barrow,1,0.85221674876847286,0.14778325123152711,0,0,EIA-F923,PCE Ineligible,0,0,North Slope,North Slope,Arctic Slope,AN
+Beaver Joint Utilities,Beaver,Beaver,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,BEAVJU,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Bethel Utilities Corporation,Bethel,"Bethel, Oscarville",1,0,1,0,0,EIA-F923,PCE Eligible Active,Provides power to Oscarville and sells power to Napakiak Ircinraq via intertie. Data includes Oscarville's information.,BETHUC,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Birch Creek Village Electric,Birch Creek,Birch Creek,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Inactive,0,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+"Buckland, City of",Buckland,Buckland,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,BUCK,Northwest Arctic,Northwest Arctic,NANA,AN
+Chalkyitsik Village Council,Chalkyitsik,Chalkyitsik,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,CHALVC,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Chenega Ira Council,Chenega Bay,Chenega Bay,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,CHENVC,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC
+Chignik Lagoon Power Utility,Chignik Lagoon,Chignik Lagoon,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,CHIGLPU,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+Chignik Lake Electric Utility,Chignik Lake,Chignik Lake,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,CHIGLEU,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+"Chignik, City of",Chignik,Chignik,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,CHIG,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+Chitina Electric Inc,Chitina,Chitina,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,CHITE,Copper River/Chugach,Valdez-Cordova (CA),Ahtna,SC
+Chugach Electric Assn Inc,Beluga,NA,1,1,0,0,0,EIA-F923,PCE Ineligible,0,CEA,Railbelt,Anchorage,Cook Inlet,SC
+Chugach Electric Assn Inc,Bernice Lake,NA,1,1,0,0,0,EIA-F923,PCE Ineligible,0,CEA,Railbelt,Kenai Peninsula,Cook Inlet,SC
+Chugach Electric Assn Inc,Cooper Lake,NA,1,0,0,1,0,EIA-F923,PCE Ineligible,0,CEA,Railbelt,Anchorage,Cook Inlet,SC
+Chugach Electric Assn Inc,International,NA,1,1,0,0,0,EIA-F923,PCE Ineligible,0,CEA,Railbelt,Anchorage,Cook Inlet,SC
+Circle Electric Utility,Circle,Circle,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,CIRCU,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+"Clark's Point, City of",Clark's Point,Clark's Point,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Inactive,0,CLARKS POI,Bristol Bay,Dillingham (CA),Bristol Bay,YU
+Copper Valley Elec Assn Inc,Glennallen,Glennallen,1,0,1,0,0,EIA-F923,PCE Ineligible,0,CVEA,Copper River/Chugach,Valdez-Cordova (CA),Ahtna,SC
+Copper Valley Elec Assn Inc,Solomon Gulch,"Glennallen, Valdez",1,0,0,1,0,EIA-F923,PCE Ineligible,0,CVEA,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC
+Copper Valley Elec Assn Inc,Valdez,Valdez,1,0.28865979381443296,0.71134020618556704,0,0,EIA-F923,PCE Ineligible,0,CVEA,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC
+Copper Valley Elec Assn Inc,Valdez Cogen,Valdez,1,1,0,0,0,EIA-F923,PCE Ineligible,0,CVEA,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC
+Cordova Electric Cooperative,Humpback Creek,"Cordova, Eyak",1,0,0,1,0,EIA-F923,PCE Eligible Active,New plant,CORDEC,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC
+Cordova Electric Cooperative,Orca,"Cordova, Eyak",1,0,1,0,0,EIA-F923,PCE Eligible Active,0,CORDEC,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC
+Cordova Electric Cooperative,Power Creek,"Cordova, Eyak",1,0,0,1,0,AEA-Hydro Report,PCE Eligible Active,0,CORDEC,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC
+Egegik Light & Power Co,Egegik,Egegik,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,EGEGLP,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+Elfin Cove Utility Commission,Elfin Cove,Elfin Cove,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,ELFICEU,Southeast,Hoonah-Angoon (CA),Sealaska,SE
+"False Pass, City of",False Pass,False Pass,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,FALSPE,Aleutians,Aleutians East,Aleut,SW
+G & K Inc,Cold Bay,Cold Bay,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,G&K,Aleutians,Aleutians East,Aleut,SW
+"Galena, City of",Galena,Galena,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,GALE,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Gold Country Energy,Central,Central,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,CENTEI,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Golden Valley Elec Assn Inc,Delta Power,NA,1,1,0,0,0,EIA-F923,PCE Ineligible,0,GVEA,Railbelt,Fairbanks North Star,Doyon,YU
+Golden Valley Elec Assn Inc,Fairbanks,NA,1,0.87203791469194314,0.12796208530805686,0,0,EIA-F923,PCE Ineligible,0,GVEA,Railbelt,Fairbanks North Star,Doyon,YU
+Golden Valley Elec Assn Inc,Healy,NA,1,0.90909090909090906,9.0909090909090912E-2,0,0,EIA-F923,PCE Ineligible,0,GVEA,Railbelt,Denali,Doyon,YU
+Golden Valley Elec Assn Inc,North Pole,NA,1,1,0,0,0,EIA-F923,PCE Ineligible,0,GVEA,Railbelt,Fairbanks North Star,Doyon,YU
+Golovin Power Utilities,Golovin,Golovin,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,GOLOPU,Bering Straits,Nome (CA),Bering Straits,AN
+Gustavus Electric Co,Falls Creek,Gustavus,1,0,0,1,0,AEA-Hydro Report,PCE Eligible Active,0,GUSTE,Southeast,Hoonah-Angoon (CA),Sealaska,SE
+Gustavus Electric Co,Gustavus,Gustavus,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,GUSTE,Southeast,Hoonah-Angoon (CA),Sealaska,SE
+Gwitchyaa Zhee Utilities Company,Fort Yukon,Fort Yukon,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,GWITZU,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Homer Electric Assn Inc,Nikiski Co-Generation,NA,1,1,0,0,0,EIA-F923,PCE Ineligible,0,HEA,Railbelt,Kenai Peninsula,Cook Inlet,SC
+Homer Electric Assn Inc,Seldovia,NA,1,0,1,0,0,EIA-F923,PCE Ineligible,0,HEA,Railbelt,Kenai Peninsula,Cook Inlet,SC
+Homer Electric Assn Inc,Bradley Lake,NA,1,0,0,1,0,EIA-F923,PCE Ineligible,"Generation from Bradley Lake is shared among Chugach, AML&P, HEA, MEA, Seward Electric and GVEA",HEA,Railbelt,Anchorage,Cook Inlet,SC
+Hughes Power & Light,Hughes,Hughes,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,HUGHPL,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Igiugig Electric Company,Igiugig,Igiugig,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,IGIUEC,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+"I-N-N Electric Coop, Inc",Newhalen,"Iliamna, Newhalen, Nondalton",1,0,1,0,0,EIA-F923,PCE Eligible Active,"Power produced at the Tazimina hydroelectric project and the Newhalen plant is shared by Iliamna, Newhalen and Nondalton. Newhalen's information is included in Nondalton's data.",INN,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+"I-N-N Electric Coop, Inc",Tazimina,"Iliamna, Newhalen, Nondalton",1,0,0,1,0,EIA-F923,PCE Eligible Active,"Power produced at the Tazimina hydroelectric project and the Newhalen plant is shared by Iliamna, Newhalen and Nondalton. Iliamna's information is included in Nondalton's data.",INN,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+Inside Passage Electric,Angoon,Angoon,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,INSIPEC,Southeast,Hoonah-Angoon (CA),Sealaska,SE
+Inside Passage Electric,Chilkat Valley,Chilkat Valley,1,0,1,0,0,EIA-F923,PCE Eligible Active,Provides power to Klukwan via intertie. Power is purchased from AP&T.,INSIPEC,Southeast,Haines,Sealaska,SE
+Inside Passage Electric,10 Mile,"Haines, Skagway",1,0,0,1,0,AEA-Hydro Report,PCE Ineligible,"Southern Energy Inc (SEI) owned this facility for most of 2011. IPEC bought the 10 Mile plant in October, 2011. Prior to t he purchase SEI wholesale all power to IPEC. All IPEC comminities have a postage stamp rate. Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.",0,Southeast,Haines,Sealaska,SE
+Inside Passage Electric,Hoonah,Hoonah,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,INSIPEC,Southeast,Hoonah-Angoon (CA),Sealaska,SE
+Inside Passage Electric,Kake,Kake,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,INSIPEC,Southeast,Petersburg (CA),Sealaska,SE
+Ipnatchiaq Electric Company,Deering,Deering,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,IPNAEC,Northwest Arctic,Northwest Arctic,NANA,AN
+Ketchikan Public Utilities,Beaver Falls,Ketchikan,1,0,0,1,0,EIA-F923,PCE Ineligible,0,KPU,Southeast,Ketchikan Gateway,Sealaska,SE
+Ketchikan Public Utilities,Ketchikan,Ketchikan,1,0,0,1,0,EIA-F923,PCE Ineligible,0,KPU,Southeast,Ketchikan Gateway,Sealaska,SE
+Ketchikan Public Utilities,S W Bailey,Ketchikan,1,0,1,0,0,EIA-F923,PCE Ineligible,0,KPU,Southeast,Ketchikan Gateway,Sealaska,SE
+Ketchikan Public Utilities,Silvis,Ketchikan,1,0,0,1,0,EIA-F923,PCE Ineligible,0,KPU,Southeast,Ketchikan Gateway,Sealaska,SE
+Ketchikan Public Utilities,Swan Lake,"Wrangell, Petersburg, Ketchikan",1,0,0,1,0,EIA-F923,PCE Ineligible,0,KPU,Southeast,Ketchikan Gateway,Sealaska,SE
+"King Cove, City of",King Cove,King Cove,1,0,0,1,0,EIA-F923,PCE Eligible Active,0,KINGC,Aleutians,Aleutians East,Aleut,SW
+"King Cove, City of",King Cove,King Cove,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,KINGC,Aleutians,Aleutians East,Aleut,SW
+Kobuk Valley Electric Company,Kobuk,Kobuk,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,"Receives power from Shungnak via intertie. For fuel use and cost, please refer to Shungnak. On July 1, 2012, AVEC took over operations in Kobuk.",KOBUVEC,Northwest Arctic,Northwest Arctic,NANA,AN
+Kodiak Electric Assn Inc,Kodiak,Kodiak,1,0,1,0,0,EIA-F923,PCE Ineligible,0,KEA,Kodiak,Kodiak Island,Koniag,SC
+Kodiak Electric Assn Inc,Nymans Plant,Kodiak,1,0,1,0,0,EIA-F923,PCE Ineligible,0,KEA,Kodiak,Kodiak Island,Koniag,SC
+Kodiak Electric Assn Inc,Pillar Mountain,Kodiak,1,0,0,0,1,EIA-F923,PCE Ineligible,0,KEA,Kodiak,Kodiak Island,Koniag,SC
+Kodiak Electric Assn Inc,Port Lions,Kodiak,1,0,1,0,0,EIA-F923,PCE Ineligible,0,KEA,Kodiak,Kodiak Island,Koniag,SC
+Kodiak Electric Assn Inc,Terror Lake,Kodiak,1,0,0,1,0,EIA-F923,PCE Ineligible,0,KEA,Kodiak,Kodiak Island,Koniag,SC
+Kokhanok Village Council,Kokhanok,Kokhanok,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,KOKHVC,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+Kotzebue Electric Association,Kotzebue,Kotzebue,1,0,0.92,0,0.08,EIA-F923,PCE Eligible Active,0,KOTZEA,Northwest Arctic,Northwest Arctic,NANA,AN
+"Koyukuk, City of",Koyukuk,Koyukuk,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,KOYU,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Kwethluk Incorporated,Kwethluk,Kwethluk,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,KWET,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Kwigillingok Power Company,Kwigillingok,Kwigillingok,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,KWIGPC,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Larsen Bay Utility Company,Larsen Bay,Larsen Bay,1,0,0,1,0,AEA-Hydro Report,PCE Eligible Active,0,LARSBUC,Kodiak,Kodiak Island,Koniag,SC
+Larsen Bay Utility Company,Larsen Bay,Larsen Bay,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,LARSBUC,Kodiak,Kodiak Island,Koniag,SC
+Levelock Electrical Coop,Levelock,Levelock,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,LEVEEC,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+Manokotak Power Company,Manokotak,Manokotak,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,MANOPC,Bristol Bay,Dillingham (CA),Bristol Bay,SW
+Mcgrath Light & Power,McGrath,McGrath,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,MCGRLP,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,SW
+Metlakatla Power & Light,Centennial,Metlakatla,1,0,1,0,0,EIA-F923,PCE Ineligible,0,MP&L,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Metlakatla Power & Light,Chester Lake,Metlakatla,1,0,0,1,0,EIA-F923,PCE Ineligible,0,MP&L,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Metlakatla Power & Light,Purple Lake,Metlakatla,1,0,0,1,0,EIA-F923,PCE Ineligible,0,MP&L,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Middle Kuskokwim Electric,Chuathbaluk,Chuathbaluk,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,MIDDKEC,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Middle Kuskokwim Electric,Crooked Creek,Crooked Creek,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,MIDDKEC,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Middle Kuskokwim Electric,Red Devil,Red Devil,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,MIDDKEC,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Middle Kuskokwim Electric,Sleetmute,Sleetmute,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,MIDDKEC,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Middle Kuskokwim Electric,Stony River,Stony River,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,MIDDKEC,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Naknek Electric Association,Naknek,"Naknek, King Salmon, South Naknek",1,0,1,0,0,EIA-F923,PCE Eligible Active,Provides power to South Naknek and King Salmon via intertie. Data includes South Naknek's and King Salmon's information.,NAKNEA,Bristol Bay,Bristol Bay,Bristol Bay,SW
+Napakiak Ircinraq,Napakiak,Napakiak,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,Purchases power from Bethel Utilities Corporation,NAPAC,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Naterkaq Light Plant,Chefornak,Chefornak,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,NATELP,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Native Village of Perryville,Perryville,Perryville,1,0,0,0,1,AEA-Wind Report,PCE Eligible Active,0,PERR,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+Native Village of Perryville,Perryville,Perryville,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,PERR,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+Nelson Lagoon Electrical Coop,Nelson Lagoon,Nelson Lagoon,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,NELSLEC,Aleutians,Aleutians East,Aleut,SW
+New Koliganek Village Council,Koliganek,Koliganek,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,NEWKVC,Bristol Bay,Dillingham (CA),Bristol Bay,SW
+"Nikolai, City of",Nikolai,Nikolai,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,NIKO,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,SW
+Nome Joint Utility Systems,Snake River,Nome,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,NOME,Bering Straits,Nome (CA),Bering Straits,AN
+North Slope Borough Power & Light,Anaktuvuk Pass,Anaktuvuk Pass,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,NORTSB,North Slope,North Slope,Arctic Slope,AN
+North Slope Borough Power & Light,Atqasuk,Atqasuk,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,NORTSB,North Slope,North Slope,Arctic Slope,AN
+North Slope Borough Power & Light,Kaktovik,Kaktovik,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,NORTSB,North Slope,North Slope,Arctic Slope,AN
+North Slope Borough Power & Light,Nuiqsut,Nuiqsut,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,NORTSB,North Slope,North Slope,Arctic Slope,AN
+North Slope Borough Power & Light,Point Hope,Point Hope,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,NORTSB,North Slope,North Slope,Arctic Slope,AN
+North Slope Borough Power & Light,Point Lay,Point Lay,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,NORTSB,North Slope,North Slope,Arctic Slope,AN
+North Slope Borough Power & Light,Wainwright,Wainwright,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,NORTSB,North Slope,North Slope,Arctic Slope,AN
+Nunam Iqua Electric Company,Sheldon Point,Nunam Iqua,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,NUNAIEC,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Nushagak Electric Cooperative,Dillingham,"Dillingham, Aleknagik",1,0,1,0,0,EIA-F923,PCE Eligible Active,Provides power to Aleknagik via intertie. Data includes Aleknagik's information.,NETCI,Bristol Bay,Dillingham (CA),Bristol Bay,SW
+"Ouzinkie, City of",Ouzinkie,Ouzinkie,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,OUZI,Kodiak,Kodiak Island,Koniag,SC
+Pedro Bay Village Council,Pedro Bay,Pedro Bay,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,PEDRBV,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+Pelican Utility,Pelican,Pelican,1,0,0.77192982456140347,0.22807017543859648,0,"EIA-F923, AEA-Hydro Report",PCE Eligible Active,0,0,Southeast,Hoonah-Angoon (CA),Sealaska,SE
+"Petersburg, City of",Blind Slough,Petersburg,1,0,0.84251968503937003,0.15748031496062992,0,"EIA-F923, AEA-Hydro Report",PCE Ineligible,0,PETERSBURG,Southeast,Petersburg (CA),Sealaska,SE
+Pilot Point Electric Utility,Pilot Point,Pilot Point,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,PILOPEU,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+"Platinum, City of",Platinum,Platinum,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Inactive,0,PLAT,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Port Heiden Utilities,Port Heiden,Port Heiden,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,PORTHU,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+Puvurnaq Power Company,Kongiganak,Kongiganak,1,0,0.67272727272727273,0,0.32727272727272727,"AEA-Village Assessment, AEA Wind Report",PCE Eligible Active,0,PUVUPC,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Rampart Village Council,Rampart,Rampart,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Inactive,0,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+"Ruby, City of",Ruby,Ruby,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,RUBY,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+"Saint George, City of",Saint George,Saint George,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Inactive,0,ST. GEORGE,Aleutians,Aleutians West (CA),Aleut,SW
+Saint Paul Municipal Electric,Saint Paul,Saint Paul,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,STPMEU,Aleutians,Aleutians West (CA),Aleut,SW
+Saint Paul Municipal Electric,Saint Paul,Saint Paul,1,0,0,0,1,AEA-Wind Report,PCE Eligible Active,0,STPMEU,Aleutians,Aleutians West (CA),Aleut,SW
+"Seward, City of",Seward,Seward,1,0,1,0,0,EIA-F923,PCE Ineligible,0,SEWARD,Railbelt,Kenai Peninsula,Chugach,SC
+"Sitka, City & Borough of",Blue Lake,Sitka,1,0,0,1,0,EIA-F923,PCE Ineligible,0,SITKA,Southeast,Sitka,Sealaska,SE
+"Sitka, City & Borough of",Green Lake,Sitka,1,0,0,1,0,EIA-F923,PCE Ineligible,0,SITKA,Southeast,Sitka,Sealaska,SE
+"Sitka, City & Borough of",Jarvis Street,Sitka,1,0,1,0,0,EIA-F923,PCE Ineligible,0,SITKA,Southeast,Sitka,Sealaska,SE
+Southeast Alaska Power Agency,Tyee Lake,"Wrangell, Petersburg, Ketchikan",1,0,0,1,0,AEA-Hydro Report,PCE Ineligible,0,0,Southeast,Ketchikan Gateway,Sealaska,SE
+Stevens Village Ira Council,Stevens Village,Stevens Village,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Inactive,0,STEVVIC,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Takotna Community Assoc Inc,Takotna,Takotna,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,TAKOC,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,SW
+Tanalian Electric Cooperative,Port Alsworth,Port Alsworth,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,TANAEC,Bristol Bay,Lake and Peninsula,Cook Inlet,SW
+Tanana Power Company Inc,Tanana,Tanana,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,TPC,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Tatitlek Village Ira Council,Tatitlek,Tatitlek,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,TATIVIC,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC
+TDX Adak Generating LLC,Adak,Adak,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,TDXA,Aleutians,Aleutians West (CA),Aleut,SW
+TDX Corporation,Sand Point,Sand Point,1,0,0,0,1,AEA-Wind Report,PCE Eligible Active,0,TDXC,Aleutians,Aleutians East,Aleut,SW
+TDX Corporation,Sand Point,Sand Point,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,TDXC,Aleutians,Aleutians East,Aleut,SW
+TDX Manley Generating LLC,Manley Hot Springs,Manley Hot Springs,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,TMG,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+"Tenakee Springs, City of",Tenakee Springs,Tenakee Springs,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,TENAS,Southeast,Hoonah-Angoon (CA),Sealaska,SE
+Tuluksak Traditional,Tuluksak,Tuluksak,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,TULUTPU,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Tuntutuliak Community,Tuntutuliak,Tuntutuliak,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,TUNTCSA,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Twin Hills Village Council,Twin Hills,Twin Hills,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,TWINHVC,Bristol Bay,Dillingham (CA),Bristol Bay,SW
+Umnak Power Company,Nikolski,Nikolski,1,0,0.75095785440613028,0,0.24904214559386972,"AEA-Village Assessment, AEA Wind Report",PCE Eligible Active,0,UMNAP,Aleutians,Aleutians West (CA),Aleut,SW
+Unalakleet Valley Electric Cooperative,Unalakleet,Unalakleet,1,0,0.76923076923076927,0,0.23076923076923078,"EIA-F923, AEA Wind Report",PCE Eligible Active,0,UVEC,Bering Straits,Nome (CA),Bering Straits,AN
+"Unalaska, City of",Dutch Harbor,Dutch Harbor,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,UNALASKA,Aleutians,Aleutians West (CA),Aleut,SW
+"Unalaska, City of",Unalaska Power Module,Unalaska,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,UNALASKA,Aleutians,Aleutians West (CA),Aleut,SW
+Venetie Village Electric,Venetie,Venetie,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Inactive,0,VENEVE,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Venetie Village Electric,Venetie,Venetie,1,0,1,0,0,AEA,PCE Eligible Inactive,0,VENEVE,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+"White Mountain, City of",White Mountain,White Mountain,1,0,1,0,0,AEA-Village Assessment,PCE Eligible Active,0,WHITMU,Bering Straits,Nome (CA),Bering Straits,AN
+"Wrangell, City of",Wrangell,Wrangell,1,0,1,0,0,EIA-F923,PCE Ineligible,0,WRANGELL,Southeast,Wrangell,Sealaska,SE
+Yakutat Power Inc,Yakutat,Yakutat,1,0,1,0,0,EIA-F923,PCE Eligible Active,0,YAKUP,Southeast,Yakutat,Sealaska,SE

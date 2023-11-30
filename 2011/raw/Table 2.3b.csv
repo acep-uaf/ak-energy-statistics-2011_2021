@@ -1,0 +1,235 @@
+Bradley Lake generation - Reporting to EIA is based on ownership of the generating plant or who operates the plant depending on the survey form. The Alaska Energy Authority owns Bradley Lake; however it is operated by Homer Electric Association.,...2,...3,...4,...5,...6,...7,...8,...9,...10,...11,...12,...13,...14,...15,...16,...17
+"If 'Community Name' is blank, it indicates that the Utility serves multiple communities. For a full list of the communities served by each utility, please refer to the 'Community List' worksheet. 
+Blank cells indicate missing values.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sources: EIA Form 923,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,"Table 2.3b  Net Generation by Fuel Type by Certified Utilities (MWh), 2011",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Utility Name,Plant Name,Community Name,Oil,Gas,Coal,Hydro,Wind,Oil (gallons),Gas (Mcf),Coal (Short Tons),Source,Notes,AEA Energy Region,Census Region,Native Corporation Region,AKEPS Region
+Akiachak Native Community,Akiachak,Akiachak,1851.5340000000001,0,0,0,0,141170,0,0,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Akiak City Council,Akiak,Akiak,1029.5309999999999,0,0,0,0,86993,0,0,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+"Akutan, City of",Akutan,Akutan,489.57059999999996,0,0,42.110999999999997,0,45345,0,0,PCE,0,Aleutians,Aleutians East,Aleut,SW
+Alaska Electric Light & Power Company,Annex Creek,Juneau,0,0,0,22270,0,0,0,0,EIA,0,Southeast,Juneau,Sealaska,SE
+Alaska Electric Light & Power Company,Auke Bay,Juneau,1119,0,0,0,0,140910,0,0,EIA,0,Southeast,Juneau,Sealaska,SE
+Alaska Electric Light & Power Company,Gold Creek,Juneau,23,0,0,4838,0,1218,0,0,EIA,0,Southeast,Juneau,Sealaska,SE
+Alaska Electric Light & Power Company,Lake Dorothy,Juneau,0,0,0,70602,0,0,0,0,EIA,0,Southeast,Juneau,Sealaska,SE
+Alaska Electric Light & Power Company,Lemon Creek,Juneau,2283,0,0,0,0,252504,0,0,EIA,0,Southeast,Juneau,Sealaska,SE
+Alaska Electric Light & Power Company,Salmon Creek 1,Juneau,0,0,0,24337,0,0,0,0,EIA,0,Southeast,Juneau,Sealaska,SE
+Alaska Electric Light & Power Company,Snettisham,Juneau,0,0,0,263749,0,0,0,0,EIA,0,Southeast,Juneau,Sealaska,SE
+Alaska Environmental LLC,Alaska Environmental,NA,0,0,0,0,1394,0,0,0,EIA,Plant is also know as Delta Wind. Alaska Environmental LLC is an independent power producer that sells all its power to GVEA.,Railbelt,Southeast Fairbanks (CA),Doyon,YU
+Alaska Power & Telephone Company,Allakaket,"Allakaket, Alatna",655.36800000000005,0,0,0,0,57040,0,0,PCE,Provides power to Alatna via intertie. Data includes Alatna's information.,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Alaska Power & Telephone Company,Bettles,"Bettles, Evansville",573.84500000000003,0,0,0,0,49487,0,0,PCE,Provides power to Evansville via intertie. Data includes Evansville's information.,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Alaska Power & Telephone Company,Chistochina,Chistochina,-2.1480000000000001,0,0,0,0,50.999999999999993,0,0,PCE,Receives power from Slana via intertie.,Copper River/Chugach,Valdez-Cordova (CA),Ahtna,YU
+Alaska Power & Telephone Company,Coffman Cove,Coffman Cove,632.58299999999997,0,0,0,0,48370,0,0,PCE,Part of the Alaska Power Company's grid on Prince of Wales Island.,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Power & Telephone Company,Craig,"Craig, Klawock",2779,0,0,0,0,206178,0,0,EIA,"Part of the Alaska Power Company's grid on Prince of Wales Island. Provides to Hollis, Hydaburg, Klawock, Thorne Bay and Kaasan.",Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Power & Telephone Company,Viking,Craig,65,0,0,0,0,7434,0,0,EIA,"Provides power to Hollis, Klawock, Thorne Bay/Kasaan and Hydaburg via intertie.",Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Power & Telephone Company,Black Bear Lake,"Craig, Klawock, Hollis, Hydaburg, Thorne Bay, Kasaan, Coffman Cove",0,0,0,17791,0,0,0,0,EIA,"Provides power to Hollis, Klawock, Thorne Bay/Kasaan and Hydaburg via intertie.",Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Power & Telephone Company,South Fork,"Craig, Klawock, Hollis, Hydaburg, Thorne Bay, Kasaan, Coffman Cove",0,0,0,6115,0,0,0,0,EIA,Receives power from Craig via intertie.,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Power & Telephone Company,Tok,"Dot Lake, Dot Lake Village",-0.6,0,0,0,0,0,0,0,PCE,"Receives power form Tok via intertie. Dot Lake's data includes Dot Lake Village's information. For fuel use and cost information, please refer to Tok.",Yukon-Koyukuk/Upper Tanana,Southeast Fairbanks (CA),Doyon,YU
+Alaska Power & Telephone Company,Eagle,"Eagle, Eagle Village",749.74199999999996,0,0,0,0,54362,0,0,PCE,Provides power to Eagle Village via intertie. Data includes Eagle Village's information.,Yukon-Koyukuk/Upper Tanana,Southeast Fairbanks (CA),Doyon,YU
+Alaska Power & Telephone Company,Goat Lake,"Haines, Covenant Life, Skagway",0,0,0,15831,0,0,0,0,EIA,Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.,Southeast,Skagway,Sealaska,SE
+Alaska Power & Telephone Company,Haines,Haines,185,0,0,0,0,36885,0,0,"EIA, PCE",Plant is also referred to as Lutak. Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.,Southeast,Haines,Sealaska,SE
+Alaska Power & Telephone Company,Skagway,Skagway,95,0,0,3000.12,0,14928,0,0,"EIA, PCE",Plant is also referred to as Dewey Lake. Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.,Southeast,Skagway,Sealaska,SE
+Alaska Power & Telephone Company,Healy Lake,Healy Lake,83.3,0,0,0,0,9100,0,0,PCE,0,Yukon-Koyukuk/Upper Tanana,Southeast Fairbanks (CA),Doyon,YU
+Alaska Power & Telephone Company,Hollis,Hollis,-12.348000000000001,0,0,0,0,0,0,0,PCE,Part of the Alaska Power Company's grid on Prince of Wales Island. Receives power from Craig. Refer to Craig for fuel use and cost.,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Power & Telephone Company,Hydaburg,Hydaburg,23,0,0,0,0,3864,0,0,EIA,Part of the Alaska Power Company's grid on Prince of Wales Island. Receives power from Craig. Refer to Craig for fuel use and cost.,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Power & Telephone Company,Mentasta Lake,Mentasta Lake,237.108,0,0,0,0,19779,0,0,PCE,0,Copper River/Chugach,Valdez-Cordova (CA),Ahtna,YU
+Alaska Power & Telephone Company,Naukati Bay,Naukati Bay,449.90800000000002,0,0,0,0,37322,0,0,PCE,0,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Power & Telephone Company,Northway,"Northway, Northway Village",1286,0,0,0,0,98616,0,0,EIA,Provides power to Northway Village via intertie. Data includes Northway Village's information.,Yukon-Koyukuk/Upper Tanana,Southeast Fairbanks (CA),Doyon,YU
+Alaska Power & Telephone Company,Kasidaya Creek,Skagway,0,0,0,7965,0,0,0,0,EIA,Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.,Southeast,Skagway,Sealaska,SE
+Alaska Power & Telephone Company,Slana,"Slana, Chistochina",1150.4580000000001,0,0,0,0,94630,0,0,PCE,Provides power to Chistochina via intertie. Includes Chistochina's fuel use and fuel cost.,Copper River/Chugach,Valdez-Cordova (CA),Ahtna,YU
+Alaska Power & Telephone Company,Tok,Tetlin,0,0,0,0,0,0,0,0,PCE,Receives power from Tok via intertie. For fuel use and cost information please refer to Tok.,Yukon-Koyukuk/Upper Tanana,Southeast Fairbanks (CA),Dyon,YU
+Alaska Power & Telephone Company,False Island,"Thorne Bay, Kasaan",929,0,0,0,0,67956,0,0,EIA,Part of the Alaska Power Company's grid on Prince of Wales Island. Receives power from Craig. Refer to Craig for fuel use and cost. Includes data for Kaasan.,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Power & Telephone Company,Thorne Bay Plant,"Thorne Bay, Kasaan",119,0,0,0,0,13692,0,0,EIA,Part of the Alaska Power Company's grid on Prince of Wales Island. Receives power from Craig. Refer to Craig for fuel use and cost. Includes data for Kaasan.,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Power & Telephone Company,Tok,"Tok, Tanacross",10400,0,0,0,0,751919,0,0,PCE,"Provides power to Tanacross, Tetlin and Dot Lake via intertie. Includes Tanacross' information. Fuel use and cost also includes Tetlin's and Dot Lake's information.",Yukon-Koyukuk/Upper Tanana,Southeast Fairbanks (CA),Doyon,YU
+Alaska Power & Telephone Company,Whale Pass,Whale Pass,267.04199999999997,0,0,0,0,23384.000000000004,0,0,PCE,0,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Alaska Village Electric Cooperative,Alakanuk,Alakanuk,1946.2080000000001,0,0,0,0,152732,0,0,PCE,0,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,Ambler,Ambler,1277.7739999999999,0,0,0,0,95531.000000000015,0,0,PCE,0,Northwest Arctic,Northwest Arctic,NANA,AN
+Alaska Village Electric Cooperative,Anvik,Anvik,405.42,0,0,0,0,33807,0,0,PCE,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Alaska Village Electric Cooperative,Brevig Mission,Brevig Mission,1176.3320000000001,0,0,0,0,89023,0,0,PCE,0,Bering Straits,Nome (CA),Bering Straits,AN
+Alaska Village Electric Cooperative,Chevak,Chevak,1657.2670000000001,0,0,0,741.62900000000002,132277,0,0,PCE,0,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,Eek,Eek,800.57799999999997,0,0,0,0,58323,0,0,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Alaska Village Electric Cooperative,Ekwok,Ekwok,261.51549999999997,0,0,0,0,23205.817999999999,0,0,PCE,0,Bristol Bay,Dillingham (CA),Bristol Bay,SW
+Alaska Village Electric Cooperative,Elim,Elim,1159.4449999999999,0,0,0,0,81625,0,0,PCE,0,Bering Straits,Nome (CA),Bering Straits,AN
+Alaska Village Electric Cooperative,Emmonak,Emmonak,3089.884,0,0,0,80.325000000000003,226911,0,0,PCE,0,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,Gambell,Gambell,1495.8810000000001,0,0,0,387.20400000000001,125869,0,0,PCE,0,Bering Straits,Nome (CA),Bering Straits,AN
+Alaska Village Electric Cooperative,Goodnews Bay,Goodnews Bay,773.07299999999998,0,0,0,0,58888,0,0,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Alaska Village Electric Cooperative,Grayling,Grayling,569.04700000000003,0,0,0,0,48789,0,0,PCE,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Alaska Village Electric Cooperative,Holy Cross,Holy Cross,594.37199999999996,0,0,0,0,47496,0,0,PCE,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Alaska Village Electric Cooperative,Hooper Bay,Hooper Bay,2711.4679999999998,0,0,0,543.096,205933,0,0,PCE,0,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,Huslia,Huslia,1005.8,0,0,0,0,75045,0,0,PCE,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Alaska Village Electric Cooperative,Upper Kalskag,"Kalskag, Lower Kalskag",1472.2059999999999,0,0,0,0,107113,0,0,PCE,Provides power to Lower Kalskag via intertie. Fuel use and cost data includes information for Lower Kalskag.,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Alaska Village Electric Cooperative,Kaltag,Kaltag,727.03800000000001,0,0,0,0,53499,0,0,PCE,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Alaska Village Electric Cooperative,Kasigluk,"Kasigluk, Nunapitchuk",2286.42,0,0,0,496.85,168858,0,0,PCE,Provides power to Nunapitchuk via intertie.  Fuel use and cost includes Nunapitchuk's information.,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Alaska Village Electric Cooperative,Kiana,Kiana,1511.732,0,0,0,0,120902.09,0,0,PCE,0,Northwest Arctic,Northwest Arctic,NANA,AN
+Alaska Village Electric Cooperative,Kivalina,Kivalina,1212.085,0,0,0,0,94027,0,0,PCE,0,Northwest Arctic,Northwest Arctic,NANA,AN
+Alaska Village Electric Cooperative,Kotlik,Kotlik,1966.4570000000001,0,0,0,0,151421,0,0,PCE,0,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,Koyuk,Koyuk,1315.9179999999999,0,0,0,0,96030.999999999985,0,0,PCE,0,Bering Straits,Nome (CA),Bering Straits,AN
+Alaska Village Electric Cooperative,Upper Kalskag,Lower Kalskag,0,0,0,0,0,0,0,0,PCE,"Receives power from (Upper) Kalskag via intertie. For fuel use and cost, please refer to (Upper) Kalskag.",Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Alaska Village Electric Cooperative,Marshall,Marshall,1644.1759999999999,0,0,0,0,123515,0,0,PCE,0,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,Mekoryuk,Mekoryuk,708.83100000000002,0,0,0,238.70599999999999,58222,0,0,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Alaska Village Electric Cooperative,Minto,Minto,652.66300000000001,0,0,0,0,48155,0,0,PCE,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Alaska Village Electric Cooperative,Mountain Village,Mountain Village,2796.866,0,0,0,0,205079,0,0,PCE,0,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,New Stuyahok,New Stuyahok,1466.3779999999999,0,0,0,0,114321,0,0,PCE,0,Bristol Bay,Dillingham (CA),Bristol Bay,SW
+Alaska Village Electric Cooperative,Nightmute,Nightmute,0,0,0,0,0,0,0,0,PCE,"Receives power from Toksook Bay via intertie. For fuel use and cost, please refer to Toksook Bay.",Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Alaska Village Electric Cooperative,Noatak,Noatak,1800.64,0,0,0,0,127333,0,0,PCE,0,Northwest Arctic,Northwest Arctic,NANA,AN
+Alaska Village Electric Cooperative,Noorvik,Noorvik,2001.4739999999999,0,0,0,0,153358,0,0,PCE,0,Northwest Arctic,Northwest Arctic,NANA,AN
+Alaska Village Electric Cooperative,Nulato,Nulato,1110.2139999999999,0,0,0,0,83771,0,0,PCE,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Alaska Village Electric Cooperative,Nunapitchuk,Nunapitchuk,0,0,0,0,0,0,0,0,PCE,Receives power from Kasigluk. Please refer to Kasigluk for fuel use and cost.,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Alaska Village Electric Cooperative,Old Harbor,Old Harbor,788.01900000000001,0,0,0,0,56390,0,0,PCE,0,Kodiak,Kodiak Island,Koniag,SC
+Alaska Village Electric Cooperative,Pilot Station,Pilot Station,1750.671,0,0,0,0,133531,0,0,PCE,0,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,Saint Mary's,Pitkas Point,0,0,0,0,0,0,0,0,PCE,"Receives power from Saint Mary's via intertie. For fuel use and cost, please refer to Saint Mary's.",Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,Quinhagak,Quinhagak,1415.165,0,0,0,409.24,113432,0,0,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Alaska Village Electric Cooperative,Russian Mission,Russian Mission,1123.7860000000001,0,0,0,0,80202,0,0,PCE,0,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,Saint Mary's,"Saint Mary's, Andreafsky, Pitkas Point",3172.4340000000002,0,0,0,0,241899,0,0,PCE,Provides power to Andreafsky and Pitkas Point via intertie. Includes Andreafsky's information. Fuel use and cost also includes Pitkas Point.,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,Saint Michael,Saint Michael,1734.962,0,0,0,0,126431,0,0,PCE,0,Bering Straits,Nome (CA),Bering Straits,AN
+Alaska Village Electric Cooperative,Savoonga,Savoonga,1753.6369999999999,0,0,0,359.92399999999998,141602,0,0,PCE,0,Bering Straits,Nome (CA),Bering Straits,AN
+Alaska Village Electric Cooperative,Scammon Bay,Scammon Bay,1735.5519999999999,0,0,0,0,132746,0,0,PCE,0,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Alaska Village Electric Cooperative,Selawik,Selawik,2745.7550000000001,0,0,0,107.907,206729,0,0,PCE,0,Northwest Arctic,Northwest Arctic,NANA,AN
+Alaska Village Electric Cooperative,Shageluk,Shageluk,369.01499999999999,0,0,0,0,31328,0,0,PCE,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Alaska Village Electric Cooperative,Shaktoolik,Shaktoolik,903.83900000000006,0,0,0,8.2000000000000003E-2,70025,0,0,PCE,0,Bering Straits,Nome (CA),Bering Straits,AN
+Alaska Village Electric Cooperative,Shishmaref,Shishmaref,1593.91,0,0,0,0,116751,0,0,PCE,0,Bering Straits,Nome (CA),Bering Straits,AN
+Alaska Village Electric Cooperative,Shungnak,"Shungnak, Kobuk",1527.3440000000001,0,0,0,0,113831,0,0,PCE,Provides power to Kobuk via intertie. Fuel use and cost includes Kobuk's information.,Northwest Arctic,Northwest Arctic,NANA,AN
+Alaska Village Electric Cooperative,Stebbins,Stebbins,1354.2349999999999,0,0,0,0,102124,0,0,PCE,0,Bering Straits,Nome (CA),Bering Straits,AN
+Alaska Village Electric Cooperative,Teller,Teller,837.98900000000003,0,0,0,0,72035,0,0,PCE,0,Bering Straits,Nome (CA),Bering Straits,AN
+Alaska Village Electric Cooperative,Togiak,Togiak,3044.7559999999999,0,0,0,0,225519,0,0,PCE,0,Bristol Bay,Dillingham (CA),Bristol Bay,SW
+Alaska Village Electric Cooperative,Toksook Bay,"Toksook Bay, Nightmute, Tununak",2592.1080000000002,0,0,0,559.97299999999996,200398,0,0,PCE,Provides power to Nightmute and Tununak via intertie. Fuel use and cost includes Nightmute's and Tununak's information.,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Alaska Village Electric Cooperative,Tununak,Tununak,0,0,0,0,0,0,0,0,PCE,"Receives power from Toksook Bay via intertie. For fuel use and cost, please refer to Toksook Bay.",Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Alaska Village Electric Cooperative,Wales,Wales,582.09500000000003,0,0,0,0,47325,0,0,PCE,0,Bering Straits,Nome (CA),Bering Straits,AN
+Alutiiq Power Company,Karluk,Karluk,252.608,0,0,0,0,22089,0,0,PCE,0,Kodiak,Kodiak Island,Koniag,SC
+Anchorage Municipal Light & Power,Anchorage 1,Anchorage,48.344999999999999,91290.654999999999,0,0,0,4242,1089173,0,EIA,0,Railbelt,Anchorage,Cook Inlet,SC
+Anchorage Municipal Light & Power,Eklutna Lake,Anchorage,0,0,0,66088,0,0,0,0,EIA,0,Railbelt,Anchorage,Cook Inlet,SC
+Anchorage Municipal Light & Power,George M Sullivan Generation Plant 2,Anchorage,328,1082675,0,0,0,19110,10551686,0,EIA,0,Railbelt,Anchorage,Cook Inlet,SC
+Aniak Light & Power,Aniak,Aniak,2618.598,0,0,0,0,204154,0,0,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+"Atka, City of",Atka,Atka,444.322,0,0,0,0,49036.000000000007,0,0,PCE,0,Aleutians,Aleutians West (CA),Aleut,SW
+Atmautluak Tribal Utilities,Atmautluak,Atmautluak,796.81399999999996,0,0,0,0,54344.999999999993,0,0,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Aurora Energy LLC Chena,Aurora Energy,Fairbanks,0,0,209150,0,0,0,0,222349,EIA,Aurora Energy LLC is an independent power producer that sells all its power to GVEA.,Railbelt,Fairbanks North Star,Doyon,YU
+"Banner Wind, LLC",Banner Peak Wind Farm,Nome,0,0,0,0,955,0,0,0,PCE,"Banner Wind, LLC. is an independent power proucer, who sells all its power to Nome Joint Utility Systems.",Bering Straits,Nome (CA),Bering Straits,AN
+Barrow Utilities & Electric Cooperative Inc.,Barrow,Barrow,0,50211,0,0,0,0,745980,0,EIA,0,North Slope,North Slope,Arctic Slope,AN
+Beaver Joint Utilities,Beaver,Beaver,318.02999999999997,0,0,0,0,30506,0,0,PCE,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Bethel Utilities Corporation,Bethel,"Bethel, Oscarville",41800,0,0,0,0,3094125,0,0,PCE,Provides power to Oscarville and sells power to Napakiak Ircinraq via intertie. Data includes Oscarville's information.,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+"Buckland, City of",Buckland,Buckland,1592.204,0,0,0,0,116056,0,0,PCE,0,Northwest Arctic,Northwest Arctic,NANA,AN
+Chalkyitsik Village Council,Chalkyitsik,Chalkyitsik,304.16500000000002,0,0,0,0,30609.000000000004,0,0,PCE,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Chenega Ira Council,Chenega Bay,Chenega Bay,308.27600000000001,0,0,0,0,29631,0,0,PCE,0,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC
+Chignik Lagoon Power Utility,Chignik Lagoon,Chignik Lagoon,506.53100000000001,0,0,0,0,43418,0,0,PCE,0,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+Chignik Lake Electric Utility,Chignik Lake,Chignik Lake,199.04300000000001,0,0,0,0,17351,0,0,PCE,0,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+"Chignik, City of",Chignik,Chignik,868.08199999999999,0,0,0,0,68013.455000000002,0,0,PCE,0,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+Chitina Electric Inc,Chitina,Chitina,519.23599999999999,0,0,0,0,41918,0,0,PCE,0,Copper River/Chugach,Valdez-Cordova (CA),Ahtna,SC
+Chugach Electric Assn Inc,Beluga,NA,0,2281306,0,0,0,0,24008970,0,EIA,0,Railbelt,Anchorage,Cook Inlet,SC
+Chugach Electric Assn Inc,Bernice Lake,NA,41995,0,0,0,0,0,601772,0,EIA,0,Railbelt,Kenai Peninsula,Cook Inlet,SC
+Chugach Electric Assn Inc,Cooper Lake,NA,0,0,0,28759,0,0,0,0,EIA,0,Railbelt,Anchorage,Cook Inlet,SC
+Chugach Electric Assn Inc,International,NA,21789,0,0,0,0,0,352079,0,EIA,0,Railbelt,Anchorage,Cook Inlet,SC
+Circle Electric Utility,Circle,Circle,389.51,0,0,0,0,36322,0,0,PCE,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Copper Valley Elec Assn Inc,Glennallen,Glennallen,15113,0,0,0,0,1136226,0,0,EIA,0,Copper River/Chugach,Valdez-Cordova (CA),Ahtna,SC
+Copper Valley Elec Assn Inc,Solomon Gulch,"Glennallen, Valdez",0,0,0,46189,0,0,0,0,EIA,0,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC
+Copper Valley Elec Assn Inc,Valdez,Valdez,7338,0,0,0,0,643230,0,0,EIA,0,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC
+Copper Valley Elec Assn Inc,Valdez Cogen,Valdez,17519,0,0,0,0,1869252,0,0,EIA,0,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC
+Cordova Electric Cooperative,Orca,"Cordova, Eyak",9068,0,0,0,0,781015,0,0,PCE,0,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC
+Cordova Electric Cooperative,Power Creek,"Cordova, Eyak",0,0,0,16759.928,0,0,0,0,PCE,0,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC
+Diomede Joint Utilities,Diomede,Diomede,438.73590000000002,0,0,0,0,45572,0,0,PCE,0,Bering Straits,Nome (CA),Bering Straits,AN
+Egegik Light & Power Co,Egegik,Egegik,281.745,0,0,0,0,27601,0,0,PCE,0,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+Elfin Cove Utility Commission,Elfin Cove,Elfin Cove,277.4572,0,0,0,0,25097,0,0,PCE,0,Southeast,Hoonah-Angoon (CA),Sealaska,SE
+"False Pass, City of",False Pass,False Pass,461.351,0,0,0,0,45211.999999999993,0,0,PCE,0,Aleutians,Aleutians East,Aleut,SW
+G & K Inc,Cold Bay,Cold Bay,2566.9209999999998,0,0,0,0,205710,0,0,PCE,0,Aleutians,Aleutians East,Aleut,SW
+"Galena, City of",Galena,Galena,2907.3449999999998,NA,NA,0,0,232400,NA,NA,PCE,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Gold Country Energy,Central,Central,474.60300000000001,0,0,0,0,45258.000000000007,0,0,PCE,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Golden Valley Elec Assn Inc,Delta Power,NA,-170,0,0,0,0,1806,0,0,EIA,0,Railbelt,Fairbanks North Star,Doyon,YU
+Golden Valley Elec Assn Inc,Fairbanks,NA,8529,0,0,0,0,1495746,0,0,EIA,0,Railbelt,Fairbanks North Star,Doyon,YU
+Golden Valley Elec Assn Inc,Healy,NA,178,0,178010,0,0,24192,0,175018,EIA,0,Railbelt,Denali,Doyon,YU
+Golden Valley Elec Assn Inc,North Pole,NA,486542,0,0,0,0,32928882,0,0,EIA,0,Railbelt,Fairbanks North Star,Doyon,YU
+Golovin Power Utilities,Golovin,Golovin,755.70100000000002,0,0,0,0,60975,0,0,PCE,0,Bering Straits,Nome (CA),Bering Straits,AN
+Gustavus Electric Co,Falls Creek,Gustavus,0,0,0,1955,0,0,0,0,PCE,0,Southeast,Hoonah-Angoon (CA),Sealaska,SE
+Gustavus Electric Co,Gustavus,Gustavus,98.196960000000004,0,0,0,0,12625.089,0,0,PCE,0,Southeast,Hoonah-Angoon (CA),Sealaska,SE
+Gwitchyaa Zhee Utilities Company,Fort Yukon,Fort Yukon,3061.62,0,0,0,0,238873,0,0,PCE,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Homer Electric Assn Inc,Nikiski Co-Generation,NA,0,276289,0,0,0,0,3577770,0,EIA,0,Railbelt,Kenai Peninsula,Cook Inlet,SC
+Homer Electric Assn Inc,Seldovia,NA,143,0,0,0,0,10206,0,0,EIA,0,Railbelt,Kenai Peninsula,Cook Inlet,SC
+Homer Electric Assn Inc,Bradley Lake,NA,0,0,0,303900,0,0,0,0,EIA,"Generation from Bradley Lake is shared among Chugach, AML&P, HEA, MEA, Seward Electric and GVEA",Railbelt,Anchorage,Cook Inlet,SC
+Hughes Power & Light,Hughes,Hughes,372.29500000000002,0,0,0,0,40992,0,0,PCE,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Igiugig Electric Company,Igiugig,Igiugig,307.71845500000001,0,0,0,0,27001.090199999999,0,0,PCE,0,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+"I-N-N Electric Coop, Inc",Newhalen,"Iliamna, Newhalen, Nondalton",84.087000000000003,0,0,0,0,6620.7960000000003,0,0,PCE,"Power produced at the Tazimina hydroelectric project and the Newhalen plant is shared by Iliamna, Newhalen and Nondalton. Newhalen's information is included in Nondalton's data.",Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+"I-N-N Electric Coop, Inc",Tazimina,"Iliamna, Newhalen, Nondalton",0,0,0,3566.2379999999998,0,0,0,0,PCE,"Power produced at the Tazimina hydroelectric project and the Newhalen plant is shared by Iliamna, Newhalen and Nondalton. Iliamna's information is included in Nondalton's data.",Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+Inside Passage Electric,Angoon,Angoon,2025.2149999999999,0,0,0,0,141021,0,0,PCE,0,Southeast,Hoonah-Angoon (CA),Sealaska,SE
+Inside Passage Electric,Chilkat Valley,Chilkat Valley,-68.440910000000002,0,0,183.54,0,0,0,0,PCE,Provides power to Klukwan via intertie. Power is purchased from AP&T.,Southeast,Haines,Sealaska,SE
+Inside Passage Electric,Hoonah,Hoonah,4816.875,0,0,0,0,331185,0,0,PCE,0,Southeast,Hoonah-Angoon (CA),Sealaska,SE
+Inside Passage Electric,Kake,Kake,2769.4879999999998,0,0,0,0,213498.00000000003,0,0,PCE,0,Southeast,Petersburg (CA),Sealaska,SE
+Inside Passage Electric,Klukwan,Klukwan,0,0,0,0,0,0,0,0,PCE,Receives power from Chilkat Valley via intertie. Chilkat Valley purchases power from AP&T.,Southeast,Hoonah-Angoon (CA),Sealaska,SE
+Ipnatchiaq Electric Company,Deering,Deering,336.34699999999998,NA,NA,0,0,26904,NA,NA,PCE,0,Northwest Arctic,Northwest Arctic,NANA,AN
+Ketchikan Public Utilities,Beaver Falls,Ketchikan,0,0,0,46676,0,0,0,0,EIA,0,Southeast,Ketchikan Gateway,Sealaska,SE
+Ketchikan Public Utilities,Ketchikan,Ketchikan,0,0,0,22625,0,0,0,0,EIA,0,Southeast,Ketchikan Gateway,Sealaska,SE
+Ketchikan Public Utilities,S W Bailey,Ketchikan,2603,0,0,0,0,294588,0,0,EIA,0,Southeast,Ketchikan Gateway,Sealaska,SE
+Ketchikan Public Utilities,Silvis,Ketchikan,0,0,0,12871,0,0,0,0,EIA,0,Southeast,Ketchikan Gateway,Sealaska,SE
+Ketchikan Public Utilities,Swan Lake,"Wrangell, Petersburg, Ketchikan",0,0,0,90502,0,0,0,0,EIA,0,Southeast,Ketchikan Gateway,Sealaska,SE
+"King Cove, City of",King Cove,King Cove,1712.346,0,0,3102.4639999999999,0,143977,0,0,PCE,0,Aleutians,Aleutians East,Aleut,SW
+Kipnuk Light Plant,Kipnuk,Kipnuk,1583.2080000000001,0,0,0,0,154889,0,0,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Kobuk Valley Electric Company,Kobuk,Kobuk,0,0,0,0,0,0,0,0,PCE,"Receives power from Shungnak via intertie. For fuel use and cost, please refer to Shungnak. On July 1, 2012, AVEC took over operations in Kobuk.",Northwest Arctic,Northwest Arctic,NANA,AN
+Kodiak Electric Assn Inc,Kodiak,Kodiak,18214,0,0,0,0,1296582,0,0,EIA,0,Kodiak,Kodiak Island,Koniag,SC
+Kodiak Electric Assn Inc,Nymans Plant,Kodiak,3568,0,0,0,0,350490,0,0,EIA,0,Kodiak,Kodiak Island,Koniag,SC
+Kodiak Electric Assn Inc,Pillar Mountain,Kodiak,0,0,0,0,12364,0,0,0,EIA,0,Kodiak,Kodiak Island,Koniag,SC
+Kodiak Electric Assn Inc,Port Lions,Kodiak,70,0,0,0,0,6510,0,0,EIA,0,Kodiak,Kodiak Island,Koniag,SC
+Kodiak Electric Assn Inc,Terror Lake,Kodiak,0,0,0,114186,0,0,0,0,EIA,0,Kodiak,Kodiak Island,Koniag,SC
+Kokhanok Village Council,Kokhanok,Kokhanok,406.92200000000003,0,0,0,66.448999999999998,39090,0,0,PCE,0,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+Kotzebue Electric Association,Kotzebue,Kotzebue,20300,0,0,0,1502.537,1417074,0,0,PCE,0,Northwest Arctic,Northwest Arctic,NANA,AN
+"Koyukuk, City of",Koyukuk,Koyukuk,314.14699999999999,0,0,0,0,32927,0,0,PCE,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Kwethluk Incorporated,Kwethluk,Kwethluk,1377.5930000000001,0,0,0,0,102428,0,0,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Kwigillingok Power Company,Kwigillingok,Kwigillingok,1168.2660000000001,0,0,0,0,84078,0,0,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Larsen Bay Utility Company,Larsen Bay,Larsen Bay,159.17355000000001,0,0,342.38499999999999,0,14340.001200000001,0,0,PCE,0,Kodiak,Kodiak Island,Koniag,SC
+Levelock Electrical Coop,Levelock,Levelock,472.11799999999999,0,0,0,0,42434,0,0,PCE,0,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+Lime Village Electric Utility,Lime Village,Lime Village,32.902999999999999,NA,NA,0,0,4227,NA,NA,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Manokotak Power Company,Manokotak,Manokotak,1365.7190000000001,0,0,0,0,104840,0,0,PCE,0,Bristol Bay,Dillingham (CA),Bristol Bay,SW
+Mcgrath Light & Power,McGrath,McGrath,2840.7040000000002,0,0,0,0,191841,0,0,PCE,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,SW
+Metlakatla Power & Light,Centennial,Metlakatla,65,0,0,0,0,16212,0,0,EIA,0,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Metlakatla Power & Light,Chester Lake,Metlakatla,0,0,0,5129,0,0,0,0,EIA,0,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Metlakatla Power & Light,Purple Lake,Metlakatla,0,0,0,15040,0,0,0,0,EIA,0,Southeast,Prince of Wales-Hyder (CA),Sealaska,SE
+Middle Kuskokwim Electric,Chuathbaluk,Chuathbaluk,220.98479999999998,0,0,0,0,25737.908999999996,0,0,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Middle Kuskokwim Electric,Crooked Creek,Crooked Creek,302.6524,0,0,0,0,25305,0,0,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Middle Kuskokwim Electric,Red Devil,Red Devil,106.4297,0,0,0,0,13336,0,0,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Middle Kuskokwim Electric,Sleetmute,Sleetmute,259.13670000000002,0,0,0,0,24532,0,0,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Middle Kuskokwim Electric,Stony River,Stony River,128.072,0,0,0,0,14182,0,0,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Naknek Electric Association,Naknek,"Naknek, King Salmon, South Naknek",19900,0,0,0,0,1319147,0,0,PCE,Provides power to South Naknek and King Salmon via intertie. Data includes South Naknek's and King Salmon's information.,Bristol Bay,Bristol Bay,Bristol Bay,SW
+Napakiak Ircinraq,Napakiak,Napakiak,0,0,0,0,0,0,0,0,PCE,Purchases power from Bethel Utilities Corporation,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Napaskiak Electric Utility,Napaskiak,Napaskiak,979.45,0,0,0,0,77093,0,0,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Naterkaq Light Plant,Chefornak,Chefornak,1630.624,0,0,0,0,123703,0,0,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Native Village of Perryville,Perryville,Perryville,176.43129999999999,0,0,0,15.798999999999999,14464.000000000002,0,0,PCE,0,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+Nelson Lagoon Electrical Coop,Nelson Lagoon,Nelson Lagoon,392.2319,0,0,0,0,44500.000000000007,0,0,PCE,0,Aleutians,Aleutians East,Aleut,SW
+New Koliganek Village Council,Koliganek,Koliganek,648.44000000000005,0,0,0,0,72207,0,0,PCE,0,Bristol Bay,Dillingham (CA),Bristol Bay,SW
+"Nikolai, City of",Nikolai,Nikolai,399.21109999999999,0,0,0,0,36527,0,0,PCE,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,SW
+Nome Joint Utility Systems,Snake River,Nome,33500,0,0,0,0,2109802,0,0,PCE,0,Bering Straits,Nome (CA),Bering Straits,AN
+North Slope Borough Power & Light,Anaktuvuk Pass,Anaktuvuk Pass,3599,0,0,0,0,278922,0,0,EIA,0,North Slope,North Slope,Arctic Slope,AN
+North Slope Borough Power & Light,Atqasuk,Atqasuk,3241,0,0,0,0,255318,0,0,EIA,0,North Slope,North Slope,Arctic Slope,AN
+North Slope Borough Power & Light,Kaktovik,Kaktovik,4550,0,0,0,0,353430,0,0,EIA,0,North Slope,North Slope,Arctic Slope,AN
+North Slope Borough Power & Light,Nuiqsut,Nuiqsut,1754,1475,0,0,0,88284,10329,0,EIA,0,North Slope,North Slope,Arctic Slope,AN
+North Slope Borough Power & Light,Point Hope,Point Hope,6153,0,0,0,0,412482,0,0,EIA,0,North Slope,North Slope,Arctic Slope,AN
+North Slope Borough Power & Light,Point Lay,Point Lay,3085,0,0,0,0,283458,0,0,EIA,0,North Slope,North Slope,Arctic Slope,AN
+North Slope Borough Power & Light,Wainwright,Wainwright,6258,0,0,0,0,490896,0,0,EIA,0,North Slope,North Slope,Arctic Slope,AN
+Nunam Iqua Electric Company,Sheldon Point,Nunam Iqua,829.24900000000002,0,0,0,0,67849,0,0,PCE,0,Lower Yukon-Kuskokwim,Wade Hampton (CA),Calista,YU
+Nushagak Electric Cooperative,Dillingham,"Dillingham, Aleknagik",18800,0,0,0,0,1276725,0,0,PCE,Provides power to Aleknagik via intertie. Data includes Aleknagik's information.,Bristol Bay,Dillingham (CA),Bristol Bay,SW
+"Ouzinkie, City of",Ouzinkie,Ouzinkie,328.82,0,0,0,0,26152,0,0,PCE,0,Kodiak,Kodiak Island,Koniag,SC
+Pedro Bay Village Council,Pedro Bay,Pedro Bay,211.78700000000001,0,0,0,0,19514,0,0,PCE,0,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+Pelican Utility,Pelican,Pelican,798.50199999999995,0,0,0,0,66631,0,0,PCE,0,Southeast,Hoonah-Angoon (CA),Sealaska,SE
+"Petersburg, City of",Blind Slough,Petersburg,618,0,0,10803,0,46662,0,0,EIA,0,Southeast,Petersburg (CA),Sealaska,SE
+Pilot Point Electric Utility,Pilot Point,Pilot Point,443.084,0,0,0,5.5170000000000003,44192,0,0,PCE,0,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+Port Heiden Utilities,Port Heiden,Port Heiden,490.07,0,0,0,0,57543.000000000007,0,0,PCE,0,Bristol Bay,Lake and Peninsula,Bristol Bay,SW
+Puvurnaq Power Company,Kongiganak,Kongiganak,671.83900000000006,0,0,0,44,88397,0,0,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+"Ruby, City of",Ruby,Ruby,732.57640000000004,0,0,0,0,53248,0,0,PCE,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+"Saint George, City of",Saint George,Saint George,420.73200000000003,0,0,0,0,35990,0,0,PCE,0,Aleutians,Aleutians West (CA),Aleut,SW
+Saint Paul Municipal Electric,Saint Paul,Saint Paul,4295.9750000000004,0,0,0,0,316222,0,0,PCE,0,Aleutians,Aleutians West (CA),Aleut,SW
+"Seward, City of",Seward,Seward,44,0,0,0,0,2226,0,0,EIA,0,Railbelt,Kenai Peninsula,Chugach,SC
+"Sitka, City & Borough of",Blue Lake,Sitka,0,0,0,56154,0,0,0,0,EIA,0,Southeast,Sitka,Sealaska,SE
+"Sitka, City & Borough of",Green Lake,Sitka,0,0,0,58996,0,0,0,0,EIA,0,Southeast,Sitka,Sealaska,SE
+"Sitka, City & Borough of",Jarvis Street,Sitka,1386,0,0,0,0,161028,0,0,EIA,0,Southeast,Sitka,Sealaska,SE
+Takotna Community Assoc Inc,Takotna,Takotna,194.57050000000001,0,0,0,0,21799,0,0,PCE,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,SW
+Tanalian Electric Cooperative,Port Alsworth,Port Alsworth,648.31299999999999,0,0,0,0,54661,0,0,PCE,0,Bristol Bay,Lake and Peninsula,Cook Inlet,SW
+Tanana Power Company Inc,Tanana,Tanana,1146.596,0,0,0,0,88911,0,0,PCE,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+Tatitlek Village Ira Council,Tatitlek,Tatitlek,472.20400000000001,0,0,0,0,42599,0,0,PCE,0,Copper River/Chugach,Valdez-Cordova (CA),Chugach,SC
+TDX Adak Generating LLC,Adak,Adak,1908.4159999999999,0,0,0,0,217292.2,0,0,PCE,0,Aleutians,Aleutians West (CA),Aleut,SW
+TDX Corporation,Sand Point,Sand Point,4313.7950000000001,0,0,0,0,299184,0,0,PCE,0,Aleutians,Aleutians East,Aleut,SW
+TDX Manley Generating LLC,Manley Hot Springs,Manley Hot Springs,434.1617,0,0,0,0,34534.667000000001,0,0,PCE,0,Yukon-Koyukuk/Upper Tanana,Yukon-Koyukuk (CA),Doyon,YU
+"Tenakee Springs, City of",Tenakee Springs,Tenakee Springs,416.31299999999999,0,0,0,0,33616,0,0,PCE,0,Southeast,Hoonah-Angoon (CA),Sealaska,SE
+Tuluksak Traditional,Tuluksak,Tuluksak,606.72309999999993,0,0,0,0,58214,0,0,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Tuntutuliak Community,Tuntutuliak,Tuntutuliak,970.95100000000002,0,0,0,0,92280.000000000015,0,0,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+Twin Hills Village Council,Twin Hills,Twin Hills,282.24180000000001,0,0,0,0,30161,0,0,PCE,0,Bristol Bay,Dillingham (CA),Bristol Bay,SW
+Umnak Power Company,Nikolski,Nikolski,211.643,0,0,0,0.66,24532,0,0,PCE,0,Aleutians,Aleutians West (CA),Aleut,SW
+Unalakleet Valley Electric Cooperative,Unalakleet,Unalakleet,3497.944,0,0,0,921.36699999999996,233637.00000000003,0,0,PCE,0,Bering Straits,Nome (CA),Bering Straits,AN
+"Unalaska, City of",NA,Unalaska,43500,0,0,0,0,2794440,0,0,PCE,Includes Unalaska Power Module and Dutch Harbor plants,Aleutians,Aleutians West (CA),Aleut,SW
+Ungusraq Power Company,Newtok,Newtok,426.98399999999998,0,0,0,0,41159,0,0,PCE,0,Lower Yukon-Kuskokwim,Bethel (CA),Calista,SW
+"White Mountain, City of",White Mountain,White Mountain,369.21600000000001,0,0,0,0,29509,0,0,PCE,0,Bering Straits,Nome (CA),Bering Straits,AN
+"Wrangell, City of",Wrangell,Wrangell,1374,0,0,0,0,39816,0,0,EIA,0,Southeast,Wrangell,Sealaska,SE
+Yakutat Power Inc,Yakutat,Yakutat,6511.7089999999998,0,0,0,0,450578,0,0,PCE,0,Southeast,Yakutat,Sealaska,SE
