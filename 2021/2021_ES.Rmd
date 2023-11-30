@@ -1,0 +1,457 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+
+
+```{R}
+library(readxl)
+library(readr)
+
+```
+
+```{R}
+
+
+
+# point towards directory
+# point towards workbook THIS WILL CHANGE SOON!
+drive <- "~/Desktop/final_workbooks/"
+setwd(drive)
+workbook <- "~/Desktop/final_workbooks/2021 AK Energy Statistics early release 06Nov2023.xlsx"
+
+# Read sheets and use for filenames
+sheets <- excel_sheets(workbook)
+filenames <- paste0(sheets, ".csv")
+
+# # read_excel only reads a single sheet, so lapply over each sheet name
+# dat <- lapply(sheets, read_excel, path = workbook)
+
+# point towards location to save raw CSV files (sheets)
+save_raw <- "~/repos/ak-energy-statistics-2011_2021/2021/raw/"
+setwd(save_raw)
+
+
+# # I dream of idempotency..
+# # Save each data frame with different filename using write_csv
+# lapply(seq_along(dat), function(i) write_csv(dat[[i]], filenames[i]))
+
+
+
+
+```
+
+
+```{R}
+setwd(save_raw)
+
+i <- NULL
+df <- NULL
+
+for(i in filenames){
+  assign(gsub(".csv", "", paste(i)), read.csv(paste(i)))
+}
+
+
+
+
+
+
+```
+
+
+set target for cleaned files
+**VERY IMPORTANT**
+```{R}
+save_staging <- "~/repos/ak-energy-statistics-2011_2021/2021/staging/"
+setwd(save_staging)
+
+
+
+
+```
+
+
+
+
+
+# TEMPLATE! COPY, DONT CHANGE
+## table   
+### 
+```{R}
+# save title
+title_ <- `Table `[1,1]
+print(title_)
+
+# save column names
+# watch out! different than others
+colnames(`Table `) <- `Table `[2, ]
+
+# delete first row (title), and third row (column names)
+`Table ` <- `Table `[-c(1,2), ]
+
+```
+
+
+
+
+
+
+
+# Individual table cleaning
+
+## CPCN crosswalk 
+### https://rca.alaska.gov/RCAWeb/RCALibrary/SearchResults.aspx?t=cert&p=rcareport&cert=&entity=&utiltype="
+### "accessed 7/30/23"
+```{R}
+# weirdo here
+# metadata riding along, print above then delete
+`CPCN crosswalk`[1,3]
+`CPCN crosswalk`[2,3]
+
+# save column names
+# watch out! different than others
+colnames(`CPCN crosswalk`) <- `CPCN crosswalk`[4, ]
+
+# delete a few rows
+`CPCN crosswalk` <- `CPCN crosswalk`[-c(1:4), ]
+
+```
+
+
+# Figures
+## burn it all
+```{R}
+
+
+```
+
+
+## Fiancial table notes
+### clean already!
+```{R}
+# nothing to do here!
+
+```
+
+
+## Installed Capacity
+### this one's a doosie...
+```{R}
+
+# delete garbage on sides and bottom
+`Installed Capacity` <- `Installed Capacity`[-c(63:70), ]
+`Installed Capacity` <- `Installed Capacity`[ , -c(11,12)]
+
+
+# set column names, add second row next
+colnames(`Installed Capacity`) <- `Installed Capacity`[2, ]
+
+# add second row to colnames for some (net capacity)
+b <- c(3,5,7,9)
+for (i in b){
+  colnames(`Installed Capacity`)[print(i)] <- paste(`Installed Capacity`[2,print(i)], `Installed Capacity`[3,print(i)], sep = ", ")
+}
+
+# add second row to colnames for some (% statewide total)
+b <- c(4,6,8,10)
+for (i in b){
+  colnames(`Installed Capacity`)[print(i)] <- paste(`Installed Capacity`[2,print(i-1)], `Installed Capacity`[3,print(i)], sep = ", ")
+}
+
+# delete rows
+`Installed Capacity` <- `Installed Capacity`[-c(1:3),]
+
+```
+
+
+
+
+# `LOOKUP INTERTIES 06092023`
+### looks great, leave alone
+```{R}
+
+```
+
+
+# `LOOKUP OPERATOR 05032023`
+### 
+```{R}
+# burn a few empty columns and duplicate columns
+`LOOKUP OPERATOR 05032023` <- `LOOKUP OPERATOR 05032023`[ , -c(16:20)]
+
+```
+
+# `LOOKUP PLANTS 05032023`
+### looks great, leave alone
+```{R}
+
+```
+
+
+# `LOOKUP Sales reporting 05242023`
+### looks great, leave alone
+```{R}
+
+```
+
+
+# `Net Generation`
+```{R}
+a <- `Net Generation`
+
+# delete garbage on bottom
+# a <- a[-c(63:72), ]
+
+# set column names, add second row next
+colnames(`Net Generation`) <- `Net Generation`[2, ]
+
+# add second row to colnames for some (net capacity)
+b <- c(4,6,8,10,12)
+for (i in b){
+  colnames(`Net Generation`)[print(i)] <- paste(`Net Generation`[2,print(i)], `Net Generation`[3,print(i)], sep = ", ")
+}
+
+# add second row to colnames for some (% statewide total)
+b <- c(5,7,9,11,13)
+for (i in b){
+  colnames(`Net Generation`)[print(i)] <- paste(`Net Generation`[2,print(i-1)], `Net Generation`[3,print(i)], sep = ", ")
+}
+
+# delete rows
+`Net Generation` <- `Net Generation`[-c(1:3),]
+
+
+
+```
+
+
+# Read Me
+## burn
+mostly just a table of contents page
+```{R}
+
+
+```
+
+## Sales-Revenue-Customers
+### "Sales, Revenue, and Customers by Customer Type by Operators/Utilities in Alaska (MWh, $000, Accounts), 1963-2021"
+```{R}
+print(`Sales-Revenue-Customers`[1,1])
+
+a <- `Sales-Revenue-Customers`
+
+# set column names, add second row next
+colnames(a) <- a[2, ]
+
+# add second row to colnames for some (sales)
+b <- c(4,8,12,16)
+for (i in b){
+  colnames(a)[print(i)] <- paste(a[2,print(i)], a[3,print(i)], sep = ", ")
+}
+
+# add third row to colnames where otherwise blank
+b <- c(5,6,7,9,10,11,13,14,15,17,18)
+for (i in b){
+  colnames(a)[print(i)] <- paste(a[3,print(i)])
+}
+
+# splinch move (ex: Other, Customers)
+# reference (i) vs (i-1)
+b <- c(9,10,11,13,14,15,17,18)
+
+
+```
+
+
+
+2.X TABLES BELOW
+
+## table 2.1a
+### "Installed Capacity by Plant and Prime Mover, 2021"
+```{R}
+# save title
+title_2.1a <- `Table 2.1a`[1,1]
+print(title_2.1a)
+
+# save second row as column names
+# watch out! different than others
+colnames(`Table 2.1a`) <- `Table 2.1a`[3, ]
+
+# delete first row (title), second row (blank, and third row (column names)
+`Table 2.1a` <- `Table 2.1a`[-c(1:3), ]
+
+```
+
+## table 2.2a
+### "Operators/Utilities Net Generation and Total Disposition (MWh), 2021"
+```{R}
+# save title
+title_2.2a <- `Table 2.2a`[1,1]
+print(title_2.2a)
+
+# save second row as column names
+# watch out! different than others
+colnames(`Table 2.2a`) <- `Table 2.2a`[3, ]
+
+# delete first row (title), second row (blank), and third row (column names)
+`Table 2.2a` <- `Table 2.2a`[-c(1,2,3), ]
+
+```
+
+
+## table 2.3a 
+### "Net Generation by plant and prime mover, 2021"
+```{R}
+# save title
+title_2.3a <- `Table 2.3a`[1,1]
+print(title_2.3a)
+
+# save second row as column names
+# watch out! different than others
+colnames(`Table 2.3a`) <- `Table 2.3a`[3, ]
+
+# delete first row (title), second row (blank), and third row (column names)
+`Table 2.3a` <- `Table 2.3a`[-c(1,2,3), ]
+
+```
+
+
+## table 2.3b
+### "Net Generation and fuel use by Utility/Operators, by plant and fuel type, 2021"
+```{R}
+# save title
+title_2.3b <- `Table 2.3b`[1,1]
+print(title_2.3b)
+
+# save second row as column names
+# watch out! different than others
+colnames(`Table 2.3b`) <- `Table 2.3b`[3, ]
+
+# delete first row (title), second row (blank), and third row (column names)
+`Table 2.3b` <- `Table 2.3b`[-c(1,2,3), ]
+
+```
+
+
+## table 2.3c
+### "Net Generation, Fuel Use, Fuel Cost, and Efficiency, by operator, plant, fuel, and prime mover, 2021"
+
+"Fuel Types: AB=Agricultural By-Products, DFO=Distillate Fuel Oil, JF=Jet Fuel, NG=Natural Gas, OTH=Other, RFO=Residual Fuel Oil, SUB=Sub-bituminous Coal, WAT=Water at a Conventional Hydroelectric Turbine, WC=Waste Coal, WDS=Wood Solids, WND=Wind, WO=Waste/Other Oil"
+
+"Prime Movers: CA=Combined Cycle, steam part, CT=Combined Cycle=turbine part, GT=Gas Turbine, HY=Hydroelectric Turbine, IC=Internal Combustion Engine, ST=Steam Turbine, WT=Wind Turbine"
+```{R}
+# save title
+title_2.3c <- `Table 2.3c`[1,1]
+print(title_2.3c)
+
+# metadata riders, print in comments above this chunk, then delete for now
+print(`Table 2.3c`[2,1])
+print(`Table 2.3c`[3,1])
+
+# save column names
+# watch out! different than others
+# for real this time, column names are on row 5
+colnames(`Table 2.3c`) <- `Table 2.3c`[5, ]
+
+# delete first row (title), and third row (column names)
+`Table 2.3c` <- `Table 2.3c`[-c(1:5), ]
+
+```
+
+
+
+## table 2.4a
+### "Net Generation, fuel Use, and CO2 Emissions by Plant, Prime Mover, and Fuel Type, 2021"
+
+"Fuel Types: AB=Agricultural By-Products, DFO=Distillate Fuel Oil, JF=Jet Fuel, NG=Natural Gas, OTH=Other, RFO=Residual Fuel Oil, SUB=Sub-bituminous Coal, WAT=Water at a Conventional Hydroelectric Turbine, WC=Waste Coal, WDS=Wood Solids, WND=Wind, WO=Waste/Other Oil"
+
+"Prime Movers: CA=Combined Cycle, steam part, CT=Combined Cycle=turbine part, GT=Gas Turbine, HY=Hydroelectric Turbine, IC=Internal Combustion Engine, ST=Steam Turbine, WT=Wind Turbine"
+```{R}
+# save title
+title_2.4a <- `Table 2.4a`[1,1]
+print(title_2.4a)
+
+# metadata riders, print in comments above this chunk, then delete for now
+print(`Table 2.4a`[2,1])
+print(`Table 2.4a`[3,1])
+
+# save fifth row as column names
+# watch out! different than others
+colnames(`Table 2.4a`) <- `Table 2.4a`[5, ]
+
+# delete first row (title), and third row (column names)
+`Table 2.4a` <- `Table 2.4a`[-c(1:5), ]
+
+```
+
+
+## table 2.5a
+### "Table 2.5a Revenue, Sales and Customers by Customer Type by Operators/Utilities ($000, MWh, Accounts), 2021"
+```{R}
+# extract title, use for idempotency below
+title_2.5a <- `Table 2.5a`[1,1]
+print(title_2.5a)
+
+# use table title as qualifyer for cleaning expression
+if(`Table 2.5a`[1,1] == "Table 2.5a   Revenue, Sales and Customers by customer type for certificated utilities ($000, MWh, Accounts), 2021") {
+  # save second row as column names
+  colnames(`Table 2.5a`) <- `Table 2.5a`[3, ]
+  
+  # delete first row (title), second row (blank), and third row (column names)
+  `Table 2.5a` <- `Table 2.5a`[-c(1:3), ]
+}
+
+setwd(save_staging)
+write.csv(`Table 2.5a`, file = "./table_2.5a.csv")
+
+```
+
+## table 2.5b
+### "Table 2.5b  Average Annual Energy Use and Rates by Customer Type by Operators/Utilities, (kWh/Customer, $/Customer, $/kWh), 2021"
+```{R}
+# save title, use to prevent repeat of cleaning expression
+title_2.5b <- `Table 2.5b`[1,1]
+print(title_2.5b)
+
+if(`Table 2.5b`[1,1] == "Table 2.5b   Average Annual Energy Use and Rates by Customer Type for certificated utilities (kWh/Customer, $/Customer, $/kWh), 2021"){
+  # save second row as column names
+  colnames(`Table 2.5b`) <- `Table 2.5b`[3, ]
+  
+  # delete first row (title), second row (blank) and third row (column names)
+  `Table 2.5b` <- `Table 2.5b`[-c(1:3), ]
+}
+
+setwd(save_staging)
+write.csv(`Table 2.5b`, file = "./table_2.5b.csv")
+
+```
+
+
+## table 2.5c
+### "Table 2.5c  Average Residential Rates and PCE Payments ($/kWh), 2021"
+```{R}
+# save title
+title_2.5c <- `Table 2.5c`[1,1]
+print(title_2.5c)
+
+if(`Table 2.5c`[1,1] == "Table 2.5c   Average Residential Rates and PCE Payments ($/kWh), 2021"){
+  # save third row as column names
+  colnames(`Table 2.5c`) <- `Table 2.5c`[3, ]
+  
+  # delete first row (title), second row (blank), and third row (column names)
+  `Table 2.5c` <- `Table 2.5c`[-c(1:3), ]
+}
+
+setwd(save_staging)
+write.csv(`Table 2.5c`, file = "./table_2.5c.csv")
+  
+```
+
+
+
+
+
+
