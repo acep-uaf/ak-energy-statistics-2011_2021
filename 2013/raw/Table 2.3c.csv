@@ -1,0 +1,291 @@
+"Certified Utilities Net Generation, Fuel Use, Fuel Cost, and Efficiency, 2013",...2,...3,...4,...5,...6,...7,...8,...9,...10,...11,...12,...13,...14
+"Fuel Types: AB=Agricultural By-Products, DFO=Distillate Fuel Oil, JF=Jet Fuel, NG=Natural Gas, OTH=Other, RFO=Residual Fuel Oil, SUB=Sub-bituminous Coal, WAT=Water at a Conventional Hydroelectric Turbine, WC=Waste Coal, WDS=Wood Solids, WND=Wind, WO=Waste/Other Oil",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Prime Movers: CA=Combined Cycle, steam part, CT=Combined Cycle=turbine part, GT=Gas Turbine, HY=Hydroelectric Turbine, IC=Internal Combustion Engine, ST=Steam Turbine, WT=Wind Turbine",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Utility Name,Plant Name,Community Name,Fuel Type,Prime Mover,Net Generation MWh,Fuel Use,Estimated Fuel Consumption MMBtu,Avg. Cost ($) per Gallon (PCE only),kWh per Gallon-Mcf-Short tons,Fuel Cost ($) per kWh,"Estimated Heat Content Factor per Unit, MMBtu",Source,Notes
+"Akhiok, City of",Akhiok,Akhiok,DFO,IC,69,6510,902,4.92,10,0.49,0.14000000000000001,PCE,NA
+Akiachak Native Community,Akiachak,Akiachak,DFO,IC,1873,133956,18578,4.3600000000000003,14,0.31,0.14000000000000001,PCE,NA
+Akiak City Council,Akiak,Akiak,DFO,IC,1146,88134,12223,5.18,13,0.4,0.14000000000000001,PCE,NA
+"Akutan, City of",Akutan,Akutan,DFO,IC,500,39771,5515,4.04,13,0.31,0.14000000000000001,PCE,NA
+Alaska Electric Light & Power Company,Annex Creek,Juneau,WAT,HY,25056,0,239060,NA,NA,NA,NA,EIA,NA
+Alaska Electric Light & Power Company,Auke Bay,Juneau,DFO,GT,253,58002,7889,NA,4.3600000000000003,NA,0.14000000000000001,EIA,NA
+Alaska Electric Light & Power Company,Auke Bay,Juneau,DFO,IC,21,2940,401,NA,7.14,NA,0.14000000000000001,EIA,NA
+Alaska Electric Light & Power Company,Gold Creek,Juneau,DFO,IC,14,1176,156,NA,11.9,NA,0.14000000000000001,EIA,NA
+Alaska Electric Light & Power Company,Gold Creek,Juneau,WAT,HY,4690,0,44747,NA,NA,NA,NA,EIA,NA
+Alaska Electric Light & Power Company,Lake Dorothy,Juneau,WAT,HY,82519,0,787313,NA,NA,NA,NA,EIA,NA
+Alaska Electric Light & Power Company,Lemon Creek,Juneau,DFO,GT,231,28728,3907,NA,8.0399999999999991,NA,0.14000000000000001,EIA,NA
+Alaska Electric Light & Power Company,Lemon Creek,Juneau,DFO,IC,200,16380,2226,NA,12.21,NA,0.14000000000000001,EIA,NA
+Alaska Electric Light & Power Company,Salmon Creek 1,Juneau,WAT,HY,30072,0,286917,NA,NA,NA,NA,EIA,NA
+Alaska Electric Light & Power Company,Snettisham,Juneau,WAT,HY,258832,0,2469519,NA,NA,NA,NA,EIA,NA
+Alaska Environmental Power LLC,Delta Wind Farm,Fairbanks,WND,WT,1600,0,15265,NA,NA,NA,NA,EIA,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Alaska Power & Telephone Company,Allakaket,Allakaket,DFO,IC,697,57422,7963,6.15,12,0.51,0.14000000000000001,PCE,Provides power to Alatna via intertie. Includes Alatna's data.
+Alaska Power & Telephone Company,Bettles,Bettles,DFO,IC,573,47322,6563,4.43,12,0.37,0.14000000000000001,PCE,Provides power to Evansville via intertie. Includes Evansville's data.
+Alaska Power & Telephone Company,Black Bear Lake,Craig,WAT,HY,20540,0,195973,NA,NA,NA,NA,EIA,"Provides power to Hollis, Klawock, Thorne Bay, Kasaan and Hydaburg via intertie. Includes data for all communities."
+Alaska Power & Telephone Company,Chistochina,Chistochina,DFO,IC,47,4132,573,3.7,12,0.31,0.14000000000000001,PCE,Receives power from Slana via intertie. Refer to Slana for fuel use and cost data.
+Alaska Power & Telephone Company,Coffman Cove,Coffman Cove,DFO,IC,0,2426,336,4.12,7,0.59,0.14000000000000001,PCE,Part of the Alaska Power Company's grid on Prince of Wales Island. Receives power from Craig. Refer to Craig for fuel use and cost data.
+Alaska Power & Telephone Company,Craig,Craig,DFO,IC,1445,114618,15899,NA,12.61,NA,0.14000000000000001,EIA,"Provides power to Hollis, Klawock, Thorne Bay, Kasaan and Hydaburg via intertie. Includes data for all communities."
+Alaska Power & Telephone Company,Eagle,Eagle,DFO,IC,718,52528,7285,3.88,13,0.3,0.14000000000000001,PCE,Provides power to Eagle Village via intertie. Includes Eagle Village's data.
+Alaska Power & Telephone Company,False Island,Thorne Bay,DFO,IC,1501,103572,14366,NA,14.49,NA,0.14000000000000001,EIA,Part of the Alaska Power Company's grid on Prince of Wales Island. Receives power from Craig. Refer to Craig for Thorne Bay and Kaasan fuel use and cost data.
+Alaska Power & Telephone Company,Goat Lake,Haines,WAT,HY,15521,0,148086,NA,NA,NA,NA,EIA,Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.
+Alaska Power & Telephone Company,Haines,Haines,DFO,IC,844,83202,11539,NA,10.14,NA,0.14000000000000001,EIA,Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.
+Alaska Power & Telephone Company,Healy Lake,Healy Lake,DFO,IC,34,7660,1062,4.3499999999999996,4,1.0900000000000001,0.14000000000000001,PCE,NA
+Alaska Power & Telephone Company,Hydaburg,Hydaburg,DFO,IC,13,4746,659,NA,2.74,NA,0.14000000000000001,EIA,Part of the Alaska Power Company's grid on Prince of Wales Island. Receives power from Craig. Refer to Craig for fuel use and cost data.
+Alaska Power & Telephone Company,Kasidaya Creek,Haines,WAT,HY,7405,0,70651,NA,NA,NA,NA,EIA,Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.
+Alaska Power & Telephone Company,Mentasta Lake,Mentasta Lake,DFO,IC,0,84,11,3.75,11,0.34,0.14000000000000001,PCE,NA
+Alaska Power & Telephone Company,Naukati Bay,Naukati Bay,DFO,IC,446,37388,5185,3.91,12,0.33,0.14000000000000001,PCE,NA
+Alaska Power & Telephone Company,Northway,Northway Village,DFO,IC,1236,96876,13435,3.98,12,0.33,0.14000000000000001,PCE,Receives power from Northway via intertie. Refer to Northway for fuel use and cost data.
+Alaska Power & Telephone Company,Skagway,Haines,DFO,IC,138,18186,2522,NA,7.59,NA,0.14000000000000001,EIA,Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.
+Alaska Power & Telephone Company,Skagway,Skagway,DFO,IC,188,22087,3063,3.96,13,0.3,0.14000000000000001,PCE,Part of the Alaska Power Company's grid in the UpperLynn Canal service area.
+Alaska Power & Telephone Company,Slana,Slana,DFO,IC,1273,109596,15199,3.72,11,0.34,0.14000000000000001,PCE,Provides power to Chistochina via intertie. Includes Chistochina's data.
+Alaska Power & Telephone Company,South Fork,Craig,WAT,HY,5715,0,54525,NA,NA,NA,NA,EIA,"Provides power to Hollis, Klawock, Thorne Bay, Kasaan and Hydaburg via intertie. Includes data for all communities."
+Alaska Power & Telephone Company,Thorne Bay Plant,Thorne Bay,DFO,IC,76,9996,1386,NA,7.6,NA,0.14000000000000001,EIA,Part of the Alaska Power Company's grid on Prince of Wales Island. Receives power from Craig. Refer to Craig for Thorne Bay and Kaasan fuel use and cost data.
+Alaska Power & Telephone Company,Tok,Tok,DFO,IC,9753,696292,96568,3.76,14,0.27,0.14000000000000001,PCE,"Provides power to Tanacross, Tetlin, Dot Lake, and Dot Lake Village via intertie. Includes data for all communities."
+Alaska Power & Telephone Company,Viking,Craig,DFO,IC,-12,1554,213,NA,NA,NA,0.14000000000000001,EIA,"Provides power to Hollis, Klawock, Thorne Bay, Kasaan and Hydaburg via intertie. Includesdata for all communities."
+Alaska Power & Telephone Company,Whale Pass,Whale Pass,DFO,IC,299,25975,3602,4.01,12,0.33,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Alakanuk,Alakanuk,DFO,IC,2266,182346,25289,3.98,12,0.33,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Alakanuk,Alakanuk,JF,IC,2266,182364,24359,NA,12.43,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,Ambler,Ambler,DFO,IC,1257,93149,12918,4.68,13,0.36,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Anvik,Anvik,DFO,IC,419,34728,4816,3.4,12,0.28000000000000003,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Brevig Mission,Brevig Mission,DFO,IC,1115,87263,12102,3.81,13,0.28999999999999998,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Chevak,Chevak,DFO,IC,1712,144385,20024,3.51,12,0.28999999999999998,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Eek,Eek,DFO,IC,829,62220,8629,3.56,13,0.27,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Ekwok,Ekwok,DFO,IC,503,46841,6496,4.4800000000000004,11,0.41,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Elim,Elim,DFO,IC,1190,90551,12558,3.65,13,0.28000000000000003,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Elim,Elim,JF,IC,1190,90552,12095,NA,13.14,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,Emmonak,Emmonak,DFO,IC,3187,236718,32830,3.99,13,0.31,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Emmonak,Emmonak,JF,IC,0,0,0,NA,NA,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,Gambell,Gambell,DFO,IC,1454,115833,16064,3.54,13,0.27,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Gambell,Gambell,JF,IC,1519,115836,15471,NA,13.11,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,Goodnews Bay,Goodnews Bay,DFO,IC,727,55388,7681,4.1399999999999997,13,0.32,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Grayling,Grayling,DFO,IC,576,47967,6652,3.43,12,0.28999999999999998,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Holy Cross,Holy Cross,DFO,IC,630,51837,7189,3.39,12,0.28000000000000003,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Hooper Bay,Hooper Bay,DFO,IC,2685,205623,28517,3.81,13,0.28999999999999998,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Hooper Bay,Hooper Bay,JF,IC,0,0,0,NA,NA,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,Huslia,Huslia,DFO,IC,977,74599,10346,4.1100000000000003,13,0.32,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Kaltag,Kaltag,DFO,IC,708,51561,7151,3.35,14,0.24,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Kasigluk,Kasigluk,DFO,IC,2411,168738,23402,4.33,14,0.31,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Kasigluk,Kasigluk,JF,IC,2439,168756,22540,NA,14.45,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,Kiana,Kiana,DFO,IC,1525,114002,15810,4.41,13,0.34,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Kiana,Kiana,JF,IC,0,0,0,NA,NA,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,Kivalina,Kivalina,DFO,IC,1267,94423,13095,4.01,13,0.31,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Kivalina,Kivalina,JF,IC,1268,94416,12611,NA,13.43,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,Kotlik,Kotlik,DFO,IC,1966,160772,22297,3.54,12,0.3,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Kotlik,Kotlik,JF,IC,1966,160776,21475,NA,12.23,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,Koyuk,Koyuk,DFO,IC,1302,95374,13227,3.72,13,0.28999999999999998,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Koyuk,Koyuk,JF,IC,1302,95382,12739,NA,13.65,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,Marshall,Marshall,DFO,IC,1585,118032,16369,3.71,13,0.28999999999999998,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Mekoryuk,Mekoryuk,DFO,IC,682,58992,8181,3.82,12,0.32,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Minto,Minto,DFO,IC,606,43887,6086,3.81,14,0.27,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Mountain Village,Mountain Village,DFO,IC,2903,215271,29855,4.22,13,0.32,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Mountain Village,Mountain Village,JF,IC,0,0,0,NA,NA,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,New Stuyahok,New Stuyahok,DFO,IC,1390,101351,14056,3.99,13,0.31,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Noatak,Noatak,DFO,IC,1874,129679,17985,6.27,14,0.45,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Noatak,Noatak,JF,IC,1874,129696,17323,NA,14.45,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,Noorvik,Noorvik,DFO,IC,1925,150080,20814,3.68,13,0.28000000000000003,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Noorvik,Noorvik,JF,IC,0,0,0,NA,NA,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,Nulato,Nulato,DFO,IC,1038,77158,10701,4.05,13,0.31,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Old Harbor,Old Harbor,DFO,IC,831,59230,8214,3.59,14,0.26,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Pilot Station,Pilot Station,DFO,IC,1805,134752,18688,3.27,13,0.25,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Pilot Station,Pilot Station,JF,IC,1806,134736,17997,NA,13.4,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,Quinhagak,Quinhagak,DFO,IC,1453,123934,17188,3.77,12,0.31,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Quinhagak,Quinhagak,JF,IC,1483,123942,16554,NA,11.97,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,Russian Mission,Russian Mission,DFO,IC,1019,70580,9788,3.68,14,0.26,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Saint Mary's,Saint Mary's,DFO,IC,3166,246874,34238,3.92,13,0.3,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Saint Mary's,Saint Mary's,JF,IC,0,0,0,NA,NA,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,Saint Michael,Saint Michael,DFO,IC,1720,130190,18056,3.87,13,0.3,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Saint Michael,Saint Michael,JF,IC,1720,130200,17392,NA,13.21,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,Savoonga,Savoonga,DFO,IC,1803,134961,18717,3.56,13,0.27,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Savoonga,Savoonga,JF,IC,1821,134946,18025,NA,13.49,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,Scammon Bay,Scammon Bay,DFO,IC,1674,121894,16905,4.01,13,0.31,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Scammon Bay,Scammon Bay,JF,IC,1675,121884,16283,NA,13.74,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,Selawik,Selawik,DFO,IC,2809,206632,28657,4.13,13,0.32,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Selawik,Selawik,JF,IC,0,0,0,NA,NA,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,Shageluk,Shageluk,DFO,IC,376,31605,4383,3.57,12,0.3,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Shaktoolik,Shaktoolik,DFO,IC,737,64516,8947,3.98,13,0.31,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Shishmaref,Shishmaref,DFO,IC,1630,130221,18060,5.37,12,0.45,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Shishmaref,Shishmaref,JF,IC,0,0,0,NA,NA,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,Shungnak,Shungnak,DFO,IC,1737,126045,17481,3.71,14,0.27,0.14000000000000001,PCE,Provides power to Kobuk via intertie. Includes Kobuk's data.
+Alaska Village Electric Cooperative,Shungnak,Shungnak,JF,IC,1737,126042,16835,NA,13.78,NA,0.14000000000000001,EIA,Provides power to Kobuk via intertie. Includes Kobuk's data.
+Alaska Village Electric Cooperative,Stebbins,Stebbins,DFO,IC,1517,117657,16317,3.6,13,0.28000000000000003,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Stebbins,Stebbins,JF,IC,1518,117642,15712,NA,12.9,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,Teller,Teller,DFO,IC,838,61756,8564,4.22,14,0.3,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Togiak,Togiak,DFO,IC,3008,230343,31946,3.98,13,0.31,0.14000000000000001,PCE,NA
+Alaska Village Electric Cooperative,Togiak,Togiak,JF,IC,0,0,0,NA,NA,NA,0.14000000000000001,EIA,NA
+Alaska Village Electric Cooperative,Toksook Bay,Toksook Bay,DFO,IC,2588,202531,28089,3.84,13,0.3,0.14000000000000001,PCE,Provides power to Nightmute and Tununak via intertie. Includes Nightmute's and Tununak's data.
+Alaska Village Electric Cooperative,Toksook Bay,Toksook Bay,JF,IC,2672,202524,27051,NA,13.19,NA,0.14000000000000001,EIA,Provides power to Nightmute and Tununak via intertie. Includes Nightmute's and Tununak's data.
+Alaska Village Electric Cooperative,Upper Kalskag,Kalskag,DFO,IC,1327,100356,13918,4.03,13,0.31,0.14000000000000001,PCE,Provides power to Lower Kalskag via intertie. Includes Lower Kalskag's data.
+Alaska Village Electric Cooperative,Wales,Wales,DFO,IC,609,47917,6645,4.2,13,0.32,0.14000000000000001,PCE,NA
+Alutiiq Power Company,Karluk,Karluk,DFO,IC,259,24075,3338,4.5199999999999996,10,0.45,0.14000000000000001,PCE,NA
+Anchorage Municipal Light & Power,Anchorage 1,Anchorage,DFO,GT,60,7434,977,NA,8.1999999999999993,NA,0.14000000000000001,EIA,"In addition to Anchorage, the CEA service area includes eight other communities."
+Anchorage Municipal Light & Power,Anchorage 1,Anchorage,DFO,IC,113,7434,977,NA,15.2,NA,0.14000000000000001,EIA,"In addition to Anchorage, the CEA service area includes eight other communities."
+Anchorage Municipal Light & Power,Anchorage 1,Anchorage,NG,GT,22163,348154,355118,NA,63.66,NA,1.02,EIA,"In addition to Anchorage, the CEA service area includes eight other communities."
+Anchorage Municipal Light & Power,Eklutna Lake,Anchorage,WAT,HY,89936,0,858079,NA,NA,NA,NA,EIA,"In addition to Anchorage, the CEA service area includes eight other communities."
+Anchorage Municipal Light & Power,George M Sullivan Generation Plant 2,Anchorage,DFO,CA,348,0,0,NA,NA,NA,0.14000000000000001,EIA,"In addition to Anchorage, the CEA service area includes eight other communities."
+Anchorage Municipal Light & Power,George M Sullivan Generation Plant 2,Anchorage,DFO,CT,1164,125496,16493,NA,9.2799999999999994,NA,0.14000000000000001,EIA,"In addition to Anchorage, the CEA service area includes eight other communities."
+Anchorage Municipal Light & Power,George M Sullivan Generation Plant 2,Anchorage,NG,CA,119093,0,0,NA,NA,NA,1.02,EIA,"In addition to Anchorage, the CEA service area includes eight other communities."
+Anchorage Municipal Light & Power,George M Sullivan Generation Plant 2,Anchorage,NG,CT,398344,5468764,5578139,NA,72.84,NA,1.02,EIA,"In addition to Anchorage, the CEA service area includes eight other communities."
+Anchorage Municipal Light & Power,George M Sullivan Generation Plant 2,Anchorage,NG,GT,43332,610131,622336,NA,71.02,NA,1.02,EIA,"In addition to Anchorage, the CEA service area includes eight other communities."
+Anchorage Municipal Light & Power,George M Sullivan Generation Plant 2,Anchorage,OTH,CA,0,0,0,NA,NA,NA,NA,EIA,"In addition to Anchorage, the CEA service area includes eight other communities."
+Anchorage Municipal Light & Power,George M Sullivan Generation Plant 2,Anchorage,OTH,CT,0,0,0,NA,NA,NA,NA,EIA,"In addition to Anchorage, the CEA service area includes eight other communities."
+Aniak Light & Power,Aniak,Aniak,DFO,IC,2548,203456,28217,4.1100000000000003,12,0.34,0.14000000000000001,PCE,NA
+Arctic Village Electric Company,Arctic Village,Arctic Village,DFO,IC,517,46820,6493,4.9400000000000004,11,0.45,0.14000000000000001,PCE,NA
+"Atka, City of",Atka,Atka,DFO,IC,30,9039,1253,5.3,9,0.59,0.14000000000000001,PCE,NA
+Atmautluak Tribal Utilities,Atmautluak,Atmautluak,DFO,IC,718,52408,7268,4.4800000000000004,14,0.32,0.14000000000000001,PCE,NA
+Aurora Energy LLC Chena,Aurora Energy,Fairbanks,AB,ST,0,0,0,NA,NA,NA,NA,EIA,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Aurora Energy LLC Chena,Aurora Energy,Fairbanks,DFO,ST,0,0,0,NA,NA,NA,0.14000000000000001,EIA,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Aurora Energy LLC Chena,Aurora Energy,Fairbanks,SUB,ST,187843,210117,3202218,NA,893.99,NA,19.579999999999998,EIA,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Aurora Energy LLC Chena,Aurora Energy,Fairbanks,WDS,ST,0,0,0,NA,NA,NA,NA,EIA,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Barrow Utilities & Electric Cooperative Inc.,Barrow,Barrow,DFO,GT,26,2772,396,NA,9.4700000000000006,NA,0.14000000000000001,EIA,NA
+Barrow Utilities & Electric Cooperative Inc.,Barrow,Barrow,NG,GT,50225,757524,757524,NA,66.3,NA,1.02,EIA,NA
+Barrow Utilities & Electric Cooperative Inc.,Barrow,Barrow,NG,IC,0,0,0,NA,NA,NA,1.02,EIA,NA
+Beaver Joint Utilities,Beaver,Beaver,DFO,IC,296,31141,4318,4.8600000000000003,9,0.54,0.14000000000000001,PCE,NA
+Bethel Utilities Corporation,Bethel,Bethel,DFO,IC,42620,3156572,437784,5.94,13,0.46,0.14000000000000001,PCE,Provides power to Oscarville and sells power to Napakiak Ircinraq via intertie. Includes Oscarville's data.
+"Buckland, City of",Buckland,Buckland,DFO,IC,1750,151833,21057,4.22,11,0.38,0.14000000000000001,PCE,NA
+Chalkyitsik Village Council,Chalkyitsik,Chalkyitsik,DFO,IC,361,32889,4561,5.76,11,0.52,0.14000000000000001,PCE,NA
+Chenega Ira Council,Chenega Bay,Chenega Bay,DFO,IC,269,23050,3196,5.41,12,0.45,0.14000000000000001,PCE,NA
+"Chignik, City of",Chignik,Chignik,DFO,IC,850,66106,9168,3.88,13,0.3,0.14000000000000001,PCE,NA
+Chignik Lagoon Power Utility,Chignik Lagoon,Chignik Lagoon,DFO,IC,381,37643,5220,4.57,10,0.46,0.14000000000000001,PCE,NA
+Chignik Lake Electric Utility,Chignik Lake,Chignik Lake,DFO,IC,384,38509,5340,5.0999999999999996,10,0.51,0.14000000000000001,PCE,NA
+Chitina Electric Inc,Chitina,Chitina,DFO,IC,459,43298,6005,4.28,11,0.39,0.14000000000000001,PCE,NA
+Chugach Electric Assn Inc,Beluga,Anchorage,NG,CA,201961,0,0,NA,NA,NA,1.02,EIA,"In addition to Anchorage, the CEA service area includes eight other communities."
+Chugach Electric Assn Inc,Beluga,Anchorage,NG,CT,845061,10285290,10285290,NA,82.16,NA,1.02,EIA,"In addition to Anchorage, the CEA service area includes eight other communities."
+Chugach Electric Assn Inc,Beluga,Anchorage,NG,GT,332722,4664731,4664731,NA,71.33,NA,1.02,EIA,"In addition to Anchorage, the CEA service area includes eight other communities."
+Chugach Electric Assn Inc,Bernice Lake,Anchorage,NG,GT,41965,644042,676245,NA,65.16,NA,1.02,EIA,"In addition to Anchorage, the CEA service area includes eight other communities."
+Chugach Electric Assn Inc,Cooper Lake,Anchorage,WAT,HY,35928,0,342788,NA,NA,NA,NA,EIA,"In addition to Anchorage, the CEA service area includes eight other communities."
+Chugach Electric Assn Inc,International,Anchorage,NG,GT,14860,280590,280590,NA,52.96,NA,1.02,EIA,"In addition to Anchorage, the CEA service area includes eight other communities."
+Chugach Electric Assn Inc,Southcentral Power Project,Anchorage,NG,CA,192620,47114,47114,NA,4088.38,NA,1.02,EIA,"In addition to Anchorage, the CEA service area includes eight other communities."
+Chugach Electric Assn Inc,Southcentral Power Project,Anchorage,NG,CT,754787,7092773,7092773,NA,106.42,NA,1.02,EIA,"In addition to Anchorage, the CEA service area includes eight other communities."
+Circle Electric Utility,Circle,Circle,DFO,IC,408,37589,5213,3.77,10,0.38,0.14000000000000001,PCE,NA
+Copper Valley Elec Assn Inc,Glennallen,Valdez,DFO,IC,13574,978600,135047,NA,13.87,NA,0.14000000000000001,EIA,"In addition to Valdez, the CVEA service area includes 14 other communities."
+Copper Valley Elec Assn Inc,Solomon Gulch,Valdez,WAT,HY,54750,0,522369,NA,NA,NA,NA,EIA,"In addition to Valdez, the CVEA service area includes 14 other communities."
+Copper Valley Elec Assn Inc,Valdez,Valdez,DFO,GT,717,96768,13353,NA,7.41,NA,0.14000000000000001,EIA,"In addition to Valdez, the CVEA service area includes 14 other communities."
+Copper Valley Elec Assn Inc,Valdez,Valdez,DFO,IC,4358,467628,64532,NA,9.32,NA,0.14000000000000001,EIA,"In addition to Valdez, the CVEA service area includes 14 other communities."
+Copper Valley Elec Assn Inc,Valdez Cogen,Valdez,JF,GT,0,0,0,NA,NA,NA,0.14000000000000001,EIA,"In addition to Valdez, the CVEA service area includes 14 other communities."
+Copper Valley Elec Assn Inc,Valdez Cogen,Valdez,WO,GT,17027,1833342,201666,NA,390.07,NA,0.14000000000000001,EIA,"In addition to Valdez, the CVEA service area includes 14 other communities."
+Cordova Electric Cooperative,Humpback Creek,Cordova,WAT,HY,3510,0,33489,NA,NA,NA,NA,EIA,NA
+Cordova Electric Cooperative,Orca,Cordova,DFO,IC,8914,711695,98704,3.62,13,0.28000000000000003,0.14000000000000001,PCE,NA
+Cordova Electric Cooperative,Power Creek,Cordova,WAT,HY,15774,0,150500,NA,NA,NA,NA,EIA,NA
+Diomede Joint Utilities,Diomede,Diomede,DFO,IC,397,18124,2513,4.45,24,0.19,0.14000000000000001,PCE,NA
+Egegik Light & Power Co,Egegik,Egegik,DFO,IC,603,54584,7570,4.6100000000000003,11,0.42,0.14000000000000001,PCE,NA
+Elfin Cove Utility Commission,Elfin Cove,Elfin Cove,DFO,IC,247,23395,3244,5.0999999999999996,11,0.46,0.14000000000000001,PCE,NA
+"False Pass, City of",False Pass,False Pass,DFO,IC,691,58462,8108,3.65,12,0.3,0.14000000000000001,PCE,NA
+Fire Island Wind LLC,Fire Island,Anchorage,WND,WT,44784,0,427284,NA,NA,NA,NA,EIA,"In addition to Anchorage, the CEA service areaincludes eight other communities."
+"Galena, City of",Galena,Galena,DFO,IC,5428,431338,59822,3.65,13,0.28000000000000003,0.14000000000000001,PCE,NA
+G & K Inc,Cold Bay,Cold Bay,DFO,IC,2615,206725,28670,5.13,13,0.39,0.14000000000000001,PCE,NA
+Gold Country Energy,Central,Central,DFO,IC,524,46041,6385,3.46,11,0.31,0.14000000000000001,PCE,NA
+Golden Valley Elec Assn Inc,Delta Power,Fairbanks,DFO,GT,-170,2310,305,NA,NA,NA,0.14000000000000001,EIA,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Golden Valley Elec Assn Inc,Eva Creek,Fairbanks,WND,WT,71010,0,677506,NA,NA,NA,NA,EIA,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Golden Valley Elec Assn Inc,Fairbanks,Fairbanks,DFO,GT,101,18858,2471,NA,5.36,NA,0.14000000000000001,EIA,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Golden Valley Elec Assn Inc,Fairbanks,Fairbanks,DFO,IC,-120,1134,151,NA,NA,NA,0.14000000000000001,EIA,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Golden Valley Elec Assn Inc,Fairbanks,Fairbanks,RFO,GT,6896,1199520,168504,NA,5.75,NA,0.15,EIA,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Golden Valley Elec Assn Inc,Healy,Fairbanks,DFO,IC,16,1260,171,NA,12.7,NA,0.14000000000000001,EIA,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Golden Valley Elec Assn Inc,Healy,Fairbanks,DFO,ST,238,24024,3262,NA,9.91,NA,0.14000000000000001,EIA,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Golden Valley Elec Assn Inc,Healy,Fairbanks,SUB,ST,0,0,0,NA,NA,NA,19.579999999999998,EIA,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Golden Valley Elec Assn Inc,Healy,Fairbanks,WC,ST,191063,7754418,2585805,NA,1034.8499999999999,NA,11.6,EIA,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Golden Valley Elec Assn Inc,North Pole,Fairbanks,DFO,GT,437,48636,6373,NA,9,NA,0.14000000000000001,EIA,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Golden Valley Elec Assn Inc,North Pole,Fairbanks,JF,CA,67661,0,0,NA,NA,NA,0.14000000000000001,EIA,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Golden Valley Elec Assn Inc,North Pole,Fairbanks,JF,CT,295451,23345238,2779195,NA,12.66,NA,0.14000000000000001,EIA,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Golden Valley Elec Assn Inc,North Pole,Fairbanks,RFO,GT,27094,2764230,388309,NA,9.8000000000000007,NA,0.15,EIA,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Golovin Power Utilities,Golovin,Golovin,DFO,IC,807,66097,9166,3.75,12,0.31,0.14000000000000001,PCE,NA
+Gustavus Electric Co,Gustavus,Gustavus,DFO,IC,64,6875,953,4.0999999999999996,13,0.32,0.14000000000000001,PCE,NA
+Gwitchyaa Zhee Utilities Company,Fort Yukon,Fort Yukon,DFO,IC,3172,208476,28913,5.82,15,0.39,0.14000000000000001,PCE,NA
+Homer Electric Assn Inc,Bradley Lake,Kalifornsky,WAT,HY,368254,0,3513510,NA,NA,NA,NA,EIA,NA
+Homer Electric Assn Inc,Nikiski Co-Generation,Kalifornsky,NG,CA,53289,0,0,NA,NA,NA,1.02,EIA,NA
+Homer Electric Assn Inc,Nikiski Co-Generation,Kalifornsky,NG,CT,209823,2690310,2706451,NA,77.989999999999995,NA,1.02,EIA,NA
+Homer Electric Assn Inc,Seldovia,Kalifornsky,DFO,IC,87,8904,1314,NA,9.77,NA,0.14000000000000001,EIA,NA
+Hughes Power & Light,Hughes,Hughes,DFO,IC,411,54889,7612,6.07,8,0.76,0.14000000000000001,PCE,NA
+Igiugig Electric Company,Igiugig,Igiugig,DFO,IC,323,28605,3967,6.47,11,0.59,0.14000000000000001,PCE,NA
+"I-N-N Electric Coop, Inc",Newhalen,Newhalen,DFO,IC,-250,4961,688,4.67,15,0.31,0.14000000000000001,PCE,NA
+"I-N-N Electric Coop, Inc",Newhalen,Newhalen,WAT,HY,3275,0,31247,NA,NA,NA,NA,EIA,NA
+Inside Passage Electric,Angoon,Angoon,DFO,IC,1760,139340,19325,4.0999999999999996,13,0.32,0.14000000000000001,PCE,NA
+Inside Passage Electric,Hoonah,Hoonah,DFO,IC,4641,319378,44294,4.0999999999999996,14,0.28999999999999998,0.14000000000000001,PCE,NA
+Inside Passage Electric,Kake,Kake,DFO,IC,3056,216422,30015,4.09,14,0.28999999999999998,0.14000000000000001,PCE,NA
+Ipnatchiaq Electric Company,Deering,Deering,DFO,IC,705,55527,7701,4.62,13,0.36,0.14000000000000001,PCE,NA
+Ketchikan Public Utilities,Beaver Falls,Ketchikan,WAT,HY,42463,0,405139,NA,NA,NA,NA,EIA,NA
+Ketchikan Public Utilities,Ketchikan,Ketchikan,WAT,HY,20846,0,198893,NA,NA,NA,NA,EIA,NA
+Ketchikan Public Utilities,Silvis,Ketchikan,WAT,HY,10997,0,104924,NA,NA,NA,NA,EIA,NA
+Ketchikan Public Utilities,Swan Lake,Ketchikan,WAT,HY,69157,0,659826,NA,NA,NA,NA,EIA,NA
+Ketchikan Public Utilities,S W Bailey,Ketchikan,DFO,IC,10204,532476,73786,NA,19.16,NA,0.14000000000000001,EIA,NA
+"King Cove, City of",King Cove,King Cove,DFO,IC,2526,179028,24829,3.78,14,0.27,0.14000000000000001,PCE,NA
+"King Cove, City of",King Cove,King Cove,WAT,HY,2432,0,23208,NA,NA,NA,NA,EIA,NA
+Kipnuk Light Plant,Kipnuk,Kipnuk,DFO,IC,1685,118507,16435,4.16,14,0.3,0.14000000000000001,PCE,NA
+Kodiak Electric Assn Inc,Kodiak,Kodiak,DFO,IC,5808,426006,58730,NA,13.63,NA,0.14000000000000001,EIA,"The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
+Kodiak Electric Assn Inc,Nymans Plant,Kodiak,DFO,IC,0,48972,6740,NA,0,NA,0.14000000000000001,EIA,"The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
+Kodiak Electric Assn Inc,Pillar Mountain,Kodiak,WND,WT,26699,0,254736,NA,NA,NA,NA,EIA,"The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
+Kodiak Electric Assn Inc,Port Lions,Kodiak,DFO,IC,0,1848,252,NA,0,NA,0.14000000000000001,EIA,"The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
+Kodiak Electric Assn Inc,Terror Lake,Kodiak,WAT,HY,119142,0,1136736,NA,NA,NA,NA,EIA,"The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
+Kokhanok Village Council,Kokhanok,Kokhanok,DFO,IC,363,33888,4699,6.15,11,0.56000000000000005,0.14000000000000001,PCE,NA
+Kotzebue Electric Association,Kotzebue,Kotzebue,DFO,IC,18045,1337428,185487,3.52,13,0.27,0.14000000000000001,PCE,NA
+Kotzebue Electric Association,Kotzebue,Kotzebue,WND,WT,1196,0,11411,NA,NA,NA,NA,EIA,NA
+"Koyukuk, City of",Koyukuk,Koyukuk,DFO,IC,283,29331,4067,4.25,9,0.47,0.14000000000000001,PCE,NA
+Kwethluk Incorporated d/b/a Kuiggluum Kallugvia,Kwethluk,Kwethluk,DFO,IC,1448,112564,15611,4.45,13,0.34,0.14000000000000001,PCE,NA
+Kwigillingok Power Company,Kwigillingok,Kwigillingok,DFO,IC,984,79929,11085,4.38,12,0.37,0.14000000000000001,PCE,NA
+Larsen Bay Utility Company,Larsen Bay,Larsen Bay,DFO,IC,26,5125,710,4.45,10,0.45,0.14000000000000001,PCE,NA
+Levelock Electrical Coop,Levelock,Levelock,DFO,IC,424,41817,5799,4.03,11,0.37,0.14000000000000001,PCE,NA
+Lime Village Electric Utility,Lime Village,Lime Village,DFO,IC,72,7548,1046,8.5,10,0.85,0.14000000000000001,PCE,NA
+Manokotak Power Company,Manokotak,Manokotak,DFO,IC,340,113450,15734,4.18,3,1.39,0.14000000000000001,PCE,NA
+Mcgrath Light & Power,McGrath,McGrath,DFO,IC,2598,190015,26353,4.5999999999999996,14,0.33,0.14000000000000001,PCE,NA
+Metlakatla Power & Light,Centennial,Metlakatla,DFO,IC,-189,4872,679,NA,NA,NA,0.14000000000000001,EIA,NA
+Metlakatla Power & Light,Chester Lake,Metlakatla,WAT,HY,4368,0,41675,NA,NA,NA,NA,EIA,NA
+Metlakatla Power & Light,Purple Lake,Metlakatla,WAT,HY,16198,0,154544,NA,NA,NA,NA,EIA,NA
+Middle Kuskokwim Electric,Chuathbaluk,Chuathbaluk,DFO,IC,110,27180,3769,4.5599999999999996,4,1.1399999999999999,0.14000000000000001,PCE,NA
+Middle Kuskokwim Electric,Crooked Creek,Crooked Creek,DFO,IC,258,22641,3140,4.57,11,0.42,0.14000000000000001,PCE,NA
+Middle Kuskokwim Electric,Red Devil,Red Devil,DFO,IC,88,10892,1510,4.57,8,0.56999999999999995,0.14000000000000001,PCE,NA
+Middle Kuskokwim Electric,Sleetmute,Sleetmute,DFO,IC,237,23707,3287,4.57,10,0.46,0.14000000000000001,PCE,NA
+Middle Kuskokwim Electric,Stony River,Stony River,DFO,IC,50,13821,1916,4.57,3,1.52,0.14000000000000001,PCE,NA
+Naknek Electric Association,Naknek,Naknek,DFO,IC,19434,1264538,175378,3.59,15,0.24,0.14000000000000001,PCE,Provides power to South Naknek and King Salmon via intertie. Includes South Naknek's and King Salmon's data.
+Napaskiak Electric Utility,Napaskiak,Napaskiak,DFO,IC,894,72661,10077,4.43,13,0.34,0.14000000000000001,PCE,NA
+Naterkaq Light Plant (City of Chefornak),Chefornak,Chefornak,DFO,IC,1604,122827,17034,6.4,13,0.49,0.14000000000000001,PCE,NA
+Native Village of Perryville,Perryville,Perryville,DFO,IC,170,15291,2120,4.55,11,0.41,0.14000000000000001,PCE,NA
+Nelson Lagoon Electrical Coop,Nelson Lagoon,Nelson Lagoon,DFO,IC,328,37789,5240,4.55,8,0.56999999999999995,0.14000000000000001,PCE,NA
+New Koliganek Village Council,Koliganek,Koliganek,DFO,IC,684,58983,8180,4.51,11,0.41,0.14000000000000001,PCE,NA
+"Nikolai, City of",Nikolai,Nikolai,DFO,IC,405,39545,5484,6.31,10,0.63,0.14000000000000001,PCE,NA
+Nome Joint Utility Systems,Snake River,Nome,DFO,IC,32745,2060912,285827,3.24,16,0.2,0.14000000000000001,PCE,NA
+Nome Joint Utility Systems,Snake River,Nome,WND,WT,0,0,0,NA,NA,NA,NA,EIA,NA
+North Slope Borough Power & Light,Anaktuvuk Pass,Anaktuvuk Pass,DFO,IC,4048,303019,42025,6.44,14,0.46,0.14000000000000001,PCE,NA
+North Slope Borough Power & Light,Atqasuk,Atqasuk,DFO,IC,3388,269865,37427,5.46,12,0.46,0.14000000000000001,PCE,NA
+North Slope Borough Power & Light,Kaktovik,Kaktovik,DFO,IC,4569,346350,48035,4.41,13,0.34,0.14000000000000001,PCE,NA
+North Slope Borough Power & Light,Nuiqsut,Nuiqsut,DFO,IC,1235,24318,3379,NA,50.82,NA,0.14000000000000001,EIA,NA
+North Slope Borough Power & Light,Nuiqsut,Nuiqsut,NG,IC,4688,12827,12827,NA,365.49,NA,1.02,EIA,NA
+North Slope Borough Power & Light,Point Hope,Point Hope,DFO,IC,6345,461039,63941,4.2699999999999996,14,0.31,0.14000000000000001,PCE,NA
+North Slope Borough Power & Light,Point Hope,Point Hope,NG,IC,0,0,0,NA,NA,NA,1.02,EIA,NA
+North Slope Borough Power & Light,Point Lay,Point Lay,DFO,IC,3515,275574,38219,4.3,13,0.33,0.14000000000000001,PCE,NA
+North Slope Borough Power & Light,Wainwright,Wainwright,DFO,IC,6341,478137,66312,4.25,13,0.33,0.14000000000000001,PCE,NA
+Nunam Iqua Electric Company,Sheldon Point,Nunam Iqua,DFO,IC,881,73684,10219,3.85,12,0.32,0.14000000000000001,PCE,NA
+Nushagak Electric Cooperative,Dillingham,Dillingham,DFO,IC,18160,1249162,173246,3.66,14,0.26,0.14000000000000001,PCE,Provides power to Aleknagik via intertie. Includes Aleknagik's data.
+"Ouzinkie, City of",Ouzinkie,Ouzinkie,DFO,IC,434,37409,5188,4.46,12,0.37,0.14000000000000001,PCE,NA
+Pedro Bay Village Council,Pedro Bay,Pedro Bay,DFO,IC,170,18284,2535,5.81,10,0.57999999999999996,0.14000000000000001,PCE,NA
+Pelican Utility,Pelican,Pelican,DFO,IC,102,13679,1897,4.47,7,0.64,0.14000000000000001,PCE,NA
+"Petersburg, City of",Blind Slough,Petersburg,DFO,IC,660,50232,6938,NA,13.15,NA,0.14000000000000001,EIA,NA
+"Petersburg, City of",Blind Slough,Petersburg,WAT,HY,11717,0,111793,NA,NA,NA,NA,EIA,NA
+Pilot Point Electric Utility,Pilot Point,Pilot Point,DFO,IC,411,37352,5180,4.1500000000000004,11,0.38,0.14000000000000001,PCE,NA
+Port Heiden Utilities,Port Heiden,Port Heiden,DFO,IC,515,57058,7913,4.22,9,0.47,0.14000000000000001,PCE,NA
+Puvurnaq Power Company,Kongiganak,Kongiganak,DFO,IC,841,70588,9789,4.4000000000000004,12,0.37,0.14000000000000001,PCE,NA
+"Ruby, City of",Ruby,Ruby,DFO,IC,649,51828,7188,4.3600000000000003,13,0.34,0.14000000000000001,PCE,NA
+"Saint George, City of",Saint George,Saint George,DFO,IC,673,53951,7482,7.31,13,0.56000000000000005,0.14000000000000001,PCE,NA
+Saint Paul Municipal Electric,Saint Paul,Saint Paul,DFO,IC,4138,300418,41664,4.8499999999999996,14,0.35,0.14000000000000001,PCE,NA
+"Seward, City of",Seward,Seward,DFO,IC,306,24066,3324,NA,12.72,NA,0.14000000000000001,EIA,"The Cityof Seward service area includes the communities of Crown Point, Primrose, Bear Creek and Lowell Point."
+"Sitka, City & Borough of",Blue Lake,Sitka,WAT,HY,52463,0,500549,NA,NA,NA,NA,EIA,NA
+"Sitka, City & Borough of",Green Lake,Sitka,WAT,HY,60781,0,579913,NA,NA,NA,NA,EIA,NA
+"Sitka, City & Borough of",Jarvis Street,Sitka,DFO,IC,151,71820,9943,NA,2.1,NA,0.14000000000000001,EIA,NA
+Southeast Alaska Power Agency,Tyee Lake,Ketchikan,WAT,HY,100440,0,0,NA,NA,0,0,AEA,NA
+"Southfork Hydro, LLC",South Fork Hydro,Wasilla,WAT,HY,3725,0,0,NA,NA,0,0,AEA,Independent Power Producer located in Eagle River sells power to Matanuska Electric Association.
+Takotna Community Assoc Inc,Takotna,Takotna,DFO,IC,200,21997,3050,5.2,9,0.57999999999999996,0.14000000000000001,PCE,NA
+Tanalian Electric Cooperative,Port Alsworth,Port Alsworth,DFO,IC,766,65606,9098,5.09,11,0.46,0.14000000000000001,PCE,NA
+Tanana Power Company Inc,Tanana,Tanana,DFO,IC,1104,87269,12103,3.84,13,0.3,0.14000000000000001,PCE,NA
+Tatitlek Village Ira Council,Tatitlek,Tatitlek,DFO,IC,457,41743,5789,5.45,12,0.45,0.14000000000000001,PCE,NA
+TDX Adak Generating LLC,Adak,Adak,DFO,IC,2681,214285,29719,4.91,12,0.41,0.14000000000000001,PCE,NA
+TDX Corporation,Sand Point,Sand Point,DFO,IC,3161,230970,32033,4.59,14,0.33,0.14000000000000001,PCE,NA
+TDX Manley Generating LLC,Manley Hot Springs,Manley Hot Springs,DFO,IC,426,35973,4989,3.88,12,0.32,0.14000000000000001,PCE,NA
+"Tenakee Springs, City of",Tenakee Springs,Tenakee Springs,DFO,IC,399,31579,4379,4.74,12,0.4,0.14000000000000001,PCE,NA
+Tuluksak Traditional,Tuluksak,Tuluksak,DFO,IC,679,56275,7804,4.22,13,0.32,0.14000000000000001,PCE,NA
+Tuntutuliak Community,Tuntutuliak,Tuntutuliak,DFO,IC,795,83625,11597,4.54,9,0.5,0.14000000000000001,PCE,NA
+Twin Hills Village Council,Twin Hills,Twin Hills,DFO,IC,279,30497,4229,4.5999999999999996,9,0.51,0.14000000000000001,PCE,NA
+Umnak Power Company,Nikolski,Nikolski,DFO,IC,188,20620,2859,5.93,10,0.59,0.14000000000000001,PCE,NA
+Unalakleet Valley Electric Cooperative,Unalakleet,Unalakleet,DFO,IC,3341,233335,32361,3.68,14,0.26,0.14000000000000001,PCE,NA
+"Unalaska, City of",Dutch Harbor,Unalaska,DFO,IC,45034,2941806,394973,NA,15.31,NA,0.14000000000000001,EIA,NA
+"Unalaska, City of",Unalaska Power Module,Unalaska,DFO,IC,175,12726,1708,NA,13.75,NA,0.14000000000000001,EIA,NA
+Ungusraq Power Company,Newtok,Newtok,DFO,IC,454,43540,6038,4.33,10,0.43,0.14000000000000001,PCE,NA
+Venetie Village Electric,Venetie,Venetie,DFO,IC,707,75380,10454,5.5,9,0.61,0.14000000000000001,PCE,NA
+"White Mountain, City of",White Mountain,White Mountain,DFO,IC,740,66132,9171,3.63,11,0.33,0.14000000000000001,PCE,NA
+"Wrangell, City of",Wrangell,Wrangell,DFO,IC,597,63714,8346,NA,9.3699999999999992,NA,0.14000000000000001,EIA,NA
+Yakutat Power Inc,Yakutat,Yakutat,DFO,IC,6118,420534,58323,4.1399999999999997,14,0.3,0.14000000000000001,PCE,NA

@@ -1,0 +1,227 @@
+"Certified Utilities Net Generation by Fuel Type (MWh), 2013",...2,...3,...4,...5,...6,...7,...8,...9,...10,...11,...12,...13,...14
+Utility Name,Plant Name,Community Name,Oil,Gas,Coal,Hydro,Wind,Other,Oil (gallons),Gas (mcf),Coal (short tons),Source,Notes
+"Akhiok, City of",Akhiok,Akhiok,69,0,0,NA,0,0,6510,0,0,pce,NA
+Akiachak Native Community,Akiachak,Akiachak,1873,0,0,NA,0,0,133956,0,0,pce,NA
+Akiak City Council,Akiak,Akiak,1146,0,0,NA,0,0,88134,0,0,pce,NA
+"Akutan, City of",Akutan,Akutan,500,0,0,86,0,0,39771,0,0,pce,NA
+Alaska Electric Light & Power Company,Annex Creek,Juneau,0,0,0,25056,0,0,0,0,0,eia,NA
+Alaska Electric Light & Power Company,Auke Bay,Juneau,274,0,0,0,0,0,60942,0,0,eia,NA
+Alaska Electric Light & Power Company,Gold Creek,Juneau,14,0,0,4690,0,0,1176,0,0,eia,NA
+Alaska Electric Light & Power Company,Lake Dorothy,Juneau,0,0,0,82519,0,0,0,0,0,eia,NA
+Alaska Electric Light & Power Company,Lemon Creek,Juneau,431,0,0,0,0,0,45108,0,0,eia,NA
+Alaska Electric Light & Power Company,Salmon Creek 1,Juneau,0,0,0,30072,0,0,0,0,0,eia,NA
+Alaska Electric Light & Power Company,Snettisham,Juneau,0,0,0,258832,0,0,0,0,0,eia,NA
+Alaska Environmental Power LLC,Delta Wind Farm,Fairbanks,0,0,0,0,1600,0,0,0,0,eia,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Alaska Power & Telephone Company,Allakaket,Allakaket,697,0,0,NA,0,0,57422,0,0,pce,Provides power to Alatna via intertie. Includes Alatna's data.
+Alaska Power & Telephone Company,Bettles,Bettles,573,0,0,NA,0,0,47322,0,0,pce,Provides power to Evansville via intertie. Includes Evansville's data.
+Alaska Power & Telephone Company,Black Bear Lake,Craig,0,0,0,20540,0,0,0,0,0,eia,"Provides power to Hollis, Klawock, Thorne Bay, Kasaan and Hydaburg via intertie. Includes data for all communities."
+Alaska Power & Telephone Company,Chistochina,Chistochina,47,0,0,NA,0,0,4132,0,0,pce,Receives power from Slana via intertie. Refer to Slana for fuel use and cost data.
+Alaska Power & Telephone Company,Coffman Cove,Coffman Cove,0,0,0,NA,0,0,2426,0,0,pce,Part of the Alaska Power Company's grid on Prince of Wales Island. Receives power from Craig. Refer to Craig for fuel use and cost data.
+Alaska Power & Telephone Company,Craig,Craig,1445,0,0,0,0,0,114618,0,0,eia,"Provides power to Hollis, Klawock, Thorne Bay, Kasaan and Hydaburg via intertie. Includes data for all communities."
+Alaska Power & Telephone Company,Eagle,Eagle,718,0,0,NA,0,0,52528,0,0,pce,Provides power to Eagle Village via intertie. Includes Eagle Village's data.
+Alaska Power & Telephone Company,False Island,Thorne Bay,1501,0,0,0,0,0,103572,0,0,eia,Part of the Alaska Power Company's grid on Prince of Wales Island. Receives power from Craig. Refer to Craig for Thorne Bay and Kaasan fuel use and cost data.
+Alaska Power & Telephone Company,Goat Lake,Haines,0,0,0,15521,0,0,0,0,0,eia,Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.
+Alaska Power & Telephone Company,Haines,Haines,844,0,0,0,0,0,83202,0,0,eia,Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.
+Alaska Power & Telephone Company,Healy Lake,Healy Lake,34,0,0,NA,0,0,7660,0,0,pce,NA
+Alaska Power & Telephone Company,Hydaburg,Hydaburg,13,0,0,0,0,0,4746,0,0,eia,Part of the Alaska Power Company's grid on Prince of Wales Island. Receives power from Craig. Refer to Craig for fuel use and cost data.
+Alaska Power & Telephone Company,Kasidaya Creek,Haines,0,0,0,7405,0,0,0,0,0,eia,Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.
+Alaska Power & Telephone Company,Mentasta Lake,Mentasta Lake,0,0,0,NA,0,0,84,0,0,pce,NA
+Alaska Power & Telephone Company,Naukati Bay,Naukati Bay,446,0,0,NA,0,0,37388,0,0,pce,NA
+Alaska Power & Telephone Company,Northway,Northway,1236,0,0,NA,0,0,96876,0,0,pce,Provides power to Northway Village via intertie. Includes Northway Village's data.
+Alaska Power & Telephone Company,Skagway,Skagway,188,0,0,3137,0,0,22087,0,0,pce,Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.
+Alaska Power & Telephone Company,Slana,Slana,1273,0,0,NA,0,0,109596,0,0,pce,Provides power to Chistochina via intertie. Includes Chistochina's data.
+Alaska Power & Telephone Company,South Fork,Craig,0,0,0,5715,0,0,0,0,0,eia,"Provides power to Hollis, Klawock, Thorne Bay, Kasaan and Hydaburg via intertie. Includes data for all communities."
+Alaska Power & Telephone Company,Thorne Bay Plant,Thorne Bay,76,0,0,0,0,0,9996,0,0,eia,Part of the Alaska Power Company's grid on Prince of Wales Island. Receives power from Craig. Refer to Craig for Thorne Bay and Kaasan fuel use and cost data.
+Alaska Power & Telephone Company,Tok,Tok,9753,0,0,NA,0,0,696292,0,0,pce,"Provides power to Tanacross, Tetlin, Dot Lake, and Dot Lake Village via intertie. Includes data for all communities."
+Alaska Power & Telephone Company,Viking,Craig,-12,0,0,0,0,0,1554,0,0,eia,"Provides power to Hollis, Klawock, Thorne Bay, Kasaan and Hydaburg via intertie. Includes data for all communities."
+Alaska Power & Telephone Company,Whale Pass,Whale Pass,299,0,0,NA,0,0,25975,0,0,pce,NA
+Alaska Village Electric Cooperative,Alakanuk,Alakanuk,2266,0,0,NA,0,0,182346,0,0,pce,NA
+Alaska Village Electric Cooperative,Ambler,Ambler,1257,0,0,NA,0,0,93149,0,0,pce,NA
+Alaska Village Electric Cooperative,Anvik,Anvik,419,0,0,NA,0,0,34728,0,0,pce,NA
+Alaska Village Electric Cooperative,Brevig Mission,Brevig Mission,1115,0,0,NA,0,0,87263,0,0,pce,NA
+Alaska Village Electric Cooperative,Chevak,Chevak,1712,0,0,NA,803,0,144385,0,0,pce,NA
+Alaska Village Electric Cooperative,Eek,Eek,829,0,0,NA,0,0,62220,0,0,pce,NA
+Alaska Village Electric Cooperative,Ekwok,Ekwok,503,0,0,NA,0,0,46841,0,0,pce,NA
+Alaska Village Electric Cooperative,Elim,Elim,1190,0,0,NA,0,0,90551,0,0,pce,NA
+Alaska Village Electric Cooperative,Emmonak,Emmonak,3187,0,0,NA,516,0,236718,0,0,pce,NA
+Alaska Village Electric Cooperative,Gambell,Gambell,1454,0,0,NA,482,0,115833,0,0,pce,NA
+Alaska Village Electric Cooperative,Goodnews Bay,Goodnews Bay,727,0,0,NA,0,0,55388,0,0,pce,NA
+Alaska Village Electric Cooperative,Grayling,Grayling,576,0,0,NA,0,0,47967,0,0,pce,NA
+Alaska Village Electric Cooperative,Holy Cross,Holy Cross,630,0,0,NA,0,0,51837,0,0,pce,NA
+Alaska Village Electric Cooperative,Hooper Bay,Hooper Bay,2685,0,0,NA,563,0,205623,0,0,pce,NA
+Alaska Village Electric Cooperative,Huslia,Huslia,977,0,0,NA,0,0,74599,0,0,pce,NA
+Alaska Village Electric Cooperative,Kaltag,Kaltag,708,0,0,NA,NA,9,51561,0,0,pce,NA
+Alaska Village Electric Cooperative,Kasigluk,Kasigluk,2411,0,0,NA,562,0,168738,0,0,pce,NA
+Alaska Village Electric Cooperative,Kiana,Kiana,1525,0,0,NA,0,0,114002,0,0,pce,NA
+Alaska Village Electric Cooperative,Kivalina,Kivalina,1267,0,0,NA,0,0,94423,0,0,pce,NA
+Alaska Village Electric Cooperative,Kotlik,Kotlik,1966,0,0,NA,0,0,160772,0,0,pce,NA
+Alaska Village Electric Cooperative,Koyuk,Koyuk,1302,0,0,NA,0,0,95374,0,0,pce,NA
+Alaska Village Electric Cooperative,Marshall,Marshall,1585,0,0,NA,0,0,118032,0,0,pce,NA
+Alaska Village Electric Cooperative,Mekoryuk,Mekoryuk,682,0,0,NA,233,0,58992,0,0,pce,NA
+Alaska Village Electric Cooperative,Minto,Minto,606,0,0,NA,0,0,43887,0,0,pce,NA
+Alaska Village Electric Cooperative,Mountain Village,Mountain Village,2903,0,0,NA,0,0,215271,0,0,pce,NA
+Alaska Village Electric Cooperative,New Stuyahok,New Stuyahok,1390,0,0,NA,0,0,101351,0,0,pce,NA
+Alaska Village Electric Cooperative,Noatak,Noatak,1874,0,0,NA,0,0,129679,0,0,pce,NA
+Alaska Village Electric Cooperative,Noorvik,Noorvik,1925,0,0,NA,0,0,150080,0,0,pce,NA
+Alaska Village Electric Cooperative,Nulato,Nulato,1038,0,0,NA,0,0,77158,0,0,pce,NA
+Alaska Village Electric Cooperative,Old Harbor,Old Harbor,831,0,0,NA,0,0,59230,0,0,pce,NA
+Alaska Village Electric Cooperative,Pilot Station,Pilot Station,1805,0,0,NA,0,0,134752,0,0,pce,NA
+Alaska Village Electric Cooperative,Quinhagak,Quinhagak,1453,0,0,NA,568,0,123934,0,0,pce,NA
+Alaska Village Electric Cooperative,Russian Mission,Russian Mission,1019,0,0,NA,0,0,70580,0,0,pce,NA
+Alaska Village Electric Cooperative,Saint Mary's,Saint Mary's,3166,0,0,NA,0,0,246874,0,0,pce,NA
+Alaska Village Electric Cooperative,Saint Michael,Saint Michael,1720,0,0,NA,0,0,130190,0,0,pce,NA
+Alaska Village Electric Cooperative,Savoonga,Savoonga,1803,0,0,NA,353,0,134961,0,0,pce,NA
+Alaska Village Electric Cooperative,Scammon Bay,Scammon Bay,1674,0,0,NA,0,0,121894,0,0,pce,NA
+Alaska Village Electric Cooperative,Selawik,Selawik,2809,0,0,NA,54,0,206632,0,0,pce,NA
+Alaska Village Electric Cooperative,Shageluk,Shageluk,376,0,0,NA,0,0,31605,0,0,pce,NA
+Alaska Village Electric Cooperative,Shaktoolik,Shaktoolik,737,0,0,NA,295,0,64516,0,0,pce,NA
+Alaska Village Electric Cooperative,Shishmaref,Shishmaref,1630,0,0,NA,0,0,130221,0,0,pce,NA
+Alaska Village Electric Cooperative,Shungnak,Shungnak,1737,0,0,NA,0,0,126045,0,0,pce,Provides power to Kobuk via intertie. Includes Kobuk's data.
+Alaska Village Electric Cooperative,Stebbins,Stebbins,1517,0,0,NA,0,0,117657,0,0,pce,NA
+Alaska Village Electric Cooperative,Teller,Teller,838,0,0,NA,0,0,61756,0,0,pce,NA
+Alaska Village Electric Cooperative,Togiak,Togiak,3008,0,0,NA,0,0,230343,0,0,pce,NA
+Alaska Village Electric Cooperative,Toksook Bay,Toksook Bay,2588,0,0,NA,557,0,202531,0,0,pce,Provides power to Nightmute and Tununak via intertie. Includes Nightmute's and Tununak's data.
+Alaska Village Electric Cooperative,Upper Kalskag,Kalskag,1327,0,0,NA,0,0,100356,0,0,pce,Provides power to Lower Kalskag via intertie. Includes Lower Kalskag's data.
+Alaska Village Electric Cooperative,Wales,Wales,609,0,0,NA,0,0,47917,0,0,pce,NA
+Alutiiq Power Company,Karluk,Karluk,259,0,0,NA,0,0,24075,0,0,pce,NA
+Anchorage Municipal Light & Power,Anchorage 1,Anchorage,174,22163,0,0,0,0,14868,348154,0,eia,"In addition to Anchorage, the CEA service area includes eight other communities."
+Anchorage Municipal Light & Power,Eklutna Lake,Anchorage,0,0,0,89936,0,0,0,0,0,eia,"In addition to Anchorage, the CEA service area includes eight other communities."
+Anchorage Municipal Light & Power,George M Sullivan Generation Plant 2,Anchorage,1513,560770,0,0,0,0,125496,6078895,0,eia,"In addition to Anchorage, the CEA service area includes eight other communities."
+Aniak Light & Power,Aniak,Aniak,2548,0,0,NA,0,0,203456,0,0,pce,NA
+Arctic Village Electric Company,Arctic Village,Arctic Village,517,0,0,NA,0,0,46820,0,0,pce,NA
+"Atka, City of",Atka,Atka,30,0,0,443,0,0,9039,0,0,pce,NA
+Atmautluak Tribal Utilities,Atmautluak,Atmautluak,718,0,0,NA,0,0,52408,0,0,pce,NA
+Aurora Energy LLC Chena,Aurora Energy,Fairbanks,0,0,187843,0,0,0,0,0,210117,eia,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Barrow Utilities & Electric Cooperative Inc.,Barrow,Barrow,26,50226,0,0,0,0,2772,757524,0,eia,NA
+Beaver Joint Utilities,Beaver,Beaver,296,0,0,NA,0,0,31141,0,0,pce,NA
+Bethel Utilities Corporation,Bethel,Bethel,42620,0,0,NA,0,0,3156572,0,0,pce,Provides power to Oscarville and sells power to Napakiak Ircinraq via intertie. Includes Oscarville's data.
+"Buckland, City of",Buckland,Buckland,1750,0,0,NA,0,0,151833,0,0,pce,NA
+Chalkyitsik Village Council,Chalkyitsik,Chalkyitsik,361,0,0,NA,0,0,32889,0,0,pce,NA
+Chenega Ira Council,Chenega Bay,Chenega Bay,269,0,0,NA,0,0,23050,0,0,pce,NA
+"Chignik, City of",Chignik,Chignik,850,0,0,NA,0,0,66106,0,0,pce,NA
+Chignik Lagoon Power Utility,Chignik Lagoon,Chignik Lagoon,381,0,0,NA,0,0,37643,0,0,pce,NA
+Chignik Lake Electric Utility,Chignik Lake,Chignik Lake,384,0,0,NA,0,0,38509,0,0,pce,NA
+Chitina Electric Inc,Chitina,Chitina,459,0,0,NA,0,0,43298,0,0,pce,NA
+Chugach Electric Assn Inc,Beluga,Anchorage,0,1379744,0,0,0,0,0,14950021,0,eia,"In addition to Anchorage, the CEA service area includes eight other communities."
+Chugach Electric Assn Inc,Bernice Lake,Anchorage,0,41965,0,0,0,0,0,644042,0,eia,"In addition to Anchorage, the CEA service area includes eight other communities."
+Chugach Electric Assn Inc,Cooper Lake,Anchorage,0,0,0,35928,0,0,0,0,0,eia,"In addition to Anchorage, the CEA service area includes eight other communities."
+Chugach Electric Assn Inc,International,Anchorage,0,14860,0,0,0,0,0,280590,0,eia,"In addition to Anchorage, the CEA service area includes eight other communities."
+Chugach Electric Assn Inc,Southcentral Power Project,Anchorage,0,947407,0,0,0,0,0,7139887,0,eia,"In addition to Anchorage, the CEA service area includes eight other communities."
+Circle Electric Utility,Circle,Circle,408,0,0,NA,0,0,37589,0,0,pce,NA
+Copper Valley Elec Assn Inc,Glennallen,Valdez,13574,0,0,0,0,0,978600,0,0,eia,"In addition to Valdez, the CVEA service area includes 14 other communities."
+Copper Valley Elec Assn Inc,Solomon Gulch,Valdez,0,0,0,54750,0,0,0,0,0,eia,"In addition to Valdez, the CVEA service area includes 14 other communities."
+Copper Valley Elec Assn Inc,Valdez,Valdez,5075,0,0,0,0,0,564396,0,0,eia,"In addition to Valdez, the CVEA service area includes 14 other communities."
+Copper Valley Elec Assn Inc,Valdez Cogen,Valdez,17027,0,0,0,0,0,1833342,0,0,eia,"In addition to Valdez, the CVEA service area includes 14 other communities."
+Cordova Electric Cooperative,Humpback Creek,Cordova,0,0,0,3510,0,0,0,0,0,eia,NA
+Cordova Electric Cooperative,Orca,Cordova,9086,0,0,0,0,0,713412,0,0,eia,NA
+Cordova Electric Cooperative,Power Creek,Cordova,0,0,0,15774,0,0,0,0,0,eia,NA
+Diomede Joint Utilities,Diomede,Diomede,397,0,0,NA,0,0,18124,0,0,pce,NA
+Egegik Light & Power Co,Egegik,Egegik,603,0,0,NA,0,0,54584,0,0,pce,NA
+Elfin Cove Utility Commission,Elfin Cove,Elfin Cove,247,0,0,NA,0,0,23395,0,0,pce,NA
+"False Pass, City of",False Pass,False Pass,691,0,0,NA,0,0,58462,0,0,pce,NA
+Fire Island Wind LLC,Fire Island,Anchorage,0,0,0,0,44784,0,0,0,0,eia,"In addition to Anchorage, the CEA service area includes eight other communities."
+"Galena, City of",Galena,Galena,5428,0,0,NA,0,0,431338,0,0,pce,NA
+G & K Inc,Cold Bay,Cold Bay,2615,0,0,NA,0,0,206725,0,0,pce,NA
+Gold Country Energy,Central,Central,524,0,0,NA,0,0,46041,0,0,pce,NA
+Golden Valley Elec Assn Inc,Delta Power,Fairbanks,-170,0,0,0,0,0,2310,0,0,eia,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Golden Valley Elec Assn Inc,Eva Creek,Fairbanks,0,0,0,0,71010,0,0,0,0,eia,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Golden Valley Elec Assn Inc,Fairbanks,Fairbanks,6878,0,0,0,0,0,1219512,0,0,eia,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Golden Valley Elec Assn Inc,Healy,Fairbanks,254,0,191064,0,0,0,25284,0,184629,eia,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Golden Valley Elec Assn Inc,North Pole,Fairbanks,390644,0,0,0,0,0,26158104,0,0,eia,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+Golovin Power Utilities,Golovin,Golovin,807,0,0,NA,0,0,66097,0,0,pce,NA
+Gustavus Electric Co,Gustavus,Gustavus,64,0,0,1939,0,0,6875,0,0,pce,NA
+Gwitchyaa Zhee Utilities Company,Fort Yukon,Fort Yukon,3172,0,0,NA,0,0,208476,0,0,pce,NA
+Homer Electric Assn Inc,Bradley Lake,Kalifornsky,0,0,0,368254,0,0,0,0,0,eia,NA
+Homer Electric Assn Inc,Nikiski Co-Generation,Kalifornsky,0,263113,0,0,0,0,0,2690310,0,eia,NA
+Homer Electric Assn Inc,Seldovia,Kalifornsky,87,0,0,0,0,0,8904,0,0,eia,NA
+Hughes Power & Light,Hughes,Hughes,411,0,0,NA,0,0,54889,0,0,pce,NA
+Igiugig Electric Company,Igiugig,Igiugig,323,0,0,NA,0,0,28605,0,0,pce,NA
+"I-N-N Electric Coop, Inc",Newhalen,Iliamna,-250,0,0,4048,0,0,4961,0,0,pce,NA
+Inside Passage Electric,Angoon,Angoon,1760,0,0,NA,0,0,139340,0,0,pce,NA
+Inside Passage Electric,Chilkat Valley,Chilkat Valley,NA,0,0,1015,0,0,NA,0,0,pce,Provides power to Klukwan via intertie. Power is purchased from AP&T.
+Inside Passage Electric,Hoonah,Hoonah,4641,0,0,NA,0,0,319378,0,0,pce,NA
+Inside Passage Electric,Kake,Kake,3056,0,0,NA,0,0,216422,0,0,pce,NA
+Ipnatchiaq Electric Company,Deering,Deering,705,0,0,NA,0,0,55527,0,0,pce,NA
+Ketchikan Public Utilities,Beaver Falls,Ketchikan,0,0,0,42463,0,0,0,0,0,eia,NA
+Ketchikan Public Utilities,Ketchikan,Ketchikan,0,0,0,20846,0,0,0,0,0,eia,NA
+Ketchikan Public Utilities,Silvis,Ketchikan,0,0,0,10997,0,0,0,0,0,eia,NA
+Ketchikan Public Utilities,Swan Lake,Ketchikan,0,0,0,69157,0,0,0,0,0,eia,NA
+Ketchikan Public Utilities,S W Bailey,Ketchikan,10204,0,0,0,0,0,532476,0,0,eia,NA
+"King Cove, City of",King Cove,King Cove,2526,0,0,1997,0,0,179028,0,0,pce,NA
+Kipnuk Light Plant,Kipnuk,Kipnuk,1685,0,0,NA,0,0,118507,0,0,pce,NA
+Kodiak Electric Assn Inc,Kodiak,Kodiak,5808,0,0,0,0,0,426006,0,0,eia,"The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
+Kodiak Electric Assn Inc,Nymans Plant,Kodiak,0,0,0,0,0,0,48972,0,0,eia,"The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
+Kodiak Electric Assn Inc,Pillar Mountain,Kodiak,0,0,0,0,26699,0,0,0,0,eia,"The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
+Kodiak Electric Assn Inc,Port Lions,Kodiak,0,0,0,0,0,0,1848,0,0,eia,"The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
+Kodiak Electric Assn Inc,Terror Lake,Kodiak,0,0,0,119142,0,0,0,0,0,eia,"The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
+Kokhanok Village Council,Kokhanok,Kokhanok,363,0,0,NA,78,0,33888,0,0,pce,NA
+Kotzebue Electric Association,Kotzebue,Kotzebue,18045,0,0,NA,3387,0,1337428,0,0,pce,NA
+"Koyukuk, City of",Koyukuk,Koyukuk,283,0,0,NA,0,0,29331,0,0,pce,NA
+Kwethluk Incorporated d/b/a Kuiggluum Kallugvia,Kwethluk,Kwethluk,1448,0,0,NA,0,0,112564,0,0,pce,NA
+Kwigillingok Power Company,Kwigillingok,Kwigillingok,984,0,0,NA,194,0,79929,0,0,pce,NA
+Larsen Bay Utility Company,Larsen Bay,Larsen Bay,26,0,0,773,0,0,5125,0,0,pce,NA
+Levelock Electrical Coop,Levelock,Levelock,424,0,0,NA,0,0,41817,0,0,pce,NA
+Lime Village Electric Utility,Lime Village,Lime Village,72,0,0,NA,0,0,7548,0,0,pce,NA
+Manokotak Power Company,Manokotak,Manokotak,340,0,0,NA,0,0,113450,0,0,pce,NA
+Mcgrath Light & Power,McGrath,McGrath,2598,0,0,NA,0,0,190015,0,0,pce,NA
+Metlakatla Power & Light,Centennial,Metlakatla,-189,0,0,0,0,0,4872,0,0,eia,NA
+Metlakatla Power & Light,Chester Lake,Metlakatla,0,0,0,4368,0,0,0,0,0,eia,NA
+Metlakatla Power & Light,Purple Lake,Metlakatla,0,0,0,16198,0,0,0,0,0,eia,NA
+Middle Kuskokwim Electric,Chuathbaluk,Chuathbaluk,110,0,0,NA,0,0,27180,0,0,pce,NA
+Middle Kuskokwim Electric,Crooked Creek,Crooked Creek,258,0,0,NA,0,0,22641,0,0,pce,NA
+Middle Kuskokwim Electric,Red Devil,Red Devil,88,0,0,NA,0,0,10892,0,0,pce,NA
+Middle Kuskokwim Electric,Sleetmute,Sleetmute,237,0,0,NA,0,0,23707,0,0,pce,NA
+Middle Kuskokwim Electric,Stony River,Stony River,50,0,0,NA,0,0,13821,0,0,pce,NA
+Naknek Electric Association,Naknek,Naknek,19434,0,0,NA,0,0,1264538,0,0,pce,Provides power to South Naknek and King Salmon via intertie. Includes South Naknek's and King Salmon's data.
+Napaskiak Electric Utility,Napaskiak,Napaskiak,894,0,0,NA,0,0,72661,0,0,pce,NA
+Naterkaq Light Plant (City of Chefornak),Chefornak,Chefornak,1604,0,0,NA,0,0,122827,0,0,pce,NA
+Native Village of Perryville,Perryville,Perryville,170,0,0,NA,12,0,15291,0,0,pce,NA
+Nelson Lagoon Electrical Coop,Nelson Lagoon,Nelson Lagoon,328,0,0,NA,0,0,37789,0,0,pce,NA
+New Koliganek Village Council,Koliganek,Koliganek,684,0,0,NA,0,0,58983,0,0,pce,NA
+"Nikolai, City of",Nikolai,Nikolai,405,0,0,NA,0,0,39545,0,0,pce,NA
+Nome Joint Utility Systems,Snake River,Nome,32745,0,0,NA,0,0,2060912,0,0,pce,NA
+North Slope Borough Power & Light,Anaktuvuk Pass,Anaktuvuk Pass,4048,0,0,NA,0,0,303019,0,0,pce,NA
+North Slope Borough Power & Light,Atqasuk,Atqasuk,3388,0,0,NA,0,0,269865,0,0,pce,NA
+North Slope Borough Power & Light,Kaktovik,Kaktovik,4569,0,0,NA,0,0,346350,0,0,pce,NA
+North Slope Borough Power & Light,Nuiqsut,Nuiqsut,1236,4688,0,0,0,0,24318,12827,0,eia,NA
+North Slope Borough Power & Light,Point Hope,Point Hope,6345,0,0,NA,0,0,461039,0,0,pce,NA
+North Slope Borough Power & Light,Point Lay,Point Lay,3515,0,0,NA,0,0,275574,0,0,pce,NA
+North Slope Borough Power & Light,Wainwright,Wainwright,6341,0,0,NA,0,0,478137,0,0,pce,NA
+Nunam Iqua Electric Company,Sheldon Point,Nunam Iqua,881,0,0,NA,0,0,73684,0,0,pce,NA
+Nushagak Electric Cooperative,Dillingham,Dillingham,18160,0,0,NA,0,0,1249162,0,0,pce,Provides power to Aleknagik via intertie. Includes Aleknagik's data.
+"Ouzinkie, City of",Ouzinkie,Ouzinkie,434,0,0,326,0,0,37409,0,0,pce,NA
+Pedro Bay Village Council,Pedro Bay,Pedro Bay,170,0,0,NA,0,0,18284,0,0,pce,NA
+Pelican Utility,Pelican,Pelican,102,0,0,932,0,0,13679,0,0,pce,NA
+"Petersburg, City of",Blind Slough,Petersburg,661,0,0,11717,0,0,50232,0,0,eia,NA
+Pilot Point Electric Utility,Pilot Point,Pilot Point,411,0,0,NA,0,0,37352,0,0,pce,NA
+Port Heiden Utilities,Port Heiden,Port Heiden,515,0,0,NA,0,0,57058,0,0,pce,NA
+Puvurnaq Power Company,Kongiganak,Kongiganak,841,0,0,NA,375,0,70588,0,0,pce,NA
+"Ruby, City of",Ruby,Ruby,649,0,0,NA,0,0,51828,0,0,pce,NA
+"Saint George, City of",Saint George,Saint George,673,0,0,NA,0,0,53951,0,0,pce,NA
+Saint Paul Municipal Electric,Saint Paul,Saint Paul,4138,0,0,NA,0,0,300418,0,0,pce,NA
+"Seward, City of",Seward,Seward,306,0,0,0,0,0,24066,0,0,eia,"The City of Seward service area includes the communities of Crown Point, Primrose, Bear Creek and Lowell Point."
+"Sitka, City & Borough of",Blue Lake,Sitka,0,0,0,52463,0,0,0,0,0,eia,NA
+"Sitka, City & Borough of",Green Lake,Sitka,0,0,0,60781,0,0,0,0,0,eia,NA
+"Sitka, City & Borough of",Jarvis Street,Sitka,151,0,0,0,0,0,71820,0,0,eia,NA
+Southeast Alaska Power Agency,Tyee Lake,Ketchikan,0,0,0,100440,0,0,0,0,0,AEA,NA
+"Southfork Hydro, LLC",South Fork Hydro,Wasilla,0,0,0,3725,0,0,0,0,0,AEA,Independent Power Producer located in Eagle River sells power to Matanuska Electric Association.
+Takotna Community Assoc Inc,Takotna,Takotna,200,0,0,NA,0,0,21997,0,0,pce,NA
+Tanalian Electric Cooperative,Port Alsworth,Port Alsworth,766,0,0,NA,0,0,65606,0,0,pce,NA
+Tanana Power Company Inc,Tanana,Tanana,1104,0,0,NA,0,0,87269,0,0,pce,NA
+Tatitlek Village Ira Council,Tatitlek,Tatitlek,457,0,0,NA,0,0,41743,0,0,pce,NA
+TDX Adak Generating LLC,Adak,Adak,2681,0,0,NA,0,0,214285,0,0,pce,NA
+TDX Corporation,Sand Point,Sand Point,3161,0,0,NA,0,0,230970,0,0,pce,NA
+TDX Manley Generating LLC,Manley Hot Springs,Manley Hot Springs,426,0,0,NA,0,0,35973,0,0,pce,NA
+"Tenakee Springs, City of",Tenakee Springs,Tenakee Springs,399,0,0,NA,0,0,31579,0,0,pce,NA
+Tuluksak Traditional,Tuluksak,Tuluksak,679,0,0,NA,0,0,56275,0,0,pce,NA
+Tuntutuliak Community,Tuntutuliak,Tuntutuliak,795,0,0,NA,268,0,83625,0,0,pce,NA
+Twin Hills Village Council,Twin Hills,Twin Hills,279,0,0,NA,0,0,30497,0,0,pce,NA
+Umnak Power Company,Nikolski,Nikolski,188,0,0,NA,0,0,20620,0,0,pce,NA
+Unalakleet Valley Electric Cooperative,Unalakleet,Unalakleet,3341,0,0,NA,996,0,233335,0,0,pce,NA
+"Unalaska, City of",Dutch Harbor,Unalaska,45034,0,0,0,0,0,2941806,0,0,eia,NA
+"Unalaska, City of",Unalaska Power Module,Unalaska,175,0,0,0,0,0,12726,0,0,eia,NA
+Ungusraq Power Company,Newtok,Newtok,454,0,0,NA,0,0,43540,0,0,pce,NA
+Venetie Village Electric,Venetie,Venetie,707,0,0,NA,0,0,75380,0,0,pce,NA
+"White Mountain, City of",White Mountain,White Mountain,740,0,0,NA,0,0,66132,0,0,pce,NA
+"Wrangell, City of",Wrangell,Wrangell,597,0,0,0,0,0,63714,0,0,eia,NA
+Yakutat Power Inc,Yakutat,Yakutat,6118,0,0,NA,0,0,420534,0,0,pce,NA

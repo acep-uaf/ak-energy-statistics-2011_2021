@@ -1,0 +1,20 @@
+"Average Consumption per Residential Customer per Month in PCE communities, 2013",...2,...3,...4,...5
+Summer 2013 (April - September),NA,NA,NA,NA
+NA,kWh per Customer per Month,NA,NA,NA
+Effective Rate,Min,Mean,Max,Average Percentage of Residential Consumption Eligible for PCE
+Less than 0.19,126,416,937,70
+0.2-0.29,69,363,735,76
+0.3-0.39,96,277,513,83
+0.4-0.49,138,331,504,77
+0.5-0.59,77,153,272,94
+More than $0.60,61,213,348,52
+Winter 2013 (October - March),NA,NA,NA,NA
+NA,kWh per Customer per Month,NA,NA,NA
+Effective Rate,Min,Mean,Max,Average Percentage of Residential Consumption Eligible for PCE
+Less than 0.19,194,489,1449,65
+0.2-0.29,132,427,842,70
+0.3-0.39,93,330,663,76
+0.4-0.49,103,276,402,83
+0.5-0.59,111,203,375,81
+More than $0.60,61,210,303,55
+"All averages are weighted. Percentages of residential consumption may seem lower than expected because some communities eligible to receive PCE participated in the program for only a portion of the year. If during a given month a utility did not participate and did not receive a PCE payment, then its eligible PCE consumption is 0% of sales for that month.",NA,NA,NA,NA
