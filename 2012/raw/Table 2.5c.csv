@@ -1,0 +1,190 @@
+"Certified Utilities Rates and PCE Reimbursements ($/kWh), 2012",...2,...3,...4,...5,...6,...7,...8,...9
+Utility Name,Community Name,Residential Rate ($/kWh),PCE Residential Reimbursement Rate ($/kWh),Residential Rate after PCE ($/kWh),Percent of Residential Rate Covered by PCE Reimbursement,Source,PCE Community,Notes
+Akiachak Native Community,Akiachak,0.6,0.38,0.22,0.63,pce,YES,NA
+Akiak City Council,Akiak,0.63,0.37,0.26,0.57999999999999996,pce,YES,NA
+"Akutan, City of",Akutan,0.32,0.18,0.14000000000000001,0.56999999999999995,pce,YES,NA
+Alaska Electric Light & Power Company,Juneau,0.12,0,0.12,0,eia,NO,NA
+Alaska Power & Telephone Company,"Allakaket, Alatna",0.96,0.72,0.25,0.74,pce,YES,NA
+Alaska Power & Telephone Company,Healy Lake,0.93,0.59,0.34,0.64,pce,YES,NA
+Alaska Power & Telephone Company,"Bettles, Evansville",0.75,0.54,0.21,0.72,pce,YES,NA
+Alaska Power & Telephone Company,Chistochina,0.7,0.49,0.21,0.71,pce,YES,NA
+Alaska Power & Telephone Company,Mentasta Lake,0.7,0.49,0.2,0.71,pce,YES,NA
+Alaska Power & Telephone Company,Slana,0.7,0.49,0.21,0.71,pce,YES,NA
+Alaska Power & Telephone Company,"Northway, Northway Village, Northway Junction",0.68,0.47,0.2,0.7,pce,YES,NA
+Alaska Power & Telephone Company,"Eagle, Eagle Village",0.66,0.46,0.2,0.69,pce,YES,NA
+Alaska Power & Telephone Company,Whale Pass,0.63,0.39,0.24,0.62,pce,YES,NA
+Alaska Power & Telephone Company,Naukati Bay,0.57999999999999996,0.38,0.2,0.65,pce,YES,NA
+Alaska Power & Telephone Company,"Dot Lake, Dot Lake Village",0.48,0.28000000000000003,0.2,0.59,pce,YES,NA
+Alaska Power & Telephone Company,Tetlin,0.48,0.28000000000000003,0.2,0.59,pce,YES,NA
+Alaska Power & Telephone Company,"Tok, Tanacross",0.48,0.28000000000000003,0.2,0.59,pce,YES,NA
+Alaska Power & Telephone Company,Coffman Cove,0.28999999999999998,0.12,0.18,0.4,pce,YES,NA
+Alaska Power & Telephone Company,"Craig, Klawock",0.25,0.08,0.17,0.3,pce,YES,NA
+Alaska Power & Telephone Company,Hollis,0.25,0.08,0.17,0.3,pce,YES,NA
+Alaska Power & Telephone Company,Hydaburg,0.25,0.08,0.17,0.31,pce,YES,NA
+Alaska Power & Telephone Company,Klawock,0.25,0.08,0.17,0.3,pce,YES,NA
+Alaska Power & Telephone Company,"Thorne Bay, Kasaan",0.25,0.08,0.17,0.3,pce,YES,NA
+Alaska Power & Telephone Company,"Haines, Covenant Life",0.24,7.0000000000000007E-2,0.17,0.28000000000000003,pce,YES,NA
+Alaska Power & Telephone Company,Skagway,0.24,0.06,0.17,0.27,pce,YES,NA
+Alaska Village Electric Cooperative,Shungnak,0.89,0.66,0.23,0.74,pce,YES,NA
+Alaska Village Electric Cooperative,Noatak,0.81,0.59,0.22,0.72,pce,YES,NA
+Alaska Village Electric Cooperative,Ekwok,0.74,0.5,0.24,0.68,pce,YES,NA
+Alaska Village Electric Cooperative,Wales,0.7,0.48,0.22,0.69,pce,YES,NA
+Alaska Village Electric Cooperative,Eek,0.69,0.47,0.22,0.68,pce,YES,NA
+Alaska Village Electric Cooperative,Ambler,0.67,0.45,0.22,0.68,pce,YES,NA
+Alaska Village Electric Cooperative,Kiana,0.67,0.46,0.22,0.68,pce,YES,NA
+Alaska Village Electric Cooperative,Kivalina,0.67,0.45,0.22,0.68,pce,YES,NA
+Alaska Village Electric Cooperative,Teller,0.67,0.45,0.22,0.68,pce,YES,NA
+Alaska Village Electric Cooperative,Scammon Bay,0.66,0.45,0.22,0.67,pce,YES,NA
+Alaska Village Electric Cooperative,Shageluk,0.66,0.44,0.22,0.67,pce,YES,NA
+Alaska Village Electric Cooperative,Anvik,0.65,0.43,0.22,0.67,pce,YES,NA
+Alaska Village Electric Cooperative,Kotlik,0.65,0.43,0.22,0.67,pce,YES,NA
+Alaska Village Electric Cooperative,Noorvik,0.65,0.43,0.22,0.67,pce,YES,NA
+Alaska Village Electric Cooperative,Selawik,0.65,0.43,0.22,0.66,pce,YES,NA
+Alaska Village Electric Cooperative,Grayling,0.64,0.42,0.22,0.66,pce,YES,NA
+Alaska Village Electric Cooperative,Kalskag,0.64,0.42,0.22,0.66,pce,YES,NA
+Alaska Village Electric Cooperative,Lower Kalskag,0.64,0.42,0.22,0.66,pce,YES,NA
+Alaska Village Electric Cooperative,Saint Michael,0.64,0.42,0.22,0.66,pce,YES,NA
+Alaska Village Electric Cooperative,Alakanuk,0.63,0.41,0.22,0.66,pce,YES,NA
+Alaska Village Electric Cooperative,Goodnews Bay,0.63,0.42,0.22,0.66,pce,YES,NA
+Alaska Village Electric Cooperative,Minto,0.63,0.42,0.22,0.66,pce,YES,NA
+Alaska Village Electric Cooperative,New Stuyahok,0.63,0.42,0.22,0.66,pce,YES,NA
+Alaska Village Electric Cooperative,Nulato,0.62,0.4,0.22,0.65,pce,YES,NA
+Alaska Village Electric Cooperative,Old Harbor,0.62,0.41,0.22,0.65,pce,YES,NA
+Alaska Village Electric Cooperative,Togiak,0.62,0.4,0.22,0.65,pce,YES,NA
+Alaska Village Electric Cooperative,Mountain Village,0.61,0.4,0.21,0.65,pce,YES,NA
+Alaska Village Electric Cooperative,Russian Mission,0.61,0.39,0.21,0.65,pce,YES,NA
+Alaska Village Electric Cooperative,Shishmaref,0.61,0.4,0.21,0.65,pce,YES,NA
+Alaska Village Electric Cooperative,Stebbins,0.61,0.4,0.22,0.65,pce,YES,NA
+Alaska Village Electric Cooperative,Hooper Bay,0.6,0.39,0.21,0.64,pce,YES,NA
+Alaska Village Electric Cooperative,Koyuk,0.6,0.39,0.21,0.64,pce,YES,NA
+Alaska Village Electric Cooperative,Pilot Station,0.6,0.39,0.21,0.65,pce,YES,NA
+Alaska Village Electric Cooperative,Shaktoolik,0.6,0.38,0.21,0.64,pce,YES,NA
+Alaska Village Electric Cooperative,Elim,0.59,0.37,0.21,0.64,pce,YES,NA
+Alaska Village Electric Cooperative,Emmonak,0.59,0.38,0.21,0.64,pce,YES,NA
+Alaska Village Electric Cooperative,Holy Cross,0.59,0.38,0.21,0.64,pce,YES,NA
+Alaska Village Electric Cooperative,Huslia,0.59,0.38,0.21,0.64,pce,YES,NA
+Alaska Village Electric Cooperative,Kasigluk,0.57999999999999996,0.36,0.21,0.63,pce,YES,NA
+Alaska Village Electric Cooperative,Marshall,0.57999999999999996,0.37,0.21,0.63,pce,YES,NA
+Alaska Village Electric Cooperative,Nunapitchuk,0.57999999999999996,0.36,0.21,0.63,pce,YES,NA
+Alaska Village Electric Cooperative,Pitkas Point,0.57999999999999996,0.37,0.21,0.63,pce,YES,NA
+Alaska Village Electric Cooperative,"Saint Mary's, Andreafsky",0.57999999999999996,0.37,0.21,0.64,pce,YES,NA
+Alaska Village Electric Cooperative,Kaltag,0.56999999999999995,0.36,0.21,0.63,pce,YES,NA
+Alaska Village Electric Cooperative,Nightmute,0.56999999999999995,0.36,0.21,0.63,pce,YES,NA
+Alaska Village Electric Cooperative,Toksook Bay,0.56999999999999995,0.36,0.21,0.63,pce,YES,NA
+Alaska Village Electric Cooperative,Tununak,0.56999999999999995,0.36,0.21,0.63,pce,YES,NA
+Alaska Village Electric Cooperative,Gambell,0.56000000000000005,0.35,0.21,0.62,pce,YES,NA
+Alaska Village Electric Cooperative,Brevig Mission,0.55000000000000004,0.34,0.21,0.61,pce,YES,NA
+Alaska Village Electric Cooperative,Quinhagak,0.55000000000000004,0.33,0.21,0.61,pce,YES,NA
+Alaska Village Electric Cooperative,Mekoryuk,0.54,0.33,0.21,0.61,pce,YES,NA
+Alaska Village Electric Cooperative,Savoonga,0.54,0.33,0.21,0.61,pce,YES,NA
+Alaska Village Electric Cooperative,Chevak,0.52,0.31,0.21,0.59,pce,YES,NA
+Alutiiq Power Company,Karluk,0.65,0.41,0.23,0.64,pce,YES,NA
+Anchorage Municipal Light & Power,Anchorage,0.12,0,0.12,0,eia,NO,NA
+Aniak Light & Power,Aniak,0.76,0.49,0.28000000000000003,0.64,pce,YES,NA
+"Atka, City of",Atka,0.76,0.56999999999999995,0.19,0.75,pce,YES,NA
+Atmautluak Tribal Utilities,Atmautluak,0.8,0.38,0.42,0.48,pce,YES,NA
+Barrow Utilities & Electric Cooperative Inc.,Barrow,0.12,0,0.12,0,eia,NO,NA
+Beaver Joint Utilities,Beaver,0.86,0.57999999999999996,0.27,0.68,pce,YES,NA
+Bethel Utilities Corporation,"Bethel, Oscarville",0.55000000000000004,0.4,0.16,0.71,pce,YES,NA
+"Buckland, City of",Buckland,0.47,0.26,0.21,0.56000000000000005,pce,YES,NA
+Chalkyitsik Village Council,Chalkyitsik,0.95,0.57999999999999996,0.37,0.61,pce,YES,NA
+Chenega Ira Council,Chenega Bay,0.53,0.36,0.16,0.69,pce,YES,NA
+Chignik Lagoon Power Utility,Chignik Lagoon,0.75,0.42,0.33,0.56000000000000005,pce,YES,NA
+Chignik Lake Electric Utility,Chignik Lake,0.86,0.54,0.32,0.63,pce,YES,NA
+"Chignik, City of",Chignik,0.51,0.35,0.16,0.68,pce,YES,NA
+Chitina Electric Inc,Chitina,0.67,0.4,0.27,0.6,pce,YES,NA
+Chugach Electric Assn Inc,Anchorage,0.14000000000000001,0,0.14000000000000001,0,eia,NO,"The CEA service area includes: Beluga, Cooper Landing, Girdwood, Hope, Moose Pass, Point Possession, Sunrise and Tyonek."
+Circle Electric Utility,Circle,0.79,0.53,0.26,0.67,pce,YES,NA
+Copper Valley Elec Assn Inc,Valdez,0.3,0,0.3,0,eia,NO,"In addition to Valdez, the CVEA service areas includes 14 communities."
+Cordova Electric Cooperative,"Cordova, Eyak",0.42,0.15,0.28000000000000003,0.34,pce,YES,NA
+Diomede Joint Utilities,Diomede,0.6,0.46,0.14000000000000001,0.77,pce,YES,NA
+Egegik Light & Power Co,Egegik,0.86,0.6,0.26,0.7,pce,YES,NA
+Elfin Cove Utility Commission,Elfin Cove,0.78,0.36,0.42,0.47,pce,YES,NA
+"False Pass, City of",False Pass,0.42,0.25,0.17,0.6,pce,YES,NA
+G & K Inc,Cold Bay,0.72,0.51,0.21,0.71,pce,YES,NA
+"Galena, City of",Galena,0.61,0.26,0.35,0.42,pce,YES,NA
+Gold Country Energy,Central,0.77,0.51,0.26,0.66,pce,YES,NA
+Golden Valley Elec Assn Inc,Fairbanks,0.24,0,0.24,0,eia,NO,"In addition to Fairbanks, the GVEA service are includes 25 communities."
+Golovin Power Utilities,Golovin,0.6,0.35,0.25,0.57999999999999996,pce,YES,NA
+Gustavus Electric Co,Gustavus,0.44,0.19,0.26,0.42,pce,YES,NA
+Gwitchyaa Zhee Utilities Company,Fort Yukon,0.65,0.49,0.15,0.76,pce,YES,NA
+Homer Electric Assn Inc,Homer,0.2,0,0.2,0,eia,NO,"In addition to Homer, the HEA service area includes 24 communities."
+Hughes Power & Light,Hughes,0.71,0.56999999999999995,0.14000000000000001,0.8,pce,YES,NA
+Igiugig Electric Company,Igiugig,0.81,0.52,0.28999999999999998,0.64,pce,YES,NA
+"I-N-N Electric Coop, Inc","Iliamna, Newhalen, Nondalton",0.6,0.23,0.38,0.38,pce,YES,NA
+Inside Passage Electric,Angoon,0.63,0.42,0.22,0.66,pce,YES,NA
+Inside Passage Electric,Chilkat Valley,0.63,0.42,0.22,0.66,pce,YES,NA
+Inside Passage Electric,Hoonah,0.63,0.42,0.22,0.66,pce,YES,NA
+Inside Passage Electric,Kake,0.63,0.42,0.22,0.66,pce,YES,NA
+Inside Passage Electric,Klukwan,0.63,0.42,0.22,0.66,pce,YES,NA
+Ipnatchiaq Electric Company,Deering,0.7,0.36,0.34,0.52,pce,YES,NA
+Ketchikan Public Utilities,Ketchikan,0.1,0,0.1,0,eia,NO,NA
+"King Cove, City of",King Cove,0.3,0.09,0.21,0.28999999999999998,pce,YES,NA
+Kipnuk Light Plant,Kipnuk,0.56999999999999995,0.35,0.22,0.61,pce,YES,NA
+Kobuk Valley Electric Company,Kobuk,0.86,0.56999999999999995,0.28999999999999998,0.66,pce,YES,AVEC began providing service to Kobuk in July 2012.
+Kodiak Electric Assn Inc,Kodiak,0.19,0,0.19,0,eia,NO,"In addition to Kodiak, the KEA service area includes: Port Lions, Chiniak, Womens Bay, Kodiak Station and Woody Island."
+Kokhanok Village Council,Kokhanok,0.9,0.56999999999999995,0.33,0.63,pce,YES,NA
+Kotzebue Electric Association,Kotzebue,0.43,0.27,0.16,0.64,pce,YES,NA
+"Koyukuk, City of",Koyukuk,0.95,0.34,0.61,0.36,pce,YES,NA
+Kwethluk Incorporated d/b/a Kuiggluum Kallugvia,Kwethluk,0.52,0.32,0.2,0.62,pce,YES,NA
+Kwigillingok Power Company,Kwigillingok,0.61,0.43,0.18,0.7,pce,YES,NA
+Larsen Bay Utility Company,Larsen Bay,0.44,0.06,0.38,0.13,pce,YES,NA
+Levelock Electrical Coop,Levelock,0.7,0.5,0.2,0.71,pce,YES,NA
+Lime Village Electric Utility,Lime Village,1.7,0.81,0.88,0.48,pce,YES,NA
+Manokotak Power Company,Manokotak,0.55000000000000004,0.25,0.3,0.45,pce,YES,NA
+Matanuska Electric Association,"Palmer, Wasilla",0.15,0,0.15,0,eia,NO,MEA services 29 communities including Palmer and Wasilla.
+Mcgrath Light & Power,McGrath,0.59,0.38,0.2,0.65,pce,YES,NA
+Middle Kuskokwim Electric,Crooked Creek,1.1599999999999999,0.8,0.37,0.68,pce,YES,NA
+Middle Kuskokwim Electric,Sleetmute,1.1599999999999999,0.8,0.36,0.69,pce,YES,NA
+Middle Kuskokwim Electric,Stony River,1.1599999999999999,0.79,0.36,0.69,pce,YES,NA
+Middle Kuskokwim Electric,Red Devil,1.1499999999999999,0.79,0.36,0.69,pce,YES,NA
+Middle Kuskokwim Electric,Chuathbaluk,1.1399999999999999,0.8,0.34,0.7,pce,YES,NA
+Naknek Electric Association,"Naknek, South Naknek, King Salmon",0.56000000000000005,0.34,0.22,0.61,pce,YES,NA
+Napakiak Ircinraq,Napakiak,0.83,0.59,0.24,0.71,pce,YES,NA
+Napaskiak Electric Utility,Napaskiak,0.7,0.41,0.28999999999999998,0.57999999999999996,pce,YES,NA
+Naterkaq Light Plant (City of Chefornak),Chefornak,0.69,0.33,0.36,0.48,pce,YES,NA
+Native Village of Perryville,Perryville,0.95,0.28999999999999998,0.66,0.31,pce,YES,NA
+Nelson Lagoon Electrical Coop,Nelson Lagoon,0.84,0.5,0.34,0.59,pce,YES,NA
+New Koliganek Village Council,Koliganek,0.5,0.36,0.14000000000000001,0.72,pce,YES,NA
+"Nikolai, City of",Nikolai,0.87,0.65,0.22,0.75,pce,YES,NA
+Nome Joint Utility Systems,Nome,0.36,0.17,0.19,0.48,pce,YES,NA
+North Slope Borough Power & Light,Anaktuvuk Pass,0.15,0.01,0.14000000000000001,0.08,pce,YES,NA
+North Slope Borough Power & Light,Atqasuk,0.15,0.01,0.14000000000000001,0.08,pce,YES,NA
+North Slope Borough Power & Light,Kaktovik,0.15,0.01,0.14000000000000001,0.08,pce,YES,NA
+North Slope Borough Power & Light,Point Hope,0.15,0.01,0.14000000000000001,0.08,pce,YES,NA
+North Slope Borough Power & Light,Point Lay,0.15,0.01,0.14000000000000001,0.08,pce,YES,NA
+North Slope Borough Power & Light,Wainwright,0.15,0.01,0.14000000000000001,0.08,pce,YES,NA
+North Slope Borough Power & Light,Nuiqsut,0.08,0,0.08,0,pce,YES,NA
+Nunam Iqua Electric Company,Nunam Iqua,0.53,0.33,0.2,0.62,pce,YES,NA
+Nushagak Electric Cooperative,"Dillingham, Aleknagik",0.46,0.28000000000000003,0.18,0.61,pce,YES,NA
+"Ouzinkie, City of",Ouzinkie,0.44,0.25,0.19,0.56999999999999995,pce,YES,NA
+Pedro Bay Village Council,Pedro Bay,0.91,0.5,0.41,0.56000000000000005,pce,YES,NA
+Pelican Utility,Pelican,0.69,0.53,0.16,0.77,pce,YES,NA
+"Petersburg, City of",Petersburg,0.1,0,0.1,0,eia,NO,NA
+Pilot Point Electric Utility,Pilot Point,0.5,0.36,0.14000000000000001,0.72,pce,YES,NA
+Port Heiden Utilities,Port Heiden,0.75,0.34,0.41,0.45,pce,YES,NA
+Puvurnaq Power Company,Kongiganak,0.65,0.36,0.28999999999999998,0.55000000000000004,pce,YES,NA
+"Ruby, City of",Ruby,0.84,0.42,0.42,0.5,pce,YES,NA
+"Saint George, City of",Saint George,0.86,0.56999999999999995,0.28999999999999998,0.66,pce,YES,NA
+Saint Paul Municipal Electric,Saint Paul,0.55000000000000004,0.36,0.19,0.65,pce,YES,NA
+"Seward, City of",Seward,0.2,0,0.2,0,eia,NO,"The Seward service area includes Crown Point, Primrose, Bear Creek and Lowell Point."
+"Sitka, City & Borough of",Sitka,0.1,0,0.1,0,eia,NO,NA
+Takotna Community Assoc Inc,Takotna,1.02,0.6,0.42,0.59,pce,YES,NA
+Tanalian Electric Cooperative,Port Alsworth,0.69,0.52,0.17,0.75,pce,YES,NA
+Tanana Power Company Inc,Tanana,0.76,0.45,0.31,0.59,pce,YES,NA
+Tatitlek Village Ira Council,Tatitlek,0.77,0.5,0.27,0.65,pce,YES,NA
+TDX Adak Generating LLC,Adak,1.08,0.73,0.35,0.68,pce,YES,NA
+TDX Corporation,Sand Point,0.67,0.44,0.23,0.65,pce,YES,NA
+TDX Manley Generating LLC,Manley Hot Springs,0.9,0.66,0.25,0.73,pce,YES,NA
+"Tenakee Springs, City of",Tenakee Springs,0.75,0.46,0.28999999999999998,0.61,pce,YES,NA
+Tuluksak Traditional,Tuluksak,0.6,0.43,0.17,0.72,pce,YES,NA
+Tuntutuliak Community,Tuntutuliak,0.65,0.46,0.19,0.71,pce,YES,NA
+Twin Hills Village Council,Twin Hills,0.55000000000000004,0.41,0.15,0.73,pce,YES,NA
+Umnak Power Company,Nikolski,0.6,0.46,0.14000000000000001,0.76,pce,YES,NA
+Unalakleet Valley Electric Cooperative,Unalakleet,0.41,0.21,0.2,0.51,pce,YES,NA
+"Unalaska, City of",Unalaska,0.5,0.22,0.28000000000000003,0.44,pce,YES,NA
+Ungusraq Power Company,Newtok,0.8,0.57999999999999996,0.22,0.72,pce,YES,NA
+Venetie Village Electric,Venetie,0.9,0.53,0.37,0.59,pce,YES,NA
+"White Mountain, City of",White Mountain,0.62,0.31,0.31,0.5,pce,YES,NA
+"Wrangell, City of",Wrangell,0.11,0,0.11,0,eia,NO,NA
+Yakutat Power Inc,Yakutat,0.53,0.35,0.18,0.65,pce,YES,NA

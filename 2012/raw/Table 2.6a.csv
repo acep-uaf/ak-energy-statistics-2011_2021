@@ -1,0 +1,62 @@
+Note:  This information cannot be updated annually because of data availability.,...2,...3,...4,...5,...6,...7,...8,...9,...10,...11,...12,...13,...14,...15
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Non-Utility Electric Generation by Fuel Type (kW, MWh, Gal, Mcf, Short Ton), 2012",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,"Installed Capacity, kW","Net Generation, MWh",NA,NA,NA,NA,Fuel Use,NA,NA,NA,NA
+NA,NA,NA,Number of Generators,NA,Turbine,NA,NA,Reciprocating IC Engine,NA,NA,NA,NA,NA,NA
+NA,Category,Facility Name,NA,NA,Diesel,Natural Gas,Coal,Diesel,Natural Gas,Diesel (Gal),Natural Gas (Mcf),Coal (Short Ton),Source,Data Year
+NA,Oil & Gas,Alyeska Pipeline Service Company,53,214065.36879999994,16113.482107956748,317103.71279982035,NA,5081.2764323489546,NA,1569282,3431313.2068216419,NA,AIRTOOLS,2011
+NA,NA,BP Exploration (Alaska) Inc.,108,505209.70079999988,831.68738069606661,2414568.9937847112,NA,31883.496330660157,NA,2422266.2800000003,26127548,NA,AIRTOOLS,2011
+NA,NA,"ConocoPhillips Alaska, Inc.",49,207968.02979999987,112.01760286388389,913799.72207321553,NA,1422.9594511594498,6237.0667691637254,113651.3,9955526.4000000004,NA,AIRTOOLS,2011
+NA,NA,"Cook Inlet Energy, LLC",2,11304,NA,20331.229652037629,NA,NA,NA,NA,220000,NA,AIRTOOLS,2011
+NA,NA,Eni US Operating Co. Inc.,12,54460.5533,NA,87160.813250407446,NA,10188.308850260966,NA,754353,943149,NA,AIRTOOLS,2011
+NA,NA,"Flint Hills Resources Alaska, LLC",2,14655.000000000002,NA,NA,NA,NA,17.661444771310467,NA,191.11081406229113,NA,AIRTOOLS,2011
+NA,NA,"Halliburton Energy Services, Inc.",2,1712.1272000000001,NA,NA,NA,NA,450.71422124313244,NA,4877.0846805889796,NA,AIRTOOLS,2011
+NA,NA,"Hilcorp Alaska, LLC (formerly Marathon Alaska Production LLC )",46,87944.475880000027,NA,134598.41455785561,NA,1257.9536688726316,207311.29975426861,93140.949999999983,3699733.7807911993,NA,AIRTOOLS,2011
+NA,NA,"Petro Star, Inc.",1,500,NA,NA,NA,5.7130476629116451,NA,423,NA,NA,AIRTOOLS,2011
+NA,NA,"Pioneer Natural Resources Alaska, Inc.",11,28398.108899999999,NA,67555.131252906853,NA,1216.9466823143991,NA,90104,731000,NA,AIRTOOLS,2011
+NA,NA,Savant Alaska LLC,4,14949.197999999999,NA,34537.565473782633,NA,259.7117066368848,NA,19229.325290000001,373723.8,NA,AIRTOOLS,2011
+NA,NA,"XTO Energy, Inc.",11,7547.2297000000008,NA,29187.328459104749,NA,NA,675349.8485261529,NA,7623650,NA,AIRTOOLS,2011
+NA,NA,Tesoro Alaska Co,2,8000,13,39793.288,NA,NA,NA,1596,39793.288,NA,EIA,2012
+NA,NA,TDX North Slope Generating Inc.,9,19100,NA,35559,NA,NA,35559,NA,71118,NA,EIA,2012
+NA,Military,Doyon Utilities - Fort Greely,4,7400,NA,NA,NA,NA,NA,12894,NA,NA,EIA,2012
+NA,NA,Doyon Utilities - JBER,11,14900,790,NA,NA,NA,NA,58700,NA,NA,AIRTOOLS,2011
+NA,NA,Doyon Utilities - Fort Wainwright,5,22500,NA,NA,149725.18,NA,NA,NA,NA,57585,EIA,2012
+NA,NA,Missile Defense Agency - Fort Greely,12,20056,2810,NA,NA,NA,NA,208080,NA,NA,AIRTOOLS,2011
+NA,NA,U S Air Force-Eielson AFB,10,33500,174,NA,72445,NA,NA,14700,NA,27030,EIA,2012
+NA,NA,US Air Force - Clear Air Force Station,7,2523,31,NA,NA,NA,NA,2263,NA,NA,AIRTOOLS,2011
+NA,NA,US Air Force - Eareckson Air Station Shemya Island,15,18168,15132,NA,NA,NA,NA,1120418,NA,NA,AIRTOOLS,2011
+NA,NA,US Air Force - Elmendorf AFB,10,2862,602000,NA,NA,NA,NA,44603,NA,NA,AIRTOOLS,2011
+NA,NA,US Air Force - HAARP Research Site,5,13423,2273,NA,NA,NA,NA,168326,NA,NA,AIRTOOLS,2011
+NA,NA,US Army - Fort Wainwright,3,2700,37,NA,NA,NA,NA,2772,NA,NA,AIRTOOLS,2011
+NA,Seafood,Alyeska Seafoods Inc.,6,5682,NA,NA,NA,11194.885720760914,NA,828881,NA,NA,AIRTOOLS,2011
+NA,NA,"Icicle Seafoods, Inc.",3,4500,NA,NA,NA,10120.954314339118,NA,749366,NA,NA,AIRTOOLS,2011
+NA,NA,Peter Pan Seafoods,3,3410,NA,NA,NA,10759.00584552416,NA,796608,NA,NA,AIRTOOLS,2011
+NA,NA,Trident Seafoods,15,18335,NA,NA,NA,55756.090238512304,NA,4128239,NA,NA,AIRTOOLS,2011
+NA,NA,Unisea Inc,8,17500,NA,NA,NA,28532,NA,2696484,NA,NA,EIA,2012
+NA,NA,Westward Seafoods Inc.,3,6600,NA,NA,NA,18891,NA,1271550,NA,NA,EIA,2012
+NA,Mining,Hecla Greens Creek Mining Company (HGCMC),5,13470,15650.635709162552,NA,NA,16755.342337583726,NA,2299809,NA,NA,AIRTOOLS,2011
+3 of 7,NA,"Nixon Fork Mine, McGrath",3,2760.5814,NA,NA,NA,6817.6782592573127,NA,504788,NA,NA,AIRTOOLS,2011
+NA,NA,Red Dog Mine,18,45610,NA,NA,NA,188125.64880520545,NA,13929019,NA,NA,AIRTOOLS,2011
+NA,Other,Providence Alaska Medical Center,9,5928.4250000000002,NA,NA,NA,872.32700343294869,NA,64588,NA,NA,AIRTOOLS,2011
+NA,NA,University of Alaska Fairbanks,4,22600,4885.0110000000004,2683.5230000000001,46073.824999999997,1871.8,NA,344652,18151,20503,NA,NA
+NA,NA,TOTAL,471,1460241.7987800001,660852.83380067931,4096878.7223038427,268244.005,401013.09869453229,924925.59071559971,34310785.855289996,53239774.671107493,105118,NA,NA
+NA,NA,CO2 Emissions (Metric Tons),NA,NA,NA,NA,NA,NA,NA,348088.87542326294,2884225.3953739917,200026.95140297996,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NOTES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,The non-utility electric generation table is a summary of available data from public sources that includes only the largest producers. It does not represent a comprehensive list of non-utility self generators or total energy used by these sectors.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,DATA SOURCES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"U.S. Energy Information Administration. Electric data files 2012, forms 860 and 923.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Alaska Department of Environmental Conservation, Division of Air Quality. Selected data from AIRTOOLS database.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Note: The Alaska Departement of Environmental Conservation permits facilities that fall below the EPA Air Emission Reporting Requirements (http://www.epa.gov/ttn/chief/aerr/) . The emmission inventory data is stored in the AIRTOOLS database does not contain specific data on fuel use and electricity generation. However, it records related data such as design capacity, thruput amounts and materials of emmiting units that allows fuel use and electricitity net generation to be estimated. The data presented in this table are derived estimates by the authors.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"The AIRTOOLS database contains information on all stationary facilities that are required to register for an emissions permit, under Title V of the 1990 federal Clean Air Act. This Act is administered by the U.S. Environmental Protection Agency (EPA), which has responsibility for protecting and improving the nation’s air quality and stratospheric ozone layer. This responsibility is administered in Alaska via DEC. The AIRTOOLS database provided an additional list of facilities not required to report to either the DOE or the RCA, mostly industry generators. Facilities requiring an air emissions permit meet at least one of the following criteria: 1) a potential to emit greater than 100 tons per year of a regulated air contaminant and/or greater than 25 tpy HAP's; 2) a combustion source with a rated capacity greater than 100 MMBtu/hour; or 3) a combustion source with emission control equipment with a rated capacity greater than 50 MMBtu/hour. DEC collects data for larger facilities (Type A) every year, and data for smaller facilities (Type B) every three years. The latest data year available is 2011.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"U.S. Environmental Protection Agency, Air Emissions Reporting Requirements (AERR)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,http://www.epa.gov/ttn/chief/aerr/final_published_aerr.pdf,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,Definition for a Type A or B facility category dependens upon the facility's annual potential to emit a primary pollutant.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

@@ -1,0 +1,239 @@
+"Certified Utilities Installed Capacity by Prime Mover by Plant (kW), 2012",...2,...3,...4,...5,...6,...7,...8,...9,...10
+Utility Name,Plant Name,Community Name,Total Capacity,Fossil Fuel Turbines,Internal Combustion,Hydroelectric,Wind Turbine,Source,Notes
+"Akhiok, City of",Akhiok,Akhiok,360,0,360,0,0,AEA Village Assessment,NA
+Akiachak Native Community,Akiachak,Akiachak,1500,0,1500,0,0,AEA Village Assessment,NA
+Akiak City Council,Akiak,Akiak,920,0,920,0,0,AEA Village Assessment,NA
+"Akutan, City of",Akutan,Akutan,407,0,407,0,0,AEA Village Assessment,NA
+Alaska Electric Light & Power Company,Annex Creek,Juneau,4000,0,0,4000,0,EIA-F860,NA
+Alaska Electric Light & Power Company,Auke Bay,Juneau,36200,33700,2500,0,0,EIA-F860,NA
+Alaska Electric Light & Power Company,Gold Creek,Juneau,9700,0,8100,1600,0,EIA-F860,NA
+Alaska Electric Light & Power Company,Lake Dorothy,Juneau,14300,0,0,14300,0,EIA-F860,NA
+Alaska Electric Light & Power Company,Lemon Creek,Juneau,61700,37200,24500,0,0,EIA-F860,NA
+Alaska Electric Light & Power Company,Salmon Creek 1,Juneau,8500,0,0,8500,0,EIA-F860,NA
+Alaska Electric Light & Power Company,Snettisham,Juneau,78200,0,0,78200,0,EIA-F860,NA
+Alaska Environmental Power LLC,Delta Wind Farm,Fairbanks,1000,0,0,0,1000,EIA-F860,NA
+Alaska Power & Telephone Company,Allakaket,"Allakaket, Alatna",525,0,525,0,0,AEA Village Assessment,NA
+Alaska Power & Telephone Company,Bettles,"Bettles, Evansville",600,0,600,0,0,AEA Village Assessment,NA
+Alaska Power & Telephone Company,Black Bear Lake,Craig,4500,0,0,4500,0,EIA-F860,NA
+Alaska Power & Telephone Company,Chistochina,Chistochina,200,0,200,0,0,AEA Village Assessment,Receives power from Slana via intertie.
+Alaska Power & Telephone Company,Coffman Cove,Coffman Cove,660,0,660,0,0,AEA Village Assessment,Part of the Prince of Wales Island grid. Receives power from Craig.
+Alaska Power & Telephone Company,Craig,"Craig, Klawock",4400,0,4400,0,0,EIA-F860,"Part of the Prince of Wales Island grid. Provides to Hollis, Hydaburg, Klawock, Thorne Bay and Kaasan, Coffman Cove."
+Alaska Power & Telephone Company,Eagle,"Eagle, Eagle Village",450,0,450,0,0,AEA Village Assessment,NA
+Alaska Power & Telephone Company,False Island,"Kasaan, Thorne Bay",1300,0,1300,0,0,EIA-F860,Part of the Prince of Wales Island grid. Receives power from Craig.
+Alaska Power & Telephone Company,Goat Lake,"Covenant Life, Haines, Skagway",4000,0,0,4000,0,EIA-F860,Part of the Upper Lynn Canal Service Area.
+Alaska Power & Telephone Company,Haines,Haines,6200,0,6200,0,0,EIA-F860,Plant is also referred to as Lutak. Part of the Upper Lynn Canal Service Area.
+Alaska Power & Telephone Company,Haines,"Haines, Skagway",6485,0,6200,285,0,AEA Hydro Program Manager,Plant is also referred to as Lutak. Part of the Upper Lynn Canal Service Area.
+Alaska Power & Telephone Company,Healy Lake,Healy Lake,83,0,83,0,0,AEA Village Assessment,NA
+Alaska Power & Telephone Company,Hollis,Hollis,450,0,450,0,0,AEA Village Assessment,Part of the Prince of Wales Island grid. Receives power from Craig.
+Alaska Power & Telephone Company,Hydaburg,Hydaburg,1000,0,1000,0,0,EIA-F860,Part of the Prince of Wales Island grid. Receives power from Craig.
+Alaska Power & Telephone Company,Kasidaya Creek,"Covenant Life, Haines, Skagway",3000,0,0,3000,0,EIA-F860,Part of the Upper Lynn Canal Service Area.
+Alaska Power & Telephone Company,Naukati Bay,Naukati Bay,488,0,488,0,0,AEA Village Assessment,NA
+Alaska Power & Telephone Company,Northway,"Northway, Northway Village",1100,0,1100,0,0,EIA-F860,NA
+Alaska Power & Telephone Company,Skagway,"Covenant Life, Haines, Skagway",4400,0,3400,1000,0,EIA-F860,"Plant also referred as Dewey Lake.
+Part of the Upper Lynn Canal Service Area."
+Alaska Power & Telephone Company,Slana,"Slana, Chistochina",730,0,730,0,0,AEA Village Assessment,NA
+Alaska Power & Telephone Company,South Fork,Klawock,2000,0,0,2000,0,EIA-F860,NA
+Alaska Power & Telephone Company,Thorne Bay Plant,"Kasaan, Thorne Bay",1000,0,1000,0,0,EIA-F860,Part of the Prince of Wales Island grid. Receives power from Craig.
+Alaska Power & Telephone Company,Tok,"Tok, Tanacross",7600,0,7600,0,0,EIA-F860,"Provides power to Tanacross, Tetlin and Dot Lake via intertie."
+Alaska Power & Telephone Company,Viking,Craig,1000,0,1000,0,0,EIA-F860,"Part of the Prince of Wales Island grid. Provides to Hollis, Hydaburg, Klawock, Thorne Bay and Kaasan, Coffman Cove."
+Alaska Power & Telephone Company,Whale Pass,Whale Pass,250,0,250,0,0,AEA Village Assessment,NA
+Alaska Village Electric Cooperative,Alakanuk,Alakanuk,1300,0,1300,0,0,EIA-F860,NA
+Alaska Village Electric Cooperative,Ambler,Ambler,1115,0,1115,0,0,AEA Village Assessment,NA
+Alaska Village Electric Cooperative,Anvik,Anvik,375,0,375,0,0,AEA Village Assessment,NA
+Alaska Village Electric Cooperative,Brevig Mission,Brevig Mission,1025,0,1025,0,0,AEA Village Assessment,NA
+Alaska Village Electric Cooperative,Chevak,Chevak,2015,0,1615,0,400,"AEA Wind Program Manager, AEA Village Assessment",NA
+Alaska Village Electric Cooperative,Eek,Eek,595,0,595,0,0,AEA Village Assessment,NA
+Alaska Village Electric Cooperative,Ekwok,Ekwok,370,0,370,0,0,AEA Village Assessment,NA
+Alaska Village Electric Cooperative,Elim,Elim,1600,0,1600,0,0,EIA-F860,NA
+Alaska Village Electric Cooperative,Emmonak,Emmonak,2800,0,2400,0,400,EIA-F860,Source for wind data is the Renewable Energy Fund program.
+Alaska Village Electric Cooperative,Gambell,Gambell,1900,0,1600,0,300,EIA-F860,Source for wind data is the AEA Wind Program Manager
+Alaska Village Electric Cooperative,Goodnews Bay,Goodnews Bay,480,0,480,0,0,AEA Village Assessment,NA
+Alaska Village Electric Cooperative,Grayling,Grayling,260,0,260,0,0,AEA Village Assessment,NA
+Alaska Village Electric Cooperative,Holy Cross,Holy Cross,455,0,455,0,0,AEA Village Assessment,NA
+Alaska Village Electric Cooperative,Hooper Bay,Hooper Bay,1900,0,1600,0,300,EIA-F860,Source for wind data is AEA Wind Program Manager
+Alaska Village Electric Cooperative,Huslia,Huslia,796,0,796,0,0,AEA Village Assessment,NA
+Alaska Village Electric Cooperative,Kaltag,Kaltag,549,0,549,0,0,AEA Village Assessment,NA
+Alaska Village Electric Cooperative,Kasigluk,"Kasigluk, Nunapitchuk",1900,0,1600,0,300,EIA-F860,Source for wind data is the AEA Wind Program Manager
+Alaska Village Electric Cooperative,Kiana,Kiana,1100,0,1100,0,0,EIA-F860,NA
+Alaska Village Electric Cooperative,Kivalina,Kivalina,1100,0,1100,0,0,EIA-F860,NA
+Alaska Village Electric Cooperative,Kotlik,Kotlik,1400,0,1400,0,0,EIA-F860,NA
+Alaska Village Electric Cooperative,Koyuk,Koyuk,1100,0,1100,0,0,EIA-F860,NA
+Alaska Village Electric Cooperative,Marshall,Marshall,1085,0,1085,0,0,AEA Village Assessment,NA
+Alaska Village Electric Cooperative,Mekoryuk,Mekoryuk,904,0,704,0,200,AEA Village Assessment,NA
+Alaska Village Electric Cooperative,Minto,Minto,708,0,708,0,0,AEA Village Assessment,NA
+Alaska Village Electric Cooperative,Mountain Village,Mountain Village,1700,0,1700,0,0,EIA-F860,NA
+Alaska Village Electric Cooperative,New Stuyahok,New Stuyahok,1331,0,1331,0,0,AEA Village Assessment,NA
+Alaska Village Electric Cooperative,Nightmute,Nightmute,325,0,325,0,0,AEA Village Assessment,Receives power from Toksook Bay via intertie.
+Alaska Village Electric Cooperative,Noatak,Noatak,1200,0,1200,0,0,EIA-F860,NA
+Alaska Village Electric Cooperative,Noorvik,Noorvik,1000,0,1000,0,0,EIA-F860,NA
+Alaska Village Electric Cooperative,Nulato,Nulato,1002,0,1002,0,0,AEA Village Assessment,NA
+Alaska Village Electric Cooperative,Nunapitchuk,Nunapitchuk,500,0,500,0,0,AEA Village Assessment,Receives power from Kasigluk.
+Alaska Village Electric Cooperative,Old Harbor,Old Harbor,703,0,703,0,0,AEA Village Assessment,NA
+Alaska Village Electric Cooperative,Pilot Station,Pilot Station,1200,0,1200,0,0,EIA-F860,NA
+Alaska Village Electric Cooperative,Quinhagak,Quinhagak,1400,0,1100,0,300,EIA-F860,Source for wind data is the Renewable Energy Fund Program.
+Alaska Village Electric Cooperative,Russian Mission,Russian Mission,904,0,904,0,0,AEA Village Assessment,NA
+Alaska Village Electric Cooperative,Saint Mary's,"Andreafsky, Pitkas Point, Saint Mary's",6500,0,6500,0,0,EIA-F860,NA
+Alaska Village Electric Cooperative,Saint Michael,Saint Michael,1000,0,1000,0,0,EIA-F860,NA
+Alaska Village Electric Cooperative,Savoonga,Savoonga,1900,0,1700,0,200,EIA-F860,Source for wind data is the AEA Wind Program Manager
+Alaska Village Electric Cooperative,Scammon Bay,Scammon Bay,1300,0,1300,0,0,EIA-F860,NA
+Alaska Village Electric Cooperative,Selawik,Selawik,1860,0,1600,0,260,EIA-F860,Source for wind data is AEA Wind Program Manager
+Alaska Village Electric Cooperative,Shageluk,Shageluk,408,0,408,0,0,AEA Village Assessment,NA
+Alaska Village Electric Cooperative,Shaktoolik,Shaktoolik,1198,0,998,0,200,AEA Village Assessment,Source for wind data is the AEA Wind Program Manager
+Alaska Village Electric Cooperative,Shishmaref,Shishmaref,1400,0,1400,0,0,EIA-F860,NA
+Alaska Village Electric Cooperative,Shungnak,"Kobuk, Shungnak",1200,0,1200,0,0,EIA-F860,"Shungnak provides power to Kobuk via intertie.
+On July 1, 2012, AVEC took over operations in Kobuk."
+Alaska Village Electric Cooperative,Stebbins,Stebbins,1200,0,1200,0,0,EIA-F860,NA
+Alaska Village Electric Cooperative,Teller,Teller,1050,0,1050,0,0,AEA Village Assessment,NA
+Alaska Village Electric Cooperative,Togiak,Togiak,1300,0,1300,0,0,EIA-F860,NA
+Alaska Village Electric Cooperative,Toksook Bay,"Nightmute, Toksook Bay, Tununak",2100,0,1700,0,400,EIA-F860,Source for wind data is the AEA Wind Program Manager.
+Alaska Village Electric Cooperative,Tununak,Tununak,325,0,325,0,0,AEA Village Assessment,Receives power from Toksook Bay via intertie.
+Alaska Village Electric Cooperative,Upper Kalskag,"Kalskag, Lower Kalskag",1100,0,1100,0,0,EIA-F860,NA
+Alaska Village Electric Cooperative,Wales,Wales,625,0,495,0,130,"AEA Village Assessment, AEA Wind Program Manager",NA
+Alutiiq Power Company,Karluk,Karluk,140,0,140,0,0,AEA Village Assessment,NA
+Anchorage Municipal Light & Power,Anchorage 1,Anchorage,102900,100900,2000,0,0,EIA-F860,NA
+Anchorage Municipal Light & Power,AWWU Conduit,Anchorage,750,0,0,750,0,AEA Hydro Program Manager,NA
+Anchorage Municipal Light & Power,Eklutna Lake,Anchorage,44400,0,0,44400,0,EIA-F860,NA
+Anchorage Municipal Light & Power,George M Sullivan Generation Plant 2,Anchorage,266300,266300,0,0,0,EIA-F860,NA
+Aniak Light & Power,Aniak,Aniak,1100,0,1100,0,0,EIA-F860,NA
+Arctic Village Electric Company,Arctic Village,Arctic Village,395,0,395,0,0,AEA Village Assessment,NA
+"Atka, City of",Atka,Atka,257,0,257,0,0,AEA Village Assessment,NA
+Atmautluak Tribal Utilities,Atmautluak,Atmautluak,547,0,547,0,0,AEA Village Assessment,NA
+Aurora Energy LLC Chena,Aurora Energy,Fairbanks,27500,27500,0,0,0,EIA-F860,NA
+"Banner Wind, LLC",Banner Peak Wind Farm,Nome,1170,0,0,0,1170,AEA Wind Program Manager,NA
+Barrow Utilities & Electric Cooperative Inc.,Barrow,Barrow,20300,17300,3000,0,0,EIA-F860,NA
+Beaver Joint Utilities,Beaver,Beaver,244,0,244,0,0,AEA Village Assessment,NA
+Bethel Utilities Corporation,Bethel,"Bethel, Oscarville",12600,0,12600,0,0,EIA-F860,Provides power to Oscarville and sells power to Napakiak Ircinraq via intertie.
+Birch Creek Village Electric,Birch Creek,Birch Creek,28,0,28,0,0,AEA Village Assessment,NA
+"Buckland, City of",Buckland,Buckland,1152,0,1152,0,0,AEA Village Assessment,NA
+Chalkyitsik Village Council,Chalkyitsik,Chalkyitsik,307,0,307,0,0,AEA Village Assessment,NA
+Chenega Ira Council,Chenega Bay,Chenega Bay,198,0,198,0,0,AEA Village Assessment,NA
+"Chignik, City of",Chignik,Chignik,575,0,575,0,0,AEA Village Assessment,NA
+Chignik Lagoon Power Utility,Chignik Lagoon,Chignik Lagoon,453,0,453,0,0,AEA Village Assessment,NA
+Chignik Lake Electric Utility,Chignik Lake,Chignik Lake,442,0,442,0,0,AEA Village Assessment,NA
+Chitina Electric Inc,Chitina,Chitina,301,0,301,0,0,AEA Village Assessment,NA
+Chugach Electric Assn Inc,Beluga,Anchorage,374400,374400,0,0,0,EIA-F860,"In addition to Anchorage, CEA serves eight communities."
+Chugach Electric Assn Inc,Cooper Lake,Anchorage,19400,0,0,19400,0,EIA-F860,"In addition to Anchorage, CEA serves eight communities."
+Chugach Electric Assn Inc,International,Anchorage,46300,46300,0,0,0,EIA-F860,"In addition to Anchorage, CEA serves eight communities."
+Circle Electric Utility,Circle,Circle,188,0,188,0,0,AEA Village Assessment,NA
+"Clark's Point, City of",Clark's Point,Clark's Point,446,0,446,0,0,AEA Village Assessment,NA
+Copper Valley Elec Assn Inc,Glennallen,Glennallen,10700,0,10700,0,0,EIA-F860,NA
+Copper Valley Elec Assn Inc,Solomon Gulch,Valdez,12000,0,0,12000,0,EIA-F860,"In addition to Valdez, the CVEA service area includes 14 communities."
+Copper Valley Elec Assn Inc,Valdez,Valdez,9700,2800,6900,0,0,EIA-F860,"In addition to Valdez, the CVEA service area includes 14 communities."
+Copper Valley Elec Assn Inc,Valdez Cogen,Valdez,5300,5300,0,0,0,EIA-F860,"In addition to Valdez, the CVEA service area includes 14 communities."
+Cordova Electric Cooperative,Humpback Creek,"Cordova, Eyak",1200,0,0,1200,0,EIA-F860,NA
+Cordova Electric Cooperative,Orca,"Cordova, Eyak",10700,0,10700,0,0,EIA-F860,NA
+Cordova Electric Cooperative,Power Creek,"Cordova, Eyak",6000,0,0,6000,0,EIA-F860,NA
+Egegik Light & Power Co,Egegik,Egegik,380,0,380,0,0,AEA Village Assessment,NA
+Elfin Cove Utility Commission,Elfin Cove,Elfin Cove,347,0,347,0,0,AEA Village Assessment,NA
+"Enerdyne, LLC",McRoberts Creek,"Palmer, Wasilla",125,0,0,125,0,AEA Hydro Program Manager,NA
+"False Pass, City of",False Pass,False Pass,375,0,375,0,0,AEA Village Assessment,NA
+Fire Island Wind LLC,Fire Island,Anchorage,18000,0,0,0,18000,EIA-F860,NA
+"Galena, City of",Galena,Galena,4200,0,4200,0,0,EIA-F860,NA
+G & K Inc,Cold Bay,Cold Bay,2495,0,2495,0,0,AEA Village Assessment,NA
+Gold Country Energy,Central,Central,575,0,575,0,0,AEA Village Assessment,NA
+Golden Valley Elec Assn Inc,Delta Power,Fairbanks,23100,23100,0,0,0,EIA-F860,"In addition to Fairbanks, the GVEA service are includes 25 communities."
+Golden Valley Elec Assn Inc,Eva Creek,NA,24600,0,0,0,24600,AEA,NA
+Golden Valley Elec Assn Inc,Fairbanks,Fairbanks,42200,36800,5400,0,0,EIA-F860,"In addition to Fairbanks, the GVEA service are includes 25 communities."
+Golden Valley Elec Assn Inc,Healy,Fairbanks,30800,28000,2800,0,0,EIA-F860,"In addition to Fairbanks, the GVEA service are includes 25 communities."
+Golden Valley Elec Assn Inc,North Pole,Fairbanks,181000,181000,0,0,0,EIA-F860,"In addition to Fairbanks, the GVEA service are includes 25 communities."
+Golovin Power Utilities,Golovin,Golovin,580,0,580,0,0,AEA Village Assessment,NA
+Gustavus Electric Co,Falls Creek,Gustavus,800,0,0,800,0,AEA Hydro Program Manager,NA
+Gustavus Electric Co,Gustavus,Gustavus,842,0,842,0,0,AEA Village Assessment,NA
+Gwitchyaa Zhee Utilities Company,Fort Yukon,Fort Yukon,2700,0,2700,0,0,EIA-F860,NA
+Homer Electric Assn Inc,Bernice Lake,Homer,76700,76700,0,0,0,EIA-F860,"In addition to Homer, HEA serves 24 communities."
+Homer Electric Assn Inc,Bradley Lake,Anchorage,120000,0,0,120000,0,EIA-F860,"In addition to Homer, HEA serves 24 communities. In previous reports, 126 MW of installed capacity were reported based on the values reported to EIA. However, the FERC record is 120 MW and it is unclear why higher values have been reported to EIA over the last few years."
+Homer Electric Assn Inc,Nikiski Co-Generation,Homer,37900,37900,0,0,0,EIA-F860,"In addition to Homer, HEA serves 24 communities."
+Homer Electric Assn Inc,Seldovia,Seldovia,2400,0,2400,0,0,EIA-F860,"In addition to Homer, HEA serves 24 communities."
+Hughes Power & Light,Hughes,Hughes,230,0,230,0,0,AEA Village Assessment,NA
+Igiugig Electric Company,Igiugig,Igiugig,201,0,201,0,0,AEA Village Assessment,NA
+"I-N-N Electric Coop, Inc",Newhalen,"Iliamna, Newhalen, Nondalton",1700,0,900,800,0,EIA-F860,"Power produced at the Tazimina hydroelectric project and the Newhalen plant is shared by Iliamna, Newhalen and Nondalton."
+Inside Passage Electric,10 Mile,"Haines, Skagway",600,0,0,600,0,AEA Hydro Program Manager,Part of the Upper Lynn Canal Service Area.
+Inside Passage Electric,Angoon,Angoon,1500,0,1500,0,0,EIA-F860,NA
+Inside Passage Electric,Chilkat Valley,Chilkat Valley,600,0,600,0,0,EIA-F860,Provides power to Klukwan via intertie.
+Inside Passage Electric,Hoonah,Hoonah,2000,0,2000,0,0,EIA-F860,NA
+Inside Passage Electric,Kake,Kake,2400,0,2400,0,0,EIA-F860,NA
+Ipnatchiaq Electric Company,Deering,Deering,577,0,577,0,0,AEA Village Assessment,NA
+Ketchikan Public Utilities,Beaver Falls,Ketchikan,5400,0,0,5400,0,EIA-F860,NA
+Ketchikan Public Utilities,Ketchikan,Ketchikan,4200,0,0,4200,0,EIA-F860,NA
+Ketchikan Public Utilities,Silvis,Ketchikan,2100,0,0,2100,0,EIA-F860,NA
+Ketchikan Public Utilities,Swan Lake,"Ketchikan, Petersburg, Wrangell",22400,0,0,22400,0,EIA-F860,NA
+Ketchikan Public Utilities,S W Bailey,Ketchikan,25900,0,25900,0,0,EIA-F860,NA
+"King Cove, City of",King Cove,King Cove,2600,0,1800,800,0,EIA-F860,NA
+Kobuk Valley Electric Company,Kobuk,Kobuk,215,0,215,0,0,AEA Village Assessment,NA
+Kodiak Electric Assn Inc,Kodiak,Kodiak,22300,0,22300,0,0,EIA-F860,"The KEA service area also includes: Port Lions, Chiniak, Womens Bay and Woody Island."
+Kodiak Electric Assn Inc,Nymans Plant,Kodiak,10000,0,10000,0,0,EIA-F860,"The KEA service area also includes: Port Lions, Chiniak, Womens Bay and Woody Island."
+Kodiak Electric Assn Inc,Pillar Mountain,Kodiak,9000,0,0,0,9000,EIA-F860,"The KEA service area also includes: Port Lions, Chiniak, Womens Bay and Woody Island."
+Kodiak Electric Assn Inc,Port Lions,Kodiak,1000,0,1000,0,0,EIA-F860,"The KEA service area also includes: Port Lions, Chiniak, Womens Bay and Woody Island."
+Kodiak Electric Assn Inc,Terror Lake,Kodiak,22400,0,0,22400,0,EIA-F860,"The KEA service area also includes: Port Lions, Chiniak, Womens Bay and Woody Island."
+Kokhanok Village Council,Kokhanok,Kokhanok,792,0,612,0,180,AEA Village Assessment,Source for wind data is Marsh Creek LLC
+Kotzebue Electric Association,Kotzebue,Kotzebue,15400,0,10700,0,4700,EIA-F860,NA
+"Koyukuk, City of",Koyukuk,Koyukuk,202,0,202,0,0,AEA Village Assessment,NA
+Kwethluk Incorporated d/b/a Kuiggluum Kallugvia,Kwethluk,Kwethluk,1300,0,1300,0,0,AEA Village Assessment,NA
+Kwigillingok Power Company,Kwigillingok,Kwigillingok,1198,0,723,0,475,AEA Village Assessment,Source for wind data is the Renewable Energy Fund program.
+Larsen Bay Utility Company,Larsen Bay,Larsen Bay,868,0,393,475,0,"AEA Hydro Program Manager, AEA Village Assessment",NA
+Levelock Electrical Coop,Levelock,Levelock,234,0,234,0,0,AEA Village Assessment,NA
+Manokotak Power Company,Manokotak,Manokotak,730,0,730,0,0,AEA Village Assessment,NA
+Mcgrath Light & Power,McGrath,McGrath,2200,0,2200,0,0,EIA-F860,NA
+Metlakatla Power & Light,Centennial,Metlakatla,3300,0,3300,0,0,EIA-F860,NA
+Metlakatla Power & Light,Chester Lake,Metlakatla,1000,0,0,1000,0,EIA-F860,NA
+Metlakatla Power & Light,Purple Lake,Metlakatla,3900,0,0,3900,0,EIA-F860,NA
+Middle Kuskokwim Electric,Chuathbaluk,Chuathbaluk,179,0,179,0,0,AEA Village Assessment,NA
+Middle Kuskokwim Electric,Crooked Creek,Crooked Creek,223,0,223,0,0,AEA Village Assessment,NA
+Middle Kuskokwim Electric,Red Devil,Red Devil,130,0,130,0,0,AEA Village Assessment,NA
+Middle Kuskokwim Electric,Sleetmute,Sleetmute,323,0,323,0,0,AEA Village Assessment,NA
+Middle Kuskokwim Electric,Stony River,Stony River,138,0,138,0,0,AEA Village Assessment,NA
+Naknek Electric Association,Naknek,"King Salmon, Naknek, South Naknek",9900,0,9900,0,0,EIA-F860,NA
+Napakiak Ircinraq,Napakiak,Napakiak,250,0,250,0,0,AEA Village Assessment,Purchases power from Bethel Utilities Corporation.
+Naterkaq Light Plant (City of Chefornak),Chefornak,Chefornak,921,0,921,0,0,AEA Village Assessment,NA
+Native Village of Perryville,Perryville,Perryville,497,0,473,0,24,"AEA Wind Program Manager, AEA Village Assessment",NA
+Nelson Lagoon Electrical Coop,Nelson Lagoon,Nelson Lagoon,300,0,300,0,0,AEA Village Assessment,NA
+New Koliganek Village Council,Koliganek,Koliganek,420,0,420,0,0,AEA Village Assessment,NA
+"Nikolai, City of",Nikolai,Nikolai,300,0,300,0,0,AEA Village Assessment,NA
+Nome Joint Utility Systems,Snake River,Nome,20500,0,20500,0,0,EIA-F860,NA
+North Slope Borough Power & Light,Anaktuvuk Pass,Anaktuvuk Pass,2800,0,2800,0,0,EIA-F860,NA
+North Slope Borough Power & Light,Atqasuk,Atqasuk,3200,0,3200,0,0,EIA-F860,NA
+North Slope Borough Power & Light,Kaktovik,Kaktovik,2600,0,2600,0,0,EIA-F860,NA
+North Slope Borough Power & Light,Nuiqsut,Nuiqsut,3800,0,3800,0,0,EIA-F860,NA
+North Slope Borough Power & Light,Point Hope,Point Hope,2700,0,2700,0,0,EIA-F860,NA
+North Slope Borough Power & Light,Point Lay,Point Lay,1800,0,1800,0,0,EIA-F860,NA
+North Slope Borough Power & Light,Wainwright,Wainwright,3000,0,3000,0,0,EIA-F860,NA
+Nunam Iqua Electric Company,Sheldon Point,Nunam Iqua,708,0,708,0,0,AEA Village Assessment,NA
+Nushagak Electric Cooperative,Dillingham,"Aleknagik, Dillingham",6600,0,6600,0,0,EIA-F860,NA
+"Ouzinkie, City of",Ouzinkie,Ouzinkie,336,0,336,0,0,AEA Village Assessment,NA
+Pedro Bay Village Council,Pedro Bay,Pedro Bay,211,0,211,0,0,AEA Village Assessment,NA
+Pelican Utility,Pelican,Pelican,1700,0,1000,700,0,EIA-F860,Source for hydroelectric data is AEA Hydro Program Manager.
+"Petersburg, City of",Blind Slough,Petersburg,14800,0,13200,1600,0,EIA-F860,NA
+Pilot Point Electric Utility,Pilot Point,Pilot Point,246,0,246,0,0,AEA Village Assessment,NA
+"Platinum, City of",Platinum,Platinum,129,0,129,0,0,AEA Village Assessment,NA
+Port Heiden Utilities,Port Heiden,Port Heiden,369,0,369,0,0,AEA Village Assessment,NA
+Puvurnaq Power Company,Kongiganak,Kongiganak,1375,0,925,0,450,AEA Village Assessment,NA
+Rampart Village Council,Rampart,Rampart,367,0,367,0,0,AEA Village Assessment,NA
+"Ruby, City of",Ruby,Ruby,464,0,464,0,0,AEA Village Assessment,NA
+"Saint George, City of",Saint George,Saint George,980,0,980,0,0,AEA Village Assessment,NA
+Saint Paul Municipal Electric,Saint Paul,Saint Paul,3295,0,2620,0,675,"AEA Village Assessment, AEA Wind Program Manager",NA
+"Seward, City of",Seward,Seward,15600,0,15600,0,0,EIA-F860,"The City of Seward services the communities of Crown Point, Primrose, Bear Creek and Lowell Point."
+"Sitka, City & Borough of",Blue Lake,Sitka,7000,0,0,7000,0,EIA-F860,NA
+"Sitka, City & Borough of",Green Lake,Sitka,18600,0,0,18600,0,EIA-F860,NA
+"Sitka, City & Borough of",Jarvis Street,Sitka,12100,0,12100,0,0,EIA-F860,NA
+Southeast Alaska Power Agency,Tyee Lake,"Wrangell, Petersburg, Ketchikan",20000,0,0,20000,0,FERC,NA
+Stevens Village Ira Council,Stevens Village,Stevens Village,263,0,263,0,0,AEA Village Assessment,NA
+Sustainable Energy Company of AK Peninsula,Pilot Point,"Pilot Point, Port Heiden",20,0,0,0,20,AEA Wind Program Manager,NA
+Takotna Community Assoc Inc,Takotna,Takotna,216,0,216,0,0,AEA Village Assessment,NA
+Tanalian Electric Cooperative,Port Alsworth,Port Alsworth,466,0,466,0,0,AEA Village Assessment,NA
+Tanana Power Company Inc,Tanana,Tanana,1545,0,1545,0,0,AEA Village Assessment,NA
+Tatitlek Village Ira Council,Tatitlek,Tatitlek,315,0,315,0,0,AEA Village Assessment,NA
+TDX Adak Generating LLC,Adak,Adak,4035,0,4035,0,0,AEA Village Assessment,NA
+TDX Corporation,Sand Point,Sand Point,3880,0,2880,0,1000,"AEA Wind Program Manager, AEA Village Assessment",NA
+TDX Manley Generating LLC,Manley Hot Springs,Manley Hot Springs,486,0,486,0,0,AEA Village Assessment,NA
+"Tenakee Springs, City of",Tenakee Springs,Tenakee Springs,240,0,240,0,0,AEA Village Assessment,NA
+Tuluksak Traditional,Tuluksak,Tuluksak,795,0,795,0,0,AEA Village Assessment,NA
+Tuntutuliak Community,Tuntutuliak,Tuntutuliak,1340,0,865,0,475,AEA Village Assessment,Source for wind data is the Renewable Energy Fund program.
+Twin Hills Village Council,Twin Hills,Twin Hills,220,0,220,0,0,AEA Village Assessment,NA
+Umnak Power Company,Nikolski,Nikolski,261,0,196,0,65,AEA Village Assessment,Source for wind data is the AEA Wind Program Manager
+Unalakleet Valley Electric Cooperative,Unalakleet,Unalakleet,2600,0,2000,0,600,EIA-F860,Source for wind data is the Renewable Energy Fund program.
+"Unalaska, City of",Dutch Harbor,"Dutch Harbor, Unalaska",17500,0,17500,0,0,EIA-F860,NA
+"Unalaska, City of",Unalaska Power Module,"Dutch Harbor, Unalaska",1100,0,1100,0,0,EIA-F860,NA
+Venetie Village Electric,Venetie,Venetie,495,0,495,0,0,AEA Village Assessment,NA
+"White Mountain, City of",White Mountain,White Mountain,585,0,585,0,0,AEA Village Assessment,NA
+"Wrangell, City of",Wrangell,Wrangell,8500,0,8500,0,0,EIA-F860,NA
+Yakutat Power Inc,Yakutat,Yakutat,4900,0,4900,0,0,EIA-F860,NA

@@ -1,0 +1,10 @@
+"Table 1.b PCE Communities and Rates ($/kWh), 2012",...2,...3,...4,...5
+Effective Rate,No. of PCE Communities,Average Residential Rate,Average PCE Rate,Average Effective Rate
+Less than 0.19,43,0.38156779691401999,0.21414176812813501,0.167426028785885
+0.2-0.29,116,0.58378945566297602,0.357380808383291,0.22640864727968499
+0.3-0.39,22,0.73030210498244397,0.38470788402093298,0.34559422096151099
+0.4-0.49,6,0.81821857904873097,0.40229966711397402,0.415918911934758
+0.5-0.59,0,NA,NA,NA
+More than $0.60,3,1.0104100432252701,0.353016896093101,0.65739314713217001
+Total,190,NA,NA,NA
+All averages are weighted. Total number of communities do not match the total in Table 1.a because one community participated in the PCE program but did not reported residential rate data.,NA,NA,NA,NA
