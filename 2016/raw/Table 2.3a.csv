@@ -1,0 +1,294 @@
+"Early Release, Subject to Revision",...2,...3,...4,...5,...6,...7,...8,...9,...10,...11,...12,...13,...14,...15,...16,...17,...18
+"Net Generation by Prime Mover by Operators/Utilities (MWh), 2016",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+AK PLANT ID,RCA CPCN,Utility Name,Plant Name,Intertie Name,Energy Region,Fossil Fuel Turbines,Reciprocating Internal Combustion,Hydroelectric,Solar PV,Wind Turbine,Flywheel,Battery,Total Net Generation,Data source,Number of monthly records,Communities connected to plant,Notes
+P5,293,"Akutan, City of",Akutan,Akutan_grid,Aleutians,0,463.93499999999995,112.43099999999998,0,0,0,0,576.36599999999987,PCE,21,Akutan,NA
+P107,291,"Atka, City of",Atka,Atka_grid,Aleutians,0,120.057,358.75899999999996,0,0,0,0,478.81599999999992,PCE,23,Atka,NA
+P141,442,"False Pass, City of",False Pass,False Pass_grid,Aleutians,0,611.62400000000002,0,0,0,0,0,611.62400000000002,PCE,12,False Pass,NA
+P143,88,G & K Inc,Cold Bay,Cold Bay_grid,Aleutians,0,1946.6959999999999,0,0,0,0,0,1946.6959999999999,PCE,10,Cold Bay,NA
+P177,289,"King Cove, City of",King Cove,King Cove_grid,Aleutians,0,2297.174,2005,0,0,0,0,4302.174,PCE,23,King Cove,NA
+P212,340,Nelson Lagoon Electrical Coop,Nelson Lagoon,Nelson Lagoon_grid,Aleutians,0,321.21199999999999,0,0,0,0,0,321.21199999999999,PCE,12,Nelson Lagoon,NA
+P237,410,"Saint George, City of",Saint George,Saint George_grid,Aleutians,0,543.69799999999998,0,0,57.192000000000007,0,0,600.89,PCE,15,Saint George,NA
+P238,339,Saint Paul Municipal Electric,Saint Paul,Saint Paul_grid,Aleutians,0,0,0,0,592.96900000000005,0,0,592.96900000000005,PCE,12,Saint Paul,NA
+P251,684,TDX Adak Generating LLC,Adak,Adak_grid,Aleutians,0,1977.7940000000001,0,0,0,0,0,1977.7940000000001,PCE,12,Adak,NA
+P252,230,TDX Corporation,Sand Point,Sand Point_grid,Aleutians,0,0,0,0,735.69800000000009,0,0,735.69800000000009,PCE,12,Sand Point,NA
+P261,242,Umnak Power Company,Nikolski,Nikolski_grid,Aleutians,0,192.99899999999997,0,0,0,0,0,192.99899999999997,PCE,12,Nikolski,NA
+P263,106,"Unalaska, City of",Dutch Harbor,Unalaska_grid,Aleutians,0,46917.999999999993,0,0,0,0,0,46917.999999999993,EIA923,12,Unalaska,NA
+P264,106,"Unalaska, City of",Unalaska Power Module,Unalaska_grid,Aleutians,0,289,0,0,0,0,0,289,EIA923,12,Unalaska,NA
+P266,0,Unisea Inc,Unisea G 2,Unalaska_grid,Aleutians,0,30339,0,0,0,0,0,30339,EIA923,24,Unalaska,NA
+P271,0,Westward Seafoods Inc,Westward Seafoods,Unalaska_grid,Aleutians,0,18455,0,0,0,0,0,18455,EIA923,12,Unalaska,NA
+P291,106,"Unalaska, City of",Unalaska,Unalaska_grid,Aleutians,0,0,0,0,0,0,0,0,0,0,Unalaska,NA
+P287,0,Peter Pan Seafoods,King Cove,King Cove_grid,Aleutians,0,0,0,0,0,0,0,0,0,0,King Cove,NA
+P135,383,Diomede Joint Utilities,Diomede,Diomede_grid,Bering Straits,0,90.01,0,0,0,0,0,90.01,PCE,2,Diomede,NA
+P153,373,Golovin Power Utilities,Golovin,Golovin_grid,Bering Straits,0,935.45500000000004,0,0,0,0,0,935.45500000000004,PCE,12,Golovin,NA
+P215,150,Nome Joint Utility Systems,Snake River,Nome_grid,Bering Straits,0,29455.263999999999,0,0,1726.7290000000003,0,0,31181.993000000006,PCE,24,Nome,NA
+P262,741,Unalakleet Valley Electric Cooperative,Unalakleet,Unalakleet_grid,Bering Straits,0,3377.6049999999996,0,0,964.78499999999997,0,0,4342.3899999999994,PCE,24,Unalakleet,NA
+P272,409,"White Mountain, City of",White Mountain,White Mountain_grid,Bering Straits,0,769.4,0,0,0,0,0,769.4,PCE,12,NA,NA
+P48,169,Alaska Village Electric Cooperative,Brevig Mission,Brevig Mission_grid,Bering Straits,0,1179.566,0,0,0,0,0,1179.566,PCE,12,Brevig Mission,NA
+P50,169,Alaska Village Electric Cooperative,Elim,Elim_grid,Bering Straits,0,1294.366,0,0,0,0,0,1294.366,PCE,12,Elim,NA
+P52,169,Alaska Village Electric Cooperative,Gambell,Gambell_grid,Bering Straits,0,1323.6280000000002,0,0,684.10800000000006,0,0,2007.7360000000003,PCE,24,Gambell,NA
+P58,169,Alaska Village Electric Cooperative,Koyuk,Koyuk_grid,Bering Straits,0,1303.4869999999999,0,0,0,0,0,1303.4869999999999,PCE,12,Koyuk,NA
+P68,169,Alaska Village Electric Cooperative,Savoonga,Savoonga_grid,Bering Straits,0,2157.808,0,0,180.96300000000002,0,0,2338.7709999999997,PCE,24,Savoonga,NA
+P71,169,Alaska Village Electric Cooperative,Shishmaref,Shishmaref_grid,Bering Straits,0,1684.4460000000001,0,0,0,0,0,1684.4460000000001,PCE,12,Shishmaref,NA
+P74,169,Alaska Village Electric Cooperative,Stebbins,Stebbins_grid,Bering Straits,0,3406.2119999999995,0,0,0,0,0,3406.2119999999995,PCE,12,Stebbins,NA
+P95,169,Alaska Village Electric Cooperative,Shaktoolik,Shaktoolik_grid,Bering Straits,0,752.4079999999999,0,0,436.10399999999998,0,0,1188.5119999999997,PCE,24,Shaktoolik,NA
+P96,169,Alaska Village Electric Cooperative,Teller,Teller_grid,Bering Straits,0,866.05400000000009,0,0,0,0,0,866.05400000000009,PCE,12,Teller,NA
+P98,169,Alaska Village Electric Cooperative,Wales,Wales_grid,Bering Straits,0,656.06200000000001,0,0,0,0,0,656.06200000000001,PCE,12,Wales,NA
+P73,169,Alaska Village Electric Cooperative,Saint Michael,Stebbins_grid,Bering Straits,0,0,0,0,0,0,0,0,0,0,Stebbins,NA
+P116,658,Chignik Lagoon Power Utility,Chignik Lagoon,Chignik Lagoon_grid,Bristol Bay,0,8.548,666.37300000000005,0,0,0,0,674.92099999999994,PCE,22,Chignik Lagoon,NA
+P117,437,Chignik Lake Electric Utility,Chignik Lake,Chignik Lake_grid,Bristol Bay,0,356.57999999999993,0,0,0,0,0,356.57999999999993,PCE,12,Chignik Lake,NA
+P118,297,"Chignik, City of",Chignik,Chignik_grid,Bristol Bay,0,665.32399999999996,0,0,0,0,0,665.32399999999996,PCE,12,Chignik,NA
+P125,360,"Clark's Point, City of",Clark's Point,Clark's Point_grid,Bristol Bay,0,224.96,0,0,0,0,0,224.96,PCE,12,Clark's Point,NA
+P139,320,Egegik Light & Power Co,Egegik,Egegik_grid,Bristol Bay,0,542.53,0,0,0,0,0,542.53,PCE,12,Egegik,NA
+P161,681,Igiugig Electric Company,Igiugig,Igiugig_grid,Bristol Bay,0,340.63200000000001,0,0,0,0,0,340.63200000000001,PCE,12,Igiugig,NA
+P162,280,"I-N-N Electric Coop, Inc",Newhalen,Newhalen_grid,Bristol Bay,0,78.53,3539.57,0,0,0,0,3618.1000000000008,PCE,19,"Iliamna, Newhalen, Nondalton",NA
+P188,660,Kokhanok Village Council,Kokhanok,Kokhanok_grid,Bristol Bay,0,428.90000000000003,0,0,0,0,0,428.90000000000003,PCE,12,Kokhanok,NA
+P194,330,Levelock Electrical Coop,Levelock,Levelock_grid,Bristol Bay,0,450.68799999999999,0,0,0,0,0,450.68799999999999,PCE,12,Levelock,NA
+P196,321,Manokotak Power Company,Manokotak,Manokotak_grid,Bristol Bay,0,1389.8040000000001,0,0,0,0,0,1389.8040000000001,PCE,12,Manokotak,NA
+P207,22,Naknek Electric Association,Naknek,Naknek_grid,Bristol Bay,0,22085.812999999998,0,0,0,0,0,22085.812999999998,PCE,12,"Naknek, South Naknek, King Salmon",NA
+P213,661,New Koliganek Village Council,Koliganek,Koliganek_grid,Bristol Bay,0,733.28799999999978,0,0,0,0,0,733.28799999999978,PCE,12,Koliganek,NA
+P224,45,Nushagak Electric Cooperative,Dillingham,Dillingham_grid,Bristol Bay,0,18479.2,0,0,0,0,0,18479.2,PCE,12,"Dillingham, Aleknagik",NA
+P227,662,Pedro Bay Village Council,Pedro Bay,Pedro Bay_grid,Bristol Bay,0,195.53799999999995,0,0,0,0,0,195.53799999999995,PCE,12,Pedro Bay,NA
+P230,425,Pilot Point Electric Utility,Pilot Point,Pilot Point_grid,Bristol Bay,0,454.06400000000002,0,0,0,0,0,454.06400000000002,PCE,12,Pilot Point,NA
+P232,399,Port Heiden Utilities,Port Heiden,Port Heiden_grid,Bristol Bay,0,515.04,0,0,0,0,0,515.04,PCE,12,Port Heiden,NA
+P248,447,Tanalian Electric Cooperative,Port Alsworth,Port Alsworth_grid,Bristol Bay,0,859.33400000000006,0,0,0,0,0,859.33400000000006,PCE,12,Port Alsworth,NA
+P61,169,Alaska Village Electric Cooperative,New Stuyahok,New Stuyahok_grid,Bristol Bay,0,1377.62,0,0,0,0,0,1377.62,PCE,12,New Stuyahok,NA
+P75,169,Alaska Village Electric Cooperative,Togiak,Togiak_grid,Bristol Bay,0,3034.6289999999999,0,0,0,0,0,3034.6289999999999,PCE,12,Togiak,NA
+P211,659,Native Village of Perryville,Perryville,Perryville_grid,Bristol Bay,0,440.10200000000003,0,0.83499999999999996,8.0289999999999999,0,0,448.96600000000001,PCE,25,Perryville,NA
+P260,729,Twin Hills Village Council,Twin Hills,Twin Hills_grid,Bristol Bay,0,0,0,0,0,0,0,0,0,0,Twin Hills,NA
+P131,160,Cordova Electric Cooperative,Eyak Service Center BESS,Cordova_grid,Copper River/Chugach,0,0,0,0,0,0,0,0,0,0,"Cordova, Eyak",NA
+P132,160,Cordova Electric Cooperative,Humpback Creek,Cordova_grid,Copper River/Chugach,0,0,3743,0,0,0,0,3743,EIA923,12,"Cordova, Eyak",NA
+P133,160,Cordova Electric Cooperative,Orca,Cordova_grid,Copper River/Chugach,0,5589.0000000000009,0,0,0,0,0,5589.0000000000009,EIA923,12,"Cordova, Eyak",NA
+P134,160,Cordova Electric Cooperative,Power Creek,Cordova_grid,Copper River/Chugach,0,0,15539,0,0,0,0,15539,EIA923,12,"Cordova, Eyak",NA
+P292,160,Cordova Electric Cooperative,"Cordova, Eyak",Cordova_grid,Copper River/Chugach,0,0,0,0,0,0,0,0,0,0,"Cordova, Eyak",NA
+P115,686,Chenega Ira Council,Chenega Bay,Chenega_grid,Copper River/Chugach,0,269.07,0,0,0,0,0,269.07,PCE,12,Chenega Bay,NA
+P119,368,Chitina Electric Inc,Chitina,Chitina_grid,Copper River/Chugach,0,444.58200000000005,0,0,0,0,0,444.58200000000005,PCE,12,Chitina,NA
+P126,10,"Copper Valley Elec Assn, Inc",Allison Creek Hydro,CopperValley_grid,Copper River/Chugach,0,0,881,0,0,0,0,881,EIA923,12,0,NA
+P127,10,"Copper Valley Elec Assn, Inc",Glennallen,CopperValley_grid,Copper River/Chugach,0,10403,0,0,0,0,0,10403,EIA923,12,0,NA
+P128,10,"Copper Valley Elec Assn, Inc",Solomon Gulch,CopperValley_grid,Copper River/Chugach,0,0,54850.000000000007,0,0,0,0,54850.000000000007,EIA923,12,0,NA
+P129,10,"Copper Valley Elec Assn, Inc",Valdez,CopperValley_grid,Copper River/Chugach,5044.9999999999991,5,0,0,0,0,0,5049.9999999999991,EIA923,24,0,NA
+P130,10,"Copper Valley Elec Assn, Inc",Valdez Cogen,CopperValley_grid,Copper River/Chugach,17636,0,0,0,0,0,0,17636,EIA923,24,0,NA
+P250,586,Tatitlek Village Ira Council,Tatitlek,Tatitlek_grid,Copper River/Chugach,0,414.24300000000005,0,0,0,0,0,414.24300000000005,PCE,12,Tatitlek,NA
+P27,2,Alaska Power & Telephone Company,Slana,Slana_grid,Copper River/Chugach,0,1266.4259999999999,0,0,0,0,0,1266.4259999999999,PCE,12,Slana,NA
+P32,2,Alaska Power & Telephone Company,Chistochina,Slana_grid,Copper River/Chugach,0,42.300000000000004,0,0,0,0,0,42.300000000000004,PCE,2,Slana,NA
+P38,2,Alaska Power & Telephone Company,Mentasta Lake,Slana_grid,Copper River/Chugach,0,0,0,0,0,0,0,0,0,0,Slana,NA
+P2,449,"Akhiok, City of",Akhiok,Akhiok_grid,Kodiak,0,312.06600000000003,0,0,0,0,0,312.06600000000003,PCE,12,Akhiok,NA
+P100,683,Alutiiq Power Company,Karluk,Karluk_grid,Kodiak,0,213.85899999999998,0,0,0,0,0,213.85899999999998,PCE,12,Karluk,NA
+P180,16,Kodiak Electric Assn Inc,ESS Battery Microgrid,Kodiak_grid,Kodiak,0,0,0,0,0,0,0,0,EIA923,12,"Kodiak, Kodiak Station, Port Lions, Chiniak, Woody Island",NA
+P181,16,Kodiak Electric Assn Inc,Flywheel Energy Storage System Microgrid,Kodiak_grid,Kodiak,0,0,0,0,0,0,0,0,EIA923,12,"Kodiak, Kodiak Station, Port Lions, Chiniak, Woody Island",NA
+P182,16,Kodiak Electric Assn Inc,Kodiak Microgrid,Kodiak_grid,Kodiak,0,0,0,0,0,0,0,0,EIA923,12,"Kodiak, Kodiak Station, Port Lions, Chiniak, Woody Island",NA
+P183,16,Kodiak Electric Assn Inc,Nymans Plant Microgrid,Kodiak_grid,Kodiak,0,0,0,0,0,0,0,0,EIA923,12,"Kodiak, Kodiak Station, Port Lions, Chiniak, Woody Island",NA
+P184,16,Kodiak Electric Assn Inc,Pillar Mountain Wind Project Microgrid,Kodiak_grid,Kodiak,0,0,0,0,29308.999999999996,0,0,29308.999999999996,EIA923,12,"Kodiak, Kodiak Station, Port Lions, Chiniak, Woody Island",NA
+P186,16,Kodiak Electric Assn Inc,Swampy Acres Microgrid,Kodiak_grid,Kodiak,0,0,0,0,0,0,0,0,EIA923,12,"Kodiak, Kodiak Station, Port Lions, Chiniak, Woody Island",NA
+P187,16,Kodiak Electric Assn Inc,Terror Lake Microgrid,Kodiak_grid,Kodiak,0,0,124483.99999999999,0,0,0,0,124483.99999999999,EIA923,12,"Kodiak, Kodiak Station, Port Lions, Chiniak, Woody Island",NA
+P225,357,"Ouzinkie, City of",Ouzinkie,Ouzinkie_grid,Kodiak,0,294.55099999999999,446.96499999999992,0,0,0,0,741.51599999999996,PCE,23,Ouzinkie,NA
+P91,169,Alaska Village Electric Cooperative,Old Harbor,Old Harbor_grid,Kodiak,0,869.52799999999991,0,0,0,0,0,869.52799999999991,PCE,12,Old Harbor,NA
+P185,16,Kodiak Electric Assn Inc,Port Lions Microgrid,Kodiak_grid,Kodiak,0,0,0,0,0,0,0,0,EIA923,12,"Kodiak, Kodiak Station, Port Lions, Chiniak, Woody Island",NA
+P193,353,Larsen Bay Utility Company,Larsen Bay,Larsen Bay_grid,Kodiak,0,56.445999999999998,799.77099999999996,0,0,0,0,856.21699999999998,PCE,14,Larsen Bay,NA
+P3,412,Akiachak Native Community,Akiachak,Akiachak_grid,Lower Yukon-Kuskokwim,0,1971.0320000000002,0,0,0,0,0,1971.0320000000002,PCE,12,Akiachak,NA
+P4,635,Akiak City Council,Akiak,Akiak_grid,Lower Yukon-Kuskokwim,0,1133.5609999999999,0,0,0,0,0,1133.5609999999999,PCE,12,Akiak,NA
+P105,5,Aniak Light & Power,Aniak,Aniak_grid,Lower Yukon-Kuskokwim,0,2613.9959999999996,0,0,0,0,0,2613.9959999999996,PCE,12,Aniak,NA
+P108,337,Atmautluak Tribal Utilities,Atmautluak,Atmautluak_grid,Lower Yukon-Kuskokwim,0,724.50188888888886,0,0,0,0,0,724.50188888888886,PCE,12,Atmautluak,NA
+P178,446,Kipnuk Light Plant,Kipnuk,Kipnuk_grid,Lower Yukon-Kuskokwim,0,1821.5609999999999,0,0,0,0,0,1821.5609999999999,PCE,12,Kipnuk,NA
+P191,281,Kwethluk Incorporated d/b/a Kuiggluum Kallugvia,Kwethluk,Kwethluk_grid,Lower Yukon-Kuskokwim,0,1752.6390000000001,0,0,0,0,0,1752.6390000000001,PCE,12,Kwethluk,NA
+P192,376,Kwigillingok Power Company,Kwigillingok,Kwigillingok_grid,Lower Yukon-Kuskokwim,0,869.7700000000001,0,0,381.50300000000004,0,0,1251.2730000000001,PCE,23,Kwigillingok,NA
+P195,570,Lime Village Electric Utility,Lime Village,Lime Village_grid,Lower Yukon-Kuskokwim,0,71.149000000000001,0,0,0,0,0,71.149000000000001,PCE,12,Lime Village,NA
+P202,343,Middle Kuskokwim Electric,Chuathbaluk,Chuathbaluk_grid,Lower Yukon-Kuskokwim,0,245.655,0,0,0,0,0,245.655,PCE,12,Chuathbaluk,NA
+P203,343,Middle Kuskokwim Electric,Crooked Creek,Crooked Creek_grid,Lower Yukon-Kuskokwim,0,257.79700000000003,0,0,0,0,0,257.79700000000003,PCE,12,Crooked Creek,NA
+P204,343,Middle Kuskokwim Electric,Red Devil,Red Devil_grid,Lower Yukon-Kuskokwim,0,63.518999999999998,0,0,0,0,0,63.518999999999998,PCE,12,Red Devil,NA
+P205,343,Middle Kuskokwim Electric,Sleetmute,Sleetmute_grid,Lower Yukon-Kuskokwim,0,245.351,0,0,0,0,0,245.351,PCE,12,Sleetmute,NA
+P206,343,Middle Kuskokwim Electric,Stony River,Stony River_grid,Lower Yukon-Kuskokwim,0,121.01834400000001,0,0,0,0,0,121.01834400000001,PCE,12,Stony River,NA
+P209,625,Napaskiak Electric Utility,Napaskiak,Napaskiak_grid,Lower Yukon-Kuskokwim,0,973.38599999999997,0,0,0,0,0,973.38599999999997,PCE,9,Napaskiak,NA
+P210,365,Naterkaq Light Plant (City of Chefornak),Chefornak,Chefornak_grid,Lower Yukon-Kuskokwim,0,1516.7270000000003,0,0,0,0,0,1516.7270000000003,PCE,12,Chefornak,NA
+P223,408,Nunam Iqua Electric Company,Nunam Iqua,Nunam Iqua_grid,Lower Yukon-Kuskokwim,0,766.0440000000001,0,0,0,0,0,766.0440000000001,PCE,12,Nunam Iqua,NA
+P233,395,Puvurnaq Power Company,Kongiganak,Kongiganak_grid,Lower Yukon-Kuskokwim,0,66.510000000000005,0,0,184.88899999999998,0,0,251.399,PCE,13,Kongiganak,NA
+P259,344,Tuntutuliak Community,Tuntutuliak,Tuntutuliak_grid,Lower Yukon-Kuskokwim,0,0,0,0,102.568,0,0,102.568,PCE,12,Tuntutuliak,NA
+P265,375,Ungusraq Power Company,Newtok,Newtok_grid,Lower Yukon-Kuskokwim,0,441.08800000000002,0,0,0,0,0,441.08800000000002,PCE,12,Newtok,NA
+P45,169,Alaska Village Electric Cooperative,Alakanuk,Alakanuk_grid,Lower Yukon-Kuskokwim,0,1282.8890000000001,0,0,0,0,0,1282.8890000000001,PCE,8,Alakanuk,NA
+P47,169,Alaska Village Electric Cooperative,Bethel,Bethel_grid,Lower Yukon-Kuskokwim,0,41975,0,0,0,0,0,41975,PCE,12,Bethel; Napakiak,NA
+P49,169,Alaska Village Electric Cooperative,Chevak,Chevak_grid,Lower Yukon-Kuskokwim,0,1811.252,0,0,734.70799999999997,0,0,2545.96,PCE,24,Chevak,NA
+P51,169,Alaska Village Electric Cooperative,Emmonak,Emmonak_grid,Lower Yukon-Kuskokwim,0,4007.9249999999997,0,0,741.97699999999986,0,0,4749.902,PCE,24,Emmonak,NA
+P53,169,Alaska Village Electric Cooperative,Hooper Bay,Hooper Bay_grid,Lower Yukon-Kuskokwim,0,2882.8850000000002,0,0,544.41,0,0,3427.2950000000001,PCE,24,Hooper Bay,NA
+P54,169,Alaska Village Electric Cooperative,Kasigluk,Kasigluk_grid,Lower Yukon-Kuskokwim,0,2494.0899999999997,0,0,579.79399999999998,0,0,3073.8839999999991,PCE,24,Kasigluk,NA
+P57,169,Alaska Village Electric Cooperative,Kotlik,Kotlik_grid,Lower Yukon-Kuskokwim,0,1972.116,0,0,0,0,0,1972.116,PCE,12,Kotlik,NA
+P59,169,Alaska Village Electric Cooperative,Marshall,Marshall_grid,Lower Yukon-Kuskokwim,0,1508.9290000000001,0,0,0,0,0,1508.9290000000001,PCE,12,Marshall,NA
+P65,169,Alaska Village Electric Cooperative,Pilot Station,Pilot Station_grid,Lower Yukon-Kuskokwim,0,1974.124,0,0,0,0,0,1974.124,PCE,12,Pilot Station,NA
+P66,169,Alaska Village Electric Cooperative,Quinhagak,Quinhagak_grid,Lower Yukon-Kuskokwim,0,1525.94,0,0,694.31299999999999,0,0,2220.2530000000002,PCE,24,Quinhagak,NA
+P67,169,Alaska Village Electric Cooperative,Saint Mary's,Saint Mary's_grid,Lower Yukon-Kuskokwim,0,3021.6059999999998,0,0,0,0,0,3021.6059999999998,PCE,12,"Saint Mary's, Andreafsky; Pitkas Point",NA
+P69,169,Alaska Village Electric Cooperative,Scammon Bay,Scammon Bay_grid,Lower Yukon-Kuskokwim,0,1671.6490000000003,0,0,0,0,0,1671.6490000000003,PCE,12,Scammon Bay,NA
+P76,169,Alaska Village Electric Cooperative,Toksook Bay,Toksook Bay_grid,Lower Yukon-Kuskokwim,0,2874.6619999999998,0,0,681.69499999999994,0,0,3556.357,PCE,24,Toksook Bay,NA
+P77,169,Alaska Village Electric Cooperative,Kalskag,Upper Kalskag_grid,Lower Yukon-Kuskokwim,0,1481.98,0,0,0,0,0,1481.98,PCE,12,Kalskag,NA
+P80,169,Alaska Village Electric Cooperative,Eek,Eek_grid,Lower Yukon-Kuskokwim,0,953.69299999999998,0,0,0,0,0,953.69299999999998,PCE,12,Eek,NA
+P82,169,Alaska Village Electric Cooperative,Goodnews Bay,Goodnews Bay_grid,Lower Yukon-Kuskokwim,0,682.06500000000005,0,0,0,0,0,682.06500000000005,PCE,12,Goodnews Bay,NA
+P87,169,Alaska Village Electric Cooperative,Mekoryuk,Mekoryuk_grid,Lower Yukon-Kuskokwim,0,827.34899999999982,0,0,117.86799999999998,0,0,945.21699999999976,PCE,22,Mekoryuk,NA
+P93,169,Alaska Village Electric Cooperative,Russian Mission,Russian Mission_grid,Lower Yukon-Kuskokwim,0,1023.124,0,0,0,0,0,1023.124,PCE,12,Russian Mission,NA
+P208,319,Napakiak Ircinraq,Napakiak,Bethel_grid,Lower Yukon-Kuskokwim,0,0,0,0,0,0,0,0,0,0,Bethel; Napakiak,NA
+P231,0,"Platinum, City of",Platinum,Platinum_grid,Lower Yukon-Kuskokwim,0,0,0,0,0,0,0,0,0,0,Platinum,NA
+P258,664,Tuluksak Traditional,Tuluksak,Tuluksak_grid,Lower Yukon-Kuskokwim,0,557.43899999999996,0,0,0,0,0,557.43899999999996,PCE,12,Tuluksak,NA
+P60,169,Alaska Village Electric Cooperative,Mountain Village,Mountain Village_grid,Lower Yukon-Kuskokwim,0,2798.9580000000001,0,0,0,0,0,2798.9580000000001,PCE,12,Mountain Village,NA
+P64,169,Alaska Village Electric Cooperative,Nunapitchuk,Nunapitchuk_grid,Lower Yukon-Kuskokwim,0,0,0,0,0,0,0,0,0,0,Nunapitchuk,NA
+P89,169,Alaska Village Electric Cooperative,Nightmute,Toksook Bay_grid,Lower Yukon-Kuskokwim,0,0,0,0,0,0,0,0,0,0,Toksook Bay,NA
+P92,169,Alaska Village Electric Cooperative,Pitkas Point,Saint Mary's_grid,Lower Yukon-Kuskokwim,0,0,0,0,0,0,0,0,0,0,"Saint Mary's, Andreafsky; Pitkas Point",NA
+P97,169,Alaska Village Electric Cooperative,Tununak,Toksook Bay_grid,Lower Yukon-Kuskokwim,0,0,0,0,0,0,0,0,0,0,Toksook Bay,NA
+P99,169,Alaska Village Electric Cooperative,Lower Kalskag,Upper Kalskag_grid,Lower Yukon-Kuskokwim,0,0,0,0,0,0,0,0,0,0,Kalskag,NA
+P110,214,Barrow Utilities & Electric Cooperative Inc.,Barrow,Utqiagvik_grid,North Slope,50162,0,0,0,0,0,0,50162,EIA923,36,Utqiagvik,NA
+P216,254,North Slope Borough Power & Light,Anaktuvuk Pass,Anaktuvuk Pass_grid,North Slope,0,4256,0,0,0,0,0,4256,PCE,12,Anaktuvuk Pass,NA
+P217,254,North Slope Borough Power & Light,Atqasuk,Atqasuk_grid,North Slope,0,3300.2749999999996,0,0,0,0,0,3300.2749999999996,PCE,12,Atqasuk,NA
+P218,254,North Slope Borough Power & Light,Kaktovik,Kaktovik_grid,North Slope,0,4792.3999999999996,0,0,0,0,0,4792.3999999999996,PCE,12,Kaktovik,NA
+P219,254,North Slope Borough Power & Light,Nuiqsut,Nuiqsut_grid,North Slope,0,6349.0000000000009,0,0,0,0,0,6349.0000000000009,EIA923,24,Nuiqsut,NA
+P220,254,North Slope Borough Power & Light,Point Hope,Point Hope_grid,North Slope,0,6818.347999999999,0,0,0,0,0,6818.347999999999,PCE,12,Point Hope,NA
+P221,254,North Slope Borough Power & Light,Point Lay,Point Lay_grid,North Slope,0,3704.7639999999992,0,0,0,0,0,3704.7639999999992,PCE,12,Point Lay,NA
+P222,254,North Slope Borough Power & Light,Wainwright,Wainwright_grid,North Slope,0,7322.11,0,0,0,0,0,7322.11,PCE,12,Wainwright,NA
+P254,227,TDX North Slope Generating Co,TNSG North Plant,Deadhorse_grid,North Slope,72702,0,0,0,0,0,0,72702,EIA923,24,Deadhorse,NA
+P255,227,TDX North Slope Generating Co,TNSG South Plant,Deadhorse_grid,North Slope,0,0,0,0,0,0,0,0,EIA923,12,Deadhorse,NA
+P113,432,"Buckland, City of",Buckland,Buckland_grid,Northwest Arctic,0,1556.7710000000002,0,0,159.84899999999999,0,0,1716.62,PCE,24,Buckland,NA
+P169,369,Ipnatchiaq Electric Company,Deering,Deering_grid,Northwest Arctic,0,656.23500000000001,0,0,0,0,0,656.23500000000001,PCE,12,Deering,NA
+P189,17,Kotzebue Electric Association,Kotzebue,Kotzebue_grid,Northwest Arctic,0,16962.818999999996,0,0,4073.0879999999993,0,0,21035.906999999999,PCE,24,Kotzebue,NA
+P46,169,Alaska Village Electric Cooperative,Ambler,Ambler_grid,Northwest Arctic,0,1338.498,0,0,0,0,0,1338.498,PCE,12,Ambler,NA
+P55,169,Alaska Village Electric Cooperative,Kiana,Kiana_grid,Northwest Arctic,0,1578.7719999999999,0,0,0,0,0,1578.7719999999999,PCE,12,Kiana,NA
+P56,169,Alaska Village Electric Cooperative,Kivalina,Kivalina_grid,Northwest Arctic,0,1322.2660000000001,0,0,0,0,0,1322.2660000000001,PCE,12,Kivalina,NA
+P62,169,Alaska Village Electric Cooperative,Noatak,Noatak_grid,Northwest Arctic,0,1852.8830000000003,0,0,0,0,0,1852.8830000000003,PCE,12,Noatak,NA
+P63,169,Alaska Village Electric Cooperative,Noorvik,Noorvik_grid,Northwest Arctic,0,1893.38,0,0,0,0,0,1893.38,PCE,12,Noorvik,NA
+P70,169,Alaska Village Electric Cooperative,Selawik,Selawik_grid,Northwest Arctic,0,2803.6850000000004,0,0,63.934999999999995,0,0,2867.6200000000003,PCE,24,Selawik,NA
+P72,169,Alaska Village Electric Cooperative,Shungnak,Shungnak_grid,Northwest Arctic,0,1592.9969999999996,0,0,0,0,0,1592.9969999999996,PCE,12,Shungnak; Kobuk,NA
+P179,407,Kobuk Valley Electric Company,Kobuk,Shungnak_grid,Northwest Arctic,0,0,0,0,0,0,0,0,0,0,Shungnak; Kobuk,NA
+P101,121,Anchorage Municipal Light and Power,Anchorage 1,Railbelt_grid,Railbelt,45081.999999999993,0,0,0,0,0,0,45081.999999999993,EIA923,36,0,NA
+P102,121,Anchorage Municipal Light and Power,Eklutna Hydro Project,Railbelt_grid,Railbelt,0,0,76916,0,0,0,0,76916,EIA923,12,0,NA
+P103,121,Anchorage Municipal Light and Power,George M Sullivan Generation Plant 2,Railbelt_grid,Railbelt,589738,0,0,0,0,0,0,589738,EIA923,60,0,NA
+P109,520,Aurora Energy LLC,Aurora Energy LLC Chena,Railbelt_grid,Railbelt,191982,0,0,0,0,0,0,191982,EIA923,36,0,NA
+P120,8,Chugach Electric Assn Inc,Beluga,Railbelt_grid,Railbelt,84421,0,0,0,0,0,0,84421,EIA923,12,0,NA
+P121,8,Chugach Electric Assn Inc,Cooper Lake,Railbelt_grid,Railbelt,0,0,86666,0,0,0,0,86666,EIA923,12,0,NA
+P123,8,Chugach Electric Assn Inc,Southcentral Power Project,Railbelt_grid,Railbelt,871990,0,0,0,0,0,0,871990,EIA923,24,0,NA
+P136,720,Doyon Utilities - Fort Greely,Fort Greely Power Plant,Railbelt_grid,Railbelt,0,107.8,0,0,0,0,0,107.8,EIA923,12,0,NA
+P137,726,Doyon Utilities - Ft. Wainwright,Utility Plants Section,Railbelt_grid,Railbelt,105551.40299999999,0,0,0,0,0,0,105551.40299999999,EIA923,12,0,NA
+P138,724,"Doyon Utilities, LLC",JBER Landfill Gas Power Plant,Railbelt_grid,Railbelt,0,42516,0,0,0,0,0,42516,EIA923,24,0,NA
+P14,742,Alaska Environmental Power,Delta Wind Farm,Railbelt_grid,Railbelt,0,0,0,0,4446,0,0,4446,EIA923,12,0,NA
+P142,0,Fire Island Wind LLC,Fire Island Wind,Railbelt_grid,Railbelt,0,0,0,0,56022,0,0,56022,EIA923,12,0,NA
+P146,13,Golden Valley Elec Assn Inc,Battery Energy Storage System,Railbelt_grid,Railbelt,0,0,0,0,0,0,-2392,-2392,EIA923,12,0,NA
+P147,13,Golden Valley Elec Assn Inc,Delta Power,Railbelt_grid,Railbelt,38,0,0,0,0,0,0,38,EIA923,12,0,NA
+P148,13,Golden Valley Elec Assn Inc,Eva Creek Wind,Railbelt_grid,Railbelt,0,0,0,0,73845,0,0,73845,EIA923,12,0,NA
+P149,13,Golden Valley Elec Assn Inc,Fairbanks,Railbelt_grid,Railbelt,7251,-118.00000000000001,0,0,0,0,0,7132.9999999999991,EIA923,36,0,NA
+P150,13,Golden Valley Elec Assn Inc,Healy,Railbelt_grid,Railbelt,192475,0,0,0,0,0,0,192475,EIA923,48,0,NA
+P151,13,Golden Valley Elec Assn Inc,North Pole,Railbelt_grid,Railbelt,417652,0,0,0,0,0,0,417652,EIA923,96,0,NA
+P155,32,Homer Electric Assn Inc,Bernice Lake,Railbelt_grid,Railbelt,12,0,0,0,0,0,0,12,EIA923,12,0,NA
+P156,32,Homer Electric Assn Inc,Bradley Lake,Railbelt_grid,Railbelt,0,0,430509,0,0,0,0,430509,EIA923,12,0,NA
+P157,32,Homer Electric Assn Inc,Nikiski Co-Generation,Railbelt_grid,Railbelt,398898,0,0,0,0,0,0,398898,EIA923,24,0,NA
+P158,32,Homer Electric Assn Inc,Seldovia,Railbelt_grid,Railbelt,0,87,0,0,0,0,0,87,EIA923,12,0,NA
+P159,32,Homer Electric Assn Inc,Soldotna,Railbelt_grid,Railbelt,39612,0,0,0,0,0,0,39612,EIA923,12,0,NA
+P197,18,Matanuska Electric Assn Inc,Eklutna Generation Station,Railbelt_grid,Railbelt,0,819046,0,0,0,0,0,819046,EIA923,24,0,NA
+P239,108,City of Seward - (AK),Seward,Railbelt_grid,Railbelt,0,105,0,0,0,0,0,105,EIA923,12,0,NA
+P257,0,Tesoro Alaska Company LLC,Tesoro Kenai Cogeneration Plant,Railbelt_grid,Railbelt,62679.000000000007,0,0,0,0,0,0,62679.000000000007,EIA923,36,0,NA
+P267,452,University of Alaska,University of Alaska Fairbanks,Railbelt_grid,Railbelt,41064,0,0,0,0,0,0,41064,EIA923,60,0,NA
+P268,0,U S Air Force-Eielson AFB,Eielson AFB Central Heat & Power Plant,Railbelt_grid,Railbelt,69678.563999999998,216,0,0,0,0,0,69894.563999999998,EIA923,24,0,NA
+P1,0,Agrium US Inc,Agrium Kenai Nitrogen Operations,Railbelt_grid,Railbelt,0,0,0,0,0,0,0,0,0,0,0,NA
+P104,NA,Anchorage Municipal Light & Power,AWWU Conduit,Railbelt_grid,Railbelt,0,0,0,0,0,0,0,0,0,0,0,NA
+P122,8,Chugach Electric Assn Inc,International,Railbelt_grid,Railbelt,-780,0,0,0,0,0,0,-780,EIA923,12,0,NA
+P152,13,Golden Valley Elec Assn Inc,GVEA Solar Farm,Railbelt_grid,Railbelt,0,0,0,0,0,0,0,0,0,0,0,NA
+P235,0,Renewable IPP,Willow Solar,Railbelt_grid,Railbelt,0,0,0,0,0,0,0,0,0,0,0,NA
+P243,0,"South Fork Hydro, LLC",South Fork Hydro (Eagle River),Railbelt_grid,Railbelt,0,0,0,0,0,0,0,0,0,0,0,NA
+P279,13,Golden Valley Elec Assn Inc,Chena 6,Railbelt_grid,Railbelt,0,0,0,0,0,0,0,0,0,0,0,NA
+P15,2,Alaska Power & Telephone Company,Black Bear Lake,Prince of Wales Is._grid,Southeast,0,0,20762.999999999996,0,0,0,0,20762.999999999996,EIA923,12,Craig; Klawock,NA
+P18,2,Alaska Power & Telephone Company,South Fork,Prince of Wales Is._grid,Southeast,0,0,5322,0,0,0,0,5322,EIA923,12,Craig; Klawock,NA
+P20,2,Alaska Power & Telephone Company,Craig,Prince of Wales Is._grid,Southeast,0,431,0,0,0,0,0,431,EIA923,12,Craig; Klawock,NA
+P21,2,Alaska Power & Telephone Company,False Island,Prince of Wales Is._grid,Southeast,0,689,0,0,0,0,0,689,EIA923,12,Craig; Klawock,NA
+P23,2,Alaska Power & Telephone Company,Hydaburg,Prince of Wales Is._grid,Southeast,0,-9,0,0,0,0,0,-9,EIA923,12,Craig; Klawock,NA
+P24,2,Alaska Power & Telephone Company,Klawock Power Generation Station,Prince of Wales Is._grid,Southeast,0,0,0,0,0,0,0,0,0,0,Craig; Klawock,NA
+P28,2,Alaska Power & Telephone Company,Thorne Bay Plant,Prince of Wales Is._grid,Southeast,0,-0.99999999999999989,0,0,0,0,0,-0.99999999999999989,EIA923,12,Craig; Klawock,NA
+P10,1,Alaska Electric Light & Power Company,Lake Dorothy Hydroelectric Project,Juneau_grid,Southeast,0,0,87454,0,0,0,0,87454,EIA923,12,"Juneau, Douglas",NA
+P11,1,Alaska Electric Light & Power Company,Lemon Creek,Juneau_grid,Southeast,132,80,0,0,0,0,0,212,EIA923,24,"Juneau, Douglas",NA
+P12,1,Alaska Electric Light & Power Company,Salmon Creek 1,Juneau_grid,Southeast,0,0,27902,0,0,0,0,27902,EIA923,12,"Juneau, Douglas",NA
+P13,1,Alaska Electric Light & Power Company,Snettisham,Juneau_grid,Southeast,0,0,273037,0,0,0,0,273037,EIA923,12,"Juneau, Douglas",NA
+P140,701,Elfin Cove Utility Commission,Elfin Cove,Elfin Cove_grid,Southeast,0,316.791,0,0,0,0,0,316.791,PCE,12,Elfin Cove,NA
+P16,2,Alaska Power & Telephone Company,Goat Lake Hydro,UpperLynnCanal_grid,Southeast,0,0,16957,0,0,0,0,16957,EIA923,12,"Haines, Covenant Life; Klukwan; Chilkat Valley; Skagway",NA
+P163,240,Inside Passage Electric,Angoon,Angoon_grid,Southeast,0,1846.1350000000002,0,0,0,0,0,1846.1350000000002,PCE,12,Angoon,NA
+P164,240,Inside Passage Electric,Hoonah,Hoonah_grid,Southeast,0,3529.2920000000004,1212.9029999999998,0,0,0,0,4742.1949999999988,PCE,24,Hoonah,NA
+P165,240,Inside Passage Electric,Kake,Kake_grid,Southeast,0,2255.9989999999998,0,0,0,0,0,2255.9989999999998,PCE,12,Kake,NA
+P166,240,Inside Passage Electric,Chilkat Valley,UpperLynnCanal_grid,Southeast,0,0,1051.5,0,0,0,0,1051.5,PCE,12,"Haines, Covenant Life; Klukwan; Chilkat Valley; Skagway",NA
+P17,2,Alaska Power & Telephone Company,Kasidaya Creek Hydro,UpperLynnCanal_grid,Southeast,0,0,7122.9999999999991,0,0,0,0,7122.9999999999991,EIA923,12,"Haines, Covenant Life; Klukwan; Chilkat Valley; Skagway",NA
+P171,103,Ketchikan Public Utilities,Beaver Falls,SEAPA_grid,Southeast,0,0,42915,0,0,0,0,42915,EIA923,12,"Ketchikan, Petersburg, Wrangell",NA
+P172,103,Ketchikan Public Utilities,Ketchikan,SEAPA_grid,Southeast,0,0,20683,0,0,0,0,20683,EIA923,12,"Ketchikan, Petersburg, Wrangell",NA
+P173,103,Ketchikan Public Utilities,S W Bailey,SEAPA_grid,Southeast,0,-1111,0,0,0,0,0,-1111,EIA923,12,"Ketchikan, Petersburg, Wrangell",NA
+P174,103,Ketchikan Public Utilities,Silvis,SEAPA_grid,Southeast,0,0,13207.000000000002,0,0,0,0,13207.000000000002,EIA923,12,"Ketchikan, Petersburg, Wrangell",NA
+P175,0,Southeast Alaska Power Agency,Swan Lake,SEAPA_grid,Southeast,0,0,71246,0,0,0,0,71246,EIA923,12,"Ketchikan, Petersburg, Wrangell",NA
+P176,103,Ketchikan Public Utilities,Whitman,SEAPA_grid,Southeast,0,0,7648.9999999999982,0,0,0,0,7648.9999999999982,EIA923,12,"Ketchikan, Petersburg, Wrangell",NA
+P199,0,Metlakatla Power & Light,Centennial,Metlakatla_grid,Southeast,0,3046,0,0,0,0,0,3046,EIA923,12,Metlakatla,NA
+P200,0,Metlakatla Power & Light,Chester Lake,Metlakatla_grid,Southeast,0,0,4585,0,0,0,0,4585,EIA923,12,Metlakatla,NA
+P201,0,Metlakatla Power & Light,Purple Lake,Metlakatla_grid,Southeast,0,0,14286.000000000002,0,0,0,0,14286.000000000002,EIA923,12,Metlakatla,NA
+P22,2,Alaska Power & Telephone Company,Haines,UpperLynnCanal_grid,Southeast,0,122.68299999999999,0,0,0,0,0,122.68299999999999,PCE,12,"Haines, Covenant Life; Klukwan; Chilkat Valley; Skagway",NA
+P228,24,Pelican Utility,Pelican,Pelican_grid,Southeast,0,175,789,0,0,0,0,964,EIA923,24,Pelican,NA
+P229,212,Petersburg Borough - (AK),Blind Slough,SEAPA_grid,Southeast,0,110.74,11621,0,0,0,0,11731.739999999998,EIA923,24,"Ketchikan, Petersburg, Wrangell",NA
+P240,100,"Sitka, City & Borough of",Blue Lake Hydro,Sitka_grid,Southeast,0,0,69018,0,0,0,0,69018,EIA923,12,Sitka,NA
+P241,100,"Sitka, City & Borough of",Green Lake,Sitka_grid,Southeast,0,0,35983.000000000007,0,0,0,0,35983.000000000007,EIA923,12,Sitka,NA
+P242,100,"Sitka, City & Borough of",Jarvis Street,Sitka_grid,Southeast,0,1099,0,0,0,0,0,1099,EIA923,12,Sitka,NA
+P244,0,Southeast Alaska Power Agency,Tyee Lake Hydroelectric Facility,SEAPA_grid,Southeast,0,0,96901,0,0,0,0,96901,EIA923,12,"Ketchikan, Petersburg, Wrangell",NA
+P256,363,"Tenakee Springs, City of",Tenakee Springs,Tenakee Springs_grid,Southeast,0,406.4,0,0,0,0,0,406.4,PCE,12,Tenakee Springs,NA
+P26,2,Alaska Power & Telephone Company,Skagway,UpperLynnCanal_grid,Southeast,0,192.44,0,0,0,0,0,192.44,PCE,12,"Haines, Covenant Life; Klukwan; Chilkat Valley; Skagway",NA
+P273,111,"Wrangell, City of",Wrangell,SEAPA_grid,Southeast,0,44,0,0,0,0,0,44,EIA923,12,"Ketchikan, Petersburg, Wrangell",NA
+P35,2,Alaska Power & Telephone Company,Gustavus,Gustavus_grid,Southeast,0,43.91,2236.7930000000001,0,0,0,0,2280.7030000000004,PCE,19,Gustavus,NA
+P40,2,Alaska Power & Telephone Company,Whale Pass,Whale_Pass_grid,Southeast,0,357.97399999999999,0,0,0,0,0,357.97399999999999,PCE,12,Whale Pass,NA
+P6,1,Alaska Electric Light & Power Company,Annex Creek,Juneau_grid,Southeast,0,0,25644.000000000004,0,0,0,0,25644.000000000004,EIA923,12,"Juneau, Douglas",NA
+P7,1,Alaska Electric Light & Power Company,Auke Bay,Juneau_grid,Southeast,8,0,0,0,0,0,0,8,EIA923,24,"Juneau, Douglas",NA
+P78,53,Yakutat Power Inc,Yakutat,Yakutat_grid,Southeast,0,5943.6289999999999,0,0,0,0,0,5943.6289999999999,PCE,12,Yakutat,NA
+P8,1,Alaska Electric Light & Power Company,Gold Creek,Juneau_grid,Southeast,0,8,4589,0,0,0,0,4597,EIA923,24,"Juneau, Douglas",NA
+P9,1,Alaska Electric Light & Power Company,Industrial Plant,Juneau_grid,Southeast,138,0,0,0,0,0,0,138,EIA923,12,"Juneau, Douglas",NA
+P167,240,Inside Passage Electric,Klukwan,UpperLynnCanal_grid,Southeast,0,0,0,0,0,0,0,0,0,0,"Haines, Covenant Life; Klukwan; Chilkat Valley; Skagway",NA
+P168,240,Inside Passage Electric,10 Mile Creek,UpperLynnCanal_grid,Southeast,0,0,0,0,0,0,0,0,0,0,"Haines, Covenant Life; Klukwan; Chilkat Valley; Skagway",NA
+P170,0,Ketchikan Electric Company,Mahoney Lake Hydroelectric,SEAPA_grid,Southeast,0,0,0,0,0,0,0,0,0,0,"Ketchikan, Petersburg, Wrangell",NA
+P19,2,Alaska Power & Telephone Company,Viking,Prince of Wales Is._grid,Southeast,0,-10,0,0,0,0,0,-10,EIA923,12,Craig; Klawock,NA
+P278,NA,"Inside Passage Elec Coop, Inc",Klawock,Prince of Wales Is._grid,Southeast,0,0,0,0,0,0,0,0,0,0,Craig; Klawock,NA
+P280,NA,Sitka City of & Borough of,Blue Lake Fish Valve,Sitka_grid,Southeast,0,0,0,0,0,0,0,0,0,0,Sitka,NA
+P33,2,Alaska Power & Telephone Company,Coffman Cove,Prince of Wales Is._grid,Southeast,0,0,0,0,0,0,0,0,0,0,Craig; Klawock,NA
+P37,2,Alaska Power & Telephone Company,Hollis,Prince of Wales Is._grid,Southeast,0,0,0,0,0,0,0,0,0,0,Craig; Klawock,NA
+P41,2,Alaska Power & Telephone Company,Dewey Lakes ,UpperLynnCanal_grid,Southeast,0,0,0,0,0,0,0,0,0,0,"Haines, Covenant Life; Klukwan; Chilkat Valley; Skagway",NA
+P42,2,Alaska Power & Telephone Company,Lutak,UpperLynnCanal_grid,Southeast,0,0,0,0,0,0,0,0,0,0,"Haines, Covenant Life; Klukwan; Chilkat Valley; Skagway",NA
+P43,2,Alaska Power & Telephone Company,Naukati Bay,Prince of Wales Is._grid,Southeast,0,2.9380000000000002,0,0,0,0,0,2.9380000000000002,PCE,3,Craig; Klawock,NA
+P81,169,Alaska Village Electric Cooperative,Ekwok,Ekwok_grid,Bristol Bay,0,486.61600000000004,0,0,0,0,0,486.61600000000004,PCE,12,Ekwok,NA
+P25,2,Alaska Power & Telephone Company,Northway,Northway_grid,Yukon-Koyukuk/Upper Tanana,0,1124.8010000000002,0,0,0,0,0,1124.8010000000002,PCE,12,"Northway, Northway Village, Northway Junction",NA
+P29,2,Alaska Power & Telephone Company,Tok,Tok_grid,Yukon-Koyukuk/Upper Tanana,0,9366.719000000001,0,0,0,0,0,9366.719000000001,PCE,12,"Tok; Tanacross; Dot Lake, Dot Lake Village",NA
+P30,2,Alaska Power & Telephone Company,Allakaket,Allakaket_grid,Yukon-Koyukuk/Upper Tanana,0,589.67899999999997,0,0,0,0,0,589.67899999999997,PCE,12,"Allakaket, Alatna",NA
+P31,2,Alaska Power & Telephone Company,Bettles,Bettles_grid,Yukon-Koyukuk/Upper Tanana,0,519.40000000000009,0,0,0,0,0,519.40000000000009,PCE,12,"Bettles, Evansville",NA
+P34,2,Alaska Power & Telephone Company,Eagle,Eagle_grid,Yukon-Koyukuk/Upper Tanana,0,744.8,0,23.950999999999997,0,0,0,768.75099999999986,PCE,24,"Eagle, Eagle Village",NA
+P36,2,Alaska Power & Telephone Company,Healy Lake,Healy Lake_grid,Yukon-Koyukuk/Upper Tanana,0,0,0,0,0,0,0,0,0,0,Healy Lake,NA
+P106,747,Arctic Village Electric Company,Arctic Village,Arctic Village_grid,Yukon-Koyukuk/Upper Tanana,0,526.97022961615369,0,0,0,0,0,526.97022961615369,PCE,12,Arctic Village,NA
+P111,420,Beaver Joint Utilities,Beaver,Beaver_grid,Yukon-Koyukuk/Upper Tanana,0,299.87851999999998,0,0,0,0,0,299.87851999999998,PCE,12,Beaver,NA
+P112,767,Birch Creek Electric Company,Birch Creek,Birch Creek_grid,Yukon-Koyukuk/Upper Tanana,0,0,0,0,0,0,0,0,0,0,Birch Creek,NA
+P114,682,Chalkyitsik Village Council,Chalkyitsik,Chalkyitsik_grid,Yukon-Koyukuk/Upper Tanana,0,163.91,0,0,0,0,0,163.91,PCE,6,Chalkyitsik,NA
+P124,256,Circle Electric Utility,Circle,Circle_grid,Yukon-Koyukuk/Upper Tanana,0,363.36000000000007,0,0,0,0,0,363.36000000000007,PCE,12,Circle,NA
+P144,274,"Galena, City of",Galena Electric Utility,Galena_grid,Yukon-Koyukuk/Upper Tanana,0,5533.9359999999997,0,0,0,0,0,5533.9359999999997,PCE,12,Galena,NA
+P145,341,Gold Country Energy,Central,Central_grid,Yukon-Koyukuk/Upper Tanana,0,515.64300000000003,0,0,0,0,0,515.64300000000003,PCE,12,Central,NA
+P154,63,Gwitchyaa Zhee Utilities Company,Gwitchyaa Zhee,Fort Yukon_grid,Yukon-Koyukuk/Upper Tanana,0,3015.25,0,0,0,0,0,3015.25,PCE,12,Fort Yukon,NA
+P160,332,Hughes Power & Light,Hughes,Hughes_grid,Yukon-Koyukuk/Upper Tanana,0,463.49299999999999,0,0,0,0,0,463.49299999999999,PCE,12,Hughes,NA
+P190,687,"Koyukuk, City of",Koyukuk,Koyukuk_grid,Yukon-Koyukuk/Upper Tanana,0,256.58099999999996,0,0,0,0,0,256.58099999999996,PCE,11,Koyukuk,NA
+P198,44,Mcgrath Light & Power,McGrath,McGrath_grid,Yukon-Koyukuk/Upper Tanana,0,2357.5259999999998,0,0,0,0,0,2357.5259999999998,PCE,12,McGrath,NA
+P214,416,"Nikolai, City of",Nikolai,Nikolai_grid,Yukon-Koyukuk/Upper Tanana,0,417.185,0,0,0,0,0,417.185,PCE,12,Nikolai,NA
+P234,759,Rampart Village Council,Rampart,Rampart_grid,Yukon-Koyukuk/Upper Tanana,0,200.67699999999999,0,0,0,0,0,200.67699999999999,PCE,12,Rampart,NA
+P236,364,"Ruby, City of",Ruby,Ruby_grid,Yukon-Koyukuk/Upper Tanana,0,637.7120000000001,0,0,0,0,0,637.7120000000001,PCE,12,Ruby,NA
+P247,394,Takotna Community Assoc Inc,Takotna,Takotna_grid,Yukon-Koyukuk/Upper Tanana,0,248.38859818181822,0,0,0,0,0,248.38859818181822,PCE,12,Takotna,NA
+P249,92,Tanana Power Company Inc,Tanana,Tanana_grid,Yukon-Koyukuk/Upper Tanana,0,1289.3269999999998,0,0,0,0,0,1289.3269999999998,PCE,12,Tanana,NA
+P253,72,TDX Manley Generating LLC,Manley Hot Springs,Manley Hot Springs_grid,Yukon-Koyukuk/Upper Tanana,0,552.596,0,0,0,0,0,552.596,PCE,12,Manley Hot Springs,NA
+P270,663,Venetie Village Electric,Venetie,Venetie_grid,Yukon-Koyukuk/Upper Tanana,0,705.1,0,0,0,0,0,705.1,PCE,12,Venetie,NA
+P79,169,Alaska Village Electric Cooperative,Anvik,Anvik_grid,Yukon-Koyukuk/Upper Tanana,0,425.774,0,0,0,0,0,425.774,PCE,12,Anvik,NA
+P83,169,Alaska Village Electric Cooperative,Grayling,Grayling_grid,Yukon-Koyukuk/Upper Tanana,0,624.01899999999989,0,0,0,0,0,624.01899999999989,PCE,12,Grayling,NA
+P84,169,Alaska Village Electric Cooperative,Holy Cross,Holy Cross_grid,Yukon-Koyukuk/Upper Tanana,0,595.4,0,0,0,0,0,595.4,PCE,12,Holy Cross,NA
+P85,169,Alaska Village Electric Cooperative,Huslia,Huslia_grid,Yukon-Koyukuk/Upper Tanana,0,1032.8589999999999,0,0,0,0,0,1032.8589999999999,PCE,12,Huslia,NA
+P86,169,Alaska Village Electric Cooperative,Kaltag,Kaltag_grid,Yukon-Koyukuk/Upper Tanana,0,592.50800000000004,0,7.3159999999999989,0,0,0,599.82400000000007,PCE,23,Kaltag,NA
+P88,169,Alaska Village Electric Cooperative,Minto,Minto_grid,Yukon-Koyukuk/Upper Tanana,0,665.41599999999994,0,0,0,0,0,665.41599999999994,PCE,12,Minto,NA
+P90,169,Alaska Village Electric Cooperative,Nulato,Nulato_grid,Yukon-Koyukuk/Upper Tanana,0,1046.4270000000001,0,0,0,0,0,1046.4270000000001,PCE,12,Nulato,NA
+P94,169,Alaska Village Electric Cooperative,Shageluk,Shageluk_grid,Yukon-Koyukuk/Upper Tanana,0,399.01488888888895,0,0,0,0,0,399.01488888888895,PCE,12,Shageluk,NA
+P246,709,Stevens Village Ira Council,Stevens Village,Stevens Village_grid,Yukon-Koyukuk/Upper Tanana,0,169.244,0,0,0,0,0,169.244,PCE,12,Stevens Village,NA
+P39,2,Alaska Power & Telephone Company,Tetlin,Tok_grid,Yukon-Koyukuk/Upper Tanana,0,0,0,0,0,0,0,0,0,0,"Tok; Tanacross; Dot Lake, Dot Lake Village",NA
+P226,0,"PB Energy, Inc",Dry Spruce Bay (Creek),NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA
+P245,0,SSRAA,Burnett River Hatchery,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA
+P269,NA,0,Ivanof Bay,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA
+P274,NA,0,Jetty Lake (West Side Hydro),NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA
+P275,NA,0,Marathon Hydro,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA
+P276,NA,0,McRoberts Creek,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA
+P277,NA,0,Tin City,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA
+P281,NA,Alyeska Seafoods Inc,Alyeska Seafoods,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA
+P282,NA,Ounalshka Corp,American President Lines Ltd,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA
+P283,NA,Icicle Seafoods Inc,Bering Star,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA
+P284,NA,Phillips Alaska Inc,Central Production Facility 1,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA
+P285,NA,Phillips Alaska Inc,Central Production Facility 2,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA
+P286,NA,Phillips Alaska Inc,Central Production Facility 3,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA
+P288,NA,BP Exploration Alaska,Lisburne Production Center,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA
+P289,NA,Offshore Systems Inc,Offshore Systems,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA
+P290,NA,Conoco Phillips Alaska Inc,Seawater Treatment Plant,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA
