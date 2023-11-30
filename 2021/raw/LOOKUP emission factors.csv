@@ -1,0 +1,25 @@
+Emission factor lookup table,...2,...3,...4,...5,...6,...7
+NA,NA,NA,NA,NA,NA,NA
+NA,EIA Reported Fuel Type Code,EIA Reported Fuel Type Description,Assumed EPA Emissions Hub Fuel Type,unit,MMBtu per unit,kg CO2 per MMBtu
+NA,BIT,Bituminous Coal,Bituminous Coal,short ton,24.93,93.28
+NA,DFO,"Distillate Fuel Oil. Including diesel, No. 1, No. 2, and No. 4 fuel oils.",Distillate Fuel Oil No. 2,gallon,0.13800000000000001,73.959999999999994
+NA,JF,Jet Fuel,Kerosene-Type Jet Fuel,gallon,0.13500000000000001,72.22
+NA,LFG,Landfill Gas,Landfill Gas,Mcf,0.48499999999999999,52.07
+NA,LIG,Lignite Coal,Lignite Coal,short ton,14.21,97.72
+NA,MWH,Electricity used for energy storage,NA,NA,NA,NA
+NA,NG,Natural Gas,Natural Gas,Mcf,1.026,53.06
+NA,OBL,Other Biomass Liquids,Vegetable Oil,gallon,0.12,81.55
+NA,OG,Other Gas,Natural Gas,Mcf,1.026,53.06
+NA,RFO,Residual Fuel Oil. Including No. 5 & 6 fuel oils and bunker C fuel oil.,Residual Fuel Oil No. 5,gallon,0.14000000000000001,72.930000000000007
+NA,SUB,Subbituminous Coal,Sub-bituminous Coal,short ton,17.25,97.17
+NA,SUN,Solar,NA,NA,NA,NA
+NA,WAT,"Water at a Conventional Hydroelectric Turbine and water used in Wave Buoy Hydrokinetic Technology, current Hydrokinetic Technology, Tidal Hydrokinetic Technology, and Pumping Energy for Reversible (Pumped Storage) Hydroelectric Turbines.",NA,NA,NA,NA
+NA,WC,"Waste/Other Coal. Including anthracite culm, bituminous gob, fine coal, lignite waste, waste coal.",Mixed (Electric Power Sector),short ton,19.73,95.52
+NA,WDS,"Wood/Wood Waste Solids. Including paper pellets, railroad ties, utility polies, wood chips, bark, and other wood waste solids.",Wood and Wood Residuals,short ton,17.48,93.8
+NA,WND,Wind,NA,NA,NA,NA
+NA,WO,"Waste/Other Oil. Including crude oil, liquid butane, liquid propane, naphtha, oil waste, re-refined moto oil, sludge oil, tar oil, or other petroleum-based liquid wastes.",Naphtha (<401 deg F),gallon,0.125,68.02
+NA,NA,NA,NA,NA,NA,NA
+NA,Sources:,EIA Reported Fuel Type Codes from EIA Form 923 data file EIA923_Schedules_2_3_4_5_M_12_2021_Final_Revision.xlsx,NA,NA,NA,NA
+NA,NA,Heat content and CO2 emissions coefficients from EPA Emissions Hub:,NA,NA,NA,NA
+NA,NA,https://www.epa.gov/system/files/documents/2023-03/ghg-emission-factors-hub.xlsx,NA,NA,NA,NA
+NA,NA,https://www.epa.gov/climateleadership/ghg-emission-factors-hub,NA,NA,NA,NA

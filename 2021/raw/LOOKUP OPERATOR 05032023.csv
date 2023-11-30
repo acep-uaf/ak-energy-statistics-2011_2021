@@ -1,0 +1,173 @@
+AEA_operator Id,PCE_utility_code,eia_operator_id,CPCN,Operator_name,sector__id,sector__name,sector__number,operator_rca_regulatory_status_name,operator_utility_certificate,operator__utility_type_name,operator_cpcn_status,pce_eligible,Power Generation End Use,Notes,...16,...17,...18,OPERATOR_AEA Operator ID,OPERATOR_Operator Name
+AEA-001,AKHI,NA,449,"Akhiok, City of",1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-002,AKIA,NA,635,Akiak City Council,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-003,AKIANCE,192,412,Akiachak Native Community,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-004,AKUT,24486,293,"Akutan, City of",1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-005,ALASPCA,219,2,Alaska Power & Telephone Company,1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-006,ALASVEC,221,169,Alaska Village Electric Cooperative,1,Electric Utility,1,Unregulated,TRUE,Electric Co-op,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-007,ALUTPC,NA,683,Alutiiq Power Company,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-008,ANDRE,653,291,Andreanof Electric Corp,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Inactive,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-009,ANIALPC,4959,5,Aniak Light & Power,1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-010,ARCTVC,NA,747,Arctic Village Electric Company,1,Electric Utility,1,Unregulated,TRUE,Electric Co-op,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-011,ATKA,56256,291,"Atka, City of",1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-012,ATMATU,878,337,Atmautluak Tribal Utilities,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-013,BEAVJU,NA,420,Beaver Joint Utilities,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-014,BETHUC,1651,43,Bethel Utilities Corp,1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Inactive,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-015,BIRCCEC,1747,767,Birch Creek Electric Company,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-016,BUCK,NA,432,"Buckland, City of",1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-018,CENTEI,6111,341,Central Electric Inc.,1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Inactive,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-019,CHALVC,NA,682,Chalkyitsik Village Council,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-020,CHENVC,NA,686,Chenega Ira Council,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-021,CHIG,3421,297,"Chignik, City of",1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-022,CHIGLEU,NA,437,Chignik Lake Electric Utility,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-023,CHIGLPU,NA,658,Chignik Lagoon Power Utility,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-024,CHITE,3465,368,Chitina Electric Inc,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-025,CIRCE,NA,256,Circle Electric Utility,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-026,CLARPVC,NA,360,"Clark's Point, City of",1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-027,CORDEC,40215,160,Cordova Electric Cooperative,1,Electric Utility,1,Unregulated,TRUE,Electric Co-op,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-028,DIOMJU,NA,383,Diomede Joint Utilities,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-029,EGEG,5553,320,Egegik Light & Power Co,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-029,EGEG,57351,320,Egegik Light & Power Co,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-030,EKWO,NA,688,"Ekwok, City of",1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Inactive,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-031,ELFICEU,5721,701,Elfin Cove Utility Commission,1,Electric Utility,1,Unregulated,TRUE,Electric Co-op,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-032,FALSPE,NA,442,"False Pass, City of",1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-033,GALE,6915,274,"Galena, City of",1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-034,GK,6866,88,G & K Inc,1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-035,GOLOPU,NA,373,Golovin Power Utilities,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-036,GUSTE,7822,417,Gustavus Electric Co,1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Inactive,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-037,GWITZU,7833,63,Gwitchyaa Zhee Utilities Company,1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-038,HUGHPL,9000,332,Hughes Power & Light,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-039,IGIUEC,9192,681,Igiugig Electric Company,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-040,ILIANNE,9188,280,"I-N-N Electric Coop, Inc",1,Electric Utility,1,Unregulated,TRUE,Electric Co-op,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-041,INSIPEC,18963,240,Inside Passage Electric,1,Electric Utility,1,Unregulated,TRUE,Electric Co-op,Active,TRUE,Retail,Previously known as Tlingit & Haida Region El Auth,NA,NA,NA,NA,NA
+AEA-042,IPNAEC,9416,369,Ipnatchiaq Electric Company,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-043,KINGC,9897,289,"King Cove, City of",1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-044,KIPNLP,NA,446,Kipnuk Light Plant,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-045,KOBUVEC,NA,407,Kobuk Valley Electric Company,1,Electric Utility,1,Unregulated,TRUE,Electric Co-op,Inactive,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-046,KOKHVC,10455,660,Kokhanok Village Council,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-047,KOTLES,9898,285,Kotlik Joint Utility,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Inactive,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-048,KOTZEA,10451,17,Kotzebue Electric Association,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-049,KOYU,NA,687,"Koyukuk, City of",1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-050,KWET,9832,281,Kwethluk Incorporated d/b/a Kuiggluum Kallugvia,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-051,KWIGPC,10491,376,Kwigillingok Power Company,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-052,LARSBUC,10716,353,Larsen Bay Utility Company,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-053,LEVEEC,NA,330,Levelock Electrical Coop,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-054,LIMEVTC,NA,570,Lime Village Electric Utility,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-055,MANLU,11591,264,Manley Utilities,1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Inactive,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-056,MANOPC,26317,321,Manokotak Power Company,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-057,MCGRLP,12119,44,Mcgrath Light & Power,1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-058,MIDDKEC,12485,343,Middle Kuskokwim Electric,1,Electric Utility,1,Regulated,TRUE,Electric Co-op,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-059,NAKNEA,13201,22,Naknek Electric Association,1,Electric Utility,1,Unregulated,TRUE,Electric Co-op,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-060,NAPAC,13211,319,Napakiak Ircinraq,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-061,NAPAEU,NA,625,Napaskiak Electric Utility,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-062,NATELP,3422,365,Naterkaq Light Plant (City of Chefornak),1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-063,NELSLEC,13477,340,Nelson Lagoon Electrical Coop,1,Electric Utility,1,Unregulated,TRUE,Electric Co-op,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-064,NEWKVC,NA,661,New Koliganek Village Council,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-065,NIKO,NA,416,"Nikolai, City of",1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-066,NOMEJUS,13642,150,Nome Joint Utility Systems,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-067,NORTSB,26616,254,North Slope Borough Power & Light,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-068,NUNAIEC,NA,408,Nunam Iqua Electric Company,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-069,NUSHEC,13870,45,Nushagak Electric Cooperative,1,Electric Utility,1,Unregulated,TRUE,Electric Co-op,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-070,OUZI,14234,357,"Ouzinkie, City of",1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-071,PEDRBV,14633,662,Pedro Bay Village Council,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-072,PELIU,29297,24,Pelican Utility,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-073,PERR,14832,659,Native Village of Perryville,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-074,PILOPEU,NA,425,Pilot Point Electric Utility,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-075,PLAT,NA,NA,"Platinum, City of",1,Electric Utility,1,N/A,FALSE,N/A,Inactive,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-076,PLATCC,NA,765,Platinum Commercial Company LLC.,1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-077,PORTHU,NA,399,Port Heiden Utilities,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-078,PUVUPC,NA,395,Puvurnaq Power Company,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-079,RAMP,NA,759,Rampart Village Council,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-080,RUBY,NA,364,"Ruby, City of",1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-081,STEVVIC,NA,709,Stevens Village Ira Council,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-082,STGEORGE,NA,410,"Saint George, City of",1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-083,STPMEU,17898,339,Saint Paul Municipal Electric,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-084,TAKOC,NA,394,Takotna Community Assoc Inc,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-085,TANAEC,NA,447,Tanalian Electric Cooperative,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-086,TANAPC,18474,92,Tanana Power Company Inc,1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-087,TATIVIC,18480,586,Tatitlek Village Ira Council,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-088,TDXA,NA,684,TDX Adak Generating LLC,1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-089,TDXC,63560,230,"TDX Sand Point Generating, LLC",1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-090,TDXM,56503,72,TDX Manley Generating LLC,1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-091,TELLPC,18521,61,Teller Power Company,1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Inactive,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-092,TENAS,18541,363,"Tenakee Springs, City of",1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-093,TULUTPU,NA,664,Tuluksak Traditional,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-094,TUNTCSA,19267,344,Tuntutuliak Community,1,Electric Utility,1,Unregulated,TRUE,Electric Co-op,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-095,TWINHVC,NA,729,Twin Hills Village Council,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-096,UMNAP,NA,242,Umnak Power Company,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-097,UNAL,19454,106,"Unalaska, City of",1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-098,UNALVEC,40548,741,Unalakleet Valley Electric Cooperative,1,Electric Utility,1,Unregulated,TRUE,Electric Co-op,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-099,UNGUPC,NA,375,Ungusraq Power Company,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-100,VENEVE,NA,663,Venetie Village Electric,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-101,WHITMU,20535,409,"White Mountain, City of",1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-102,YAKUP,30150,53,Yakutat Power Inc,1,Electric Utility,1,Regulated,TRUE,Public Electric Utility,Inactive,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-103,NA,4329,10,"Copper Valley Elec Assn, Inc",1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-104,NA,7353,13,Golden Valley Elec Assn Inc,1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-105,NA,19558,32,Homer Electric Assn Inc,1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-106,NA,10433,16,Kodiak Electric Assn Inc,1,Electric Utility,1,Regulated,TRUE,Electric Co-op,Active,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-107,NA,11824,18,Matanuska Electric Assn Inc,1,Electric Utility,1,Regulated,TRUE,Electric Co-op,Active,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-108,NA,12385,NA,Metlakatla Power & Light,1,Electric Utility,1,N/A,FALSE,Private Electric Utility,N/A,FALSE,Retail,Exempted from RCA jurisdiction,NA,NA,NA,NA,NA
+AEA-109,NA,599,121,Anchorage Municipal Light and Power,1,Electric Utility,1,Regulated,TRUE,Public Electric Utility,Active,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-110,NA,14856,212,Petersburg Borough - (AK),1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-111,NA,16955,108,City of Seward - (AK),1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-112,NA,49803,640,Alaska Electric & Energy Coop,1,Electric Utility,1,Regulated,TRUE,Electric Co-op,Active,FALSE,Wholesale,NA,NA,NA,NA,NA,NA
+AEA-113,NA,58488,742,Alaska Environmental Power,7,NAICS-22 Non-Cogen,2,Regulated,TRUE,Independent Power Producer,Active,FALSE,Wholesale,NA,NA,NA,NA,NA,NA
+AEA-114,NA,986,520,Aurora Energy LLC,2,NAICS-22 Cogen,3,Regulated,TRUE,Independent Power Producer,Active,FALSE,Wholesale,NA,NA,NA,NA,NA,NA
+AEA-115,NA,58422,NA,Fire Island Wind LLC,7,NAICS-22 Non-Cogen,2,N/A,FALSE,Independent Power Producer,N/A,FALSE,Wholesale,NA,NA,NA,NA,NA,NA
+AEA-116,NA,19272,720,Doyon Utilities - Fort Greely,6,Commercial NAICS Non-Cogen,4,Unregulated,TRUE,Military,Active,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
+AEA-117,NA,19277,227,TDX North Slope Generating Co,1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
+AEA-117,NA,57494,227,TDX North Slope Generating Co,1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
+AEA-118,NA,56389,726,Doyon Utilities - Ft. Wainwright,1,Electric Utility,1,Unregulated,TRUE,Military,Active,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
+AEA-120,NA,22199,NA,U S Air Force-Eielson AFB,3,Commercial NAICS Cogen,5,N/A,FALSE,Military,N/A,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
+AEA-121,NA,179,NA,Agrium US Inc,4,Industrial NAICS Cogen,7,N/A,FALSE,Industrial,N/A,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
+AEA-122,NA,58368,724,"Doyon Utilities, LLC",6,Commercial NAICS Non-Cogen,4,N/A,FALSE,Independent Power Producer,Active,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
+AEA-124,NA,60123,NA,Southeast Alaska Power Agency,6,Commercial NAICS Non-Cogen,4,N/A,FALSE,Joint Action Agency of the State of Alaska,N/A,FALSE,Wholesale,Also EIA ID 60770,NA,NA,NA,NA,NA
+AEA-124,NA,60770,NA,Southeast Alaska Power Agency,6,Commercial NAICS Non-Cogen,4,N/A,FALSE,Joint Action Agency of the State of Alaska,N/A,FALSE,Wholesale,Also EIA ID 60123,NA,NA,NA,NA,NA
+AEA-124,NA,60770,NA,Southeast Alaska Power Agency,6,Commercial NAICS Non-Cogen,4,N/A,FALSE,Joint Action Agency of the State of Alaska,N/A,FALSE,Wholesale,Also EIA ID 60123,NA,NA,NA,NA,NA
+AEA-125,NA,18617,NA,Tesoro Alaska Company LLC,4,Industrial NAICS Cogen,7,N/A,FALSE,Industrial,N/A,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
+AEA-126,NA,19553,NA,Unisea Inc,5,Industrial NAICS Non-Cogen,6,N/A,FALSE,Industrial,N/A,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
+AEA-127,NA,19511,NA,University of Alaska,3,Commercial NAICS Cogen,5,Unregulated,FALSE,Industrial,Active,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
+AEA-128,NA,20523,NA,Westward Seafoods Inc,4,Industrial NAICS Cogen,7,N/A,FALSE,Industrial,N/A,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
+AEA-129,NA,42889,NA,Alaska Energy Authority,NA,NA,NA,N/A,FALSE,Political Subdivision of the State,N/A,FALSE,Wholesale,NA,NA,NA,NA,NA,NA
+AEA-130,NA,17271,100,"Sitka, City & Borough of",1,Electric Utility,1,NA,TRUE,Public Electric Utility,Active,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-131,NA,10210,103,Ketchikan Public Utilities,1,Electric Utility,1,NA,TRUE,Public Electric Utility,Active,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-132,NA,3522,8,Chugach Electric Assn Inc,1,Electric Utility,1,NA,TRUE,Electric Co-op,Active,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-133,NA,213,1,Alaska Electric Light & Power Company,1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-134,NA,1276,214,Barrow Utilities & Electric Cooperative Inc.,1,Electric Utility,1,NA,TRUE,Public Electric Utility,Active,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-135,NA,21015,111,"Wrangell, City of",1,Electric Utility,1,NA,TRUE,Public Electric Utility,Active,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-137,NA,26754,91,Paxson Inn & Lodge,NA,NA,NA,NA,TRUE,Public Electric Utility,Active,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-138,KINGCC,9897,289,King Cove Corporation,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Inactive,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-139,GOLDCE,56739,341,Gold Country Energy,1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,TRUE,Retail,NA,NA,NA,NA,NA,NA
+AEA-140,NA,288,345,"Alaska Electric Generation & Transmission Cooperative, Inc.",1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,FALSE,Wholesale,NA,NA,NA,NA,NA,NA
+AEA-141,NA,NA,523,Alaska Industrial Development & Export Authority,1,Electric Utility,1,Unregulated,TRUE,Political Subdivision of the State,Active,FALSE,Wholesale,NA,NA,NA,NA,NA,NA
+AEA-142,NA,NA,549,Alaska Industrial Development & Export Authority,1,Electric Utility,1,Unregulated,TRUE,Political Subdivision of the State,Active,FALSE,Wholesale,NA,NA,NA,NA,NA,NA
+AEA-143,NA,NA,735,"Aleutian Wind Energy, LLC",1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,FALSE,Wholesale,Wind farm selling power to Sand Point,NA,NA,NA,NA,NA
+AEA-144,NA,219,573,"BBL HYDRO, INC.",1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,FALSE,Wholesale,NA,NA,NA,NA,NA,NA
+AEA-145,NA,NA,704,CHENA POWER COMPANY,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
+AEA-146,NA,219,521,"GOAT LAKE HYDRO, INC.",1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,FALSE,Wholesale,NA,NA,NA,NA,NA,NA
+AEA-147,NA,NA,NA,Ivanof Bay,NA,NA,NA,N/A,FALSE,NA,N/A,FALSE,NA,NA,NA,NA,NA,NA,NA
+AEA-148,NA,NA,748,Kodiak,1,Electric Utility,1,Unregulated,TRUE,Public Electric Utility,Active,FALSE,Retail,Docks,NA,NA,NA,NA,NA
+AEA-149,NA,NA,710,"KWAAN ELECTRIC TRANSMISSION INTERTIE COOPERATIVE, INC.",1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,FALSE,Retail,Connects to Admiralty Island/Greens Creek Mine,NA,NA,NA,NA,NA
+AEA-150,NA,NA,NA,"PB Energy, Inc",NA,NA,NA,N/A,FALSE,NA,N/A,FALSE,Consumed by facility,Dry Spruce Bay Hydroelectric near Port Bailey,NA,NA,NA,NA,NA
+AEA-151,NA,NA,NA,Renewable IPP,NA,NA,NA,N/A,FALSE,NA,N/A,FALSE,Wholesale,NA,NA,NA,NA,NA,NA
+AEA-152,NA,NA,NA,"South Fork Hydro, LLC",NA,NA,NA,N/A,FALSE,NA,N/A,FALSE,Wholesale,NA,NA,NA,NA,NA,NA
+AEA-154,NA,NA,NA,SSRAA,5,Industrial NAICS Non-Cogen,6,N/A,FALSE,Industrial,Active,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
+AEA-155,NA,NA,749,TDX Corporation,1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,FALSE,Wholesale,Wind farm selling power to City of St. Paul,NA,NA,NA,NA,NA
+AEA-156,NA,NA,377,Thomas Bay Power Authority,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-157,NA,NA,71,Weisner Trading Co.,1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,FALSE,Retail,Rampart,NA,NA,NA,NA,NA
+AEA-158,NA,NA,59,"Weldon S. Holmes, d/b/a Semloh Supply",1,Electric Utility,1,Unregulated,TRUE,Private Electric Utility,Active,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-159,NA,60222,760,"Haida Energy, Inc.",NA,NA,NA,NA,TRUE,Private Electric Utility,N/A,FALSE,Wholesale,NA,NA,NA,NA,NA,NA
+AEA-160,NA,60223,NA,Ketchikan Electric Company,NA,NA,NA,NA,FALSE,NA,N/A,FALSE,Wholesale,NA,NA,NA,NA,NA,NA
+AEA-161,NA,431,NA,Alyeska Seafoods Inc,6,Commercial NAICS Non-Cogen,4,N/A,FALSE,Industrial,N/A,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
+AEA-162,NA,14313,NA,Ounalshka Corp,6,Commercial NAICS Non-Cogen,4,N/A,FALSE,Industrial,N/A,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
+AEA-163,NA,9183,NA,Icicle Seafoods Inc,6,Commercial NAICS Non-Cogen,4,N/A,FALSE,Industrial,N/A,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
+AEA-164,NA,14956,NA,Phillips Alaska Inc,6,Commercial NAICS Non-Cogen,4,N/A,FALSE,Industrial,N/A,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
+AEA-165,NA,14852,NA,Peter Pan Seafoods,6,Commercial NAICS Non-Cogen,4,N/A,FALSE,Industrial,N/A,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
+AEA-166,NA,1388,NA,BP Exploration Alaska,6,Commercial NAICS Non-Cogen,4,N/A,FALSE,Industrial,N/A,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
+AEA-168,NA,13972,NA,Offshore Systems Inc,6,Commercial NAICS Non-Cogen,4,N/A,FALSE,Industrial,N/A,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
+AEA-169,NA,14811,NA,Conoco Phillips Alaska Inc,6,Commercial NAICS Non-Cogen,4,N/A,FALSE,Industrial,N/A,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
+AEA-170,NA,288,345,"Alaska Electric Generation & Transmission Cooperative, Inc.",1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Active,FALSE,Wholesale,NA,NA,NA,NA,NA,NA
+AEA-171,NA,409,NA,"Arctic Utilities, Inc",1,Electric Utility,1,Regulated,TRUE,Private Electric Utility,Inactive,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
+AEA-172,NA,18877,NA,City of Thorne Bay,1,Electric Utility,1,N/A,FALSE,Public Electric Utility,N/A,FALSE,Retail,NA,NA,NA,NA,NA,NA
+AEA-173,NA,13880,NA,"NUI Energy Brokers, Inc",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+AEA-174,NA,22200,NA,U S Army-Ft Wainwright,3,Commercial NAICS Cogen,5,N/A,FALSE,Military,N/A,FALSE,Consumed by facility,NA,NA,NA,NA,NA,NA
