@@ -1,0 +1,21 @@
+...1,...2,EIA fuel code,unit,Avg Heat Content MMBtu/unit,kg CO2/MMBTu,...7,...8,...9,...10,...11
+SUN,NA,AB,NA,NA,NA,NA,NA,EPA 2023,https://www.epa.gov/system/files/documents/2023-03/ghg-emission-factors-hub.xlsx,NA
+BIT,NA,WC,short tons,19.73,93.24,Assumes mixed coal,NA,Mixed (Electric Power Sector),19.73,95.52
+DFO,NA,SUB,short tons,17.25,97.13,NA,NA,Sub-bituminous Coal,17.25,97.17
+JF,NA,BIT,short tons,24.93,93.24,NA,NA,Bituminous Coal,24.93,93.28
+LFG,NA,LIG,short tons,14.21,98.1566666666666,NA,NA,Lignite Coal,14.21,97.72
+LIG,NA,NG,Mcf,1.026,52.91,NA,NA,Natural Gas,1.026,53.06
+MWH,NA,LFG,Mcf,0.485,52.07,NA,NA,Landfill Gas,0.48499999999999999,52.07
+NG,NA,OG,Mcf,0.655,52.07,NA,NA,Other Biomass Gases,0.65500000000000003,52.07
+OBL,NA,DFO,gallons,0.138,74.14,Assumes DFO #2,NA,Distillate Fuel Oil No. 2,0.13800000000000001,73.96
+OG,NA,JF,gallons,0.134,72.2333333333333,NA,NA,Kerosene-Type Jet Fuel,0.13500000000000001,72.22
+RFO,NA,RFO,gallons,0.14,75.0933333333333,Assumes RFO #5,NA,Residual Fuel Oil No. 5,0.14000000000000001,72.93
+SUB,NA,WO,gallons,0.134,74,NA,NA,Used Oil,0.13800000000000001,74
+WAT,NA,WND,NA,NA,NA,NA,NA,NA,NA,NA
+WC,NA,SUN,NA,NA,NA,NA,NA,NA,NA,NA
+WDS,NA,WAT,NA,0,NA,NA,NA,NA,NA,NA
+WND,NA,MWH,NA,NA,NA,NA,NA,NA,NA,NA
+WO,NA,WDS,NA,NA,93.8,NA,NA,Wood and Wood Residuals,17.48,93.8
+NA,NA,OBL,gallons,0.12,81.55,Assumes similar to vegetable oil,NA,Vegetable Oil,0.12,81.55
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,"Values from EPA, 2023 (https://www.epa.gov/system/files/documents/2023-03/ghg-emission-factors-hub.xlsx)",NA,NA,NA,NA,NA,NA,NA,NA

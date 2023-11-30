@@ -1,0 +1,19 @@
+"Early Release, Subject to Revision",...2,...3,...4
+"Table 1.g   Fuel Use for Power Generation by Operators/Utilities, by AEA Energy Region, 2019",NA,NA,NA
+NA,Oil,Gas,Coal
+AEA Energy Region,(Gallons),(Mcf),(Short Tons)
+Aleutians,7197629,0,0
+Bering Straits,3291586,0,0
+Bristol Bay,3949937,0,0
+Copper River/Chugach,2482639,0,0
+Kodiak,166097,0,0
+Lower Yukon-Kuskokwim,6856067,0,0
+North Slope,2417686,1600307,0
+Northwest Arctic,2368339,0,0
+Railbelt,37106412,23798668,555952
+Southeast,4224883,0,0
+Yukon-Koyukuk/Upper Tanana,2576379,0,0
+Total (Physical Units),72637654,25398975,555952
+Conversion Factor,0.13900000000000001,1.0249999999999999,19.536000000000001
+Total MMBtu,10096633.906000001,26033949.374999996,10861078.272
+Percent ot Statewide MMBtu Total,0.21486011714253636,0.55401210586344896,0.23112777699401474
