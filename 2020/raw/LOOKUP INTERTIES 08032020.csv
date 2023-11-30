@@ -1,0 +1,206 @@
+intertie_id,Intertie Unique ID Name,Current ID,Communities Intertied,Month of interite,Year of intertie,AEA energy region,Source
+001-0000,Akhiok_grid,TRUE,Akhiok,NA,NA,Kodiak,NA
+002-0000,Akiachak_grid,TRUE,Akiachak,NA,NA,Lower Yukon-Kuskokwim,NA
+003-0000,Akiak_grid,TRUE,Akiak,NA,NA,Lower Yukon-Kuskokwim,NA
+004-0000,Akutan_grid,TRUE,Akutan,NA,NA,Aleutians,NA
+005-0000,Allakaket_grid,TRUE,"Allakaket, Alatna",NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+007-0000,Bettles_grid,TRUE,"Bettles, Evansville",NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+009-0000,Eagle_grid,TRUE,"Eagle, Eagle Village",NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+011-0000,Healy Lake_grid,TRUE,Healy Lake,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+012-0000,Northway_grid,TRUE,"Northway, Northway Village, Northway Junction",NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+014-1990,Cordova_grid,TRUE,"Cordova, Eyak",NA,NA,Copper River/Chugach,NA
+015-1975,Tok_grid,FALSE,"Tok; Tanacross; Dot Lake, Dot Lake Village",NA,1975,Yukon-Koyukuk/Upper Tanana,PCE reporting
+015-2008,Tok_grid,TRUE,"Tok; Tanacross; Tetlin; Dot Lake, Dot Lake Village",3,2008,Yukon-Koyukuk/Upper Tanana,PCE reporting
+023-1987,Prince of Wales Is._grid,FALSE,Craig; Klawock,NA,1987,Southeast,NA
+023-1999,Prince of Wales Is._grid,FALSE,"Craig; Klawock; Thorne Bay, Kasaan",NA,1999,Southeast,Distributing Alaska's Power. 2008
+023-2004,Prince of Wales Is._grid,FALSE,"Craig; Klawock; Thorne Bay, Kasaan; Hollis",3,2004,Southeast,NA
+023-2006,Prince of Wales Is._grid,FALSE,"Craig; Klawock; Thorne Bay, Kasaan; Hollis; Hydaburg",1,2006,Southeast,PCE reporting
+023-2011,Prince of Wales Is._grid,FALSE,"Craig; Klawock; Thorne Bay, Kasaan; Hollis; Hydaburg; Coffman Cove",10,2011,Southeast,PCE reporting
+023-2015,Prince of Wales Is._grid,TRUE,"Craig; Klawock; Thorne Bay, Kasaan; Hollis; Hydaburg; Coffman Cove; Naukati Bay",2,2015,Southeast,Southeast Alaska Intertie Study (2003)
+026-0000,Slana_grid,FALSE,Slana,NA,NA,Copper River/Chugach,NA
+026-2010,Slana_grid,FALSE,Slana; Chistochina,1,2010,Copper River/Chugach,PCE reporting
+026-2012,Slana_grid,TRUE,Slana; Chistochina; Mentasta Lake,1,2012,Copper River/Chugach,PCE reporting
+032-1993,Haines_grid,FALSE,"Haines, Covenant Life; Klukwan; Chilkat Valley",NA,1993,Southeast,NA
+032-1998,UpperLynnCanal_grid,TRUE,"Haines, Covenant Life; Klukwan; Chilkat Valley; Skagway",NA,1998,Southeast,Southeast Alaska Intertie Study (2003)
+034-1980,Bethel_grid,FALSE,Bethel; Napakiak,NA,1980,Lower Yukon-Kuskokwim,NA
+034-1988,Bethel_grid,TRUE,"Bethel, Oscarville; Napakiak",NA,1988,Lower Yukon-Kuskokwim,NA
+035-0000,Ambler_grid,TRUE,Ambler,NA,NA,Northwest Arctic,NA
+036-0000,Anvik_grid,TRUE,Anvik,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+039-0000,Brevig Mission_grid,TRUE,Brevig Mission,NA,NA,Bering Straits,NA
+040-0000,Chevak_grid,TRUE,Chevak,NA,NA,Lower Yukon-Kuskokwim,NA
+041-0000,Eek_grid,TRUE,Eek,NA,NA,Lower Yukon-Kuskokwim,NA
+043-0000,Elim_grid,TRUE,Elim,NA,NA,Bering Straits,NA
+045-0000,Emmonak_grid,FALSE,Emmonak,NA,NA,Lower Yukon-Kuskokwim,NA
+045-2016,Emmonak_grid,TRUE,Emmonak; Alakanuk,9,2016,Lower Yukon-Kuskokwim,NA
+046-0000,Gambell_grid,TRUE,Gambell,NA,NA,Bering Straits,NA
+047-0000,Goodnews Bay_grid,TRUE,Goodnews Bay,NA,NA,Lower Yukon-Kuskokwim,NA
+048-0000,Grayling_grid,TRUE,Grayling,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+049-0000,Holy Cross_grid,TRUE,Holy Cross,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+050-0000,Hooper Bay_grid,TRUE,Hooper Bay,NA,NA,Lower Yukon-Kuskokwim,NA
+051-0000,Huslia_grid,TRUE,Huslia,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+052-0000,Upper Kalskag_grid,FALSE,Kalskag,NA,NA,Lower Yukon-Kuskokwim,NA
+052-2005,Upper Kalskag_grid,TRUE,Kalskag; Lower Kalskag,1,2005,Lower Yukon-Kuskokwim,Distributing Alaska's Power. 2008
+054-0000,Kaltag_grid,TRUE,Kaltag,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+055-0000,Kasigluk_grid,FALSE,Kasigluk,NA,NA,Lower Yukon-Kuskokwim,NA
+055-2006,Kasigluk_grid,TRUE,Kasigluk; Nunapitchuk,10,2006,Lower Yukon-Kuskokwim,NA
+057-0000,Kiana_grid,TRUE,Kiana,NA,NA,Northwest Arctic,NA
+058-0000,Kivalina_grid,TRUE,Kivalina,NA,NA,Northwest Arctic,NA
+059-0000,Kotlik_grid,TRUE,Kotlik,NA,NA,Lower Yukon-Kuskokwim,NA
+060-0000,Koyuk_grid,TRUE,Koyuk,NA,NA,Bering Straits,NA
+061-0000,Marshall_grid,TRUE,Marshall,NA,NA,Lower Yukon-Kuskokwim,NA
+062-0000,Mekoryuk_grid,TRUE,Mekoryuk,NA,NA,Lower Yukon-Kuskokwim,NA
+063-0000,Minto_grid,TRUE,Minto,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+065-0000,New Stuyahok_grid,TRUE,New Stuyahok,NA,NA,Bristol Bay,NA
+065-2016,New_Stuyahok_grid,TRUE,New Stuyahok; Ekwok,NA,2016,Bristol Bay,NA
+066-0000,Noatak_grid,TRUE,Noatak,NA,NA,Northwest Arctic,NA
+067-0000,Noorvik_grid,TRUE,Noorvik,NA,NA,Northwest Arctic,NA
+068-0000,Nulato_grid,TRUE,Nulato,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+069-0000,Old Harbor_grid,TRUE,Old Harbor,NA,NA,Kodiak,NA
+070-0000,Pilot Station_grid,TRUE,Pilot Station,NA,NA,Lower Yukon-Kuskokwim,NA
+071-0000,Quinhagak_grid,TRUE,Quinhagak,NA,NA,Lower Yukon-Kuskokwim,NA
+072-0000,Russian Mission_grid,TRUE,Russian Mission,NA,NA,Lower Yukon-Kuskokwim,NA
+075-1985,Saint Mary's_grid,FALSE,"Saint Mary's, Andreafsky; Pitkas Point",NA,1985,Lower Yukon-Kuskokwim,NA
+075-2020,Saint Mary's_grid,TRUE,"Saint Mary's, Andreafsky; Pitkas Point; Mountain Village",NA,2020,Lower Yukon-Kuskokwim,NA
+064-0000,Mountain Village_grid,FALSE,Mountain Village,NA,NA,Lower Yukon-Kuskokwim,NA
+076-0000,Savoonga_grid,TRUE,Savoonga,NA,NA,Bering Straits,NA
+077-0000,Scammon Bay_grid,TRUE,Scammon Bay,NA,NA,Lower Yukon-Kuskokwim,NA
+078-0000,Selawik_grid,TRUE,Selawik,NA,NA,Northwest Arctic,NA
+079-0000,Shageluk_grid,TRUE,Shageluk,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+080-0000,Shaktoolik_grid,TRUE,Shaktoolik,NA,NA,Bering Straits,NA
+081-0000,Shishmaref_grid,TRUE,Shishmaref,NA,NA,Bering Straits,NA
+084-0000,Stebbins_grid,FALSE,Stebbins,NA,NA,Bering Straits,NA
+084-2015,Stebbins_grid,TRUE,Stebbins; Saint Michael,9,2015,Bering Straits,PCE reporting
+085-0000,Teller_grid,TRUE,Teller,NA,NA,Bering Straits,NA
+086-0000,Togiak_grid,FALSE,Togiak,NA,NA,Bristol Bay,NA
+086-2020,Togiak_grid,TRUE,Togiak; Twin Hills,NA,2020,Bristol Bay,NA
+192-0000,Twin Hills_grid,FALSE,Twin Hills,NA,NA,Bristol Bay,NA
+088-0000,Toksook Bay_grid,FALSE,Toksook Bay,NA,NA,Lower Yukon-Kuskokwim,NA
+088-2006,Toksook Bay_grid,FALSE,Toksook Bay; Tununak,4,2006,Lower Yukon-Kuskokwim,PCE reporting
+088-2008,Toksook Bay_grid,TRUE,Tooksook Bay; Tununak; Nightmute,5,2008,Lower Yukon-Kuskokwim,Distributing Alaska's Power. 2008
+090-0000,Wales_grid,TRUE,Wales,NA,NA,Bering Straits,NA
+091-0000,Yakutat_grid,TRUE,Yakutat,NA,NA,Southeast,NA
+092-0000,Karluk_grid,TRUE,Karluk,NA,NA,Kodiak,NA
+093-0000,Aniak_grid,TRUE,Aniak,NA,NA,Lower Yukon-Kuskokwim,NA
+094-0000,Arctic Village_grid,TRUE,Arctic Village,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+095-0000,Atka_grid,TRUE,Atka,NA,NA,Aleutians,NA
+096-0000,Atmautluak_grid,TRUE,Atmautluak,NA,NA,Lower Yukon-Kuskokwim,NA
+097-0000,Beaver_grid,TRUE,Beaver,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+098-0000,Birch Creek_grid,TRUE,Birch Creek,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+099-0000,Buckland_grid,TRUE,Buckland,NA,NA,Northwest Arctic,NA
+100-0000,Chalkyitsik_grid,TRUE,Chalkyitsik,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+101-0000,Chenega_grid,TRUE,Chenega Bay,NA,NA,Copper River/Chugach,NA
+102-0000,Chignik Lagoon_grid,TRUE,Chignik Lagoon,NA,NA,Bristol Bay,NA
+103-0000,Chignik Lake_grid,TRUE,Chignik Lake,NA,NA,Bristol Bay,NA
+104-0000,Chignik_grid,TRUE,Chignik,NA,NA,Bristol Bay,NA
+105-0000,Chitina_grid,TRUE,Chitina,NA,NA,Copper River/Chugach,NA
+106-0000,Circle_grid,TRUE,Circle,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+107-0000,Clark's Point_grid,TRUE,Clark's Point,NA,NA,Bristol Bay,NA
+110-0000,Diomede_grid,TRUE,Diomede,NA,NA,Bering Straits,NA
+111-0000,Egegik_grid,TRUE,Egegik,NA,NA,Bristol Bay,NA
+112-0000,Elfin Cove_grid,TRUE,Elfin Cove,NA,NA,Southeast,NA
+113-0000,False Pass_grid,TRUE,False Pass,NA,NA,Aleutians,NA
+114-0000,Cold Bay_grid,TRUE,Cold Bay,NA,NA,Aleutians,NA
+115-0000,Galena_grid,TRUE,Galena,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+116-0000,Central_grid,TRUE,Central,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+117-0000,Golovin_grid,TRUE,Golovin,NA,NA,Bering Straits,NA
+118-0000,Gustavus_grid,TRUE,Gustavus,NA,NA,Southeast,NA
+119-0000,Fort Yukon_grid,TRUE,Fort Yukon,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+120-0000,Hughes_grid,TRUE,Hughes,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+121-0000,Igiugig_grid,TRUE,Igiugig,NA,NA,Bristol Bay,NA
+123-1983,Newhalen_grid,TRUE,"Iliamna, Newhalen, Nondalton",NA,1983,Bristol Bay,https://www.innelectric.com/our-history.html
+125-0000,Angoon_grid,TRUE,Angoon,NA,NA,Southeast,NA
+128-0000,Hoonah_grid,TRUE,Hoonah,NA,NA,Southeast,NA
+129-0000,Kake_grid,TRUE,Kake,NA,NA,Southeast,NA
+130-0000,Deering_grid,TRUE,Deering,NA,NA,Northwest Arctic,NA
+131-0000,King Cove_grid,TRUE,King Cove,NA,NA,Aleutians,NA
+132-0000,Kipnuk_grid,TRUE,Kipnuk,NA,NA,Lower Yukon-Kuskokwim,NA
+134-0000,Kokhanok_grid,TRUE,Kokhanok,NA,NA,Bristol Bay,NA
+135-0000,Kotzebue_grid,TRUE,Kotzebue,NA,NA,Northwest Arctic,NA
+136-0000,Koyukuk_grid,TRUE,Koyukuk,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+137-0000,Kwethluk_grid,TRUE,Kwethluk,NA,NA,Lower Yukon-Kuskokwim,NA
+138-0000,Kwigillingok_grid,TRUE,Kwigillingok,NA,NA,Lower Yukon-Kuskokwim,NA
+139-0000,Larsen Bay_grid,TRUE,Larsen Bay,NA,NA,Kodiak,NA
+140-0000,Levelock_grid,TRUE,Levelock,NA,NA,Bristol Bay,NA
+141-0000,Lime Village_grid,TRUE,Lime Village,NA,NA,Lower Yukon-Kuskokwim,NA
+142-0000,Manokotak_grid,TRUE,Manokotak,NA,NA,Bristol Bay,NA
+143-0000,McGrath_grid,TRUE,McGrath,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+144-0000,Chuathbaluk_grid,TRUE,Chuathbaluk,NA,NA,Lower Yukon-Kuskokwim,NA
+145-0000,Crooked Creek_grid,TRUE,Crooked Creek,NA,NA,Lower Yukon-Kuskokwim,NA
+146-0000,Red Devil_grid,TRUE,Red Devil,NA,NA,Lower Yukon-Kuskokwim,NA
+147-0000,Sleetmute_grid,TRUE,Sleetmute,NA,NA,Lower Yukon-Kuskokwim,NA
+148-0000,Stony River_grid,TRUE,Stony River,NA,NA,Lower Yukon-Kuskokwim,NA
+149-1980,Shungnak_grid,TRUE,Shungnak; Kobuk,NA,1980,Northwest Arctic,NA
+150-0000,Naknek_grid,TRUE,"Naknek, South Naknek, King Salmon",NA,NA,Bristol Bay,NA
+153-0000,Napaskiak_grid,TRUE,Napaskiak,NA,NA,Lower Yukon-Kuskokwim,NA
+154-0000,Chefornak_grid,TRUE,Chefornak,NA,NA,Lower Yukon-Kuskokwim,NA
+155-0000,Perryville_grid,TRUE,Perryville,NA,NA,Bristol Bay,NA
+156-0000,Nelson Lagoon_grid,TRUE,Nelson Lagoon,NA,NA,Aleutians,NA
+157-0000,Koliganek_grid,TRUE,Koliganek,NA,NA,Bristol Bay,NA
+158-0000,Nikolai_grid,TRUE,Nikolai,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+159-0000,Nome_grid,TRUE,Nome,NA,NA,Bering Straits,NA
+160-0000,Anaktuvuk Pass_grid,TRUE,Anaktuvuk Pass,NA,NA,North Slope,NA
+161-0000,Atqasuk_grid,TRUE,Atqasuk,NA,NA,North Slope,NA
+162-0000,Kaktovik_grid,TRUE,Kaktovik,NA,NA,North Slope,NA
+163-0000,Nuiqsut_grid,TRUE,Nuiqsut,NA,NA,North Slope,NA
+164-0000,Point Hope_grid,TRUE,Point Hope,NA,NA,North Slope,NA
+165-0000,Point Lay_grid,TRUE,Point Lay,NA,NA,North Slope,NA
+166-0000,Wainwright_grid,TRUE,Wainwright,NA,NA,North Slope,NA
+167-0000,Nunam Iqua_grid,TRUE,Nunam Iqua,NA,NA,Lower Yukon-Kuskokwim,NA
+169-0000,Dillingham_grid,TRUE,"Dillingham, Aleknagik",NA,NA,Bristol Bay,NA
+170-0000,Ouzinkie_grid,TRUE,Ouzinkie,NA,NA,Kodiak,NA
+171-0000,Pedro Bay_grid,TRUE,Pedro Bay,NA,NA,Bristol Bay,NA
+172-0000,Pelican_grid,TRUE,Pelican,NA,NA,Southeast,NA
+173-0000,Pilot Point_grid,TRUE,Pilot Point,NA,NA,Bristol Bay,NA
+174-0000,Platinum_grid,TRUE,Platinum,NA,NA,Lower Yukon-Kuskokwim,NA
+175-0000,Port Heiden_grid,TRUE,Port Heiden,NA,NA,Bristol Bay,NA
+176-0000,Kongiganak_grid,TRUE,Kongiganak,NA,NA,Lower Yukon-Kuskokwim,NA
+177-0000,Rampart_grid,TRUE,Rampart,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+178-0000,Ruby_grid,TRUE,Ruby,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+179-0000,Saint George_grid,TRUE,Saint George,NA,NA,Aleutians,NA
+180-0000,Saint Paul_grid,TRUE,Saint Paul,NA,NA,Aleutians,NA
+181-0000,Stevens Village_grid,TRUE,Stevens Village,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+182-0000,Takotna_grid,TRUE,Takotna,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+183-0000,Port Alsworth_grid,TRUE,Port Alsworth,NA,NA,Bristol Bay,NA
+184-0000,Tanana_grid,TRUE,Tanana,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+185-0000,Tatitlek_grid,TRUE,Tatitlek,NA,NA,Copper River/Chugach,NA
+186-0000,Adak_grid,TRUE,Adak,NA,NA,Aleutians,NA
+187-0000,Sand Point_grid,TRUE,Sand Point,NA,NA,Aleutians,NA
+188-0000,Manley Hot Springs_grid,TRUE,Manley Hot Springs,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+189-0000,Tenakee Springs_grid,TRUE,Tenakee Springs,NA,NA,Southeast,NA
+190-0000,Tuluksak_grid,TRUE,Tuluksak,NA,NA,Lower Yukon-Kuskokwim,NA
+191-0000,Tuntutuliak_grid,TRUE,Tuntutuliak,NA,NA,Lower Yukon-Kuskokwim,NA
+193-0000,Nikolski_grid,TRUE,Nikolski,NA,NA,Aleutians,NA
+194-0000,Unalakleet_grid,TRUE,Unalakleet,NA,NA,Bering Straits,NA
+195-0000,Unalaska_grid,TRUE,Unalaska,NA,NA,Aleutians,NA
+196-0000,Newtok_grid,TRUE,Newtok,NA,NA,Lower Yukon-Kuskokwim,NA
+197-0000,Venetie_grid,TRUE,Venetie,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+198-0000,WhiteMountain_grid,TRUE,White Mountain,NA,NA,Bering Straits,NA
+199-0000,Kobuk_grid,FALSE,Kobuk,NA,NA,Northwest Arctic,NA
+200-0000,Tununak_grid,FALSE,Tununak,NA,NA,Lower Yukon-Kuskokwim,NA
+201-0000,Nightmute_grid,FALSE,Nightmute,NA,NA,Lower Yukon-Kuskokwim,NA
+202-0000,SaintMichael_grid,FALSE,Saint Michael,NA,NA,Bering Straits,NA
+203-0000,PitkasPoint_grid,FALSE,Pitkas Point,NA,NA,Lower Yukon-Kuskokwim,NA
+204-0000,Nunapitchuk_grid,FALSE,Nunapitchuk,NA,NA,Lower Yukon-Kuskokwim,NA
+205-0000,LowerKalskag_grid,FALSE,Lower Kalskag,NA,NA,Lower Yukon-Kuskokwim,NA
+206-0000,Chistochina_grid,FALSE,Chistochina,NA,NA,Copper River/Chugach,NA
+207-0000,Coffman_Cove_grid,FALSE,Coffman Cove,NA,NA,Southeast,NA
+208-0000,Ekwok_grid,TRUE,Ekwok,NA,NA,Southeast,NA
+209-0000,Hollis_grid,FALSE,Hollis,NA,NA,Southeast,NA
+210-0000,Hydaburg_grid,FALSE,Hydaburg,NA,NA,Southeast,NA
+211-0000,Naukati_Bay_grid,FALSE,Naukati Bay,NA,NA,Southeast,NA
+212-0000,Tetlin_grid,FALSE,Tetlin,NA,NA,Yukon-Koyukuk/Upper Tanana,NA
+213-0000,Whale_Pass_grid,TRUE,Whale Pass,NA,NA,Southeast,NA
+214-0000,Mentasta_Lake_grid,FALSE,Mentasta Lake,NA,NA,Copper River/Chugach,NA
+215-1985,Railbelt_grid,TRUE,NA,NA,1985,Railbelt,Distributing Alaska's Power. 2008
+216-1982,CopperValley_grid,TRUE,NA,NA,1982,Copper River/Chugach,Distributing Alaska's Power. 2008
+217-2009,SEAPA_grid,TRUE,"Ketchikan, Petersburg, Wrangell",10,2009,Southeast,SEAPA communication
+218-0000,Alakanuk_grid,FALSE,Alakanuk,NA,NA,Lower Yukon-Kuskokwim,NA
+219-0000,Sitka_grid,TRUE,Sitka,NA,NA,Southeast,NA
+221-0000,Utqiagvik_grid,TRUE,Utqiagvik,NA,NA,North Slope,NA
+222-0000,Juneau_grid,TRUE,"Juneau, Douglas",NA,NA,Southeast,NA
+223-0000,Kodiak_grid,TRUE,"Kodiak, Kodiak Station, Port Lions, Chiniak, Woody Island",NA,NA,Kodiak,NA
+224_0000,Deadhorse_grid,TRUE,Deadhorse,NA,NA,North Slope,NA
+225_0000,Metlakatla_grid,TRUE,Metlakatla,NA,NA,Southeast,NA
+226_0000,Paxson_grid,TRUE,Paxson,NA,NA,Copper River/Chugach,NA
+227-0000,Ketchikan_grid,FALSE,Ketchikan,NA,NA,Southeast,NA
+228-1981,Wrangell-Petersburg_grid,FALSE,Wrangell-Petersburg,NA,1981,Southeast,Southeast Alaska Integrated Resource Plan. 2012

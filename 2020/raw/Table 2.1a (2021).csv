@@ -1,0 +1,272 @@
+"Early Release, Subject to Revision",...2,...3,...4,...5,...6,...7,...8,...9,...10,...11,...12,...13,...14,...15,...16,...17
+"Table 2.1a   Installed Capacity (MW) by plant and prime mover, 2021",NA,NA,NA,Data are for 2021,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Plant ID,PCE ID,RCA CPCN,Utility Name,Plant Name,Intertie,AEA Energy Region,Total Capacity,Fossil Fuel Turbines,Reciprocating Internal Combustion,Hydroelectric,Wind Turbine,Solar PV,Batteries,Flywheels,Data Source,Notes
+P1,NA,NA,Agrium US Inc,Agrium Kenai Nitrogen Operations,Railbelt_grid,Railbelt,12.5,12.5,0,0,0,0,0,0,EIA860,NA
+P10,NA,1,Alaska Electric Light & Power Company,Lake Dorothy Hydroelectric Project,Juneau_grid,Southeast,14.3,0,0,14.3,0,0,0,0,EIA860,NA
+P100,331740,683,Alutiiq Power Company,Karluk,Karluk_grid,Kodiak,0.2,0,0.2,0,0,0,0,0,AEA PH Assessment,"Craig; Klawock; Thorne Bay, Kasaan; Hollis; Hydaburg; Coffman Cove; Naukati Bay"
+P101,NA,8,Chugach Electric Assn Inc,Anchorage 1,Railbelt_grid,Railbelt,77.900000000000006,75.900000000000006,2,0,0,0,0,0,EIA860,NA
+P102,NA,8,Chugach Electric Assn Inc,Eklutna Hydro Project,Railbelt_grid,Railbelt,44.4,0,0,44.4,0,0,0,0,EIA860,NA
+P103,NA,8,Chugach Electric Assn Inc,George M Sullivan Generation Plant 2,Railbelt_grid,Railbelt,346.9,346.9,0,0,0,0,0,0,EIA860,NA
+P105,331760,5,Aniak Light & Power,Aniak,Aniak_grid,Lower Yukon-Kuskokwim,2.2000000000000002,0,2.2000000000000002,0,0,0,0,0,EIA860,NA
+P106,331770,747,Arctic Village Electric Company,Arctic Village,Arctic Village_grid,Yukon-Koyukuk/Upper Tanana,0.39500000000000002,0,0.39500000000000002,0,0,0,0,0,AEA PH Assessment,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+P107,331750,291,"Atka, City of",Atka,Atka_grid,Aleutians,0.54100000000000004,0,0.25700000000000001,0.28399999999999997,0,0,0,0,AEA,"Dillingham, Aleknagik"
+P108,331780,337,Atmautluak Tribal Utilities,Atmautluak,Atmautluak_grid,Lower Yukon-Kuskokwim,1.1040000000000001,0,1.1040000000000001,0,0,0,0,0,AEA PH Assessment,NA
+P109,NA,520,Aurora Energy LLC Chena,Aurora Energy LLC Chena,Railbelt_grid,Railbelt,27.5,27.5,0,0,0,0,0,0,EIA860,NA
+P11,NA,1,Alaska Electric Light & Power Company,Lemon Creek,Juneau_grid,Southeast,61.7,37.200000000000003,24.500000000000004,0,0,0,0,0,EIA860,"In addition to Wasilla, the MEA service area includes 28 other communities."
+P110,NA,214,Barrow Utilities & Electric Cooperative Inc.,Barrow,Utqiagvik_grid,North Slope,20.3,17.3,3,0,0,0,0,0,EIA860,NA
+P111,331790,420,Beaver Joint Utilities,Beaver,Beaver_grid,Yukon-Koyukuk/Upper Tanana,0.32,0,0.32,0,0,0,0,0,AEA PH Assessment,"In addition to Anchorage, the CEA service area includes eight other communities."
+P112,331810,767,Birch Creek Electric Company,Birch Creek,Birch Creek_grid,Yukon-Koyukuk/Upper Tanana,0,0,0,0,0,0,0,0,NA,"Craig; Klawock; Thorne Bay, Kasaan; Hollis; Hydaburg; Coffman Cove; Naukati Bay"
+P113,331820,432,"Buckland, City of",Buckland,Buckland_grid,Northwest Arctic,1.6749999999999998,0,1.1519999999999999,0,0.2,4.5999999999999999E-2,0.27700000000000002,0,AEA,NA
+P114,331840,682,Chalkyitsik Village Council,Chalkyitsik,Chalkyitsik_grid,Yukon-Koyukuk/Upper Tanana,0.32700000000000001,0,0.32700000000000001,0,0,0,0,0,AEA PH Assessment,NA
+P115,331850,686,Chenega Ira Council,Chenega Bay,Chenega_grid,Copper River/Chugach,0.48699999999999999,0,0.48699999999999999,0,0,0,0,0,AEA PH Assessment,"The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
+P116,331870,658,Chignik Lagoon Power Utility,Chignik Lagoon,Chignik Lagoon_grid,Bristol Bay,0.66,0,0.49299999999999999,0.16700000000000001,0,0,0,0,AEA,NA
+P117,331880,437,Chignik Lake Electric Utility,Chignik Lake,Chignik Lake_grid,Bristol Bay,0.435,0,0.435,0,0,0,0,0,AEA PH Assessment,"The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
+P118,331860,297,"Chignik, City of",Chignik Bay,Chignik_grid,Bristol Bay,0.63500000000000001,0,0.57500000000000007,0.06,0,0,0,0,AEA,NA
+P119,331890,368,Chitina Electric Inc,Chitina,Chitina_grid,Copper River/Chugach,0.35100000000000003,0,0.35100000000000003,0,0,0,0,0,AEA PH Assessment,"In addition to Valdez, the CVEA service area includes 14 other communities."
+P12,NA,1,Alaska Electric Light & Power Company,Salmon Creek 1,Juneau_grid,Southeast,8.5,0,0,8.5,0,0,0,0,EIA860,NA
+P120,NA,8,Chugach Electric Assn Inc,Beluga,Railbelt_grid,Railbelt,312.39999999999998,312.39999999999998,0,0,0,0,0,0,EIA860,NA
+P121,NA,8,Chugach Electric Assn Inc,Cooper Lake,Railbelt_grid,Railbelt,19.399999999999999,0,0,19.399999999999999,0,0,0,0,EIA860,Provides power to JBER/CEA
+P122,NA,8,Chugach Electric Assn Inc,International,Railbelt_grid,Railbelt,15,15,0,0,0,0,0,0,EIA860,NA
+P123,NA,8,Chugach Electric Assn Inc,Southcentral Power Project,Railbelt_grid,Railbelt,203.89999999999998,203.89999999999998,0,0,0,0,0,0,EIA860,NA
+P124,331900,256,Circle Electric Utility,Circle,Circle_grid,Yukon-Koyukuk/Upper Tanana,0.29000000000000004,0,0.29000000000000004,0,0,0,0,0,AEA PH Assessment,NA
+P125,331910,360,"Clark's Point, City of",Clark's Point,Clark's Point_grid,Bristol Bay,0.3498,0,0.3498,0,0,0,0,0,AEA PH Assessment,"In addition to Valdez, the CVEA service area includes 14 other communities."
+P126,NA,10,Copper Valley Elec Assn Inc,Allison Creek Hydro,CopperValley_grid,Copper River/Chugach,6.5,0,0,6.5,0,0,0,0,EIA860,NA
+P127,NA,10,Copper Valley Elec Assn Inc,Glennallen,CopperValley_grid,Copper River/Chugach,9.1999999999999993,0,9.1999999999999993,0,0,0,0,0,EIA860,NA
+P128,NA,10,Copper Valley Elec Assn Inc,Solomon Gulch,CopperValley_grid,Copper River/Chugach,12,0,0,12,0,0,0,0,EIA860,NA
+P129,NA,10,Copper Valley Elec Assn Inc,Valdez,CopperValley_grid,Copper River/Chugach,8.6,0,8.6,0,0,0,0,0,EIA860,NA
+P13,NA,1,Alaska Electric Light & Power Company,Snettisham,Juneau_grid,Southeast,78.2,0,0,78.2,0,0,0,0,EIA860,NA
+P130,NA,10,Copper Valley Elec Assn Inc,Valdez Cogen,CopperValley_grid,Copper River/Chugach,5.3,5.3,0,0,0,0,0,0,EIA860,NA
+P131,NA,160,Cordova Electric Cooperative,Eyak Service Center BESS,Cordova_grid,Copper River/Chugach,1,0,0,0,0,0,1,0,EIA860,Togiak; Twin Hills
+P132,NA,160,Cordova Electric Cooperative,Humpback Creek,Cordova_grid,Copper River/Chugach,1.2,0,0,1.2,0,0,0,0,EIA860,NA
+P133,NA,160,Cordova Electric Cooperative,Orca,Cordova_grid,Copper River/Chugach,10.7,0,10.7,0,0,0,0,0,EIA860,NA
+P134,NA,160,Cordova Electric Cooperative,Power Creek,Cordova_grid,Copper River/Chugach,6,0,0,6,0,0,0,0,EIA860,NA
+P135,331930,383,Diomede Joint Utilities,Diomede,Diomede_grid,Bering Straits,0.50800000000000001,0,0.50800000000000001,0,0,0,0,0,AEA PH Assessment,NA
+P136,NA,720,Doyon Utilities Fort Greely,Fort Greely Power Plant,Railbelt_grid,Railbelt,7.4,0,7.4,0,0,0,0,0,EIA860,NA
+P137,NA,726,Doyon Utilities Fort Wainwright,Utility Plants Section,Railbelt_grid,Railbelt,20,20,0,0,0,0,0,0,EIA860,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+P138,NA,724,Doyon Utilities LLC,JBER Landfill Gas Power Plant,Railbelt_grid,Railbelt,11.5,0,11.5,0,0,0,0,0,EIA860,NA
+P139,331940,320,Egegik Light & Power Co,Egegik,Egegik_grid,Bristol Bay,1,0,1,0,0,0,0,0,AEA PH Assessment,NA
+P14,NA,742,Alaska Environmental Power LLC,Delta Wind Farm,Railbelt_grid,Railbelt,1.9,0,0,0,1.9,0,0,0,EIA860,NA
+P140,331960,701,Elfin Cove Utility Commission,Elfin Cove,Elfin Cove_grid,Southeast,0,0,0,0,0,0,0,0,NA,Slana; Chistochina; Mentasta Lake
+P141,331970,442,"False Pass, City of",False Pass,False Pass_grid,Aleutians,0,0,0,0,0,0,0,0,NA,No Data
+P142,NA,NA,Fire Island Wind LLC,Fire Island Wind,Railbelt_grid,Railbelt,18,0,0,0,18,0,0,0,EIA860,NA
+P143,331980,88,G & K Inc,Cold Bay,Cold Bay_grid,Aleutians,0,0,0,0,0,0,0,0,NA,No Data
+P144,331990,274,"Galena, City of",Galena Electric Utility,Galena_grid,Yukon-Koyukuk/Upper Tanana,3.9000000000000004,0,3.9000000000000004,0,0,0,0,0,EIA860,NA
+P145,331830,341,Gold Country Energy,Central,Central_grid,Yukon-Koyukuk/Upper Tanana,0.34499999999999997,0,0.34499999999999997,0,0,0,0,0,AEA PH Assessment,"In addition to Valdez, the CVEA service area includes 14 other communities."
+P146,NA,13,Golden Valley Elec Assn Inc,Battery Energy Storage System,Railbelt_grid,Railbelt,40,0,0,0,0,0,40,0,EIA860,NA
+P147,NA,13,Golden Valley Elec Assn Inc,Delta Power,Railbelt_grid,Railbelt,23.1,23.1,0,0,0,0,0,0,EIA860,NA
+P148,NA,13,Golden Valley Elec Assn Inc,Eva Creek Wind,Railbelt_grid,Railbelt,24.6,0,0,0,24.6,0,0,0,EIA860,NA
+P149,NA,13,Golden Valley Elec Assn Inc,Fairbanks,Railbelt_grid,Railbelt,42.199999999999996,36.799999999999997,5.4,0,0,0,0,0,EIA860,NA
+P15,NA,2,Alaska Power & Telephone Company,Black Bear Lake,Prince of Wales Is._grid,Southeast,4.5,0,0,4.5,0,0,0,0,EIA860,NA
+P150,NA,13,Golden Valley Elec Assn Inc,Healy,Railbelt_grid,Railbelt,92.8,90,2.8,0,0,0,0,0,EIA860,Provides power to all Railbelt utilities
+P151,NA,13,Golden Valley Elec Assn Inc,North Pole,Railbelt_grid,Railbelt,181,181,0,0,0,0,0,0,EIA860,NA
+P152,NA,13,Golden Valley Elec Assn Inc,GVEA Solar Farm,Railbelt_grid,Railbelt,0.56300000000000006,0,0,0,0,0.56300000000000006,0,0,AEA,NA
+P153,332000,373,Golovin Power Utilities,Golovin,Golovin_grid,Bering Straits,0.69,0,0.69,0,0,0,0,0,AEA PH Assessment,NA
+P154,332020,63,Gwitchyaa Zhee Utilities Company,Gwitchyaa Zhee,Fort Yukon_grid,Yukon-Koyukuk/Upper Tanana,2.8,0,2.8,0,0,0,0,0,EIA860,NA
+P155,NA,32,Homer Electric Assn Inc,Bernice Lake,Railbelt_grid,Railbelt,76.7,76.7,0,0,0,0,0,0,EIA860,NA
+P156,NA,NA,Alaska Energy Authority,Bradley Lake,Railbelt_grid,Railbelt,126,0,0,126,0,0,0,0,EIA860,NA
+P157,NA,32,Homer Electric Assn Inc,Nikiski Co-Generation,Railbelt_grid,Railbelt,80.8,80.8,0,0,0,0,0,0,EIA860,Provides power to CEA
+P158,NA,32,Homer Electric Assn Inc,Seldovia,Railbelt_grid,Railbelt,2.2000000000000002,0,2.2000000000000002,0,0,0,0,0,EIA860,NA
+P159,NA,345,Alaska Electric G & T Coop Inc,Soldotna,Railbelt_grid,Railbelt,96.5,50,0,0,0,0,46.5,0,EIA-860,NA
+P16,NA,2,Alaska Power & Telephone Company,Goat Lake Hydro,UpperLynnCanal_grid,Southeast,4,0,0,4,0,0,0,0,EIA860,NA
+P160,332030,332,Hughes Power & Light,Hughes,Hughes_grid,Yukon-Koyukuk/Upper Tanana,0.748,0,0.37799999999999995,0,0,0.12,0.25,0,IES website,"Cordova, Eyak"
+P161,332040,681,Igiugig Electric Company,Igiugig,Igiugig_grid,Bristol Bay,0.36100000000000004,0,0.20100000000000001,0,0,0,0.125,0,DOE,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+P162,332050,280,"I-N-N Electric Coop, Inc",Newhalen,Newhalen_grid,Bristol Bay,1.7,0,0.89999999999999991,0.8,0,0,0,0,EIA860,NA
+P163,332650,240,Inside Passage Electric,Angoon,Angoon_grid,Southeast,1.5,0,1.5,0,0,0,0,0,EIA860,NA
+P164,332670,240,Inside Passage Electric,Hoonah,Hoonah_grid,Southeast,2.4500000000000002,0,2,0.45,0,0,0,0,NA,NA
+P165,332680,240,Inside Passage Electric,Kake,Kake_grid,Southeast,3.6,0,3.1,0.5,0,0,0,0,NA,NA
+P166,332660,240,Inside Passage Electric,Chilkat Valley,UpperLynnCanal_grid,Southeast,0.55000000000000004,0,0,0.55000000000000004,0,0,0,0,AEA,NA
+P169,332060,369,Ipnatchiaq Electric Company,Deering,Deering_grid,Northwest Arctic,0.7955000000000001,0,0.37,0,0.1,4.8500000000000001E-2,0.27700000000000002,0,DOE,NA
+P17,NA,2,Alaska Power & Telephone Company,Kasidaya Creek Hydro,UpperLynnCanal_grid,Southeast,3,0,0,3,0,0,0,0,EIA860,NA
+P171,NA,103,Ketchikan Public Utilities,Beaver Falls,SEAPA_grid,Southeast,5.4,0,0,5.4,0,0,0,0,EIA860,NA
+P172,NA,103,Ketchikan Public Utilities,Ketchikan,SEAPA_grid,Southeast,4.1999999999999993,0,0,4.1999999999999993,0,0,0,0,EIA860,NA
+P173,NA,103,Ketchikan Public Utilities,S W Bailey,SEAPA_grid,Southeast,25.9,0,25.9,0,0,0,0,0,EIA860,NA
+P174,NA,103,Ketchikan Public Utilities,Silvis,SEAPA_grid,Southeast,2.1,0,0,2.1,0,0,0,0,EIA860,NA
+P175,NA,103,Ketchikan Public Utilities,Swan Lake,SEAPA_grid,Southeast,22.6,0,0,22.6,0,0,0,0,EIA860,"The City of Seward service area includes the communities of Crown Point, Primrose, Bear Creek and Lowell Point."
+P176,NA,103,Ketchikan Public Utilities,Whitman,SEAPA_grid,Southeast,4.8,0,0,4.8,0,0,0,0,EIA860,NA
+P177,332070,289,"King Cove, City of",King Cove,King Cove_grid,Aleutians,3,0,1.8,1.2000000000000002,0,0,0,0,AEA,NA
+P178,332080,446,Kipnuk Light Plant,Kipnuk,Kipnuk_grid,Lower Yukon-Kuskokwim,1.98,0,1.41,0,0.57000000000000006,0,0,0,AEA PH Assessment,NA
+P179,332090,407,Kobuk Valley Electric Company,Kobuk,Shungnak_grid,Northwest Arctic,0.18,0,0.18,0,0,0,0,0,AEA PH Assessment,"Craig; Klawock; Thorne Bay, Kasaan; Hollis; Hydaburg; Coffman Cove; Naukati Bay"
+P18,NA,2,Alaska Power & Telephone Company,South Fork,Prince of Wales Is._grid,Southeast,2,0,0,2,0,0,0,0,EIA860,NA
+P180,NA,16,Kodiak Electric Assn Inc,ESS Battery Microgrid,Kodiak_grid,Kodiak,3,0,0,0,0,0,3,0,EIA860,NA
+P181,NA,16,Kodiak Electric Assn Inc,Flywheel Energy Storage System Microgrid,Kodiak_grid,Kodiak,2,0,0,0,0,0,0,2,EIA860,NA
+P182,NA,16,Kodiak Electric Assn Inc,Kodiak Microgrid,Kodiak_grid,Kodiak,18.3,0,18.3,0,0,0,0,0,EIA860,Provides power to GVEA
+P183,NA,16,Kodiak Electric Assn Inc,Nymans Plant Microgrid,Kodiak_grid,Kodiak,10,0,10,0,0,0,0,0,EIA860,NA
+P184,NA,16,Kodiak Electric Assn Inc,Pillar Mountain Wind Project Microgrid,Kodiak_grid,Kodiak,9,0,0,0,9,0,0,0,EIA860,NA
+P185,NA,16,Kodiak Electric Assn Inc,Port Lions Microgrid,Kodiak_grid,Kodiak,0.5,0,0.5,0,0,0,0,0,EIA860,NA
+P186,NA,16,Kodiak Electric Assn Inc,Swampy Acres Microgrid,Kodiak_grid,Kodiak,8.4,0,8.4,0,0,0,0,0,EIA860,NA
+P187,NA,16,Kodiak Electric Assn Inc,Terror Lake Microgrid,Kodiak_grid,Kodiak,33.599999999999994,0,0,33.599999999999994,0,0,0,0,EIA860,NA
+P188,332100,660,Kokhanok Village Council,Kokhanok,Kokhanok_grid,Bristol Bay,0.77200000000000002,0,0.58200000000000007,0,0.19,0,0,0,AEA PH Assessment,"Cordova, Eyak"
+P189,332130,17,Kotzebue Electric Association,Kotzebue,Kotzebue_grid,Northwest Arctic,17.099999999999998,0,11.799999999999999,0,3.3000000000000003,0.79999999999999993,1.2,0,EIA860,"Craig; Klawock; Thorne Bay, Kasaan; Hollis; Hydaburg; Coffman Cove; Naukati Bay"
+P19,NA,2,Alaska Power & Telephone Company,Viking,Prince of Wales Is._grid,Southeast,1,0,1,0,0,0,0,0,EIA860,NA
+P190,332140,687,"Koyukuk, City of",Koyukuk,Koyukuk_grid,Yukon-Koyukuk/Upper Tanana,0.13800000000000001,0,0.13800000000000001,0,0,0,0,0,AEA PH Assessment,NA
+P191,332150,281,Kwethluk Incorporated d/b/a Kuiggluum Kallugvia,Kwethluk,Kwethluk_grid,Lower Yukon-Kuskokwim,1.1000000000000001,0,1.1000000000000001,0,0,0,0,0,AEA PH Assessment,NA
+P192,332160,376,Kwigillingok Power Company,Kwigillingok,Kwigillingok_grid,Lower Yukon-Kuskokwim,1.798,0,1.028,0,0.47500000000000003,0,0.29499999999999998,0,NA,"Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.Haines, Covenant Life; Klukwan; Chilkat Valley; Skagway"
+P193,332170,353,Larsen Bay Utility Company,Larsen Bay,Larsen Bay_grid,Kodiak,0.47499999999999998,0,0,0.47499999999999998,0,0,0,0,AEA,"The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
+P194,332180,330,Levelock Electrical Coop,Levelock,Levelock_grid,Bristol Bay,0.23400000000000001,0,0.23400000000000001,0,0,0,0,0,AEA PH Assessment,NA
+P195,332190,570,Lime Village Electric Utility,Lime Village,Lime Village_grid,Lower Yukon-Kuskokwim,1.2E-2,0,0,0,0,1.2E-2,0,0,AEA,"Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.Haines, Covenant Life; Klukwan; Chilkat Valley; Skagway"
+P196,332210,321,Manokotak Power Company,Manokotak,Manokotak_grid,Bristol Bay,0.6,0,0.6,0,0,0,0,0,AEA PH Assessment,NA
+P197,NA,18,Matanuska Electric Association,Eklutna Generation Station,Railbelt_grid,Railbelt,170.99999999999997,0,170.99999999999997,0,0,0,0,0,EIA860,NA
+P198,332220,44,Mcgrath Light & Power,McGrath,McGrath_grid,Yukon-Koyukuk/Upper Tanana,1.6,0,1.6,0,0,0,0,0,EIA860,NA
+P199,NA,NA,Metlakatla Power & Light,Centennial,Metlakatla_grid,Southeast,4.3,0,3.3,0,0,0,1,0,AEA,NA
+P2,331010,449,"Akhiok, City of",Akhiok,Akhiok_grid,Kodiak,0.33999999999999997,0,0.33999999999999997,0,0,0,0,0,AEA PH Assessment,"In addition to Valdez, the CVEA service area includes 14 other communities."
+P20,331090,2,Alaska Power & Telephone Company,Craig,Prince of Wales Is._grid,Southeast,6.8,0,6.8,0,0,0,0,0,EIA860,NA
+P200,NA,NA,Metlakatla Power & Light,Chester Lake,Metlakatla_grid,Southeast,1.3,0,0,1.3,0,0,0,0,EIA860,NA
+P201,NA,NA,Metlakatla Power & Light,Purple Lake,Metlakatla_grid,Southeast,3.9000000000000004,0,0,3.9000000000000004,0,0,0,0,EIA860,NA
+P202,332230,343,Middle Kuskokwim Electric,Chuathbaluk,Chuathbaluk_grid,Lower Yukon-Kuskokwim,0.17900000000000002,0,0.17900000000000002,0,0,0,0,0,AEA PH Assessment,"Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.Haines, Covenant Life; Klukwan; Chilkat Valley; Skagway"
+P203,332240,343,Middle Kuskokwim Electric,Crooked Creek,Crooked Creek_grid,Lower Yukon-Kuskokwim,0.27400000000000002,0,0.27400000000000002,0,0,0,0,0,AEA PH Assessment,"Northway, Northway Village, Northway Junction"
+P204,332250,375,Middle Kuskokwim Electric,Red Devil,Red Devil_grid,Lower Yukon-Kuskokwim,0,0,0,0,0,0,0,0,NA,No Data
+P205,332260,343,Middle Kuskokwim Electric,Sleetmute,Sleetmute_grid,Lower Yukon-Kuskokwim,0.32300000000000001,0,0.32300000000000001,0,0,0,0,0,AEA PH Assessment,"In addition to Anchorage, the CEA service area includes eight other communities."
+P206,332270,343,Middle Kuskokwim Electric,Stony River,Stony River_grid,Lower Yukon-Kuskokwim,0.13800000000000001,0,0.13800000000000001,0,0,0,0,0,AEA PH Assessment,"Craig; Klawock; Thorne Bay, Kasaan; Hollis; Hydaburg; Coffman Cove; Naukati Bay"
+P207,332280,22,Naknek Electric Association,Naknek,Naknek_grid,Bristol Bay,16.500000000000004,0,16.500000000000004,0,0,0,0,0,EIA860,NA
+P208,332290,319,Napakiak Ircinraq,Napakiak,Bethel_grid,Lower Yukon-Kuskokwim,0.25,0,0.25,0,0,0,0,0,AEA PH Assessment,"Eagle, Eagle Village"
+P209,332300,625,Napaskiak Electric Utility,Napaskiak,Napaskiak_grid,Lower Yukon-Kuskokwim,0.56700000000000006,0,0.56700000000000006,0,0,0,0,0,AEA PH Assessment,NA
+P21,NA,2,Alaska Power & Telephone Company,False Island,Prince of Wales Is._grid,Southeast,1.3,0,1.3,0,0,0,0,0,EIA860,NA
+P210,332310,365,Naterkaq Light Plant (City of Chefornak),Chefornak,Chefornak_grid,Lower Yukon-Kuskokwim,1.206,0,0.92100000000000004,0,0.28500000000000003,0,0,0,AEA PH Assessment,NA
+P211,332470,659,Native Village of Perryville,Perryville,Perryville_grid,Bristol Bay,0.49800000000000005,0,0.47400000000000003,0,2.3999999999999997E-2,0,0,0,AEA PH Assessment,"Naknek, South Naknek, King Salmon"
+P212,332320,340,Nelson Lagoon Electrical Coop,Nelson Lagoon,Nelson Lagoon_grid,Aleutians,0.15000000000000002,0,0.15000000000000002,0,0,0,0,0,AEA PH Assessment,NA
+P213,332110,661,New Koliganek Village Council,Koliganek,Koliganek_grid,Bristol Bay,0.70200000000000007,0,0.70200000000000007,0,0,0,0,0,AEA PH Assessment,NA
+P214,332330,416,"Nikolai, City of",Nikolai,Nikolai_grid,Yukon-Koyukuk/Upper Tanana,0.2,0,0.2,0,0,0,0,0,AEA PH Assessment,"Craig; Klawock; Thorne Bay, Kasaan; Hollis; Hydaburg; Coffman Cove; Naukati Bay"
+P215,332340,150,Nome Joint Utility Systems,Snake River,Nome_grid,Bering Straits,18.399999999999999,0,16.599999999999998,0,1.8,0,0,0,EIA860,NA
+P216,332350,254,North Slope Borough Power & Light,Anaktuvuk Pass,Anaktuvuk Pass_grid,North Slope,2.6999999999999997,0,2.6999999999999997,0,0,0,0,0,EIA860,NA
+P217,332360,254,North Slope Borough Power & Light,Atqasuk,Atqasuk_grid,North Slope,3.2,0,3.2,0,0,0,0,0,EIA860,NA
+P218,332370,254,North Slope Borough Power & Light,Kaktovik,Kaktovik_grid,North Slope,2.6,0,2.6,0,0,0,0,0,EIA860,NA
+P219,332380,254,North Slope Borough Power & Light,Nuiqsut,Nuiqsut_grid,North Slope,4.4000000000000004,0,4.4000000000000004,0,0,0,0,0,EIA860,NA
+P22,331120,2,Alaska Power & Telephone Company,Haines,UpperLynnCanal_grid,Southeast,10.02,0,10.02,0,0,0,0,0,EIA860,NA
+P220,332390,254,North Slope Borough Power & Light,Point Hope,Point Hope_grid,North Slope,3.1,0,3.1,0,0,0,0,0,EIA860,NA
+P221,332400,254,North Slope Borough Power & Light,Point Lay,Point Lay_grid,North Slope,2.4,0,2.4,0,0,0,0,0,EIA860,NA
+P222,332410,254,North Slope Borough Power & Light,Wainwright,Wainwright_grid,North Slope,3,0,3,0,0,0,0,0,EIA860,NA
+P223,332420,408,Nunam Iqua Electric Company,Nunam Iqua,Nunam Iqua_grid,Lower Yukon-Kuskokwim,1.68,0,1.68,0,0,0,0,0,AEA PH Assessment,NA
+P224,332430,45,Nushagak Electric Cooperative,Dillingham,Dillingham_grid,Bristol Bay,11,0,11,0,0,0,0,0,EIA860,NA
+P225,332440,357,"Ouzinkie, City of",Ouzinkie,Ouzinkie_grid,Kodiak,0.46100000000000002,0,0.33600000000000002,0.125,0,0,0,0,AEA,"The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
+P227,332450,662,Pedro Bay Village Council,Pedro Bay,Pedro Bay_grid,Bristol Bay,0.219,0,0.219,0,0,0,0,0,AEA PH Assessment,"Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.Haines, Covenant Life; Klukwan; Chilkat Valley; Skagway"
+P228,332460,24,Pelican Utility,Pelican,Pelican_grid,Southeast,2.4,0,1,1.4,0,0,0,0,EIA860,NA
+P229,NA,212,"Petersburg, City of",Blind Slough,SEAPA_grid,Southeast,14.499999999999998,0,12.899999999999999,1.6,0,0,0,0,EIA860,NA
+P23,331150,2,Alaska Power & Telephone Company,Hydaburg,Prince of Wales Is._grid,Southeast,1.4450000000000001,0,1.4450000000000001,0,0,0,0,0,AEA PH Assessment,Shungnak; Kobuk
+P230,332480,425,Pilot Point Electric Utility,Pilot Point,Pilot Point_grid,Bristol Bay,0.49700000000000005,0,0.29700000000000004,0,0.2,0,0,0,AEA PH Assessment,NA
+P231,332490,NA,"Platinum, City of",Platinum,Platinum_grid,Lower Yukon-Kuskokwim,0.12,0,0.12,0,0,0,0,0,AEA PH Assessment,"Craig; Klawock; Thorne Bay, Kasaan; Hollis; Hydaburg; Coffman Cove; Naukati Bay"
+P232,332500,399,Port Heiden Utilities,Port Heiden,Port Heiden_grid,Bristol Bay,0.70200000000000007,0,0.70200000000000007,0,0,0,0,0,AEA PH Assessment,NA
+P233,332510,395,Puvurnaq Power Company,Kongiganak,Kongiganak_grid,Lower Yukon-Kuskokwim,2.62,0,1.8499999999999999,0,0.47500000000000003,0,0.29499999999999998,0,NA,NA
+P234,332520,759,Rampart Village Council,Rampart,Rampart_grid,Yukon-Koyukuk/Upper Tanana,0.26,0,0.26,0,0,0,0,0,AEA PH Assessment,NA
+P235,NA,NA,Renewable IPP,Willow Solar,Railbelt_grid,Railbelt,1.3399999999999999,0,0,0,0,1.3399999999999999,0,0,AEA,NA
+P236,332530,364,"Ruby, City of",Ruby,Ruby_grid,Yukon-Koyukuk/Upper Tanana,0.52700000000000002,0,0.52700000000000002,0,0,0,0,0,AEA PH Assessment,NA
+P237,332550,410,"Saint George, City of",Saint George,Saint George_grid,Aleutians,0.92499999999999993,0,0.83,0,9.5000000000000001E-2,0,0,0,AEA PH Assessment,Stebbins; Saint Michael
+P238,332560,339,Saint Paul Municipal Electric,Saint Paul,Saint Paul_grid,Aleutians,2.65,0,2.65,0,0,0,0,0,AEA PH Assessment,NA
+P239,NA,108,"Seward, City of",Seward,Railbelt_grid,Railbelt,15.600000000000001,0,15.600000000000001,0,0,0,0,0,EIA860,NA
+P24,NA,2,Alaska Power & Telephone Company,Klawock Power Generation Station,Prince of Wales Is._grid,Southeast,2.5,0,2.5,0,0,0,0,0,EIA860,NA
+P240,NA,100,"Sitka, City & Borough of",Blue Lake Hydro,Sitka_grid,Southeast,15.899999999999999,0,0,15.899999999999999,0,0,0,0,EIA860,Provides power to the City of Saint Paul
+P241,NA,100,"Sitka, City & Borough of",Green Lake,Sitka_grid,Southeast,18.600000000000001,0,0,18.600000000000001,0,0,0,0,EIA860,NA
+P242,NA,100,"Sitka, City & Borough of",Jarvis Street,Sitka_grid,Southeast,25.6,0,25.6,0,0,0,0,0,EIA860,NA
+P243,NA,NA,"South Fork Hydro, LLC",South Fork Hydro (Eagle River),Railbelt_grid,Railbelt,1.2,0,0,1.2,0,0,0,0,AEA,Tooksook Bay; Tununak; Nightmute
+P244,NA,NA,Southeast Alaska Power Agency,Tyee Lake Hydroelectric Facility,SEAPA_grid,Southeast,22.6,0,0,22.6,0,0,0,0,EIA860,NA
+P246,332570,709,Stevens Village Ira Council,Stevens Village,Stevens Village_grid,Yukon-Koyukuk/Upper Tanana,0.28999999999999998,0,0.28999999999999998,0,0,0,0,0,AEA PH Assessment,"Tok; Tanacross; Tetlin; Dot Lake, Dot Lake Village"
+P247,332580,394,Takotna Community Assoc Inc,Takotna,Takotna_grid,Yukon-Koyukuk/Upper Tanana,0.16700000000000001,0,0.16700000000000001,0,0,0,0,0,AEA PH Assessment,"Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.Haines, Covenant Life; Klukwan; Chilkat Valley; Skagway"
+P248,332590,447,Tanalian Electric Cooperative,Port Alsworth,Port Alsworth_grid,Bristol Bay,0.81499999999999995,0,0.81499999999999995,0,0,0,0,0,AEA PH Assessment,NA
+P249,332600,92,Tanana Power Company Inc,Tanana,Tanana_grid,Yukon-Koyukuk/Upper Tanana,1.6050000000000002,0,1.6050000000000002,0,0,0,0,0,AEA PH Assessment,NA
+P25,331180,2,Alaska Power & Telephone Company,Northway,Northway_grid,Yukon-Koyukuk/Upper Tanana,1.0990000000000002,0,1.0990000000000002,0,0,0,0,0,EIA860,NA
+P250,332610,573,Tatitlek Village Ira Council,Tatitlek,Tatitlek_grid,Copper River/Chugach,0,0,0,0,0,0,0,0,NA,No Data
+P251,331005,704,TDX Adak Generating LLC,Adak,Adak_grid,Aleutians,0,0,0,0,0,0,0,0,NA,No Data
+P252,332540,749,TDX Corporation,Sand Point,Sand Point_grid,Aleutians,3.88,0,2.88,0,1,0,0,0,AEA PH Assessment,NA
+P253,332200,72,TDX Manley Generating LLC,Manley Hot Springs,Manley Hot Springs_grid,Yukon-Koyukuk/Upper Tanana,0.23600000000000002,0,0.23600000000000002,0,0,0,0,0,AEA PH Assessment,"Bettles, Evansville"
+P254,NA,227,TDX North Slope Generating Company,TNSG North Plant,Deadhorse_grid,North Slope,25.7,25.4,0.3,0,0,0,0,0,EIA860,NA
+P255,NA,227,TDX North Slope Generating Company,TNSG South Plant,Deadhorse_grid,North Slope,7.8000000000000007,0,7.8000000000000007,0,0,0,0,0,EIA860,NA
+P256,332630,363,"Tenakee Springs, City of",Tenakee Springs,Tenakee Springs_grid,Southeast,0.42,0,0.24,0.18,0,0,0,0,AEA,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+P257,NA,NA,Tesoro Alaska Company,Tesoro Kenai Cogeneration Plant,Railbelt_grid,Railbelt,8.6,8.6,0,0,0,0,0,0,EIA860,NA
+P258,332710,664,Tuluksak Traditional,Tuluksak,Tuluksak_grid,Lower Yukon-Kuskokwim,0.44999999999999996,0,0.44999999999999996,0,0,0,0,0,AEA PH Assessment,"The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
+P259,332720,344,Tuntutuliak Community,Tuntutuliak,Tuntutuliak_grid,Lower Yukon-Kuskokwim,2.4649999999999999,0,1.6949999999999998,0,0.47500000000000003,0,0.29499999999999998,0,NA,NA
+P26,331190,2,Alaska Power & Telephone Company,Skagway,UpperLynnCanal_grid,Southeast,4.3849999999999998,0,3.3850000000000002,1,0,0,0,0,EIA860,Shungnak; Kobuk
+P260,332730,729,Twin Hills Village Council,Twin Hills,Twin Hills_grid,Bristol Bay,0.34099999999999997,0,0.34099999999999997,0,0,0,0,0,AEA PH Assessment,"In addition to Valdez, the CVEA service area includes 14 other communities."
+P261,332740,242,Umnak Power Company,Nikolski,Nikolski_grid,Aleutians,6.5000000000000002E-2,0,0,0,6.5000000000000002E-2,0,0,0,AEA,"Craig; Klawock; Thorne Bay, Kasaan; Hollis; Hydaburg; Coffman Cove; Naukati Bay"
+P262,332850,741,Unalakleet Valley Electric Cooperative,Unalakleet,Unalakleet_grid,Bering Straits,2.5,0,1.9,0,0.6,0,0,0,EIA860,"Bethel, Oscarville; Napakiak"
+P263,NA,106,"Unalaska, City of",Dutch Harbor,Unalaska_grid,Aleutians,21.900000000000002,0,21.900000000000002,0,0,0,0,0,EIA860,NA
+P264,NA,106,"Unalaska, City of",Unalaska Power Module,Unalaska_grid,Aleutians,1.25,0,1.1000000000000001,0,0,0,0,0,City of Unalaska,"Bethel, Oscarville; Napakiak"
+P265,332870,375,Ungusraq Power Company,Newtok,Newtok_grid,Lower Yukon-Kuskokwim,0.379,0,0.379,0,0,0,0,0,AEA PH Assessment,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+P266,NA,NA,Unisea Inc,Unisea G 2,Unalaska_grid,Aleutians,17.5,0,17.5,0,0,0,0,0,EIA860,NA
+P267,NA,452,University of Alaska,University of Alaska Fairbanks,Railbelt_grid,Railbelt,39.6,30,9.6,0,0,0,0,0,EIA860,NA
+P268,NA,NA,US Air Force Eielson AFB,Eielson AFB Central Heat & Power Plant,Railbelt_grid,Railbelt,31,25,6,0,0,0,0,0,EIA860,NA
+P27,331195,2,Alaska Power & Telephone Company,Slana Generating Station,Slana_grid,Copper River/Chugach,1.0720000000000001,0,1.0720000000000001,0,0,0,0,0,EIA860,NA
+P270,332880,663,Venetie Village Electric,Venetie,Venetie_grid,Yukon-Koyukuk/Upper Tanana,0.495,0,0.495,0,0,0,0,0,AEA PH Assessment,"The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
+P271,NA,NA,Westward Seafoods Inc,Westward Seafoods,Unalaska_grid,Aleutians,6.6000000000000005,0,6.6000000000000005,0,0,0,0,0,EIA860,NA
+P272,332890,409,"White Mountain, City of",White Mountain,WhiteMountain_grid,Bering Straits,0.38200000000000001,0,0.38200000000000001,0,0,0,0,0,AEA PH Assessment,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+P273,NA,111,"Wrangell, City of",Wrangell,SEAPA_grid,Southeast,8.5,0,8.5,0,0,0,0,0,EIA860,NA
+P275,NA,NA,NA,Marathon Hydro,Railbelt_grid,Railbelt,0.16,0,0,0.16,0,0,0,0,AEA,"Craig; Klawock; Thorne Bay, Kasaan; Hollis; Hydaburg; Coffman Cove; Naukati Bay"
+P276,NA,NA,NA,McRoberts Creek,NA,NA,0.125,0,0,0.125,0,0,0,0,AEA,"Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.Haines, Covenant Life; Klukwan; Chilkat Valley; Skagway"
+P278,331155,240,"Inside Passage Elec Coop, Inc",Klawock,Prince of Wales Is._grid,Southeast,0,0,0,0,0,0,0,0,NA,No Data
+P28,331210,2,Alaska Power & Telephone Company,Thorne Bay Plant,Prince of Wales Is._grid,Southeast,1,0,1,0,0,0,0,0,EIA860,NA
+P29,331220,2,Alaska Power & Telephone Company,Tok,Tok_grid,Yukon-Koyukuk/Upper Tanana,5.21,0,5.21,0,0,0,0,0,AEA PH Assessment,NA
+P293,NA,760,"Haida Energy, Inc.",Hiilangaay Hydro,Prince of Wales Is._grid,Southeast,5,0,0,5,0,0,0,0,EIA860,NA
+P296,NA,8,Chugach Electric Assn Inc,Chugach Storage,Railbelt_grid,Railbelt,3,0,0,0,0,0,2,1,AEA,NA
+P297,NA,749,TDX Corporation,TDX Saint Paul Wind,Saint Paul_grid,Aleutians,0.22500000000000001,0,0,0,0.22500000000000001,0,0,0,NA,"Part of the Alaska Power Company's grid in the Upper Lynn Canal service area.Haines, Covenant Life; Klukwan; Chilkat Valley; Skagway"
+P298,NA,NA,Juniper Creek Hydroetlectric,Juniper Creek Hydroelectric Project,Railbelt_grid,Railbelt,0.3,0,0,0.3,0,0,0,0,ADN,"In addition to Anchorage, the CEA service area includes eight other communities."
+P3,331020,412,Akiachak Native Community,Akiachak,Akiachak_grid,Lower Yukon-Kuskokwim,1.5,0,1.5,0,0,0,0,0,AEA PH Assessment,NA
+P30,331050,2,Alaska Power & Telephone Company,Allakaket,Allakaket_grid,Yukon-Koyukuk/Upper Tanana,0,0,0,0,0,0,0,0,NA,"Craig; Klawock; Thorne Bay, Kasaan; Hollis; Hydaburg; Coffman Cove; Naukati Bay"
+P31,331060,2,Alaska Power & Telephone Company,Bettles,Bettles_grid,Yukon-Koyukuk/Upper Tanana,0.6,0,0.6,0,0,0,0,0,AEA PH Assessment,NA
+P32,331070,2,Alaska Power & Telephone Company,Chistochina,Slana_grid,Copper River/Chugach,0,0,0,0,0,0,0,0,NA,No Data
+P33,331080,2,Alaska Power & Telephone Company,Coffman Cove,Prince of Wales Is._grid,Southeast,0.7,0,0.7,0,0,0,0,0,AEA PH Assessment,NA
+P34,331110,2,Alaska Power & Telephone Company,Eagle,Eagle_grid,Yukon-Koyukuk/Upper Tanana,0.55400000000000005,0,0.53,0,0,2.4E-2,0,0,NA,NA
+P35,332010,2,Alaska Power & Telephone Company,Gustavus,Gustavus_grid,Southeast,2.2000000000000002,0,1.4,0.8,0,0,0,0,NA,NA
+P36,331130,2,Alaska Power & Telephone Company,Healy Lake,Healy Lake_grid,Yukon-Koyukuk/Upper Tanana,0.10100000000000001,0,0.10100000000000001,0,0,0,0,0,AEA PH Assessment,"Craig; Klawock; Thorne Bay, Kasaan; Hollis; Hydaburg; Coffman Cove; Naukati Bay"
+P37,331140,2,Alaska Power & Telephone Company,Hollis,Prince of Wales Is._grid,Southeast,0,0,0,0,0,0,0,0,NA,No Data
+P4,331030,635,Akiak City Council,Akiak,Akiak_grid,Lower Yukon-Kuskokwim,0.92,0,0.92,0,0,0,0,0,AEA PH Assessment,NA
+P40,331230,2,Alaska Power & Telephone Company,Whale Pass,Whale_Pass_grid,Southeast,0.61199999999999999,0,0.61199999999999999,0,0,0,0,0,AEA PH Assessment,NA
+P41,NA,2,Alaska Power & Telephone Company,Dewey Lakes ,UpperLynnCanal_grid,Southeast,0.94299999999999995,0,0,0.94299999999999995,0,0,0,0,AEA,Stebbins; Saint Michael
+P42,NA,2,Alaska Power & Telephone Company,Lutak,UpperLynnCanal_grid,Southeast,1.7849999999999999,0,1.5,0.28499999999999998,0,0,0,0,AEA,NA
+P43,331170,2,Alaska Power & Telephone Company,Naukati Bay,Prince of Wales Is._grid,Southeast,0.32,0,0.32,0,0,0,0,0,AEA PH Assessment,"In addition to Anchorage, the CEA service area includes eight other communities."
+P45,331240,169,Alaska Village Electric Cooperative,Alakanuk,Alakanuk_grid,Lower Yukon-Kuskokwim,0.8,0,0.8,0,0,0,0,0,EIA860,NA
+P46,331250,169,Alaska Village Electric Cooperative,Ambler,Ambler_grid,Northwest Arctic,1.1000000000000001,0,1.1000000000000001,0,0,0,0,0,EIA860,Tooksook Bay; Tununak; Nightmute
+P47,331800,169,Alaska Village Electric Cooperative,Bethel,Bethel_grid,Lower Yukon-Kuskokwim,13.5,0,12.6,0,0.9,0,0,0,EIA860,NA
+P48,331270,169,Alaska Village Electric Cooperative,Brevig Mission,Brevig Mission_grid,Bering Straits,1,0,1,0,0,0,0,0,EIA860,NA
+P49,331280,169,Alaska Village Electric Cooperative,Chevak,Chevak_grid,Lower Yukon-Kuskokwim,2.2000000000000002,0,1.8,0,0.4,0,0,0,EIA860,NA
+P5,331040,293,"Akutan, City of",Akutan,Akutan_grid,Aleutians,0.505,0,0.4,0.105,0,0,0,0,AEA,NA
+P50,331300,169,Alaska Village Electric Cooperative,Elim,Elim_grid,Bering Straits,1.31,0,1.31,0,0,0,0,0,EIA860,NA
+P51,331310,169,Alaska Village Electric Cooperative,Emmonak,Emmonak_grid,Lower Yukon-Kuskokwim,3.5999999999999996,0,3.1999999999999997,0,0.4,0,0,0,EIA860,NA
+P52,331320,169,Alaska Village Electric Cooperative,Gambell,Gambell_grid,Bering Straits,2.25,0,1.9500000000000002,0,0.3,0,0,0,EIA860,"Iliamna, Newhalen, Nondalton"
+P53,331360,169,Alaska Village Electric Cooperative,Hooper Bay,Hooper Bay_grid,Lower Yukon-Kuskokwim,2.5,0,2.2000000000000002,0,0.3,0,0,0,EIA860,NA
+P54,331390,169,Alaska Village Electric Cooperative,Kasigluk,Kasigluk_grid,Lower Yukon-Kuskokwim,3.306,0,3.0060000000000002,0,0.3,0,0,0,EIA860,NA
+P55,331400,169,Alaska Village Electric Cooperative,Kiana,Kiana_grid,Northwest Arctic,1.2,0,1.2,0,0,0,0,0,EIA860,"Saint Mary's, Andreafsky; Pitkas Point; Mountain Village"
+P56,331410,169,Alaska Village Electric Cooperative,Kivalina,Kivalina_grid,Northwest Arctic,1.1000000000000001,0,1.1000000000000001,0,0,0,0,0,EIA860,Kasigluk; Nunapitchuk
+P57,332120,169,Alaska Village Electric Cooperative,Kotlik,Kotlik_grid,Lower Yukon-Kuskokwim,1.3900000000000001,0,1.3900000000000001,0,0,0,0,0,AEA PH Assessment,NA
+P58,331420,169,Alaska Village Electric Cooperative,Koyuk,Koyuk_grid,Bering Straits,1.0489999999999999,0,1.0489999999999999,0,0,0,0,0,AEA PH Assessment,Emmonak; Alakanuk
+P59,331440,169,Alaska Village Electric Cooperative,Marshall,Marshall_grid,Lower Yukon-Kuskokwim,1.1499999999999999,0,1.1499999999999999,0,0,0,0,0,AEA PH Assessment,NA
+P6,NA,1,Alaska Electric Light & Power Company,Annex Creek,Juneau_grid,Southeast,4,0,0,4,0,0,0,0,EIA860,NA
+P60,331470,169,Alaska Village Electric Cooperative,Mountain Village,Saint Mary's_grid,Lower Yukon-Kuskokwim,2.2999999999999998,0,2.2999999999999998,0,0,0,0,0,EIA860,NA
+P61,331480,169,Alaska Village Electric Cooperative,New Stuyahok,New Stuyahok_grid,Bristol Bay,1.2310000000000001,0,1.2310000000000001,0,0,0,0,0,EIA860,Receives power from (Upper) Kalskag via intertie. Refer to (Upper) Kalskag for fuel use and cost data.Kalskag; Lower Kalskag
+P62,331500,169,Alaska Village Electric Cooperative,Noatak,Noatak_grid,Northwest Arctic,1.252,0,1.252,0,0,0,0,0,EIA860,NA
+P63,331510,169,Alaska Village Electric Cooperative,Noorvik,Noorvik_grid,Northwest Arctic,1.6489999999999998,0,1.6259999999999999,0,0,2.3E-2,0,0,EIA860,NA
+P64,331530,169,Alaska Village Electric Cooperative,Nunapitchuk,Nunapitchuk_grid,Lower Yukon-Kuskokwim,0.5,0,0.5,0,0,0,0,0,EIA860,"In addition to Anchorage, the CEA service area includes eight other communities."
+P65,331550,169,Alaska Village Electric Cooperative,Pilot Station,Pilot Station_grid,Lower Yukon-Kuskokwim,1.5009999999999999,0,1.5009999999999999,0,0,0,0,0,EIA860,NA
+P66,331570,169,Alaska Village Electric Cooperative,Quinhagak,Quinhagak_grid,Lower Yukon-Kuskokwim,1.58,0,1.28,0,0.3,0,0,0,EIA860,NA
+P67,331660,169,Alaska Village Electric Cooperative,Saint Mary's,Saint Mary's_grid,Lower Yukon-Kuskokwim,3.18,0,2.2800000000000002,0,0.9,0,0,0,EIA860,NA
+P68,331590,169,Alaska Village Electric Cooperative,Savoonga,Savoonga_grid,Bering Straits,1.7,0,1.5,0,0.2,0,0,0,EIA860,NA
+P69,331600,169,Alaska Village Electric Cooperative,Scammon Bay,Scammon Bay_grid,Lower Yukon-Kuskokwim,1.08,0,1.08,0,0,0,0,0,AEA PH Assessment,Kasigluk; Nunapitchuk
+P7,NA,1,Alaska Electric Light & Power Company,Auke Bay,Juneau_grid,Southeast,36.199999999999996,33.699999999999996,2.5,0,0,0,0,0,EIA860,NA
+P70,331610,169,Alaska Village Electric Cooperative,Selawik,Selawik_grid,Northwest Arctic,2.5099999999999998,0,2.25,0,0.26,0,0,0,EIA860,NA
+P71,331640,169,Alaska Village Electric Cooperative,Shishmaref,Shishmaref_grid,Bering Straits,1.4359999999999999,0,1.4359999999999999,0,0,0,0,0,EIA860,NA
+P72,331650,169,Alaska Village Electric Cooperative,Shungnak,Shungnak_grid,Northwest Arctic,1.9589999999999999,0,1.5,0,0,0.224,0.23499999999999999,0,NWAB,NA
+P73,331670,169,Alaska Village Electric Cooperative,Saint Michael,Stebbins_grid,Bering Straits,0.7,0,0.7,0,0,0,0,0,EIA860,NA
+P74,331680,169,Alaska Village Electric Cooperative,Stebbins,Stebbins_grid,Bering Straits,2.1120000000000001,0,2.1120000000000001,0,0,0,0,0,EIA860,NA
+P75,331690,169,Alaska Village Electric Cooperative,Togiak,Togiak_grid,Bristol Bay,2.6339999999999999,0,2.6339999999999999,0,0,0,0,0,EIA860,NA
+P76,331700,169,Alaska Village Electric Cooperative,Toksook Bay,Toksook Bay_grid,Lower Yukon-Kuskokwim,2.1060000000000003,0,2.0060000000000002,0,0.1,0,0,0,EIA860,NA
+P77,331720,169,Alaska Village Electric Cooperative,Upper Kalskag,Upper Kalskag_grid,Lower Yukon-Kuskokwim,1.1000000000000001,0,1.1000000000000001,0,0,0,0,0,EIA860,"Saint Mary's, Andreafsky; Pitkas Point; Mountain Village"
+P78,332900,169,Alaska Village Electric Cooperative,Yakutat,Yakutat_grid,Southeast,4.17,0,4.17,0,0,0,0,0,EIA860,NA
+P79,331260,169,Alaska Village Electric Cooperative,Anvik,Anvik_grid,Yukon-Koyukuk/Upper Tanana,0.43999999999999995,0,0.43999999999999995,0,0,0,0,0,AEA PH Assessment,"The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
+P8,NA,1,Alaska Electric Light & Power Company,Gold Creek,Juneau_grid,Southeast,9.6999999999999993,0,8.1,1.6,0,0,0,0,EIA860,NA
+P80,331290,169,Alaska Village Electric Cooperative,Eek,Eek_grid,Lower Yukon-Kuskokwim,1.1199999999999999,0,1.1199999999999999,0,0,0,0,0,AEA PH Assessment,NA
+P81,331950,169,Alaska Village Electric Cooperative,Ekwok,Ekwok_grid,Southeast,0.32,0,0.32,0,0,0,0,0,AEA PH Assessment,"In addition to Anchorage, the CEA service area includes eight other communities."
+P82,331330,169,Alaska Village Electric Cooperative,Goodnews Bay,Goodnews Bay_grid,Lower Yukon-Kuskokwim,0.64200000000000002,0,0.64200000000000002,0,0,0,0,0,AEA PH Assessment,NA
+P83,331340,169,Alaska Village Electric Cooperative,Grayling,Grayling_grid,Yukon-Koyukuk/Upper Tanana,0.373,0,0.373,0,0,0,0,0,AEA PH Assessment,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+P84,331350,169,Alaska Village Electric Cooperative,Holy Cross,Holy Cross_grid,Yukon-Koyukuk/Upper Tanana,0.64,0,0.64,0,0,0,0,0,AEA PH Assessment,NA
+P85,331370,169,Alaska Village Electric Cooperative,Huslia,Huslia_grid,Yukon-Koyukuk/Upper Tanana,0.79600000000000004,0,0.79600000000000004,0,0,0,0,0,AEA PH Assessment,NA
+P86,331380,169,Alaska Village Electric Cooperative,Kaltag,Kaltag_grid,Yukon-Koyukuk/Upper Tanana,0.78260000000000007,0,0.77300000000000002,0,0,9.5999999999999992E-3,0,0,AEA PH Assessment,"Cordova, Eyak"
+P87,331450,169,Alaska Village Electric Cooperative,Mekoryuk,Mekoryuk_grid,Lower Yukon-Kuskokwim,0.90300000000000002,0,0.70300000000000007,0,0.2,0,0,0,AEA PH Assessment,NA
+P88,331460,169,Alaska Village Electric Cooperative,Minto,Minto_grid,Yukon-Koyukuk/Upper Tanana,0.70799999999999996,0,0.70799999999999996,0,0,0,0,0,AEA PH Assessment,"Cordova, Eyak"
+P89,331490,169,Alaska Village Electric Cooperative,Nightmute,Toksook Bay_grid,Lower Yukon-Kuskokwim,0.32500000000000001,0,0.32500000000000001,0,0,0,0,0,AEA PH Assessment,"In addition to Anchorage, the CEA service area includes eight other communities."
+P9,NA,1,Alaska Electric Light & Power Company,Industrial Plant,Juneau_grid,Southeast,41.7,41.7,0,0,0,0,0,0,EIA860,NA
+P90,331520,169,Alaska Village Electric Cooperative,Nulato,Nulato_grid,Yukon-Koyukuk/Upper Tanana,1.002,0,1.002,0,0,0,0,0,AEA PH Assessment,NA
+P91,331540,169,Alaska Village Electric Cooperative,Old Harbor,Old Harbor_grid,Kodiak,1,0,1,0,0,0,0,0,AEA PH Assessment,NA
+P93,331580,169,Alaska Village Electric Cooperative,Russian Mission,Russian Mission_grid,Lower Yukon-Kuskokwim,0.90400000000000003,0,0.90400000000000003,0,0,0,0,0,AEA PH Assessment,NA
+P94,331620,169,Alaska Village Electric Cooperative,Shageluk,Shageluk_grid,Yukon-Koyukuk/Upper Tanana,0.39500000000000002,0,0.39500000000000002,0,0,0,0,0,AEA PH Assessment,"In addition to Fairbanks, the GVEA service area includes 25 other communities."
+P95,331630,169,Alaska Village Electric Cooperative,Shaktoolik,Shaktoolik_grid,Bering Straits,0.9850000000000001,0,0.78500000000000003,0,0.2,0,0,0,AEA PH Assessment,NA
+P96,331685,169,Alaska Village Electric Cooperative,Teller,Teller_grid,Bering Straits,1.0499999999999998,0,1.0499999999999998,0,0,0,0,0,AEA PH Assessment,NA
+P97,331710,169,Alaska Village Electric Cooperative,Tununak,Toksook Bay_grid,Lower Yukon-Kuskokwim,0.32500000000000001,0,0.32500000000000001,0,0,0,0,0,AEA PH Assessment,"In addition to Anchorage, the CEA service area includes eight other communities."
+P98,331730,169,Alaska Village Electric Cooperative,Wales,Wales_grid,Bering Straits,0.495,0,0.495,0,0,0,0,0,AEA PH Assessment,"The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
