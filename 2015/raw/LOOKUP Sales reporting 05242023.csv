@@ -1,0 +1,216 @@
+Sales Reporting ID,OPERATOR_AEA Operator ID,EIA operator Number,PCE Reporting ID,EIA Sales reporting frequency,PCE Sales reporting frequency,Reporting Name,OPERATOR_Operator Name,INTERTIE_Current Intertie ID,INTERTIE_Current Intertie name,Index Community,GNIS,Latitude,Longitude,AEA energy region,Communities included in reporting,CPCN
+SR-14,AEA-002,NA,331030,N/A,M,Akiak,Akiak City Council,003-0000,Akiak_grid,Akiak,1398012,60.9122222,-161.2138889,Lower Yukon-Kuskokwim,Akiak,635
+SR-168,AEA-081,NA,332570,N/A,M,Stevens Village,Stevens Village Ira Council,181-0000,Stevens Village_grid,Stevens Village,1410198,66.0063889,-149.0908333,Yukon-Koyukuk/Upper Tanana,Stevens Village,709
+SR-186,AEA-100,NA,332880,N/A,M,Venetie,Venetie Village Electric,197-0000,Venetie_grid,Venetie,1411644,67.0138889,-146.4186111,Yukon-Koyukuk/Upper Tanana,Venetie,663
+SR-205,AEA-129,42889,NA,A,N/A,Alaska Energy Authority,Alaska Energy Authority,215-1985,Railbelt_grid,NA,NA,NA,NA,Railbelt,Alaska Energy Authority,NA
+SR-206,AEA-161,431,NA,A,N/A,Alyeska Seafoods Inc,Alyeska Seafoods Inc,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SR-207,AEA-173,13880,NA,A,N/A,"NUI Energy Brokers, Inc","NUI Energy Brokers, Inc",NA,NA,NA,NA,NA,NA,NA,NA,NA
+SR-208,AEA-174,22200,NA,A,N/A,U S Army-Ft Wainwright,U S Army-Ft Wainwright,215-1985,Railbelt_grid,NA,NA,NA,NA,Railbelt,U S Army-Ft Wainwright,NA
+SR-209,AEA-126,19553,NA,A,N/A,Unisea Inc,Unisea Inc,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SR-212,AEA-124,60770,NA,A,N/A,Southeast Alaska Power Agency,Southeast Alaska Power Agency,217-2009,SEAPA_grid,NA,NA,NA,NA,Southeast,Southeast Alaska Power Agency,NA
+SR-36,AEA-020,NA,331850,N/A,M,Chenega Bay,Chenega Ira Council,101-0000,Chenega_grid,Chenega Bay,1421254,60.0633333,-148.0113889,Copper River/Chugach,Chenega Bay,686
+SR-52,AEA-042,9416,332060,A,M,Deering,Ipnatchiaq Electric Company,130-0000,Deering_grid,Deering,1412894,66.0755556,-162.7172222,Northwest Arctic,Deering,369
+SR-60,AEA-031,5721,331960,A,M,Elfin Cove,Elfin Cove Utility Commission,112-0000,Elfin Cove_grid,Elfin Cove,1401787,58.1944444,-136.3433333,Southeast,Elfin Cove,701
+SR-1,AEA-133,213,NA,M,N/A,Alaska Electric Light&Power Co,Alaska Electric Light&Power Co,222-0000,Juneau_grid,Juneau,1404263,58.301944399999996,-134.4197222,Southeast,"Juneau, Douglas, Greens Creek (Industrial)",1
+SR-192,AEA-103,4329,NA,A,M,"Copper Valley Elec Assn, Inc","Copper Valley Elec Assn, Inc",216-0000,CopperValley_grid,Valdez,1412465,61.1308333,-146.3483333,Copper River/Chugach,"In addition to Valdez, the CVEA service area includes 14 other communities.",2
+SR-8,AEA-107,11824,NA,M,N/A,Matanuska Electric Assn Inc,Matanuska Electric Assn Inc,215-1985,Railbelt_grid,Wasilla,1411788,61.5813889,-149.4394444,Railbelt,"In addition to Wasilla, the MEA service area includes 28 other communities.",5
+SR-184,AEA-098,40548,332850,A,M,Unalakleet,Unalakleet Valley Electric Cooperative,194-0000,Unalakleet_grid,Unalakleet,1411517,63.8730556,-160.7880556,Bering Straits,Unalakleet,8
+SR-106,AEA-054,NA,332190,N/A,M,Lime Village,Lime Village Electric Utility,141-0000,Lime Village_grid,Lime Village,1405351,61.3563889,-155.4355556,Lower Yukon-Kuskokwim,Lime Village,13
+SR-172,AEA-087,18480,332610,A,M,Tatitlek,Tatitlek Village Ira Council,185-0000,Tatitlek_grid,Tatitlek,1415193,60.8647222,-146.6786111,Copper River/Chugach,Tatitlek,16
+SR-89,AEA-043,9897,332070,A,M,King Cove,"King Cove, City of",131-0000,King Cove_grid,King Cove,1418792,55.0616667,-162.3102778,Aleutians,King Cove,17
+SR-118,AEA-061,NA,332300,N/A,M,Napaskiak,Napaskiak Electric Utility,153-0000,Napaskiak_grid,Napaskiak,1406834,60.7080556,-161.7661111,Lower Yukon-Kuskokwim,Napaskiak,18
+SR-77,AEA-038,9000,332030,A,M,Hughes,Hughes Power & Light,120-0000,Hughes_grid,Hughes,1403596,66.0488889,-154.2555556,Yukon-Koyukuk/Upper Tanana,Hughes,22
+SR-150,AEA-080,NA,332530,N/A,M,Ruby,"Ruby, City of",178-0000,Ruby_grid,Ruby,1408878,64.7394444,-155.4869444,Yukon-Koyukuk/Upper Tanana,Ruby,24
+SR-111,AEA-057,12119,332220,A,M,McGrath,Mcgrath Light & Power,143-0000,McGrath_grid,McGrath,1406131,62.9563889,-155.5958333,Yukon-Koyukuk/Upper Tanana,McGrath,43
+SR-109,AEA-056,26317,332210,A,M,Manokotak,Manokotak Power Company,142-0000,Manokotak_grid,Manokotak,1405927,58.9813889,-159.0583333,Bristol Bay,Manokotak,44
+SR-135,AEA-070,14234,332440,A,M,Ouzinkie,"Ouzinkie, City of",170-0000,Ouzinkie_grid,Ouzinkie,1407684,57.9236111,-152.5022222,Kodiak,Ouzinkie,45
+SR-27,AEA-013,NA,331790,N/A,M,Beaver,Beaver Joint Utilities,097-0000,Beaver_grid,Beaver,1398776,66.3594444,-147.3963889,Yukon-Koyukuk/Upper Tanana,Beaver,61
+SR-156,AEA-155,NA,332540,N/A,M,Sand Point,TDX Corporation,187-0000,Sand Point_grid,Sand Point,1419182,55.3397222,-160.4972222,Aleutians,Sand Point,91
+SR-9,AEA-137,26754,NA,M,N/A,Paxson Inn and Lodge,Paxson Inn and Lodge,226_0000,Paxson_grid,Paxson,1866966,63.0897222,-145.6130556,Copper River/Chugach,Paxson,91
+SR-190,AEA-101,20535,332890,A,M,White Mountain,"White Mountain, City of",198-0000,White Mountain_grid,White Mountain,1411989,64.6813889,-163.4055556,Bering Straits,White Mountain,92
+SR-183,AEA-095,NA,332730,N/A,M,Twin Hills,Twin Hills Village Council,192-0000,Twin Hills_grid,Twin Hills,1416737,59.0791667,-160.275,Bristol Bay,Twin Hills,100
+SR-145,AEA-085,NA,332590,N/A,M,Port Alsworth,Tanalian Electric Cooperative,183-0000,Port Alsworth_grid,Port Alsworth,1408208,60.2025,-154.3127778,Bristol Bay,Port Alsworth,106
+SR-138,AEA-073,14832,332470,A,M,Perryville,Native Village of Perryville,155-0000,Perryville_grid,Perryville,1407902,55.9139846,-159.1632767,Bristol Bay,Perryville,108
+SR-199,AEA-111,16955,NA,A,NA,"Seward, City of","Seward, City of",215-1985,Railbelt_grid,Seward,1414598,60.1041667,-149.4422222,Railbelt,"The City of Seward service area includes the communities of Crown Point, Primrose, Bear Creek and Lowell Point.",108
+SR-200,AEA-135,21015,NA,A,NA,"Wrangell, City of","Wrangell, City of",217-2009,SEAPA_grid,Wrangell,1415843,56.4708333,-132.3766667,Southeast,Wrangell,111
+SR-2,AEA-109,599,NA,M,N/A,Anchorage Mun Light and Power,Anchorage Mun Light and Power,215-1985,Railbelt_grid,Anchorage,1398242,61.2180556,-149.9002778,Railbelt,Anchorage,121
+SR-211,AEA-112,49803,NA,A,N/A,Alaska Electric & Energy Coop,Alaska Electric & Energy Coop,215-1985,Railbelt_grid,NA,NA,NA,NA,Railbelt,NA,121
+SR-181,AEA-094,19267,332720,A,M,Tuntutuliak,Tuntutuliak Community,191-0000,Tuntutuliak_grid,Tuntutuliak,1411324,60.3430556,-162.6630556,Lower Yukon-Kuskokwim,Tuntutuliak,150
+SR-6,AEA-131,10210,NA,M,N/A,Ketchikan Public Utilities,Ketchikan Public Utilities,217-2009,SEAPA_grid,Ketchikan,1423039,55.3422222,-131.6461111,Southeast,"Ketchikan, Saxman",160
+SR-4,AEA-104,7353,NA,M,N/A,Golden Valley Elec Assn Inc,Golden Valley Elec Assn Inc,215-1985,Railbelt_grid,Fairbanks,1401958,64.8377778,-147.7163889,Railbelt,"In addition to Fairbanks, the GVEA service area includes 25 other communities.",169
+SR-198,AEA-110,14856,NA,A,NA,"Petersburg, City of","Petersburg, City of",217-2009,SEAPA_grid,Petersburg,1424228,56.8112667,-132.9512425,Southeast,Petersburg,212
+SR-39,AEA-023,NA,331870,N/A,M,Chignik Lagoon,Chignik Lagoon Power Utility,102-0000,Chignik Lagoon_grid,Chignik Lagoon,1400274,56.3084393,-158.5302391,Bristol Bay,Chignik Lagoon,212
+SR-23,AEA-010,NA,331770,N/A,M,Arctic Village,Arctic Village Electric Company,094-0000,Arctic Village_grid,Arctic Village,1398382,68.1269444,-145.5377778,Yukon-Koyukuk/Upper Tanana,Arctic Village,214
+SR-34,AEA-019,NA,331840,N/A,M,Chalkyitsik,Chalkyitsik Village Council,100-0000,Chalkyitsik_grid,Chalkyitsik,1400128,66.6544444,-143.7222222,Yukon-Koyukuk/Upper Tanana,Chalkyitsik,227
+SR-80,AEA-039,9192,332040,A,M,Igiugig,Igiugig Electric Company,121-0000,Igiugig_grid,Igiugig,1403706,59.3277778,-155.8947222,Bristol Bay,Igiugig,227
+SR-124,AEA-065,NA,332330,N/A,M,Nikolai,"Nikolai, City of",158-0000,Nikolai_grid,Nikolai,1407022,63.0133333,-154.375,Yukon-Koyukuk/Upper Tanana,Nikolai,230
+SR-130,AEA-067,26616,332380,A,M,Nuiqsut,North Slope Borough Power & Light,163-0000,Nuiqsut_grid,Nuiqsut,1416680,70.2175,-150.9763889,North Slope,Nuiqsut,240
+SR-143,AEA-067,26616,332390,A,M,Point Hope,North Slope Borough Power & Light,164-0000,Point Hope_grid,Point Hope,1408110,68.3486111,-166.7347222,North Slope,Point Hope,240
+SR-144,AEA-067,26616,332400,A,M,Point Lay,North Slope Borough Power & Light,165-0000,Point Lay_grid,Point Lay,1408115,69.743857,-163.008442,North Slope,Point Lay,240
+SR-187,AEA-067,26616,332410,A,M,Wainwright,North Slope Borough Power & Light,166-0000,Wainwright_grid,Wainwright,1411728,70.6369444,-160.0383333,North Slope,Wainwright,240
+SR-19,AEA-067,26616,332350,A,M,Anaktuvuk Pass,North Slope Borough Power & Light,160-0000,Anaktuvuk Pass_grid,Anaktuvuk Pass,1398235,68.1433333,-151.7358333,North Slope,Anaktuvuk Pass,240
+SR-26,AEA-067,26616,332360,A,M,Atqasuk,North Slope Borough Power & Light,161-0000,Atqasuk_grid,Atqasuk,1406178,70.4691667,-157.3994444,North Slope,Atqasuk,240
+SR-83,AEA-067,26616,332370,A,M,Kaktovik,North Slope Borough Power & Light,162-0000,Kaktovik_grid,Kaktovik,1404349,70.1319444,-143.6238889,North Slope,Kaktovik,240
+SR-90,AEA-044,NA,332080,N/A,M,Kipnuk,Kipnuk Light Plant,132-0000,Kipnuk_grid,Kipnuk,1404781,59.9388889,-164.0413889,Lower Yukon-Kuskokwim,Kipnuk,242
+SR-171,AEA-086,18474,332600,A,M,Tanana,Tanana Power Company Inc,184-0000,Tanana_grid,Tanana,1410629,65.1719444,-152.0788889,Yukon-Koyukuk/Upper Tanana,Tanana,256
+SR-58,AEA-029,5553,331940,A,M,Egegik,Egegik Light & Power Co,111-0000,Egegik_grid,Egegik,1401686,58.2155556,-157.3758333,Bristol Bay,Egegik,264
+SR-58,AEA-029,57351,NA,A,M,Egegik,Egegik Light & Power Co,111-0000,Egegik_grid,Egegik,1401686,58.2155556,-157.3758333,Bristol Bay,Egegik,264
+SR-100,AEA-006,221,331420,A,M,Koyuk,Alaska Village Electric Cooperative,060-0000,Koyuk_grid,Koyuk,1404981,64.9319444,-161.1569444,Bering Straits,Koyuk,274
+SR-107,AEA-006,221,331430,A,M,Lower Kalskag,Alaska Village Electric Cooperative,052-2005,Upper Kalskag_grid,Lower Kalskag,1405763,61.5122222,-160.3580556,Lower Yukon-Kuskokwim,Lower Kalskag,274
+SR-110,AEA-006,221,331440,A,M,Marshall,Alaska Village Electric Cooperative,061-0000,Marshall_grid,Marshall,1405984,61.8777778,-162.0811111,Lower Yukon-Kuskokwim,Marshall,274
+SR-112,AEA-006,221,331450,A,M,Mekoryuk,Alaska Village Electric Cooperative,062-0000,Mekoryuk_grid,Mekoryuk,1406211,60.3880556,-166.185,Lower Yukon-Kuskokwim,Mekoryuk,274
+SR-114,AEA-006,221,331460,A,M,Minto,Alaska Village Electric Cooperative,063-0000,Minto_grid,Minto,1406419,65.150411,-149.349708,Yukon-Koyukuk/Upper Tanana,Minto,274
+SR-115,AEA-006,221,331470,A,M,Mountain Village,Alaska Village Electric Cooperative,075-2020,Mountain Village_grid,Mountain Village,1406655,62.0855556,-163.7294444,Lower Yukon-Kuskokwim,Mountain Village,274
+SR-121,AEA-006,221,331480,A,M,New Stuyahok,Alaska Village Electric Cooperative,065-2016,New_Stuyahok_grid,New Stuyahok,1406972,59.4527778,-157.3119444,Bristol Bay,New Stuyahok,274
+SR-123,AEA-006,221,331490,A,M,Nightmute,Alaska Village Electric Cooperative,088-2008,Toksook Bay_grid,Nightmute,1407008,60.4794444,-164.7238889,Lower Yukon-Kuskokwim,Nightmute,274
+SR-126,AEA-006,221,331500,A,M,Noatak,Alaska Village Electric Cooperative,066-0000,Noatak_grid,Noatak,1413638,67.5711111,-162.9652778,Northwest Arctic,Noatak,274
+SR-128,AEA-006,221,331510,A,M,Noorvik,Alaska Village Electric Cooperative,067-0000,Noorvik_grid,Noorvik,1413646,66.8383333,-161.0327778,Northwest Arctic,Noorvik,274
+SR-131,AEA-006,221,331520,A,M,Nulato,Alaska Village Electric Cooperative,068-0000,Nulato_grid,Nulato,1407321,64.7194444,-158.1030556,Yukon-Koyukuk/Upper Tanana,Nulato,274
+SR-133,AEA-006,221,331530,A,M,Nunapitchuk,Alaska Village Electric Cooperative,055-2006,Kasigluk_grid,Nunapitchuk,1407339,60.8969444,-162.4594444,Lower Yukon-Kuskokwim,Nunapitchuk,274
+SR-134,AEA-006,221,331540,A,M,Old Harbor,Alaska Village Electric Cooperative,069-0000,Old Harbor_grid,Old Harbor,1407483,57.2027778,-153.3038889,Kodiak,Old Harbor,274
+SR-140,AEA-006,221,331550,A,M,Pilot Station,Alaska Village Electric Cooperative,070-0000,Pilot Station_grid,Pilot Station,1407993,61.9388889,-162.875,Lower Yukon-Kuskokwim,Pilot Station,274
+SR-141,AEA-006,221,331560,A,M,Pitkas Point,Alaska Village Electric Cooperative,075-1985,Saint Mary's_grid,Pitkas Point,1408054,62.0327778,-163.2877778,Lower Yukon-Kuskokwim,Pitkas Point,274
+SR-147,AEA-006,221,331570,A,M,Quinhagak,Alaska Village Electric Cooperative,071-0000,Quinhagak_grid,Quinhagak,1408462,59.7488889,-161.9158333,Lower Yukon-Kuskokwim,Quinhagak,274
+SR-151,AEA-006,221,331580,A,M,Russian Mission,Alaska Village Electric Cooperative,072-0000,Russian Mission_grid,Russian Mission,1408925,61.785,-161.3202778,Lower Yukon-Kuskokwim,Russian Mission,274
+SR-153,AEA-006,221,331660,A,M,"Saint Mary's, Andreafsky",Alaska Village Electric Cooperative,075-2020,Saint Mary's_grid,Saint Mary's,1398261,62.0530556,-163.1658333,Lower Yukon-Kuskokwim,"Saint Mary's, Andreafsky",274
+SR-154,AEA-006,221,331670,A,M,Saint Michael,Alaska Village Electric Cooperative,084-2015,Stebbins_grid,Saint Michael,1408977,63.4780556,-162.0391667,Bering Straits,Saint Michael,274
+SR-157,AEA-006,221,331590,A,M,Savoonga,Alaska Village Electric Cooperative,076-0000,Savoonga_grid,Savoonga,1409106,63.6941667,-170.4788889,Bering Straits,Savoonga,274
+SR-158,AEA-006,221,331600,A,M,Scammon Bay,Alaska Village Electric Cooperative,077-0000,Scammon Bay_grid,Scammon Bay,1409133,61.8427778,-165.5816667,Lower Yukon-Kuskokwim,Scammon Bay,274
+SR-159,AEA-006,221,331610,A,M,Selawik,Alaska Village Electric Cooperative,078-0000,Selawik_grid,Selawik,1413930,66.6038889,-160.0069444,Northwest Arctic,Selawik,274
+SR-16,AEA-006,221,331240,A,M,Alakanuk,Alaska Village Electric Cooperative,045-2016,Emmonak_grid,Alakanuk,1398042,62.6888889,-164.6152778,Lower Yukon-Kuskokwim,Alakanuk,274
+SR-160,AEA-006,221,331620,A,M,Shageluk,Alaska Village Electric Cooperative,079-0000,Shageluk_grid,Shageluk,1409306,62.6822222,-159.5619444,Yukon-Koyukuk/Upper Tanana,Shageluk,274
+SR-161,AEA-006,221,331630,A,M,Shaktoolik,Alaska Village Electric Cooperative,080-0000,Shaktoolik_grid,Shaktoolik,1669434,64.3338889,-161.1538889,Bering Straits,Shaktoolik,274
+SR-162,AEA-006,221,331640,A,M,Shishmaref,Alaska Village Electric Cooperative,081-0000,Shishmaref_grid,Shishmaref,1409434,66.2566667,-166.0719444,Bering Straits,Shishmaref,274
+SR-163,AEA-006,221,331650,A,M,Shungnak,Alaska Village Electric Cooperative,149-1980,Shungnak_grid,Shungnak,1413983,66.8880556,-157.1363889,Northwest Arctic,Shungnak,274
+SR-167,AEA-006,221,331680,A,M,Stebbins,Alaska Village Electric Cooperative,084-2015,Stebbins_grid,Stebbins,1410158,63.5222222,-162.2880556,Bering Straits,Stebbins,274
+SR-177,AEA-006,221,331690,A,M,Togiak,Alaska Village Electric Cooperative,086-0000,Togiak_grid,Togiak,1411039,59.0619444,-160.3763889,Bristol Bay,Togiak,274
+SR-179,AEA-006,221,331700,A,M,Toksook Bay,Alaska Village Electric Cooperative,088-2008,Toksook Bay_grid,Toksook Bay,1411060,60.5337752,-165.1036627,Lower Yukon-Kuskokwim,Toksook Bay,274
+SR-18,AEA-006,221,331250,A,M,Ambler,Alaska Village Electric Cooperative,035-0000,Ambler_grid,Ambler,1412509,67.0861111,-157.8513889,Northwest Arctic,Ambler,274
+SR-182,AEA-006,221,331710,A,M,Tununak,Alaska Village Electric Cooperative,088-2008,Toksook Bay_grid,Tununak,1410644,60.5855556,-165.2558333,Lower Yukon-Kuskokwim,Tununak,274
+SR-188,AEA-006,221,331730,A,M,Wales,Alaska Village Electric Cooperative,090-0000,Wales_grid,Wales,1404755,65.6091667,-168.0875,Bering Straits,Wales,274
+SR-191,AEA-102,221,332900,A,M,Yakutat,Alaska Village Electric Cooperative,091-0000,Yakutat_grid,Yakutat,1415858,59.5469444,-139.7272222,Southeast,Yakutat,274
+SR-22,AEA-006,221,331260,A,M,Anvik,Alaska Village Electric Cooperative,036-0000,Anvik_grid,Anvik,1398335,62.6561111,-160.2066667,Yukon-Koyukuk/Upper Tanana,Anvik,274
+SR-31,AEA-006,221,331270,A,M,Brevig Mission,Alaska Village Electric Cooperative,039-0000,Brevig Mission_grid,Brevig Mission,1420670,65.3347222,-166.4891667,Bering Straits,Brevig Mission,274
+SR-37,AEA-006,221,331280,A,M,Chevak,Alaska Village Electric Cooperative,040-0000,Chevak_grid,Chevak,1400219,61.5277778,-165.5863889,Lower Yukon-Kuskokwim,Chevak,274
+SR-57,AEA-006,221,331290,A,M,Eek,Alaska Village Electric Cooperative,041-0000,Eek_grid,Eek,1401666,60.2188889,-162.0244444,Lower Yukon-Kuskokwim,Eek,274
+SR-61,AEA-006,221,331300,A,M,Elim,Alaska Village Electric Cooperative,043-0000,Elim_grid,Elim,1401788,64.6175,-162.2605556,Bering Straits,Elim,274
+SR-62,AEA-006,221,331310,A,M,Emmonak,Alaska Village Electric Cooperative,045-2016,Emmonak_grid,Emmonak,1401837,62.7777778,-164.5230556,Lower Yukon-Kuskokwim,Emmonak,274
+SR-66,AEA-006,221,331320,A,M,Gambell,Alaska Village Electric Cooperative,046-0000,Gambell_grid,Gambell,1402463,63.7797222,-171.7411111,Bering Straits,Gambell,274
+SR-68,AEA-006,221,331330,A,M,Goodnews Bay,Alaska Village Electric Cooperative,047-0000,Goodnews Bay_grid,Goodnews Bay,1415910,59.1188889,-161.5875,Lower Yukon-Kuskokwim,Goodnews Bay,274
+SR-69,AEA-006,221,331340,A,M,Grayling,Alaska Village Electric Cooperative,048-0000,Grayling_grid,Grayling,1402921,62.9036111,-160.0647222,Yukon-Koyukuk/Upper Tanana,Grayling,274
+SR-74,AEA-006,221,331350,A,M,Holy Cross,Alaska Village Electric Cooperative,049-0000,Holy Cross_grid,Holy Cross,1403447,62.1994444,-159.7713889,Yukon-Koyukuk/Upper Tanana,Holy Cross,274
+SR-76,AEA-006,221,331360,A,M,Hooper Bay,Alaska Village Electric Cooperative,050-0000,Hooper Bay_grid,Hooper Bay,1403493,61.5311111,-166.0966667,Lower Yukon-Kuskokwim,Hooper Bay,274
+SR-78,AEA-006,221,331370,A,M,Huslia,Alaska Village Electric Cooperative,051-0000,Huslia_grid,Huslia,1403644,65.6986111,-156.3997222,Yukon-Koyukuk/Upper Tanana,Huslia,274
+SR-84,AEA-006,221,331720,A,M,Kalskag,Alaska Village Electric Cooperative,052-2005,Upper Kalskag_grid,Kalskag,1404378,61.5372222,-160.3052778,Lower Yukon-Kuskokwim,Kalskag,274
+SR-85,AEA-006,221,331380,A,M,Kaltag,Alaska Village Electric Cooperative,054-0000,Kaltag_grid,Kaltag,1404379,64.3272222,-158.7219444,Yukon-Koyukuk/Upper Tanana,Kaltag,274
+SR-87,AEA-006,221,331390,A,M,Kasigluk,Alaska Village Electric Cooperative,055-2006,Kasigluk_grid,Kasigluk,1404483,60.8955556,-162.5180556,Lower Yukon-Kuskokwim,Kasigluk,274
+SR-88,AEA-006,221,331400,A,M,Kiana,Alaska Village Electric Cooperative,057-0000,Kiana_grid,Kiana,1413311,66.975,-160.4227778,Northwest Arctic,Kiana,274
+SR-91,AEA-006,221,331410,A,M,Kivalina,Alaska Village Electric Cooperative,058-0000,Kivalina_grid,Kivalina,1413348,67.7269444,-164.5333333,Northwest Arctic,Kivalina,274
+SR-125,AEA-096,NA,332740,N/A,M,Nikolski,Umnak Power Company,193-0000,Nikolski_grid,Nikolski,1418954,52.9380556,-168.8677778,Aleutians,Nikolski,280
+SR-24,AEA-008,653,331750,A,M,Atka,Andreanof Electric Corp,095-0000,Atka_grid,Atka,1418170,52.1961111,-174.2005556,Aleutians,Atka,281
+SR-98,AEA-047,9898,332120,A,M,Kotlik,Kotlik Joint Utility,059-0000,Kotlik_grid,Kotlik,1404964,63.0341667,-163.5533333,Lower Yukon-Kuskokwim,Kotlik,285
+SR-108,AEA-055,11591,332200,A,M,Manley Hot Springs,Manley Utilities,188-0000,Manley Hot Springs_grid,Manley Hot Springs,1405922,65.0011111,-150.6338889,Yukon-Koyukuk/Upper Tanana,Manley Hot Springs,289
+SR-148,AEA-079,NA,332520,N/A,M,Rampart,Rampart Village Council,177-0000,Rampart_grid,Rampart,1408519,65.505,-150.17,Yukon-Koyukuk/Upper Tanana,Rampart,289
+SR-137,AEA-072,29297,332460,A,M,Pelican,Pelican Utility,172-0000,Pelican_grid,Pelican,1424201,57.9608333,-136.2275,Southeast,Pelican,291
+SR-99,AEA-048,10451,332130,A,M,Kotzebue,Kotzebue Electric Association,135-0000,Kotzebue_grid,Kotzebue,1413378,66.8983333,-162.5966667,Northwest Arctic,Kotzebue,291
+SR-3,AEA-132,3522,NA,M,N/A,Chugach Electric Assn Inc,Chugach Electric Assn Inc,215-1985,Railbelt_grid,Anchorage,1398242,61.2180556,-149.9002778,Railbelt,"In addition to Anchorage, the CEA service area includes eight other communities.",293
+SR-25,AEA-012,878,331780,A,M,Atmautluak,Atmautluak Tribal Utilities,096-0000,Atmautluak_grid,Atmautluak,1699811,60.8669444,-162.2730556,Lower Yukon-Kuskokwim,Atmautluak,319
+SR-38,AEA-021,3421,331860,A,M,Chignik,"Chignik, City of",104-0000,Chignik_grid,Chignik,1400269,56.2952778,-158.4022222,Bristol Bay,Chignik,330
+SR-5,AEA-105,19558,NA,M,N/A,Homer Electric Assn Inc,Homer Electric Assn Inc,215-1985,Railbelt_grid,Homer,1413141,59.6425,-151.5483333,Railbelt,"In addition to Homer, the HEA service area includes 29 other communities",337
+SR-146,AEA-077,NA,332500,N/A,M,Port Heiden,Port Heiden Utilities,175-0000,Port Heiden_grid,Port Heiden,1419072,56.9325614,-158.6249699,Bristol Bay,Port Heiden,339
+SR-33,AEA-018,6111,331830,A,M,Central,Central Electric Inc.,116-0000,Central_grid,Central,1400106,65.5725,-144.8030556,Yukon-Koyukuk/Upper Tanana,Central,340
+SR-105,AEA-053,NA,332180,N/A,M,Levelock,Levelock Electrical Coop,140-0000,Levelock_grid,Levelock,1405300,59.1141667,-156.8588889,Bristol Bay,Levelock,343
+SR-40,AEA-022,NA,331880,N/A,M,Chignik Lake,Chignik Lake Electric Utility,103-0000,Chignik Lake_grid,Chignik Lake,1893911,56.2555556,-158.7625,Bristol Bay,Chignik Lake,344
+SR-204,AEA-140,288,NA,A,N/A,Alaska Electric G & T Coop Inc,Alaska Electric G & T Coop Inc,215-1985,Railbelt_grid,NA,NA,NA,NA,Railbelt,NA,345
+SR-15,AEA-004,24486,331040,A,M,Akutan,"Akutan, City of",004-0000,Akutan_grid,Akutan,1418123,54.135555600000004,-165.7730556,Aleutians,Akutan,353
+SR-46,AEA-026,NA,331910,N/A,M,Clark's Point,"Clark's Point, City of",107-0000,Clark's Point_grid,Clark's Point,1400426,58.8441667,-158.5508333,Bristol Bay,Clark's Point,357
+SR-193,AEA-130,17271,NA,A,M,"Sitka, City & Borough of","Sitka, City & Borough of",219-0000,Sitka_grid,Sitka,1414736,57.0530556,-135.33,Southeast,Sitka,360
+SR-139,AEA-074,NA,332480,N/A,M,Pilot Point,Pilot Point Electric Utility,173-0000,Pilot Point_grid,Pilot Point,1407992,57.5641667,-157.5791667,Bristol Bay,Pilot Point,363
+SR-54,AEA-028,NA,331930,N/A,M,Diomede,Diomede Joint Utilities,110-0000,Diomede_grid,Diomede,1401213,65.7537652,-168.92315,Bering Straits,Diomede,364
+SR-120,AEA-063,13477,332320,A,M,Nelson Lagoon,Nelson Lagoon Electrical Coop,156-0000,Nelson Lagoon_grid,Nelson Lagoon,1418948,56.0006152,-161.206974,Aleutians,Nelson Lagoon,365
+SR-45,AEA-025,NA,331900,N/A,M,Circle,Circle Electric Utility,106-0000,Circle_grid,Circle,1400404,65.8255556,-144.0605556,Yukon-Koyukuk/Upper Tanana,Circle,369
+SR-194,AEA-134,1276,NA,A,M,Barrow Utilities & Electric Cooperative Inc.,Barrow Utilities & Electric Cooperative Inc.,221-0000,Utqiagvik_grid,Utqiagvik,1398635,71.2905556,-156.7886111,North Slope,Utqiagvik,373
+SR-210,AEA-127,19511,NA,A,N/A,University of Alaska,University of Alaska,215-1985,Railbelt_grid,NA,NA,NA,NA,Railbelt,University of Alaska,375
+SR-24,AEA-011,56256,331750,A,M,Atka,"Atka, City of",095-0000,Atka_grid,Atka,1418170,52.1961111,-174.2005556,Aleutians,Atka,376
+SR-185,AEA-097,19454,332860,A,M,Unalaska,"Unalaska, City of",195-0000,Unalaska_grid,Unalaska,1419424,53.8736111,-166.5366667,Aleutians,Unalaska,383
+SR-94,AEA-045,NA,332090,N/A,M,Kobuk,Kobuk Valley Electric Company,149-1980,Shungnak_grid,Kobuk,1413362,66.9072222,-156.8811111,Northwest Arctic,Kobuk,394
+SR-103,AEA-051,10491,332160,A,M,Kwigillingok,Kwigillingok Power Company,138-0000,Kwigillingok_grid,Kwigillingok,1405122,59.864444399999996,-163.1341667,Lower Yukon-Kuskokwim,Kwigillingok,395
+SR-122,AEA-099,NA,332870,N/A,M,Newtok,Ungusraq Power Company,196-0000,Newtok_grid,Newtok,1406985,60.9427778,-164.6294444,Lower Yukon-Kuskokwim,Newtok,399
+SR-81,AEA-040,9188,332050,A,M,"Iliamna, Newhalen, Nondalton","I-N-N Electric Coop, Inc",123-1983,Newhalen_grid,Iliamna,1403763,59.7567965,-154.9110837,Bristol Bay,"Iliamna, Newhalen, Nondalton",407
+SR-104,AEA-052,10716,332170,A,M,Larsen Bay,Larsen Bay Utility Company,139-0000,Larsen Bay_grid,Larsen Bay,1405216,57.54,-153.9786111,Kodiak,Larsen Bay,408
+SR-97,AEA-078,NA,332510,N/A,M,Kongiganak,Puvurnaq Power Company,176-0000,Kongiganak_grid,Kongiganak,1404934,59.9532731,-162.8951327,Lower Yukon-Kuskokwim,Kongiganak,410
+SR-21,AEA-009,4959,331760,A,M,Aniak,Aniak Light & Power,093-0000,Aniak_grid,Aniak,1398286,61.5783333,-159.5222222,Lower Yukon-Kuskokwim,Aniak,412
+SR-149,AEA-058,12485,332250,A,M,Red Devil,Middle Kuskokwim Electric,146-0000,Red Devil_grid,Red Devil,1408580,61.7611111,-157.3125,Lower Yukon-Kuskokwim,Red Devil,416
+SR-166,AEA-058,12485,332260,A,M,Sleetmute,Middle Kuskokwim Electric,147-0000,Sleetmute_grid,Sleetmute,1409747,61.7025,-157.1697222,Lower Yukon-Kuskokwim,Sleetmute,416
+SR-169,AEA-058,12485,332270,A,M,Stony River,Middle Kuskokwim Electric,148-0000,Stony River_grid,Stony River,1410241,61.7830556,-156.5880556,Lower Yukon-Kuskokwim,Stony River,416
+SR-44,AEA-058,12485,332230,A,M,Chuathbaluk,Middle Kuskokwim Electric,144-0000,Chuathbaluk_grid,Chuathbaluk,1400376,61.5719444,-159.245,Lower Yukon-Kuskokwim,Chuathbaluk,416
+SR-51,AEA-058,12485,332240,A,M,Crooked Creek,Middle Kuskokwim Electric,145-0000,Crooked Creek_grid,Crooked Creek,1400824,61.87,-158.1108333,Lower Yukon-Kuskokwim,Crooked Creek,416
+SR-10,AEA-117,19277,NA,M,N/A,TDX North Slope Generating Co,TDX North Slope Generating Co,224_0000,Deadhorse_grid,Deadhorse,1866941,70.2055556,-148.5116667,North Slope,Deadhorse,417
+SR-28,AEA-014,1651,331800,A,M,"Bethel, Oscarville",Bethel Utilities Corp,034-1988,Bethel_grid,Bethel,1398908,60.7922222,-161.7558333,Lower Yukon-Kuskokwim,"Bethel, Oscarville",420
+SR-43,AEA-024,3465,331890,A,M,Chitina,Chitina Electric Inc,105-0000,Chitina_grid,Chitina,1400337,61.5158333,-144.4369444,Copper River/Chugach,Chitina,425
+SR-202,AEA-090,56503,332200,A,M,Manley Hot Springs,TDX Manley Generating LLC,188-0000,Manley Hot Springs_grid,Manley Hot Springs,1405922,65.0011111,-150.6338889,Yukon-Koyukuk/Upper Tanana,Manley Hot Springs,437
+SR-49,AEA-027,40215,331920,A,M,"Cordova, Eyak",Cordova Electric Cooperative,014-1990,Cordova_grid,Cordova,1421215,60.5427778,-145.7575,Copper River/Chugach,"Cordova, Eyak",442
+SR-65,AEA-033,6915,331990,A,M,Galena,"Galena, City of",115-0000,Galena_grid,Galena,1402457,64.7333333,-156.9275,Yukon-Koyukuk/Upper Tanana,Galena,446
+SR-132,AEA-068,NA,332420,N/A,M,Nunam Iqua,Nunam Iqua Electric Company,167-0000,Nunam Iqua_grid,Nunam Iqua,1409405,62.5336111,-164.8411111,Lower Yukon-Kuskokwim,Nunam Iqua,447
+SR-136,AEA-071,14633,332450,A,M,Pedro Bay,Pedro Bay Village Council,171-0000,Pedro Bay_grid,Pedro Bay,1407862,59.7872222,-154.1061111,Bristol Bay,Pedro Bay,520
+SR-30,AEA-015,1747,331810,A,M,Birch Creek,Birch Creek Electric Company,098-0000,Birch Creek_grid,Birch Creek,1399049,66.2590355,-145.81901680000001,Yukon-Koyukuk/Upper Tanana,Birch Creek,523
+SR-142,AEA-075,NA,332490,N/A,M,Platinum,"Platinum, City of",174-0000,Platinum_grid,Platinum,1408072,59.0130556,-161.8163889,Lower Yukon-Kuskokwim,Platinum,549
+SR-117,AEA-060,13211,332290,A,M,Napakiak,Napakiak Ircinraq,034-1988,Bethel_grid,Napakiak,1406829,60.6966667,-161.9519444,Lower Yukon-Kuskokwim,Napakiak,570
+SR-152,AEA-082,NA,332550,N/A,M,Saint George,"Saint George, City of",179-0000,Saint George_grid,Saint George,1419161,56.6,-169.5416667,Aleutians,Saint George,586
+SR-155,AEA-083,17898,332560,A,M,Saint Paul,Saint Paul Municipal Electric,180-0000,Saint Paul_grid,Saint Paul,1419163,57.1222222,-170.275,Aleutians,Saint Paul,625
+SR-113,AEA-005,219,331160,A,M,Mentasta Lake,Alaska Power & Telephone Company,026-2012,Slana_grid,Mentasta Lake,1406241,62.9211111,-143.7691667,Copper River/Chugach,Mentasta Lake,635
+SR-119,AEA-005,219,331170,A,M,Naukati Bay,Alaska Power & Telephone Company,023-2015,Prince of Wales Is._grid,Naukati Bay,1866964,55.8736111,-133.1847222,Southeast,Naukati Bay,635
+SR-129,AEA-005,219,331180,A,M,"Northway, Northway Village, Northway Junction",Alaska Power & Telephone Company,012-0000,Northway_grid,Northway,1407253,62.9616667,-141.9372222,Yukon-Koyukuk/Upper Tanana,"Northway, Northway Village, Northway Junction",635
+SR-164,AEA-005,219,331190,A,M,Skagway,Alaska Power & Telephone Company,032-1998,Haines_grid,Skagway,1414754,59.4583333,-135.3138889,Southeast,Skagway,635
+SR-165,AEA-005,219,331195,A,M,Slana,Alaska Power & Telephone Company,026-2010,Slana_grid,Slana,1409698,62.7069444,-143.9611111,Copper River/Chugach,Slana,635
+SR-17,AEA-005,219,331050,A,M,"Allakaket, Alatna",Alaska Power & Telephone Company,005-0000,Allakaket_grid,Allakaket,1398129,66.5655556,-152.6455556,Yukon-Koyukuk/Upper Tanana,"Allakaket, Alatna",635
+SR-175,AEA-005,219,331200,A,M,Tetlin,Alaska Power & Telephone Company,015-2008,Tok_grid,Tetlin,1410765,63.1350512,-142.5238796,Yukon-Koyukuk/Upper Tanana,Tetlin,635
+SR-176,AEA-005,219,331210,A,M,"Thorne Bay, Kasaan",Alaska Power & Telephone Company,023-2015,Prince of Wales Is._grid,Thorne Bay,1669435,55.6877778,-132.5222222,Southeast,"Thorne Bay, Kasaan",635
+SR-178,AEA-005,219,331220,A,M,"Tok, Tanacross",Alaska Power & Telephone Company,015-2008,Tok_grid,Tok,1411046,63.3366667,-142.9855556,Yukon-Koyukuk/Upper Tanana,"Tok, Tanacross",635
+SR-189,AEA-005,219,331230,A,M,Whale Pass,Alaska Power & Telephone Company,213-0000,Whale_Pass_grid,Whale Pass,1744590,56.1152778,-133.1208333,Southeast,Whale Pass,635
+SR-29,AEA-005,219,331060,A,M,"Bettles, Evansville",Alaska Power & Telephone Company,007-0000,Bettles_grid,Bettles,1926949,66.9188889,-151.5161111,Yukon-Koyukuk/Upper Tanana,"Bettles, Evansville",635
+SR-42,AEA-005,219,331070,A,M,Chistochina,Alaska Power & Telephone Company,026-2010,Slana_grid,Chistochina,1400333,62.5717828,-144.6541704,Copper River/Chugach,Chistochina,635
+SR-47,AEA-005,219,331080,A,M,Coffman Cove,Alaska Power & Telephone Company,023-2015,Prince of Wales Is._grid,Coffman Cove,1669437,56.0138889,-132.8277778,Southeast,Coffman Cove,635
+SR-50,AEA-005,219,331090,A,M,Craig,Alaska Power & Telephone Company,023-2015,Prince of Wales Is._grid,Craig,1421260,55.4763889,-133.1483333,Southeast,Craig,635
+SR-55,AEA-005,219,331100,A,M,"Dot Lake, Dot Lake Village",Alaska Power & Telephone Company,015-2008,Tok_grid,Dot Lake,1401364,63.6613889,-144.0644444,Yukon-Koyukuk/Upper Tanana,"Dot Lake, Dot Lake Village",635
+SR-56,AEA-005,219,331110,A,M,"Eagle, Eagle Village",Alaska Power & Telephone Company,009-0000,Eagle_grid,Eagle,1401499,64.7880556,-141.2,Yukon-Koyukuk/Upper Tanana,"Eagle, Eagle Village",635
+SR-70,AEA-036,219,332010,A,M,Gustavus,Alaska Power & Telephone Company,118-0000,Gustavus_grid,Gustavus,1403078,58.4133333,-135.7369444,Southeast,Gustavus,635
+SR-71,AEA-005,219,331120,A,M,"Haines, Covenant Life",Alaska Power & Telephone Company,032-1998,Haines_grid,Haines,1422400,59.228589,-135.444114,Southeast,"Haines, Covenant Life",635
+SR-72,AEA-005,219,331130,A,M,Healy Lake,Alaska Power & Telephone Company,011-0000,Healy Lake_grid,Healy Lake,2419534,63.9872308,-144.6998325,Yukon-Koyukuk/Upper Tanana,Healy Lake,635
+SR-73,AEA-005,219,331140,A,M,Hollis,Alaska Power & Telephone Company,023-2015,Prince of Wales Is._grid,Hollis,1866952,55.5566667,-132.6363889,Southeast,Hollis,635
+SR-79,AEA-005,219,331150,A,M,Hydaburg,Alaska Power & Telephone Company,023-2015,Prince of Wales Is._grid,Hydaburg,1422709,55.2080556,-132.8266667,Southeast,Hydaburg,635
+SR-92,AEA-005,219,331155,A,M,Klawock,Alaska Power & Telephone Company,023-2015,Prince of Wales Is._grid,Klawock,1423100,55.5522222,-133.0958333,Southeast,Klawock,635
+SR-95,AEA-046,10455,332100,A,M,Kokhanok,Kokhanok Village Council,134-0000,Kokhanok_grid,Kokhanok,1404333,59.4394444,-154.7761111,Bristol Bay,Kokhanok,640
+SR-48,AEA-034,6866,331980,A,M,Cold Bay,G & K Inc,114-0000,Cold Bay_grid,Cold Bay,1418448,55.1858333,-162.7211111,Aleutians,Cold Bay,658
+SR-35,AEA-062,3422,332310,A,M,Chefornak,Naterkaq Light Plant (City of Chefornak),154-0000,Chefornak_grid,Chefornak,1400188,60.16,-164.2658333,Lower Yukon-Kuskokwim,Chefornak,659
+SR-102,AEA-050,9832,332150,A,M,Kwethluk,Kwethluk Incorporated d/b/a Kuiggluum Kallugvia,137-0000,Kwethluk_grid,Kwethluk,1405119,60.8122222,-161.4358333,Lower Yukon-Kuskokwim,Kwethluk,660
+SR-33,AEA-139,56739,331830,A,M,Central,Gold Country Energy,116-0000,Central_grid,Central,1400106,65.5725,-144.8030556,Yukon-Koyukuk/Upper Tanana,Central,661
+SR-174,AEA-092,18541,332630,A,M,Tenakee Springs,"Tenakee Springs, City of",189-0000,Tenakee Springs_grid,Tenakee Springs,1415210,57.7808333,-135.2188889,Southeast,Tenakee Springs,662
+SR-32,AEA-016,NA,331820,N/A,M,Buckland,"Buckland, City of",099-0000,Buckland_grid,Buckland,1412684,65.9797222,-161.1230556,Northwest Arctic,Buckland,664
+SR-20,AEA-041,18963,332650,A,M,Angoon,Inside Passage Electric,125-0000,Angoon_grid,Angoon,1420113,57.5033333,-134.5838889,Southeast,Angoon,681
+SR-41,AEA-041,18963,332660,A,M,Chilkat Valley,Inside Passage Electric,032-1998,Haines_grid,Chilkat Valley,1421022,59.399702,-135.8964089,Southeast,Chilkat Valley,681
+SR-75,AEA-041,18963,332670,A,M,Hoonah,Inside Passage Electric,128-0000,Hoonah_grid,Hoonah,1403488,58.11,-135.4436111,Southeast,Hoonah,681
+SR-82,AEA-041,18963,332680,A,M,Kake,Inside Passage Electric,129-0000,Kake_grid,Kake,1422926,56.9758333,-133.9472222,Southeast,Kake,681
+SR-93,AEA-041,18963,332700,A,M,Klukwan,Inside Passage Electric,032-1998,Haines_grid,Klukwan,1866956,59.4038889,-135.8844444,Southeast,Klukwan,681
+SR-173,AEA-091,18521,331685,A,M,Teller,Teller Power Company,085-0000,Teller_grid,Teller,1410730,65.2636111,-166.3608333,Bering Straits,Teller,682
+SR-173,AEA-091,18521,332620,A,M,Teller,Teller Power Company,085-0000,Teller_grid,Teller,1410730,65.2636111,-166.3608333,Bering Straits,Teller,682
+SR-7,AEA-106,10433,NA,M,N/A,Kodiak Electric Assn Inc,Kodiak Electric Assn Inc,223-0000,Kodiak_grid,Kodiak,1404875,57.79,-152.4072222,Kodiak,"The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island.",683
+SR-11,AEA-088,NA,331005,N/A,M,Adak,TDX Adak Generating LLC,186-0000,Adak_grid,Adak,1418109,51.88,-176.6580556,Aleutians,Adak,684
+SR-13,AEA-003,192,331020,A,M,Akiachak,Akiachak Native Community,002-0000,Akiachak_grid,Akiachak,1398011,60.9094444,-161.4313889,Lower Yukon-Kuskokwim,Akiachak,684
+SR-64,AEA-037,7833,332020,A,M,Fort Yukon,Gwitchyaa Zhee Utilities Company,119-0000,Fort Yukon_grid,Fort Yukon,1402276,66.5647222,-145.2738889,Yukon-Koyukuk/Upper Tanana,Fort Yukon,686
+SR-59,AEA-030,NA,331950,N/A,M,Ekwok,City of Ekwok,065-2016,New_Stuyahok_grid,Ekwok,1401738,59.3497222,-157.4752778,Bristol Bay,Ekwok,688
+SR-127,AEA-066,13642,332340,A,M,Nome,Nome Joint Utility Systems,159-0000,Nome_grid,Nome,1407125,64.5011111,-165.4063889,Bering Straits,Nome,701
+SR-170,AEA-084,NA,332580,N/A,M,Takotna,Takotna Community Assoc Inc,182-0000,Takotna_grid,Takotna,1410562,62.9886111,-156.0641667,Yukon-Koyukuk/Upper Tanana,Takotna,709
+SR-180,AEA-093,NA,332710,N/A,M,Tuluksak,Tuluksak Traditional,190-0000,Tuluksak_grid,Tuluksak,1411295,61.1025,-160.9616667,Lower Yukon-Kuskokwim,Tuluksak,720
+SR-101,AEA-049,NA,332140,N/A,M,Koyukuk,"Koyukuk, City of",136-0000,Koyukuk_grid,Koyukuk,1404984,64.8802778,-157.7008333,Yukon-Koyukuk/Upper Tanana,Koyukuk,724
+SR-86,AEA-007,NA,331740,N/A,M,Karluk,Alutiiq Power Company,092-0000,Karluk_grid,Karluk,1404456,57.5719444,-154.4555556,Kodiak,Karluk,726
+SR-63,AEA-032,NA,331970,N/A,M,False Pass,"False Pass, City of",113-0000,False Pass_grid,False Pass,1418574,54.8508333,-163.415,Aleutians,False Pass,729
+SR-195,AEA-108,12385,NA,A,M,Metlakatla Power & Light,Metlakatla Power & Light,225_0000,Metlakatla_grid,Metlakatla,1423661,55.1291667,-131.5722222,Southeast,Metlakatla,735
+SR-12,AEA-001,NA,331010,N/A,M,Akhiok,"Akhiok, City of",001-0000,Akhiok_grid,Akhiok,1398007,56.9455556,-154.1702778,Kodiak,Akhiok,741
+SR-96,AEA-064,NA,332110,N/A,M,Koliganek,New Koliganek Village Council,157-0000,Koliganek_grid,Koliganek,1404914,59.7286111,-157.2844444,Bristol Bay,Koliganek,742
+SR-116,AEA-059,13201,332280,A,M,"Naknek, South Naknek, King Salmon",Naknek Electric Association,150-0000,Naknek_grid,Naknek,1406798,58.7283333,-157.0138889,Bristol Bay,"Naknek, South Naknek, King Salmon",747
+SR-67,AEA-035,NA,332000,N/A,M,Golovin,Golovin Power Utilities,117-0000,Golovin_grid,Golovin,1402760,64.5433333,-163.0291667,Bering Straits,Golovin,765
+SR-53,AEA-069,13870,332430,A,M,"Dillingham, Aleknagik",Nushagak Electric Cooperative,169-0000,Dillingham_grid,Dillingham,1401203,59.0397222,-158.4575,Bristol Bay,"Dillingham, Aleknagik",767
+SR-176,AEA-172,18877,331210,A,NA,"Thorne Bay, City of","Thorne Bay, City of",NA,ThorneBay_grid,Thorne Bay,1669435,55.6877778,-132.5222222,Southeast,Thorne Bay,NA
+SR-197,AEA-171,409,NA,A,N/A,"Arctic Utilities, Inc",TNSG,224_0000,Deadhorse_grid,Deadhorse,1866941,70.2055556,-148.5116667,North Slope,Deadhorse,NA
+SR-201,AEA-120,22199,NA,A,NA,U S Air Force-Eielson AFB,NA,215-1985,Railbelt_grid,Eielson AFB,2418568,64.6632652,-147.05442,Railbelt,U S Air Force-Eielson AFB,NA

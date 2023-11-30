@@ -19,7 +19,7 @@ library(readr)
 # point towards workbook THIS WILL CHANGE SOON!
 drive <- "~/Desktop/energy_stats/"
 setwd(drive)
-workbook <- "~/Desktop/energy_stats/2016/2016 AK Energy Statistics early release.xlsx"
+workbook <- "~/Desktop/energy_stats/2015/2015 AK Energy Statistics early release.xlsx"
 
 # Read sheets and use for filenames
 sheets <- excel_sheets(workbook)
@@ -29,7 +29,7 @@ filenames <- paste0(sheets, ".csv")
 dat <- lapply(sheets, read_excel, path = workbook)
 
 # point towards location to save raw CSV files (sheets)
-save_raw <- "~/repos/ak-energy-statistics-2011_2021/2016/raw/"
+save_raw <- "~/repos/ak-energy-statistics-2011_2021/2015/raw/"
 setwd(save_raw)
 
 # I dream of idempotency..
@@ -63,7 +63,7 @@ for(i in filenames){
 set target for cleaned files
 **VERY IMPORTANT**
 ```{R}
-save_staging <- "~/repos/ak-energy-statistics-2011_2021/2016/staging/"
+save_staging <- "~/repos/ak-energy-statistics-2011_2021/2015/staging/"
 setwd(save_staging)
 
 
@@ -105,7 +105,7 @@ title_2.5a <- `Table 2.5a`[1,1]
 print(title_2.5a)
 
 # use table title as qualifyer for cleaning expression
-if(`Table 2.5a`[1,1] == "Table 2.5a Revenue, Sales and Customers by Customer Type by Operators/Utilities ($000, MWh, Accounts), 2016") {
+if(`Table 2.5a`[1,1] == "Table 2.5a Revenue, Sales and Customers by Customer Type by Operators/Utilities ($000, MWh, Accounts), 2015") {
   
   # save second row as column names
   colnames(`Table 2.5a`) <- `Table 2.5a`[2, ]
@@ -127,7 +127,7 @@ write.csv(`Table 2.5a`, file = "./table_2.5a.csv")
 title_2.5b <- `Table 2.5b`[1,1]
 print(title_2.5b)
 
-if(`Table 2.5b`[1,1] == "Table 2.5b  Average Annual Energy Use and Rates by Customer Type by Operators/Utilities, (kWh/Customer, $/Customer, $/kWh), 2016"){
+if(`Table 2.5b`[1,1] == "Table 2.5b  Average Annual Energy Use and Rates by Customer Type by Operators/Utilities, (kWh/Customer, $/Customer, $/kWh), 2015"){
   # save second row as column names
   colnames(`Table 2.5b`) <- `Table 2.5b`[2, ]
   
@@ -149,7 +149,7 @@ write.csv(`Table 2.5b`, file = "./table_2.5b.csv")
 title_2.5c <- `Table 2.5c`[1,1]
 print(title_2.5c)
 
-if(`Table 2.5c`[1,1] == "Table 2.5c  Average Residential Rates and PCE Payments ($/kWh), 2016"){
+if(`Table 2.5c`[1,1] == "Table 2.5c  Average Residential Rates and PCE Payments ($/kWh), 2015"){
   # save third row as column names
   colnames(`Table 2.5c`) <- `Table 2.5c`[2, ]
   
