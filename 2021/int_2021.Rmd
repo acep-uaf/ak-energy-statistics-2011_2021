@@ -1,0 +1,53 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+### Build a library
+```{R}
+
+```
+
+### Set working directory
+```{R}
+repo <- "~/repos/ak-energy-statistics-2011_2021/"
+setwd(repo)
+
+```
+
+
+## Load from Staging
+```{R}
+table_2.5a <- read.csv(file = "./2021/staging/table_2.5a.csv")
+table_2.5b <- read.csv(file = "./2021/staging/table_2.5b.csv")
+table_2.5c <- read.csv(file = "./2021/staging/table_2.5c.csv")
+
+```
+
+
+## Figure out the join
+```{R}
+# this looks like the key!
+# unique for all three tables, all rows
+length(unique(table_2.5a$AEA.Sales.Reporting.ID))
+length(unique(table_2.5b$AEA.Sales.Reporting.ID))
+length(unique(table_2.5c$AEA.Sales.Reporting.ID))
+
+
+length(unique(table_2.5a$Reporting.Name))
+
+
+
+
+
+test <- merge(table_2.5a, table_2.5b, by = "AEA.Sales.Reporting.ID")
+print(colnames(test))
+
+
+```
+
+
+
+
+

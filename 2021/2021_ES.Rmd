@@ -12,9 +12,9 @@ library(readr)
 
 ```
 
+
+# Raw Extractions
 ```{R}
-
-
 
 # point towards directory
 # point towards workbook THIS WILL CHANGE SOON!
@@ -44,6 +44,7 @@ setwd(save_raw)
 ```
 
 
+# Load Raw
 ```{R}
 setwd(save_raw)
 
@@ -62,24 +63,33 @@ for(i in filenames){
 ```
 
 
-set target for cleaned files
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# STAGING BELOW
+
+## set target for cleaned files
 **VERY IMPORTANT**
 ```{R}
 save_staging <- "~/repos/ak-energy-statistics-2011_2021/2021/staging/"
 setwd(save_staging)
 
 
-
-
 ```
 
 
-
-
-
-# TEMPLATE! COPY, DONT CHANGE
-## table   
-### 
+### Template for raw -> staging
 ```{R}
 # save title
 title_ <- `Table `[1,1]
@@ -94,13 +104,6 @@ colnames(`Table `) <- `Table `[2, ]
 
 ```
 
-
-
-
-
-
-
-# Individual table cleaning
 
 ## CPCN crosswalk 
 ### https://rca.alaska.gov/RCAWeb/RCALibrary/SearchResults.aspx?t=cert&p=rcareport&cert=&entity=&utiltype="
@@ -449,6 +452,10 @@ setwd(save_staging)
 write.csv(`Table 2.5c`, file = "./table_2.5c.csv")
   
 ```
+
+
+
+
 
 
 
