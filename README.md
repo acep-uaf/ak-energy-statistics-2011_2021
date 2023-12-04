@@ -22,6 +22,11 @@ This repository is home to the 2023 efforts to cover the 10 year gap in the Alas
 - Pre 2011
   - [Report: 1960-2011](https://scholarworks.alaska.edu/handle/11122/3852) - prepared by ISER
 
+## License
+
+[CC-BY-SA 4.0](LICENSE.md)
+
+https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
 ## Contributors
 
