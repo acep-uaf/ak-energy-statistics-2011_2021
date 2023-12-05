@@ -17,9 +17,9 @@ library(readr)
 
 # point towards directory
 # point towards workbook THIS WILL CHANGE SOON!
-drive <- "~/Desktop/energy_stats/"
+drive <- "~/Desktop"
 setwd(drive)
-workbook <- "~/Desktop/energy_stats/2017/2017 AK Energy Statistics early release.xlsx"
+workbook <- "~/Desktop/workbooks/2017 AK Energy Statistics early release.xlsx"
 
 # Read sheets and use for filenames
 sheets <- excel_sheets(workbook)
@@ -116,7 +116,7 @@ if(`Table 2.5a`[1,1] == "Table 2.5a Revenue, Sales and Customers by Customer Typ
 }
 
 setwd(save_staging)
-write.csv(`Table 2.5a`, file = "./table_2.5a.csv")
+write.csv(`Table 2.5a`, file = "./table_2.5a.csv", row.names = FALSE)
 
 ```
 
@@ -137,7 +137,7 @@ if(`Table 2.5b`[1,1] == "Table 2.5b  Average Annual Energy Use and Rates by Cust
 }
 
 setwd(save_staging)
-write.csv(`Table 2.5b`, file = "./table_2.5b.csv")
+write.csv(`Table 2.5b`, file = "./table_2.5b.csv", row.names = FALSE)
 
 ```
 
@@ -158,6 +158,6 @@ if(`Table 2.5c`[1,1] == "Table 2.5c  Average Residential Rates and PCE Payments 
 }
 
 setwd(save_staging)
-write.csv(`Table 2.5c`, file = "./table_2.5c.csv")
+write.csv(`Table 2.5c`, file = "./table_2.5c.csv", row.names = FALSE)
   
 ```

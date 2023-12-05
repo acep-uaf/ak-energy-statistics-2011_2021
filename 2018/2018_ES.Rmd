@@ -17,24 +17,24 @@ library(readr)
 
 # point towards directory
 # point towards workbook THIS WILL CHANGE SOON!
-drive <- "~/Desktop/energy_stats/"
+drive <- "~/Desktop/"
 setwd(drive)
-workbook <- "~/Desktop/energy_stats/2018/2018 AK Energy Statistics early release.xlsx"
+workbook <- "~/Desktop/workbooks/2018 AK Energy Statistics early release.xlsx"
 
 # Read sheets and use for filenames
 sheets <- excel_sheets(workbook)
 filenames <- paste0(sheets, ".csv")
 
-# # read_excel only reads a single sheet, so lapply over each sheet name
-# dat <- lapply(sheets, read_excel, path = workbook)
+# read_excel only reads a single sheet, so lapply over each sheet name
+dat <- lapply(sheets, read_excel, path = workbook)
 
 # point towards location to save raw CSV files (sheets)
 save_raw <- "~/repos/ak-energy-statistics-2011_2021/2018/raw/"
 setwd(save_raw)
 
-# # I dream of idempotency..
-# # Save each data frame with different filename using write_csv
-# lapply(seq_along(dat), function(i) write_csv(dat[[i]], filenames[i]))
+# I dream of idempotency..
+# Save each data frame with different filename using write_csv
+lapply(seq_along(dat), function(i) write_csv(dat[[i]], filenames[i]))
 
 
 
@@ -116,7 +116,7 @@ if(`Table 2.5a`[1,1] == "Revenue, Sales and Customers by Customer Type by Certif
 }
 
 setwd(save_staging)
-write.csv(`Table 2.5a`, file = "./table_2.5a.csv")
+write.csv(`Table 2.5a`, file = "./table_2.5a.csv", row.names = FALSE)
 
 ```
 
@@ -137,7 +137,7 @@ if(`Table 2.5b`[1,1] == "Revenue, Sales and Customers by Customer Type by Certif
 }
 
 setwd(save_staging)
-write.csv(`Table 2.5b`, file = "./table_2.5b.csv")
+write.csv(`Table 2.5b`, file = "./table_2.5b.csv", row.names = FALSE)
 
 ```
 
@@ -158,7 +158,7 @@ if(`Table 2.5c`[1,1] == "Certified Utilities Revenue, Sales and Customers by Cus
 }
 
 setwd(save_staging)
-write.csv(`Table 2.5c`, file = "./table_2.5c.csv")
+write.csv(`Table 2.5c`, file = "./table_2.5c.csv", row.names = FALSE)
   
 ```
 

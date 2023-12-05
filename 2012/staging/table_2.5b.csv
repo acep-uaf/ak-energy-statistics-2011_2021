@@ -1,189 +1,189 @@
-"","Utility Name","Community Name","Residential kWh Use Per Customer","Residential Revenue Per Customer","Residential $/kWh","Commercial kWh Use Per Customer","Commercial Revenue Per Customer","Commercial $/kWh","Other kWh Use Per Customer","Other Revenue Per Customer","Other $/kWh","source","Notes"
-"2","Akiachak Native Community","Akiachak","3915","2350","0.6","9778","5833","0.6","40857","24524","0.6","pce",NA
-"3","Akiak City Council","Akiak","3208","2021","0.63","31667","19933","0.63","16231","10231","0.63","pce",NA
-"4","Akutan, City of","Akutan","4829","1561","0.32","12563","4063","0.32","6583","2083","0.32","pce",NA
-"5","Alaska Electric Light & Power Company","Juneau","10225","1220","0.12","59697","5914","0.1","1352191","127585","0.09","eia",NA
-"6","Alaska Power & Telephone Company","Allakaket, Alatna","3028","2931","0.96","11438","11063","0.96","14500","14000","0.96","pce",NA
-"7","Alaska Power & Telephone Company","Bettles, Evansville","4133","3100","0.75","6545","4818","0.75","16000","11952","0.75","pce",NA
-"8","Alaska Power & Telephone Company","Chistochina","3735","2612","0.7","8133","5667","0.7","13000","9000","0.7","pce",NA
-"9","Alaska Power & Telephone Company","Coffman Cove","3705","1089","0.28999999999999998","4030","1182","0.28999999999999998","9615","2846","0.28999999999999998","pce",NA
-"10","Alaska Power & Telephone Company","Craig","5765","1435","0.25","18724","4660","0.25","30197","7521","0.25","pce",NA
-"11","Alaska Power & Telephone Company","Dot Lake, Dot Lake Village","4462","2154","0.48","7923","3846","0.48","21500","10333","0.48","pce",NA
-"12","Alaska Power & Telephone Company","Eagle, Eagle Village","2778","1844","0.66","6778","4500","0.66","8087","5348","0.66","pce",NA
-"13","Alaska Power & Telephone Company","Haines, Covenant Life","5243","1239","0.24","14429","3411","0.24","41615","9846","0.24","pce",NA
-"14","Alaska Power & Telephone Company","Healy Lake","3833","3667","0.93","8000","7500","0.93","0","0","0.93","pce",NA
-"15","Alaska Power & Telephone Company","Hollis","4863","1205","0.25","18800","4667","0.25","6250","1625","0.25","pce",NA
-"16","Alaska Power & Telephone Company","Hydaburg","5623","1402","0.25","6974","1737","0.25","21625","5375","0.25","pce",NA
-"17","Alaska Power & Telephone Company","Klawock","6196","1541","0.25","44241","11009","0.25","29314","7286","0.25","pce",NA
-"18","Alaska Power & Telephone Company","Mentasta Lake","3057","2151","0.7","11889","8222","0.7","12500","8750","0.7","pce",NA
-"19","Alaska Power & Telephone Company","Naukati Bay","4542","2627","0.57999999999999996","8429","4857","0.57999999999999996","0","0","0.57999999999999996","pce",NA
-"20","Alaska Power & Telephone Company","Northway, Northway Village, Northway Junction","4250","2864","0.68","22810","15381","0.68","17684","11947","0.68","pce",NA
-"21","Alaska Power & Telephone Company","Skagway","5180","1227","0.24","15735","3726","0.24","23278","5511","0.24","pce",NA
-"22","Alaska Power & Telephone Company","Slana","3795","2654","0.7","6818","4727","0.7","20286","14143","0.7","pce",NA
-"23","Alaska Power & Telephone Company","Tetlin","3930","1884","0.48","3600","1800","0.48","25500","12167","0.48","pce",NA
-"24","Alaska Power & Telephone Company","Thorne Bay, Kasaan","4801","1192","0.25","10019","2486","0.25","16774","4170","0.25","pce",NA
-"25","Alaska Power & Telephone Company","Tok, Tanacross","5374","2560","0.48","17074","8136","0.48","31500","15000","0.48","pce",NA
-"26","Alaska Power & Telephone Company","Whale Pass","2790","1758","0.63","8375","5250","0.63","6000","3750","0.63","pce",NA
-"27","Alaska Village Electric Cooperative","Alakanuk","4913","3100","0.63","16684","10526","0.63","44474","28053","0.63","pce",NA
-"28","Alaska Village Electric Cooperative","Ambler","5106","3435","0.67","13182","8818","0.67","36421","24526","0.67","pce",NA
-"29","Alaska Village Electric Cooperative","Anvik","3854","2512","0.65","9125","5875","0.65","8700","5650","0.65","pce",NA
-"30","Alaska Village Electric Cooperative","Brevig Mission","5423","2969","0.55000000000000004","17889","9778","0.55000000000000004","27706","15176","0.55000000000000004","pce",NA
-"31","Alaska Village Electric Cooperative","Chevak","5177","2675","0.52","23471","12118","0.52","42375","21875","0.52","pce",NA
-"32","Alaska Village Electric Cooperative","Eek","3398","2330","0.69","12583","8667","0.69","17294","11824","0.69","pce",NA
-"33","Alaska Village Electric Cooperative","Ekwok","4721","3465","0.74","9708","7167","0.74","3625","2625","0.74","pce",NA
-"34","Alaska Village Electric Cooperative","Elim","4918","2898","0.59","20900","12300","0.59","20455","12045","0.59","pce",NA
-"35","Alaska Village Electric Cooperative","Emmonak","5132","3023","0.59","25564","15077","0.59","39345","23172","0.59","pce",NA
-"36","Alaska Village Electric Cooperative","Gambell","4503","2526","0.56000000000000005","22600","12667","0.56000000000000005","34619","19429","0.56000000000000005","pce",NA
-"37","Alaska Village Electric Cooperative","Goodnews Bay","4869","3083","0.63","21250","13500","0.63","14800","9400","0.63","pce",NA
-"38","Alaska Village Electric Cooperative","Grayling","3548","2274","0.64","15250","9750","0.64","14643","9357","0.64","pce",NA
-"39","Alaska Village Electric Cooperative","Holy Cross","3988","2363","0.59","8000","4714","0.59","15063","8938","0.59","pce",NA
-"40","Alaska Village Electric Cooperative","Hooper Bay","4630","2786","0.6","29889","18000","0.6","51500","30964","0.6","pce",NA
-"41","Alaska Village Electric Cooperative","Huslia","5500","3260","0.59","4182","2455","0.59","18762","11095","0.59","pce",NA
-"42","Alaska Village Electric Cooperative","Kalskag","4884","3130","0.64","9409","6045","0.64","35111","22444","0.64","pce",NA
-"43","Alaska Village Electric Cooperative","Kaltag","3920","2227","0.56999999999999995","7214","4071","0.56999999999999995","17000","9684","0.56999999999999995","pce",NA
-"44","Alaska Village Electric Cooperative","Kasigluk","5761","3325","0.57999999999999996","20300","11750","0.57999999999999996","36647","21176","0.57999999999999996","pce",NA
-"45","Alaska Village Electric Cooperative","Kiana","5175","3483","0.67","17545","11818","0.67","33105","22263","0.67","pce",NA
-"46","Alaska Village Electric Cooperative","Kivalina","5733","3837","0.67","21444","14333","0.67","28941","19353","0.67","pce",NA
-"47","Alaska Village Electric Cooperative","Kotlik","5803","3752","0.65","28071","18143","0.65","39684","25684","0.65","pce",NA
-"48","Alaska Village Electric Cooperative","Koyuk","5820","3494","0.6","15200","9133","0.6","23565","14130","0.6","pce",NA
-"49","Alaska Village Electric Cooperative","Lower Kalskag","3417","2190","0.64","15750","10000","0.64","16778","10667","0.64","pce",NA
-"50","Alaska Village Electric Cooperative","Marshall","5414","3144","0.57999999999999996","16714","9714","0.57999999999999996","28500","16538","0.57999999999999996","pce",NA
-"51","Alaska Village Electric Cooperative","Mekoryuk","3359","1826","0.54","12231","6615","0.54","20905","11333","0.54","pce",NA
-"52","Alaska Village Electric Cooperative","Minto","4054","2568","0.63","8333","5333","0.63","19769","12538","0.63","pce",NA
-"53","Alaska Village Electric Cooperative","Mountain Village","5633","3444","0.61","29000","17706","0.61","40571","24821","0.61","pce",NA
-"54","Alaska Village Electric Cooperative","New Stuyahok","5645","3564","0.63","10037","6333","0.63","27889","17611","0.63","pce",NA
-"55","Alaska Village Electric Cooperative","Nightmute","5291","3036","0.56999999999999995","10250","5917","0.56999999999999995","13400","7733","0.56999999999999995","pce",NA
-"56","Alaska Village Electric Cooperative","Noatak","6829","5545","0.81","23000","18700","0.81","50786","41214","0.81","pce",NA
-"57","Alaska Village Electric Cooperative","Noorvik","6019","3903","0.65","15636","10091","0.65","42700","27650","0.65","pce",NA
-"58","Alaska Village Electric Cooperative","Nulato","4241","2616","0.62","5667","3556","0.62","17963","11074","0.62","pce",NA
-"59","Alaska Village Electric Cooperative","Nunapitchuk","4888","2821","0.57999999999999996","10650","6150","0.57999999999999996","21875","12625","0.57999999999999996","pce",NA
-"60","Alaska Village Electric Cooperative","Old Harbor","4072","2536","0.62","10571","6571","0.62","17529","10941","0.62","pce",NA
-"61","Alaska Village Electric Cooperative","Pilot Station","5540","3353","0.6","25100","15200","0.6","35650","21600","0.6","pce",NA
-"62","Alaska Village Electric Cooperative","Pitkas Point","4467","2600","0.57999999999999996","4800","2800","0.57999999999999996","24857","14571","0.57999999999999996","pce",NA
-"63","Alaska Village Electric Cooperative","Quinhagak","4949","2705","0.55000000000000004","22300","12200","0.55000000000000004","29647","16176","0.55000000000000004","pce",NA
-"64","Alaska Village Electric Cooperative","Russian Mission","5386","3271","0.61","8273","5000","0.61","37071","22429","0.61","pce",NA
-"65","Alaska Village Electric Cooperative","Saint Mary's, Andreafsky","4877","2850","0.57999999999999996","22743","13286","0.57999999999999996","42148","24630","0.57999999999999996","pce",NA
-"66","Alaska Village Electric Cooperative","Saint Michael","6745","4284","0.64","32000","20385","0.64","35667","22667","0.64","pce",NA
-"67","Alaska Village Electric Cooperative","Savoonga","5247","2819","0.54","20824","11235","0.54","39273","21136","0.54","pce",NA
-"68","Alaska Village Electric Cooperative","Scammon Bay","4780","3171","0.66","9381","6238","0.66","37333","24762","0.66","pce",NA
-"69","Alaska Village Electric Cooperative","Selawik","6010","3881","0.65","17217","11130","0.65","44314","28600","0.65","pce",NA
-"70","Alaska Village Electric Cooperative","Shageluk","2973","1946","0.66","16333","10667","0.66","11909","7818","0.66","pce",NA
-"71","Alaska Village Electric Cooperative","Shaktoolik","6691","3985","0.6","24900","14800","0.6","14375","8563","0.6","pce",NA
-"72","Alaska Village Electric Cooperative","Shishmaref","5041","3088","0.61","20211","12368","0.61","19292","11833","0.61","pce",NA
-"73","Alaska Village Electric Cooperative","Shungnak","6770","6016","0.89","31429","27929","0.89","30077","26692","0.89","pce",NA
-"74","Alaska Village Electric Cooperative","Stebbins","4359","2683","0.61","19000","11692","0.61","27500","16889","0.61","pce",NA
-"75","Alaska Village Electric Cooperative","Teller","3580","2395","0.67","12545","8455","0.67","18263","12263","0.67","pce",NA
-"76","Alaska Village Electric Cooperative","Togiak","5046","3131","0.62","28111","17444","0.62","27419","17000","0.62","pce",NA
-"77","Alaska Village Electric Cooperative","Toksook Bay","5331","3059","0.56999999999999995","17867","10267","0.56999999999999995","26609","15261","0.56999999999999995","pce",NA
-"78","Alaska Village Electric Cooperative","Tununak","4902","2815","0.56999999999999995","15091","8636","0.56999999999999995","18800","10800","0.56999999999999995","pce",NA
-"79","Alaska Village Electric Cooperative","Wales","4471","3137","0.7","10727","7545","0.7","17667","12417","0.7","pce",NA
-"80","Alutiiq Power Company","Karluk","7786","5071","0.65","10300","6700","0.65","0","0","0.65","pce",NA
-"81","Anchorage Municipal Light & Power","Anchorage","6005","705","0.12","151312","13283","0.09",NA,NA,NA,"eia",NA
-"82","Aniak Light & Power","Aniak","5672","4317","0.76","29037","22111","0.76","53667","40778","0.76","pce",NA
-"83","Atka, City of","Atka","5467","4167","0.76","14714","11143","0.76","4773","3636","0.76","pce",NA
-"84","Atmautluak Tribal Utilities","Atmautluak","4123","3301","0.8","25429","20286","0.8","4900","3900","0.8","pce",NA
-"85","Barrow Utilities & Electric Cooperative Inc.","Barrow","7825","927","0.12","95172","9823","0.1",NA,NA,NA,"eia",NA
-"86","Beaver Joint Utilities","Beaver","2974","2538","0.86","11000","9429","0.86","10250","8750","0.86","pce",NA
-"87","Bethel Utilities Corporation","Bethel, Oscarville","6389","3585","0.56000000000000005","29723","15833","0.53",NA,NA,NA,"eia",NA
-"88","Buckland, City of","Buckland","6692","3176","0.47","46941","22294","0.47","0","0","0.47","pce",NA
-"89","Chalkyitsik Village Council","Chalkyitsik","1190","1143","0.95","8833","8500","0.95","17000","16167","0.95","pce",NA
-"90","Chenega Ira Council","Chenega Bay","4400","2320","0.53","10273","5364","0.53","5778","3000","0.53","pce",NA
-"91","Chignik, City of","Chignik","3895","2000","0.51","17645","9000","0.51","10909","5545","0.51","pce",NA
-"92","Chignik Lagoon Power Utility","Chignik Lagoon","4463","3352","0.75","17375","13000","0.75","6778","5111","0.75","pce",NA
-"93","Chignik Lake Electric Utility","Chignik Lake","3737","3211","0.86","29000","25000","0.86","11273","9636","0.86","pce",NA
-"94","Chitina Electric Inc","Chitina","3288","2192","0.67","9231","6154","0.67","12667","8500","0.67","pce",NA
-"95","Chugach Electric Assn Inc","Anchorage","7910","1095","0.14000000000000001","62395","7320","0.12","7829142","843143","0.11","eia","In addition to Anchorage, CEA serves eight communities."
-"96","Circle Electric Utility","Circle","3737","2974","0.79","10444","8222","0.79","24000","19000","0.79","pce",NA
-"97","Copper Valley Elec Assn Inc","Valdez","5872","1765","0.3","82505","22151","0.27",NA,NA,NA,"eia","In addition to Valdez, the CVEA service area includes 14 communities."
-"98","Cordova Electric Cooperative","Cordova, Eyak","5379","2268","0.42","20177","6917","0.34","1600800","380400","0.24","eia",NA
-"99","Diomede Joint Utilities","Diomede","3867","2311","0.6","24333","14583","0.6","6667","4000","0.6","pce",NA
-"100","Egegik Light & Power Co","Egegik","3651","3140","0.86","18286","15714","0.86","7550","6500","0.86","pce",NA
-"101","Elfin Cove Utility Commission","Elfin Cove","1907","1488","0.78","5241","4069","0.78","1714","1286","0.78","pce",NA
-"102","False Pass, City of","False Pass","3520","1480","0.42","24385","10231","0.42","6923","2923","0.42","pce",NA
-"103","Galena, City of","Galena","4558","2767","0.61","18966","11513","0.61","28860","17520","0.61","pce",NA
-"104","G & K Inc","Cold Bay","6308","4513","0.72","42250","30208","0.72","25321","18125","0.72","pce",NA
-"105","Gold Country Energy","Central","2007","1547","0.77","8429","6429","0.77","15714","12143","0.77","pce",NA
-"106","Golden Valley Elec Assn Inc","Fairbanks","7932","1921","0.24","21665","4895","0.23","1724840","324339","0.19","eia","In addition to Fairbanks, the GVEA service are includes 25 communities."
-"107","Golovin Power Utilities","Golovin","4537","2722","0.6","12185","7296","0.6","10929","6571","0.6","pce",NA
-"108","Gustavus Electric Co","Gustavus","2139","944","0.44","4901","2165","0.44","10467","4600","0.44","pce",NA
-"109","Gwitchyaa Zhee Utilities Company","Fort Yukon","4333","2809","0.65","14929","9686","0.65","18194","11806","0.65","pce",NA
-"110","Homer Electric Assn Inc","Homer","6979","1414","0.2","46408","8163","0.18","5525043","482348","0.09","eia","In addition to Homer, HEA serves 24 communities."
-"111","Hughes Power & Light","Hughes","4486","3189","0.71","8750","6125","0.71","19000","13400","0.71","pce",NA
-"112","Igiugig Electric Company","Igiugig","3692","3000","0.81","9300","7600","0.81","6867","5533","0.81","pce",NA
-"113","I-N-N Electric Coop, Inc","Iliamna, Newhalen, Nondalton","4807","2904","0.6","22190","13393","0.6","23440","14160","0.6","pce",NA
-"114","Inside Passage Electric","Angoon","4660","2954","0.63","18360","11640","0.63","19133","12133","0.63","pce",NA
-"115","Inside Passage Electric","Chilkat Valley","3320","2099","0.63","16160","10200","0.63","2533","1600","0.63","pce",NA
-"116","Inside Passage Electric","Hoonah","4863","3085","0.63","29847","18932","0.63","17698","11233","0.63","pce",NA
-"117","Inside Passage Electric","Kake","4726","2996","0.63","26660","16900","0.63","14238","9048","0.63","pce",NA
-"118","Inside Passage Electric","Klukwan","4413","2804","0.63","11000","7000","0.63","0","0","0.63","pce",NA
-"119","Ipnatchiaq Electric Company","Deering","5350","3775","0.7","39000","27429","0.7","13167","9250","0.7","pce",NA
-"120","Ketchikan Public Utilities","Ketchikan, Petersburg, Wrangell","11836","1205","0.1","59726","5809","0.1","1881000","157454","0.08","eia",NA
-"121","King Cove, City of","King Cove","7692","2308","0.3","9086","2727","0.3","35667","10697","0.3","pce",NA
-"122","Kipnuk Light Plant","Kipnuk","4951","2809","0.56999999999999995","10069","5724","0.56999999999999995","16429","9357","0.56999999999999995","pce",NA
-"123","Kobuk Valley Electric Company","Kobuk","5243","4486","0.86","18400","15800","0.86","25286","21714","0.86","pce",NA
-"124","Kodiak Electric Assn Inc","Kodiak","7511","1392","0.19","21425","3850","0.18","853333","144804","0.17","eia","The KEA service area also includes: Port Lions, Chiniak, Womens Bay and Woody Island."
-"125","Kokhanok Village Council","Kokhanok","3481","3148","0.9","7625","6875","0.9","11286","10143","0.9","pce",NA
-"126","Kotzebue Electric Association","Kotzebue","7536","3246","0.43","99224","42738","0.43","31409","13527","0.43","pce",NA
-"127","Koyukuk, City of","Koyukuk","1690","1603","0.95","14000","13400","0.95","10700","10200","0.95","pce",NA
-"128","Kwethluk Incorporated d/b/a Kuiggluum Kallugvia","Kwethluk","3893","2023","0.52","21625","11250","0.52","9111","4778","0.52","pce",NA
-"129","Kwigillingok Power Company","Kwigillingok","5367","3278","0.61","33000","20083","0.61","6875","4188","0.61","pce",NA
-"130","Larsen Bay Utility Company","Larsen Bay","3431","1510","0.44","8788","3879","0.44","16700","7300","0.44","pce",NA
-"131","Levelock Electrical Coop","Levelock","4257","2971","0.7","10583","7417","0.7","5308","3692","0.7","pce",NA
-"132","Lime Village Electric Utility","Lime Village","1118","1941","1.7","19000","32000","1.7","2571","4429","1.7","pce",NA
-"133","Manokotak Power Company","Manokotak","3800","2090","0.55000000000000004","8048","4429","0.55000000000000004","22667","12458","0.55000000000000004","pce",NA
-"134","Matanuska Electric Association","Palmer, Wasilla","8491","1293","0.15","72243","9215","0.13",NA,NA,NA,"eia","MEA services 29 communities including Palmer and Wasilla."
-"135","Mcgrath Light & Power","McGrath","3962","2330","0.59","15000","8814","0.59","18154","10673","0.59","pce",NA
-"136","Middle Kuskokwim Electric","Chuathbaluk","3114","3543","1.1399999999999999","21800","24800","1.1399999999999999","5300","6000","1.1399999999999999","pce",NA
-"137","Middle Kuskokwim Electric","Crooked Creek","3219","3750","1.1599999999999999","9625","11125","1.1599999999999999","7000","8125","1.1599999999999999","pce",NA
-"138","Middle Kuskokwim Electric","Red Devil","3588","4118","1.1499999999999999","5333","6000","1.1499999999999999","1750","2000","1.1499999999999999","pce",NA
-"139","Middle Kuskokwim Electric","Sleetmute","3333","3879","1.1599999999999999","8286","9714","1.1599999999999999","9500","11000","1.1599999999999999","pce",NA
-"140","Middle Kuskokwim Electric","Stony River","2375","2750","1.1599999999999999","8167","9500","1.1599999999999999","6500","7500","1.1599999999999999","pce",NA
-"141","Naknek Electric Association","Naknek, South Naknek, King Salmon","4003","2223","0.56000000000000005","41490","23042","0.56000000000000005","34380","19093","0.56000000000000005","pce",NA
-"142","Napakiak Ircinraq","Napakiak","3436","2851","0.83","13938","11563","0.83","6300","5200","0.83","pce",NA
-"143","Napaskiak Electric Utility","Napaskiak","3879","2710","0.7","25714","18000","0.7","6231","4308","0.7","pce",NA
-"144","Naterkaq Light Plant (City of Chefornak)","Chefornak","4525","3141","0.69","22100","15300","0.69","17875","12375","0.69","pce",NA
-"145","Native Village of Perryville","Perryville","2563","2438","0.95","16111","15333","0.95","12889","12222","0.95","pce",NA
-"146","Nelson Lagoon Electrical Coop","Nelson Lagoon","4194","3516","0.84","7526","6316","0.84","7333","6111","0.84","pce",NA
-"147","New Koliganek Village Council","Koliganek","3686","1843","0.5","10000","5000","0.5","12870","6435","0.5","pce",NA
-"148","Nikolai, City of","Nikolai","4421","3816","0.87","12500","10833","0.87","9538","8308","0.87","pce",NA
-"149","Nome Joint Utility Systems","Nome","5739","2094","0.36","58617","21390","0.36","54715","19967","0.36","pce",NA
-"150","North Slope Borough Power & Light","Anaktuvuk Pass","7149","1074","0.15","49443","7410","0.15","15400","2400","0.15","pce",NA
-"151","North Slope Borough Power & Light","Atqasuk","10407","1559","0.15","51418","7709","0.15","19250","3000","0.15","pce",NA
-"152","North Slope Borough Power & Light","Kaktovik","9077","1359","0.15","84306","12653","0.15","89000","13300","0.15","pce",NA
-"153","North Slope Borough Power & Light","Nuiqsut","8829","705","0.08","69308","5538","0.08","23167","1833","0.08","pce",NA
-"154","North Slope Borough Power & Light","Point Hope","9044","1355","0.15","44461","6671","0.15","24625","3750","0.15","pce",NA
-"155","North Slope Borough Power & Light","Point Lay","7930","1193","0.15","60000","9000","0.15","34333","5000","0.15","pce",NA
-"156","North Slope Borough Power & Light","Wainwright","8549","1282","0.15","57901","8690","0.15","22667","3333","0.15","pce",NA
-"157","Nunam Iqua Electric Company","Nunam Iqua","4625","2450","0.53","82200","43600","0.53","28375","15000","0.53","pce",NA
-"158","Nushagak Electric Cooperative","Dillingham, Aleknagik","5768","2662","0.46","27771","12817","0.46","18378","8480","0.46","pce",NA
-"159","Ouzinkie, City of","Ouzinkie","4130","1831","0.44","22636","10091","0.44","13900","6200","0.44","pce",NA
-"160","Pedro Bay Village Council","Pedro Bay","3000","2750","0.91","8400","7600","0.91","6200","5600","0.91","pce",NA
-"161","Pelican Utility","Pelican","4742","3288","0.69","18400","12800","0.69","8931","6172","0.69","pce",NA
-"162","Petersburg, City of","Petersburg","15364","1485","0.1","12641","1437","0.11","510384","56631","0.11","eia",NA
-"163","Pilot Point Electric Utility","Pilot Point","4514","2243","0.5","8867","4400","0.5","7929","3929","0.5","pce",NA
-"164","Port Heiden Utilities","Port Heiden","4255","3196","0.75","6571","4952","0.75","21286","15929","0.75","pce",NA
-"165","Puvurnaq Power Company","Kongiganak","5420","3530","0.65","15111","9833","0.65","11444","7444","0.65","pce",NA
-"166","Ruby, City of","Ruby","1985","1664","0.84","21071","17714","0.84","5455","4591","0.84","pce",NA
-"167","Saint George, City of","Saint George","4381","3762","0.86","8467","7267","0.86","14381","12381","0.86","pce",NA
-"168","Saint Paul Municipal Electric","Saint Paul","5564","3054","0.55000000000000004","43061","23636","0.55000000000000004","35021","19229","0.55000000000000004","pce",NA
-"169","Seward, City of","Seward","7988","1620","0.2","17198","3716","0.22","266658","46254","0.17","eia","The City of Seward services the communities of Crown Point, Primrose, Bear Creek and Lowell Point."
-"170","Sitka, City & Borough of","Sitka","13055","1246","0.1","36087","3476","0.1","331200","31733","0.1","eia",NA
-"171","Takotna Community Assoc Inc","Takotna","3100","3150","1.02","5500","5700","1.02","6778","6889","1.02","pce",NA
-"172","Tanalian Electric Cooperative","Port Alsworth","4239","2925","0.69","10212","7061","0.69","0","0","0.69","pce",NA
-"173","Tanana Power Company Inc","Tanana","3132","2368","0.76","12355","9323","0.76","20111","15222","0.76","pce",NA
-"174","Tatitlek Village Ira Council","Tatitlek","2830","2170","0.77","6500","5000","0.77","15909","12182","0.77","pce",NA
-"175","TDX Adak Generating LLC","Adak","3384","3659","1.08","25119","27186","1.08","26519","28704","1.08","pce",NA
-"176","TDX Corporation","Sand Point","5344","3590","0.67","11157","7503","0.67","16239","10913","0.67","pce",NA
-"177","TDX Manley Generating LLC","Manley Hot Springs","2414","2172","0.9","12400","11200","0.9","6250","5500","0.9","pce",NA
-"178","Tenakee Springs, City of","Tenakee Springs","1921","1444","0.75","2515","1879","0.75","2571","1929","0.75","pce",NA
-"179","Tuluksak Traditional","Tuluksak","3298","1976","0.6","15400","9300","0.6","9500","5750","0.6","pce",NA
-"180","Tuntutuliak Community","Tuntutuliak","4768","3095","0.65","18227","11818","0.65","6154","4000","0.65","pce",NA
-"181","Twin Hills Village Council","Twin Hills","3786","2107","0.55000000000000004","16000","8750","0.55000000000000004","7125","4000","0.55000000000000004","pce",NA
-"182","Umnak Power Company","Nikolski","3867","2333","0.6","9200","5500","0.6","9429","5714","0.6","pce",NA
-"183","Unalakleet Valley Electric Cooperative","Unalakleet","5316","2200","0.41","41659","17227","0.41","25333","10467","0.41","pce",NA
-"184","Unalaska, City of","Dutch Harbor, Unalaska","5844","2912","0.5","46210","20274","0.44","1689000","660750","0.39","eia",NA
-"185","Unalaska, City of","Unalaska","5807","2882","0.5","189355","93956","0.5","47413","23520","0.5","pce",NA
-"186","Ungusraq Power Company","Newtok","4061","3242","0.8","7688","6125","0.8","7500","6000","0.8","pce",NA
-"187","White Mountain, City of","White Mountain","4016","2492","0.62","15350","9500","0.62","11538","7154","0.62","pce",NA
-"188","Wrangell, City of","Wrangell","13053","1371","0.11","25602","2740","0.11",NA,NA,NA,"eia",NA
-"189","Yakutat Power Inc","Yakutat","5007","2666","0.53","34169","18202","0.53","19500","10383","0.53","pce",NA
+"Utility Name","Community Name","Residential kWh Use Per Customer","Residential Revenue Per Customer","Residential $/kWh","Commercial kWh Use Per Customer","Commercial Revenue Per Customer","Commercial $/kWh","Other kWh Use Per Customer","Other Revenue Per Customer","Other $/kWh","source","Notes"
+"Akiachak Native Community","Akiachak","3915","2350","0.6","9778","5833","0.6","40857","24524","0.6","pce",NA
+"Akiak City Council","Akiak","3208","2021","0.63","31667","19933","0.63","16231","10231","0.63","pce",NA
+"Akutan, City of","Akutan","4829","1561","0.32","12563","4063","0.32","6583","2083","0.32","pce",NA
+"Alaska Electric Light & Power Company","Juneau","10225","1220","0.12","59697","5914","0.1","1352191","127585","0.09","eia",NA
+"Alaska Power & Telephone Company","Allakaket, Alatna","3028","2931","0.96","11438","11063","0.96","14500","14000","0.96","pce",NA
+"Alaska Power & Telephone Company","Bettles, Evansville","4133","3100","0.75","6545","4818","0.75","16000","11952","0.75","pce",NA
+"Alaska Power & Telephone Company","Chistochina","3735","2612","0.7","8133","5667","0.7","13000","9000","0.7","pce",NA
+"Alaska Power & Telephone Company","Coffman Cove","3705","1089","0.28999999999999998","4030","1182","0.28999999999999998","9615","2846","0.28999999999999998","pce",NA
+"Alaska Power & Telephone Company","Craig","5765","1435","0.25","18724","4660","0.25","30197","7521","0.25","pce",NA
+"Alaska Power & Telephone Company","Dot Lake, Dot Lake Village","4462","2154","0.48","7923","3846","0.48","21500","10333","0.48","pce",NA
+"Alaska Power & Telephone Company","Eagle, Eagle Village","2778","1844","0.66","6778","4500","0.66","8087","5348","0.66","pce",NA
+"Alaska Power & Telephone Company","Haines, Covenant Life","5243","1239","0.24","14429","3411","0.24","41615","9846","0.24","pce",NA
+"Alaska Power & Telephone Company","Healy Lake","3833","3667","0.93","8000","7500","0.93","0","0","0.93","pce",NA
+"Alaska Power & Telephone Company","Hollis","4863","1205","0.25","18800","4667","0.25","6250","1625","0.25","pce",NA
+"Alaska Power & Telephone Company","Hydaburg","5623","1402","0.25","6974","1737","0.25","21625","5375","0.25","pce",NA
+"Alaska Power & Telephone Company","Klawock","6196","1541","0.25","44241","11009","0.25","29314","7286","0.25","pce",NA
+"Alaska Power & Telephone Company","Mentasta Lake","3057","2151","0.7","11889","8222","0.7","12500","8750","0.7","pce",NA
+"Alaska Power & Telephone Company","Naukati Bay","4542","2627","0.57999999999999996","8429","4857","0.57999999999999996","0","0","0.57999999999999996","pce",NA
+"Alaska Power & Telephone Company","Northway, Northway Village, Northway Junction","4250","2864","0.68","22810","15381","0.68","17684","11947","0.68","pce",NA
+"Alaska Power & Telephone Company","Skagway","5180","1227","0.24","15735","3726","0.24","23278","5511","0.24","pce",NA
+"Alaska Power & Telephone Company","Slana","3795","2654","0.7","6818","4727","0.7","20286","14143","0.7","pce",NA
+"Alaska Power & Telephone Company","Tetlin","3930","1884","0.48","3600","1800","0.48","25500","12167","0.48","pce",NA
+"Alaska Power & Telephone Company","Thorne Bay, Kasaan","4801","1192","0.25","10019","2486","0.25","16774","4170","0.25","pce",NA
+"Alaska Power & Telephone Company","Tok, Tanacross","5374","2560","0.48","17074","8136","0.48","31500","15000","0.48","pce",NA
+"Alaska Power & Telephone Company","Whale Pass","2790","1758","0.63","8375","5250","0.63","6000","3750","0.63","pce",NA
+"Alaska Village Electric Cooperative","Alakanuk","4913","3100","0.63","16684","10526","0.63","44474","28053","0.63","pce",NA
+"Alaska Village Electric Cooperative","Ambler","5106","3435","0.67","13182","8818","0.67","36421","24526","0.67","pce",NA
+"Alaska Village Electric Cooperative","Anvik","3854","2512","0.65","9125","5875","0.65","8700","5650","0.65","pce",NA
+"Alaska Village Electric Cooperative","Brevig Mission","5423","2969","0.55000000000000004","17889","9778","0.55000000000000004","27706","15176","0.55000000000000004","pce",NA
+"Alaska Village Electric Cooperative","Chevak","5177","2675","0.52","23471","12118","0.52","42375","21875","0.52","pce",NA
+"Alaska Village Electric Cooperative","Eek","3398","2330","0.69","12583","8667","0.69","17294","11824","0.69","pce",NA
+"Alaska Village Electric Cooperative","Ekwok","4721","3465","0.74","9708","7167","0.74","3625","2625","0.74","pce",NA
+"Alaska Village Electric Cooperative","Elim","4918","2898","0.59","20900","12300","0.59","20455","12045","0.59","pce",NA
+"Alaska Village Electric Cooperative","Emmonak","5132","3023","0.59","25564","15077","0.59","39345","23172","0.59","pce",NA
+"Alaska Village Electric Cooperative","Gambell","4503","2526","0.56000000000000005","22600","12667","0.56000000000000005","34619","19429","0.56000000000000005","pce",NA
+"Alaska Village Electric Cooperative","Goodnews Bay","4869","3083","0.63","21250","13500","0.63","14800","9400","0.63","pce",NA
+"Alaska Village Electric Cooperative","Grayling","3548","2274","0.64","15250","9750","0.64","14643","9357","0.64","pce",NA
+"Alaska Village Electric Cooperative","Holy Cross","3988","2363","0.59","8000","4714","0.59","15063","8938","0.59","pce",NA
+"Alaska Village Electric Cooperative","Hooper Bay","4630","2786","0.6","29889","18000","0.6","51500","30964","0.6","pce",NA
+"Alaska Village Electric Cooperative","Huslia","5500","3260","0.59","4182","2455","0.59","18762","11095","0.59","pce",NA
+"Alaska Village Electric Cooperative","Kalskag","4884","3130","0.64","9409","6045","0.64","35111","22444","0.64","pce",NA
+"Alaska Village Electric Cooperative","Kaltag","3920","2227","0.56999999999999995","7214","4071","0.56999999999999995","17000","9684","0.56999999999999995","pce",NA
+"Alaska Village Electric Cooperative","Kasigluk","5761","3325","0.57999999999999996","20300","11750","0.57999999999999996","36647","21176","0.57999999999999996","pce",NA
+"Alaska Village Electric Cooperative","Kiana","5175","3483","0.67","17545","11818","0.67","33105","22263","0.67","pce",NA
+"Alaska Village Electric Cooperative","Kivalina","5733","3837","0.67","21444","14333","0.67","28941","19353","0.67","pce",NA
+"Alaska Village Electric Cooperative","Kotlik","5803","3752","0.65","28071","18143","0.65","39684","25684","0.65","pce",NA
+"Alaska Village Electric Cooperative","Koyuk","5820","3494","0.6","15200","9133","0.6","23565","14130","0.6","pce",NA
+"Alaska Village Electric Cooperative","Lower Kalskag","3417","2190","0.64","15750","10000","0.64","16778","10667","0.64","pce",NA
+"Alaska Village Electric Cooperative","Marshall","5414","3144","0.57999999999999996","16714","9714","0.57999999999999996","28500","16538","0.57999999999999996","pce",NA
+"Alaska Village Electric Cooperative","Mekoryuk","3359","1826","0.54","12231","6615","0.54","20905","11333","0.54","pce",NA
+"Alaska Village Electric Cooperative","Minto","4054","2568","0.63","8333","5333","0.63","19769","12538","0.63","pce",NA
+"Alaska Village Electric Cooperative","Mountain Village","5633","3444","0.61","29000","17706","0.61","40571","24821","0.61","pce",NA
+"Alaska Village Electric Cooperative","New Stuyahok","5645","3564","0.63","10037","6333","0.63","27889","17611","0.63","pce",NA
+"Alaska Village Electric Cooperative","Nightmute","5291","3036","0.56999999999999995","10250","5917","0.56999999999999995","13400","7733","0.56999999999999995","pce",NA
+"Alaska Village Electric Cooperative","Noatak","6829","5545","0.81","23000","18700","0.81","50786","41214","0.81","pce",NA
+"Alaska Village Electric Cooperative","Noorvik","6019","3903","0.65","15636","10091","0.65","42700","27650","0.65","pce",NA
+"Alaska Village Electric Cooperative","Nulato","4241","2616","0.62","5667","3556","0.62","17963","11074","0.62","pce",NA
+"Alaska Village Electric Cooperative","Nunapitchuk","4888","2821","0.57999999999999996","10650","6150","0.57999999999999996","21875","12625","0.57999999999999996","pce",NA
+"Alaska Village Electric Cooperative","Old Harbor","4072","2536","0.62","10571","6571","0.62","17529","10941","0.62","pce",NA
+"Alaska Village Electric Cooperative","Pilot Station","5540","3353","0.6","25100","15200","0.6","35650","21600","0.6","pce",NA
+"Alaska Village Electric Cooperative","Pitkas Point","4467","2600","0.57999999999999996","4800","2800","0.57999999999999996","24857","14571","0.57999999999999996","pce",NA
+"Alaska Village Electric Cooperative","Quinhagak","4949","2705","0.55000000000000004","22300","12200","0.55000000000000004","29647","16176","0.55000000000000004","pce",NA
+"Alaska Village Electric Cooperative","Russian Mission","5386","3271","0.61","8273","5000","0.61","37071","22429","0.61","pce",NA
+"Alaska Village Electric Cooperative","Saint Mary's, Andreafsky","4877","2850","0.57999999999999996","22743","13286","0.57999999999999996","42148","24630","0.57999999999999996","pce",NA
+"Alaska Village Electric Cooperative","Saint Michael","6745","4284","0.64","32000","20385","0.64","35667","22667","0.64","pce",NA
+"Alaska Village Electric Cooperative","Savoonga","5247","2819","0.54","20824","11235","0.54","39273","21136","0.54","pce",NA
+"Alaska Village Electric Cooperative","Scammon Bay","4780","3171","0.66","9381","6238","0.66","37333","24762","0.66","pce",NA
+"Alaska Village Electric Cooperative","Selawik","6010","3881","0.65","17217","11130","0.65","44314","28600","0.65","pce",NA
+"Alaska Village Electric Cooperative","Shageluk","2973","1946","0.66","16333","10667","0.66","11909","7818","0.66","pce",NA
+"Alaska Village Electric Cooperative","Shaktoolik","6691","3985","0.6","24900","14800","0.6","14375","8563","0.6","pce",NA
+"Alaska Village Electric Cooperative","Shishmaref","5041","3088","0.61","20211","12368","0.61","19292","11833","0.61","pce",NA
+"Alaska Village Electric Cooperative","Shungnak","6770","6016","0.89","31429","27929","0.89","30077","26692","0.89","pce",NA
+"Alaska Village Electric Cooperative","Stebbins","4359","2683","0.61","19000","11692","0.61","27500","16889","0.61","pce",NA
+"Alaska Village Electric Cooperative","Teller","3580","2395","0.67","12545","8455","0.67","18263","12263","0.67","pce",NA
+"Alaska Village Electric Cooperative","Togiak","5046","3131","0.62","28111","17444","0.62","27419","17000","0.62","pce",NA
+"Alaska Village Electric Cooperative","Toksook Bay","5331","3059","0.56999999999999995","17867","10267","0.56999999999999995","26609","15261","0.56999999999999995","pce",NA
+"Alaska Village Electric Cooperative","Tununak","4902","2815","0.56999999999999995","15091","8636","0.56999999999999995","18800","10800","0.56999999999999995","pce",NA
+"Alaska Village Electric Cooperative","Wales","4471","3137","0.7","10727","7545","0.7","17667","12417","0.7","pce",NA
+"Alutiiq Power Company","Karluk","7786","5071","0.65","10300","6700","0.65","0","0","0.65","pce",NA
+"Anchorage Municipal Light & Power","Anchorage","6005","705","0.12","151312","13283","0.09",NA,NA,NA,"eia",NA
+"Aniak Light & Power","Aniak","5672","4317","0.76","29037","22111","0.76","53667","40778","0.76","pce",NA
+"Atka, City of","Atka","5467","4167","0.76","14714","11143","0.76","4773","3636","0.76","pce",NA
+"Atmautluak Tribal Utilities","Atmautluak","4123","3301","0.8","25429","20286","0.8","4900","3900","0.8","pce",NA
+"Barrow Utilities & Electric Cooperative Inc.","Barrow","7825","927","0.12","95172","9823","0.1",NA,NA,NA,"eia",NA
+"Beaver Joint Utilities","Beaver","2974","2538","0.86","11000","9429","0.86","10250","8750","0.86","pce",NA
+"Bethel Utilities Corporation","Bethel, Oscarville","6389","3585","0.56000000000000005","29723","15833","0.53",NA,NA,NA,"eia",NA
+"Buckland, City of","Buckland","6692","3176","0.47","46941","22294","0.47","0","0","0.47","pce",NA
+"Chalkyitsik Village Council","Chalkyitsik","1190","1143","0.95","8833","8500","0.95","17000","16167","0.95","pce",NA
+"Chenega Ira Council","Chenega Bay","4400","2320","0.53","10273","5364","0.53","5778","3000","0.53","pce",NA
+"Chignik, City of","Chignik","3895","2000","0.51","17645","9000","0.51","10909","5545","0.51","pce",NA
+"Chignik Lagoon Power Utility","Chignik Lagoon","4463","3352","0.75","17375","13000","0.75","6778","5111","0.75","pce",NA
+"Chignik Lake Electric Utility","Chignik Lake","3737","3211","0.86","29000","25000","0.86","11273","9636","0.86","pce",NA
+"Chitina Electric Inc","Chitina","3288","2192","0.67","9231","6154","0.67","12667","8500","0.67","pce",NA
+"Chugach Electric Assn Inc","Anchorage","7910","1095","0.14000000000000001","62395","7320","0.12","7829142","843143","0.11","eia","In addition to Anchorage, CEA serves eight communities."
+"Circle Electric Utility","Circle","3737","2974","0.79","10444","8222","0.79","24000","19000","0.79","pce",NA
+"Copper Valley Elec Assn Inc","Valdez","5872","1765","0.3","82505","22151","0.27",NA,NA,NA,"eia","In addition to Valdez, the CVEA service area includes 14 communities."
+"Cordova Electric Cooperative","Cordova, Eyak","5379","2268","0.42","20177","6917","0.34","1600800","380400","0.24","eia",NA
+"Diomede Joint Utilities","Diomede","3867","2311","0.6","24333","14583","0.6","6667","4000","0.6","pce",NA
+"Egegik Light & Power Co","Egegik","3651","3140","0.86","18286","15714","0.86","7550","6500","0.86","pce",NA
+"Elfin Cove Utility Commission","Elfin Cove","1907","1488","0.78","5241","4069","0.78","1714","1286","0.78","pce",NA
+"False Pass, City of","False Pass","3520","1480","0.42","24385","10231","0.42","6923","2923","0.42","pce",NA
+"Galena, City of","Galena","4558","2767","0.61","18966","11513","0.61","28860","17520","0.61","pce",NA
+"G & K Inc","Cold Bay","6308","4513","0.72","42250","30208","0.72","25321","18125","0.72","pce",NA
+"Gold Country Energy","Central","2007","1547","0.77","8429","6429","0.77","15714","12143","0.77","pce",NA
+"Golden Valley Elec Assn Inc","Fairbanks","7932","1921","0.24","21665","4895","0.23","1724840","324339","0.19","eia","In addition to Fairbanks, the GVEA service are includes 25 communities."
+"Golovin Power Utilities","Golovin","4537","2722","0.6","12185","7296","0.6","10929","6571","0.6","pce",NA
+"Gustavus Electric Co","Gustavus","2139","944","0.44","4901","2165","0.44","10467","4600","0.44","pce",NA
+"Gwitchyaa Zhee Utilities Company","Fort Yukon","4333","2809","0.65","14929","9686","0.65","18194","11806","0.65","pce",NA
+"Homer Electric Assn Inc","Homer","6979","1414","0.2","46408","8163","0.18","5525043","482348","0.09","eia","In addition to Homer, HEA serves 24 communities."
+"Hughes Power & Light","Hughes","4486","3189","0.71","8750","6125","0.71","19000","13400","0.71","pce",NA
+"Igiugig Electric Company","Igiugig","3692","3000","0.81","9300","7600","0.81","6867","5533","0.81","pce",NA
+"I-N-N Electric Coop, Inc","Iliamna, Newhalen, Nondalton","4807","2904","0.6","22190","13393","0.6","23440","14160","0.6","pce",NA
+"Inside Passage Electric","Angoon","4660","2954","0.63","18360","11640","0.63","19133","12133","0.63","pce",NA
+"Inside Passage Electric","Chilkat Valley","3320","2099","0.63","16160","10200","0.63","2533","1600","0.63","pce",NA
+"Inside Passage Electric","Hoonah","4863","3085","0.63","29847","18932","0.63","17698","11233","0.63","pce",NA
+"Inside Passage Electric","Kake","4726","2996","0.63","26660","16900","0.63","14238","9048","0.63","pce",NA
+"Inside Passage Electric","Klukwan","4413","2804","0.63","11000","7000","0.63","0","0","0.63","pce",NA
+"Ipnatchiaq Electric Company","Deering","5350","3775","0.7","39000","27429","0.7","13167","9250","0.7","pce",NA
+"Ketchikan Public Utilities","Ketchikan, Petersburg, Wrangell","11836","1205","0.1","59726","5809","0.1","1881000","157454","0.08","eia",NA
+"King Cove, City of","King Cove","7692","2308","0.3","9086","2727","0.3","35667","10697","0.3","pce",NA
+"Kipnuk Light Plant","Kipnuk","4951","2809","0.56999999999999995","10069","5724","0.56999999999999995","16429","9357","0.56999999999999995","pce",NA
+"Kobuk Valley Electric Company","Kobuk","5243","4486","0.86","18400","15800","0.86","25286","21714","0.86","pce",NA
+"Kodiak Electric Assn Inc","Kodiak","7511","1392","0.19","21425","3850","0.18","853333","144804","0.17","eia","The KEA service area also includes: Port Lions, Chiniak, Womens Bay and Woody Island."
+"Kokhanok Village Council","Kokhanok","3481","3148","0.9","7625","6875","0.9","11286","10143","0.9","pce",NA
+"Kotzebue Electric Association","Kotzebue","7536","3246","0.43","99224","42738","0.43","31409","13527","0.43","pce",NA
+"Koyukuk, City of","Koyukuk","1690","1603","0.95","14000","13400","0.95","10700","10200","0.95","pce",NA
+"Kwethluk Incorporated d/b/a Kuiggluum Kallugvia","Kwethluk","3893","2023","0.52","21625","11250","0.52","9111","4778","0.52","pce",NA
+"Kwigillingok Power Company","Kwigillingok","5367","3278","0.61","33000","20083","0.61","6875","4188","0.61","pce",NA
+"Larsen Bay Utility Company","Larsen Bay","3431","1510","0.44","8788","3879","0.44","16700","7300","0.44","pce",NA
+"Levelock Electrical Coop","Levelock","4257","2971","0.7","10583","7417","0.7","5308","3692","0.7","pce",NA
+"Lime Village Electric Utility","Lime Village","1118","1941","1.7","19000","32000","1.7","2571","4429","1.7","pce",NA
+"Manokotak Power Company","Manokotak","3800","2090","0.55000000000000004","8048","4429","0.55000000000000004","22667","12458","0.55000000000000004","pce",NA
+"Matanuska Electric Association","Palmer, Wasilla","8491","1293","0.15","72243","9215","0.13",NA,NA,NA,"eia","MEA services 29 communities including Palmer and Wasilla."
+"Mcgrath Light & Power","McGrath","3962","2330","0.59","15000","8814","0.59","18154","10673","0.59","pce",NA
+"Middle Kuskokwim Electric","Chuathbaluk","3114","3543","1.1399999999999999","21800","24800","1.1399999999999999","5300","6000","1.1399999999999999","pce",NA
+"Middle Kuskokwim Electric","Crooked Creek","3219","3750","1.1599999999999999","9625","11125","1.1599999999999999","7000","8125","1.1599999999999999","pce",NA
+"Middle Kuskokwim Electric","Red Devil","3588","4118","1.1499999999999999","5333","6000","1.1499999999999999","1750","2000","1.1499999999999999","pce",NA
+"Middle Kuskokwim Electric","Sleetmute","3333","3879","1.1599999999999999","8286","9714","1.1599999999999999","9500","11000","1.1599999999999999","pce",NA
+"Middle Kuskokwim Electric","Stony River","2375","2750","1.1599999999999999","8167","9500","1.1599999999999999","6500","7500","1.1599999999999999","pce",NA
+"Naknek Electric Association","Naknek, South Naknek, King Salmon","4003","2223","0.56000000000000005","41490","23042","0.56000000000000005","34380","19093","0.56000000000000005","pce",NA
+"Napakiak Ircinraq","Napakiak","3436","2851","0.83","13938","11563","0.83","6300","5200","0.83","pce",NA
+"Napaskiak Electric Utility","Napaskiak","3879","2710","0.7","25714","18000","0.7","6231","4308","0.7","pce",NA
+"Naterkaq Light Plant (City of Chefornak)","Chefornak","4525","3141","0.69","22100","15300","0.69","17875","12375","0.69","pce",NA
+"Native Village of Perryville","Perryville","2563","2438","0.95","16111","15333","0.95","12889","12222","0.95","pce",NA
+"Nelson Lagoon Electrical Coop","Nelson Lagoon","4194","3516","0.84","7526","6316","0.84","7333","6111","0.84","pce",NA
+"New Koliganek Village Council","Koliganek","3686","1843","0.5","10000","5000","0.5","12870","6435","0.5","pce",NA
+"Nikolai, City of","Nikolai","4421","3816","0.87","12500","10833","0.87","9538","8308","0.87","pce",NA
+"Nome Joint Utility Systems","Nome","5739","2094","0.36","58617","21390","0.36","54715","19967","0.36","pce",NA
+"North Slope Borough Power & Light","Anaktuvuk Pass","7149","1074","0.15","49443","7410","0.15","15400","2400","0.15","pce",NA
+"North Slope Borough Power & Light","Atqasuk","10407","1559","0.15","51418","7709","0.15","19250","3000","0.15","pce",NA
+"North Slope Borough Power & Light","Kaktovik","9077","1359","0.15","84306","12653","0.15","89000","13300","0.15","pce",NA
+"North Slope Borough Power & Light","Nuiqsut","8829","705","0.08","69308","5538","0.08","23167","1833","0.08","pce",NA
+"North Slope Borough Power & Light","Point Hope","9044","1355","0.15","44461","6671","0.15","24625","3750","0.15","pce",NA
+"North Slope Borough Power & Light","Point Lay","7930","1193","0.15","60000","9000","0.15","34333","5000","0.15","pce",NA
+"North Slope Borough Power & Light","Wainwright","8549","1282","0.15","57901","8690","0.15","22667","3333","0.15","pce",NA
+"Nunam Iqua Electric Company","Nunam Iqua","4625","2450","0.53","82200","43600","0.53","28375","15000","0.53","pce",NA
+"Nushagak Electric Cooperative","Dillingham, Aleknagik","5768","2662","0.46","27771","12817","0.46","18378","8480","0.46","pce",NA
+"Ouzinkie, City of","Ouzinkie","4130","1831","0.44","22636","10091","0.44","13900","6200","0.44","pce",NA
+"Pedro Bay Village Council","Pedro Bay","3000","2750","0.91","8400","7600","0.91","6200","5600","0.91","pce",NA
+"Pelican Utility","Pelican","4742","3288","0.69","18400","12800","0.69","8931","6172","0.69","pce",NA
+"Petersburg, City of","Petersburg","15364","1485","0.1","12641","1437","0.11","510384","56631","0.11","eia",NA
+"Pilot Point Electric Utility","Pilot Point","4514","2243","0.5","8867","4400","0.5","7929","3929","0.5","pce",NA
+"Port Heiden Utilities","Port Heiden","4255","3196","0.75","6571","4952","0.75","21286","15929","0.75","pce",NA
+"Puvurnaq Power Company","Kongiganak","5420","3530","0.65","15111","9833","0.65","11444","7444","0.65","pce",NA
+"Ruby, City of","Ruby","1985","1664","0.84","21071","17714","0.84","5455","4591","0.84","pce",NA
+"Saint George, City of","Saint George","4381","3762","0.86","8467","7267","0.86","14381","12381","0.86","pce",NA
+"Saint Paul Municipal Electric","Saint Paul","5564","3054","0.55000000000000004","43061","23636","0.55000000000000004","35021","19229","0.55000000000000004","pce",NA
+"Seward, City of","Seward","7988","1620","0.2","17198","3716","0.22","266658","46254","0.17","eia","The City of Seward services the communities of Crown Point, Primrose, Bear Creek and Lowell Point."
+"Sitka, City & Borough of","Sitka","13055","1246","0.1","36087","3476","0.1","331200","31733","0.1","eia",NA
+"Takotna Community Assoc Inc","Takotna","3100","3150","1.02","5500","5700","1.02","6778","6889","1.02","pce",NA
+"Tanalian Electric Cooperative","Port Alsworth","4239","2925","0.69","10212","7061","0.69","0","0","0.69","pce",NA
+"Tanana Power Company Inc","Tanana","3132","2368","0.76","12355","9323","0.76","20111","15222","0.76","pce",NA
+"Tatitlek Village Ira Council","Tatitlek","2830","2170","0.77","6500","5000","0.77","15909","12182","0.77","pce",NA
+"TDX Adak Generating LLC","Adak","3384","3659","1.08","25119","27186","1.08","26519","28704","1.08","pce",NA
+"TDX Corporation","Sand Point","5344","3590","0.67","11157","7503","0.67","16239","10913","0.67","pce",NA
+"TDX Manley Generating LLC","Manley Hot Springs","2414","2172","0.9","12400","11200","0.9","6250","5500","0.9","pce",NA
+"Tenakee Springs, City of","Tenakee Springs","1921","1444","0.75","2515","1879","0.75","2571","1929","0.75","pce",NA
+"Tuluksak Traditional","Tuluksak","3298","1976","0.6","15400","9300","0.6","9500","5750","0.6","pce",NA
+"Tuntutuliak Community","Tuntutuliak","4768","3095","0.65","18227","11818","0.65","6154","4000","0.65","pce",NA
+"Twin Hills Village Council","Twin Hills","3786","2107","0.55000000000000004","16000","8750","0.55000000000000004","7125","4000","0.55000000000000004","pce",NA
+"Umnak Power Company","Nikolski","3867","2333","0.6","9200","5500","0.6","9429","5714","0.6","pce",NA
+"Unalakleet Valley Electric Cooperative","Unalakleet","5316","2200","0.41","41659","17227","0.41","25333","10467","0.41","pce",NA
+"Unalaska, City of","Dutch Harbor, Unalaska","5844","2912","0.5","46210","20274","0.44","1689000","660750","0.39","eia",NA
+"Unalaska, City of","Unalaska","5807","2882","0.5","189355","93956","0.5","47413","23520","0.5","pce",NA
+"Ungusraq Power Company","Newtok","4061","3242","0.8","7688","6125","0.8","7500","6000","0.8","pce",NA
+"White Mountain, City of","White Mountain","4016","2492","0.62","15350","9500","0.62","11538","7154","0.62","pce",NA
+"Wrangell, City of","Wrangell","13053","1371","0.11","25602","2740","0.11",NA,NA,NA,"eia",NA
+"Yakutat Power Inc","Yakutat","5007","2666","0.53","34169","18202","0.53","19500","10383","0.53","pce",NA
