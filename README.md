@@ -30,10 +30,17 @@ https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
 ## Contributors
 
-2011-2021
+Team supporting development of the 2011-2021 workbooks:
 - Neil McMahon (DOWL Inc) - Created/updated 2011-2021 workbooks
-- Steve Colt 
-- Gwen Holdmann 
-- Ian MacDougall 
-- Vanessa Raymond 
-- Dayne Broderson 
+- Steve Colt (UAF ACEP) - Collaborated on validation and fixing of workbooks. Wrote data
+  disctionary. 
+- Gwen Holdmann (UAF ACEP) - Collaborated on review and feedback of workbooks.
+- Ian MacDougall (UAF ACEP)  - Led collection of workbooks into a repository and supported
+  review and analysis. 
+- Vanessa Raymond (UAF ACEP) - Supported workbook archiving and distribution.
+- Dayne Broderson (UAF ACEP)- Supported workbook repository and website for distribution
+
+Funding support from this team was provided by leveraging support from multiple
+partners that included: Office of Naval Research (ONR) funded Alaska Regional Collaboration for Technology Innovation and Commercialization (ARCTIC) program, the Denali Commission, the State of Alaska, Univeristy of Alaska Fairbanks (UAF) Alaska Center for Energy and Power (ACEP), and Univeristy of Alaska Anchorage (UAA) Institute of Social and Economic Research (ISER).
+
+Data used in the energy workbooks comes from a variety of sources and partners, but special thanks to the Alaska Energy Authority for partnering with the team to get the base line power cost equalization datasets made available.
