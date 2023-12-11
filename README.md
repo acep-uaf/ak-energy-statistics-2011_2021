@@ -1,5 +1,7 @@
 # Alaska Energy Statistics, 2011 - 2021
 
+## Overview
+
 This repository is the landing page for [ACEP](https://uaf.edu/acep)'s support of the Alaska Energy Statistics workbooks and reports. 
 
 The **Alaska Energy Statistics** is a long-running collection of data and reports about  energy production, consumption, and related topics specific to the state of Alaska.  The workbooks are developed to provide community & utility level datasets that support regional and statewide aggregations for use in the report.
@@ -10,32 +12,35 @@ This is part of a 40+ year effort to create and maintain high level views of the
 - [Alaska Center for Energy and Power](https://uaf.edu/acep), a research center at the University of Alaska Fairbanks (UAF)
 - [Institute of Social and Economic Research (ISER)](https://iseralaska.org/) is a research center at the University of Alaska Anchorage (UAA).
 
-### Latest Report & Workbook
+## Latest Report & Workbook
 
 This repository is home to the 2023 efforts to cover the 10 year gap in the Alaska Energy Statistics workbooks and reports. 
 
-The `energy-stats-workbooks` Excel files for years 2011 - 2021 are available for download using the following links: 
 
+## Historical Reports & Workbook
 
-<button onclick="window.open('/test2011.csv')">Download 2011 Excel Workbook</button>
+- Pre 2011
+  - [Report: 1960-2011](https://scholarworks.alaska.edu/handle/11122/3852) - prepared by ISER
 
-<button onclick="window.open('/test2012.csv')">Download 2012 Excel Workbook</button>
+## License
 
-<button onclick="window.open('/test2013.csv')">Download 2013 Excel Workbook</button>
+[CC-BY-SA 4.0](LICENSE.md)
 
-### Historical Reports & Workbook
+https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
-- 2011 Alaska Energy Statistics 
-  - Report: 1960-2011 [http://hdl.handle.net/11122/3913](http://hdl.handle.net/11122/3913) - prepared by [ISER]
-  - ISER [Report & Workbook @ ScholarWorks](https://scholarworks.alaska.edu/handle/11122/3852)
+## Contributors
 
-
-### Contributors
-
-2011-2021
+Team supporting development of the 2011-2021 workbooks:
 - Neil McMahon (DOWL Inc) - Created/updated 2011-2021 workbooks
-- Steve Colt 
-- Gwen Holdmann 
-- Ian MacDougall 
-- Vanessa Raymond 
-- Dayne Broderson 
+- Steve Colt (UAF ACEP) - Collaborated on validation and fixing of workbooks. Wrote data
+  disctionary. 
+- Gwen Holdmann (UAF ACEP) - Collaborated on review and feedback of workbooks.
+- Ian MacDougall (UAF ACEP)  - Led collection of workbooks into a repository and supported
+  review and analysis. 
+- Vanessa Raymond (UAF ACEP) - Supported workbook archiving and distribution.
+- Dayne Broderson (UAF ACEP)- Supported workbook repository and website for distribution
+
+Funding support from this team was provided by leveraging support from multiple
+partners that included: Office of Naval Research (ONR) funded Alaska Regional Collaboration for Technology Innovation and Commercialization (ARCTIC) program, the Denali Commission, the State of Alaska, Univeristy of Alaska Fairbanks (UAF) Alaska Center for Energy and Power (ACEP), and Univeristy of Alaska Anchorage (UAA) Institute of Social and Economic Research (ISER).
+
+Data used in the energy workbooks comes from a variety of sources and partners, but special thanks to the Alaska Energy Authority for partnering with the team to get the base line power cost equalization datasets made available.
