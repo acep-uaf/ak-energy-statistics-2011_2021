@@ -15,6 +15,8 @@ Types of changes
 
 ## [Unreleased]
 
+## [1.0.0] - 2020-03-05
+
 ### Added
 - The 2011-2021 excel workbooks from Neil via Steve.
 - Initial structure for the website to present the data and context of the data.
