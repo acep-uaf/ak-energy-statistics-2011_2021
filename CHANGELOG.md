@@ -15,7 +15,7 @@ Types of changes
 
 ## [Unreleased]
 
-## [1.0.0] - 2020-03-05
+## [1.0.0] - 2023-12-11
 
 ### Added
 - The 2011-2021 excel workbooks from Neil via Steve.
