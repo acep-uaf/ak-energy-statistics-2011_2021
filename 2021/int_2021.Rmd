@@ -6,6 +6,8 @@ editor_options:
 
 ### Build a library
 ```{R}
+library(dplyr)
+library(tidyr)
 
 ```
 
@@ -19,13 +21,50 @@ setwd(repo)
 
 ## Load from Staging
 ```{R}
-table_2.5a <- read.csv(file = "./2021/staging/table_2.5a.csv")
-table_2.5b <- read.csv(file = "./2021/staging/table_2.5b.csv")
-table_2.5c <- read.csv(file = "./2021/staging/table_2.5c.csv")
+table_2.5a_2021 <- read.csv(file = "./2021/staging/table_2.5a.csv")
+table_2.5b_2021 <- read.csv(file = "./2021/staging/table_2.5b.csv")
+table_2.5c_2021 <- read.csv(file = "./2021/staging/table_2.5c.csv")
 
 ```
 
 
+# add year to table_2.5
+```{R}
+table_2.5a_2021 <- table_2.5a_2021 %>%
+  mutate(Year = "2021", .before = "AEA.Sales.Reporting.ID")
+
+
+```
+
+
+
+## Build region/revenue aggregation (single year)
+```{R}
+tmp <- table_2.5a_2021 %>%
+  select(1,8,12,16) %>%
+  drop_na() %>%
+  group_by(Year, AEA.Energy.Region) %>%
+  summarize(res_revenue = mean(Residential...kWh),
+            com_revenue = mean(Commercial...kWh))
+
+
+
+
+
+
+
+
+
+
+
+```
+
+
+
+
+
+
+## These tables used to be one big table. Merge back together?
 ## Figure out the join
 ```{R}
 # this looks like the key!

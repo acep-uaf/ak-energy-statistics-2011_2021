@@ -1,0 +1,41 @@
+---
+title: "int_2016"
+output: html_document
+date: "2024-01-29"
+editor_options: 
+  chunk_output_type: console
+---
+
+
+
+### Build a library
+```{R}
+library(dplyr)
+library(tidyr)
+
+```
+
+### Set working directory
+```{R}
+repo <- "~/repos/ak-energy-statistics-2011_2021/"
+setwd(repo)
+
+```
+
+## Load from Staging
+```{R}
+# different column name, AEA.Reporting.ID vs AEA.Sales.Reporting.ID
+table_2.5a_2016 <- read.csv(file = "./2016/staging/table_2.5a.csv")
+
+
+```
+
+
+# add year to table_2.5
+```{R}
+# different column name, AEA.Reporting.ID vs AEA.Sales.Reporting.ID
+table_2.5a_2016 <- table_2.5a_2016 %>%
+  mutate(Year = "2016", .before = "AEA.Reporting.ID")
+
+
+```

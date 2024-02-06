@@ -34,9 +34,9 @@ save_raw <- "~/repos/ak-energy-statistics-2011_2021/2021/raw/"
 setwd(save_raw)
 
 
-# I dream of idempotency..
-# Save each data frame with different filename using write_csv
-lapply(seq_along(dat), function(i) write_csv(dat[[i]], filenames[i]))
+# # I dream of idempotency..
+# # Save each data frame with different filename using write_csv
+# lapply(seq_along(dat), function(i) write_csv(dat[[i]], filenames[i]))
 
 
 
@@ -267,6 +267,55 @@ b <- c(9,10,11,13,14,15,17,18)
 
 
 ```
+
+
+
+1.X TABLES BELOW
+## table 1.a
+## table 1.b
+## table 1.c
+
+## table 1.d
+### "Installed Capacity (MW) of Utilities & Operators, by AEA Energy Region, 2021"
+```{R}
+# print title
+`Table 1.d installed capacity`[1,1]
+
+# set column names
+colnames(`Table 1.d installed capacity`) <- `Table 1.d installed capacity`[2, ]
+
+# delete first row (title), and second row (column names), plus crud at the bottom
+`Table 1.d installed capacity` <- `Table 1.d installed capacity`[-c(1,2, 14:17), ]
+
+# delete crud on the right, including "total" columns
+`Table 1.d installed capacity` <- `Table 1.d installed capacity`[ , -c(9)]
+
+```
+
+
+## table 1.f
+### "Generation by Fuel Type by Operators/Utilities (MWh), by AEA Energy Region, 2021"
+```{R}
+# print title
+`Table 1.f generation by fuel`[1,1]
+
+# set column names
+colnames(`Table 1.f generation by fuel`) <- `Table 1.f generation by fuel`[2, ]
+
+# delete first row (title), and second row (column names), plus crud at the bottom
+# there seeems to be 2020 data present in the bottom of this table. WTF. delete
+`Table 1.f generation by fuel` <- `Table 1.f generation by fuel`[-c(1,2, 14:42), ]
+
+# delete crud on the right, including "total" columns
+`Table 1.f generation by fuel` <- `Table 1.f generation by fuel`[ , -c(11)]
+
+setwd(save_staging)
+write.csv(`Table 1.f generation by fuel`, file = "./table_1.f.csv", row.names = FALSE)
+
+```
+
+
+
 
 
 

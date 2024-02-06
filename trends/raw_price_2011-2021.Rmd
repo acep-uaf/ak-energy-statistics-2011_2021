@@ -1,0 +1,378 @@
+---
+title: "price"
+output: html_document
+date: "2024-02-03"
+editor_options: 
+  chunk_output_type: console
+---
+
+### Build a library
+```{R}
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(lubridate)
+
+
+```
+
+
+### Set working directory
+```{R}
+repo <- "~/repos/ak-energy-statistics-2011_2021/"
+setwd(repo)
+
+```
+
+## Load from Staging
+```{R}
+
+years <- c(2011:2021)
+
+for(i in years) {
+  file <- paste("./", i, "/staging/table_2.5a.csv", sep = "")
+  df <- read_csv(file = file)
+  assign(paste("rev", i, sep = ""), df)
+  rm(i, file, df)
+}
+
+rm(years)
+
+```
+
+
+## add year to table_2.5
+```{R}
+# loop to add Year via mutate()
+years <- c(2011:2021)
+i <- NULL
+
+for(i in years) {
+  x <- paste("rev", i, sep = "")
+  assign(paste("rev", i, sep = ""), (get(x) %>% mutate(Year = paste(i), .before = 1)))
+}
+
+
+```
+
+
+## pull crosswalk data from 2020, add to earlier years?
+```{R}
+crosswalk <- rev2020[ , 2:8]
+id_name <- rev2020[ , c(2,6)]
+
+plus2011 <- left_join(rev2011, crosswalk, by = join_by("CommunityName" ==  "Reporting Name"))
+plus2012 <- left_join(rev2012, crosswalk, by = join_by("Community Name" ==  "Reporting Name"))
+plus2013 <- left_join(rev2013, crosswalk, by = join_by("Community Name" ==  "Reporting Name"))
+
+
+```
+
+
+## We've got issues here, 2011 edition
+19 records won't crosswalk
+```{R}
+
+# initial join attempt, 19 errors
+plus2011 <- left_join(rev2011, crosswalk, by = join_by("CommunityName" ==  "Reporting Name"))
+
+# pull the problem children
+problems2011 <- subset(plus2011, is.na(plus2011$`AEA Sales Reporting ID`))
+
+# duplicate crosswalk, fix by hand, then join twice (rev2011 <- crosswalk <- problem_crosswalk2011)
+problem_crosswalk2011 <- crosswalk
+
+problem_crosswalk2011$`Reporting Name` <- sub("Alaska Electric Light&Power Co", "Juneau", problem_crosswalk2011$`Reporting Name`)
+problem_crosswalk2011$`Reporting Name` <- sub("Haines, Covenant Life", "Haines", problem_crosswalk2011$`Reporting Name`)
+problem_crosswalk2011$`Reporting Name` <- sub("Northway, Northway Village, Northway Junction", 
+                                          "Northway, Northway Village", problem_crosswalk2011$`Reporting Name`)
+
+problem_crosswalk2011$`Reporting Name` <- sub("Slana", "Slana, Chistochina", problem_crosswalk2011$`Reporting Name`)
+problem_crosswalk2011$`Reporting Name` <- sub("Kalskag", "Kalskag, Lower Kalskag", problem_crosswalk2011$`Reporting Name`)
+problem_crosswalk2011$`Reporting Name` <- sub("Kasigluk", "Kasigluk, Nunapitchuk", problem_crosswalk2011$`Reporting Name`)
+problem_crosswalk2011$`Reporting Name` <- sub("Saint Mary's, Andreafsky", 
+                                          "Saint Mary's, Andreafsky, Pitkas Point", problem_crosswalk2011$`Reporting Name`)
+problem_crosswalk2011$`Reporting Name` <- sub("Shungnak", "Shungnak, Kobuk", problem_crosswalk2011$`Reporting Name`)
+problem_crosswalk2011$`Reporting Name` <- sub("Toksook Bay", 
+                                          "Toksook Bay, Nightmute, Tununak", problem_crosswalk2011$`Reporting Name`)
+problem_crosswalk2011$`Reporting Name` <- sub("Anchorage Mun Light and Power", 
+                                          "Anchorage", problem_crosswalk2011$`Reporting Name`) 
+problem_crosswalk2011$`Reporting Name` <- sub("Barrow Utilities & Electric Cooperative Inc.", 
+                                          "Barrow", problem_crosswalk2011$`Reporting Name`)
+problem_crosswalk2011$`Reporting Name` <- sub("Copper Valley Elec Assn, Inc", "Valdez", problem_crosswalk2011$`Reporting Name`)
+problem_crosswalk2011$`Reporting Name` <- sub("Ketchikan Public Utilities", "Ketchikan", problem_crosswalk2011$`Reporting Name`)
+problem_crosswalk2011$`Reporting Name` <- sub("Kodiak Electric Assn Inc", "Kodiak", problem_crosswalk2011$`Reporting Name`)
+# Metlakatla was lost in the fray. Pour one out. 
+problem_crosswalk2011$`Reporting Name` <- sub("Naknek, South Naknek, King Salmon", 
+                                          "Naknek, King Salmon, South Naknek", problem_crosswalk2011$`Reporting Name`)
+problem_crosswalk2011$`Reporting Name` <- sub("Petersburg, City of", "Petersburg", problem_crosswalk2011$`Reporting Name`)
+problem_crosswalk2011$`Reporting Name` <- sub("Sitka, City & Borough of", "Sitka", problem_crosswalk2011$`Reporting Name`)
+problem_crosswalk2011$`Reporting Name` <- sub("Wrangell, City of", "Wrangell", problem_crosswalk2011$`Reporting Name`)
+
+
+# gonna have to get funky, inject in the data itself
+# dangerous, not idempotent, should rewrite as if-else statement
+rev2011[94,3] <- "Chugach Electric Assn Inc"
+rev2011[104,3] <- "Golden Valley Elec Assn Inc"
+rev2011[108,3] <- "Homer Electric Assn Inc"
+rev2011[130,3] <- "Matanuska Electric Assn Inc"
+
+# Seward...
+rev2011[166,3] <- "Chugach Electric Assn Inc"
+rev2012[168,3] <- "Chugach Electric Assn Inc"
+rev2013[170,3] <- "Chugach Electric Assn Inc"
+
+
+# fancy work
+tmp <- anti_join(problem_crosswalk2011, crosswalk)
+crosswalk <- rbind(crosswalk, anti_join(problem_crosswalk2011, crosswalk))
+
+
+# rerun join attempt, 1 error (Metlakatla)
+plus2011 <- left_join(rev2011, crosswalk, by = join_by("CommunityName" ==  "Reporting Name"))
+
+# recheck the problem children
+problems2011 <- subset(plus2011, is.na(plus2011$`AEA Sales Reporting ID`))
+
+```
+
+
+
+
+## We've got issues here, 2012 edition
+only four this time!
+```{R}
+problem_crosswalk2012 <- crosswalk
+
+# initial join attempt
+plus2012 <- left_join(rev2012, crosswalk, by = join_by("Community Name" ==  "Reporting Name"))
+
+# 2012 problem children
+problems2012 <- subset(plus2012, is.na(plus2012$`AEA Sales Reporting ID`))
+
+# individual fixes
+problem_crosswalk2012$`Reporting Name` <- sub("Golden Valley Elec Assn Inc", 
+                                              "Fairbanks", problem_crosswalk2012$`Reporting Name`)
+problem_crosswalk2012$`Reporting Name` <- sub("Ketchikan", 
+                                              "Ketchikan, Petersburg, Wrangell", problem_crosswalk2012$`Reporting Name`)
+problem_crosswalk2012$`Reporting Name` <- sub("Matanuska Electric Assn Inc", 
+                                              "Palmer, Wasilla", problem_crosswalk2012$`Reporting Name`)
+
+# fancy work
+crosswalk <- rbind(crosswalk, anti_join(problem_crosswalk2012, crosswalk))
+
+# rerun join attempt, 1 error (Metlakatla)
+plus2012 <- left_join(rev2012, crosswalk, by = join_by("Community Name" ==  "Reporting Name"))
+
+# recheck the problem children
+problems2012 <- subset(plus2012, is.na(plus2012$`AEA Sales Reporting ID`))
+
+```
+
+
+
+
+## We've got issues here, 2013 edition
+```{R}
+problem_crosswalk2013 <- crosswalk
+
+# initial join attempt
+plus2013 <- left_join(rev2013, crosswalk, by = join_by("Community Name" ==  "Reporting Name"))
+
+# 2013 problem children
+problems2013 <- subset(plus2013, is.na(plus2013$`AEA Sales Reporting ID`))
+
+# individual fixes
+problem_crosswalk2013$`Reporting Name` <- sub("Allakaket, Alatna", 
+                                              "Allakaket", problem_crosswalk2013$`Reporting Name`)
+
+problem_crosswalk2013$`Reporting Name` <- sub("Bettles, Evansville", 
+                                              "Bettles", problem_crosswalk2013$`Reporting Name`)
+
+problem_crosswalk2013$`Reporting Name` <- sub("Dot Lake, Dot Lake Village", 
+                                              "Dot Lake Village", problem_crosswalk2013$`Reporting Name`)
+
+problem_crosswalk2013$`Reporting Name` <- sub("Eagle, Eagle Village", 
+                                              "Eagle", problem_crosswalk2013$`Reporting Name`)
+
+problem_crosswalk2013$`Reporting Name` <- sub("Northway, Northway Village", 
+                                              "Northway Village", problem_crosswalk2013$`Reporting Name`)
+
+problem_crosswalk2013$`Reporting Name` <- sub("Thorne Bay, Kasaan", 
+                                              "Thorne Bay", problem_crosswalk2013$`Reporting Name`)
+
+problem_crosswalk2013$`Reporting Name` <- sub("Tok, Tanacross", 
+                                              "Tok", problem_crosswalk2013$`Reporting Name`)
+
+problem_crosswalk2013$`Reporting Name` <- sub("Saint Mary's, Andreafsky", 
+                                              "Saint Mary's", problem_crosswalk2013$`Reporting Name`)
+
+problem_crosswalk2013$`Reporting Name` <- sub("Bethel, Oscarville", 
+                                              "Bethel", problem_crosswalk2013$`Reporting Name`)
+
+problem_crosswalk2013$`Reporting Name` <- sub("Cordova, Eyak", 
+                                              "Cordova", problem_crosswalk2013$`Reporting Name`)
+
+problem_crosswalk2013$`Reporting Name` <- sub("Homer", 
+                                              "Kalifornsky", problem_crosswalk2013$`Reporting Name`)
+
+problem_crosswalk2013$`Reporting Name` <- sub("Iliamna, Newhalen, Nondalton", 
+                                              "Newhalen", problem_crosswalk2013$`Reporting Name`)
+
+problem_crosswalk2013$`Reporting Name` <- sub("Matanuska Electric Assn Inc", 
+                                              "Knik-Fairview", problem_crosswalk2013$`Reporting Name`)
+
+problem_crosswalk2013$`Reporting Name` <- sub("Naknek, South Naknek, King Salmon", 
+                                              "Naknek", problem_crosswalk2013$`Reporting Name`)
+
+problem_crosswalk2013$`Reporting Name` <- sub("Dillingham, Aleknagik", 
+                                              "Dillingham", problem_crosswalk2013$`Reporting Name`)
+
+
+
+# fancy work
+crosswalk <- rbind(crosswalk, anti_join(problem_crosswalk2013, crosswalk))
+
+# rerun join attempt, 1 error (Metlakatla)
+plus2013 <- left_join(rev2013, crosswalk, by = join_by("Community Name" ==  "Reporting Name"))
+
+# recheck the problem children
+problems2013 <- subset(plus2013, is.na(plus2013$`AEA Sales Reporting ID`))
+
+```
+
+
+
+
+## quick rename to facilitate rbind()
+years 2014-2018 "AEA Reporting ID" vs "AEA Sales Reporting ID"
+```{R}
+
+# should have been a for loop...
+rev2014 <- rename(rev2014, "AEA Sales Reporting ID" = "AEA Reporting ID")
+rev2015 <- rename(rev2015, "AEA Sales Reporting ID" = "AEA Reporting ID")
+rev2016 <- rename(rev2016, "AEA Sales Reporting ID" = "AEA Reporting ID")
+rev2017 <- rename(rev2017, "AEA Sales Reporting ID" = "AEA Reporting ID")
+rev2018 <- rename(rev2018, "AEA Sales Reporting ID" = "AEA Reporting ID")
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+What do I really need? 
+  Year
+  AEA Sales Reporting ID
+  Name (of some sort)  <- but do I really? Maybe best to leave off until aggregated, then add names
+  Residential Price
+  Commercial Price
+  Other Price
+  
+```{R}
+
+df.list <- list(plus2011, 
+                plus2012, 
+                plus2013, 
+                rev2014, 
+                rev2015, 
+                rev2016, 
+                rev2017, 
+                rev2018, 
+                rev2019, 
+                rev2020, 
+                rev2021)
+
+rev_all <- NULL
+tmp <- NULL
+  
+
+# close, but not quite
+
+for(df in df.list){
+    tmp <- select(df, c("Year",
+                        "AEA Sales Reporting ID",
+                        "Residential $/kWh",
+                        "Commercial $/kWh",
+                        "Other $/kWh"
+                ))
+   rev_all <-  rbind(rev_all, tmp)
+}
+
+
+
+
+# chase down NAs
+prob <- subset(rev_all, is.na(rev_all$`AEA Sales Reporting ID`))
+
+# drop em!
+rev_all <- drop_na(rev_all, `AEA Sales Reporting ID`)
+
+```
+
+
+## add crosswalk data back in using `AEA Sales Reporting ID` as primary key
+Note: a little voodoo here
+  we're using 2020 crosswalk data
+  but we masssaged the reporting IDs of years 2011-2013
+  this will have to be reckoned with, but not now!
+```{R}
+
+colnames(rev2021)
+
+crosswalk2020 <- rev2020[ , 2:8]
+
+final <- left_join(rev_all, crosswalk2020, by = join_by(`AEA Sales Reporting ID`))
+
+
+final <- final[ , c("Year", 
+                    "AEA Sales Reporting ID", 
+                    "PCE ID", 
+                    "RCA CPCN", 
+                    "Utility Name", 
+                    "Reporting Name", 
+                    "Intertie Name", 
+                    "AEA Energy Region",
+                    "Residential $/kWh",
+                    "Commercial $/kWh",
+                    "Other $/kWh"
+                   )
+               ]
+
+
+
+```
+
+
+
+# Write to file
+```{R}
+repo <- "~/repos/ak-energy-statistics-2011_2021/"
+setwd(repo)
+
+write_csv(final, file = "./trends/raw/raw_price_2011-2021.csv")
+
+
+
+
+
+# also write augmented crosswalk to file
+write_csv(crosswalk, file = "./trends/raw/augmented_crosswalk.csv")
+
+write_csv(crosswalk2020, file = "./trends/raw/crosswalk2020.csv")
+
+
+```
+
+
+
+

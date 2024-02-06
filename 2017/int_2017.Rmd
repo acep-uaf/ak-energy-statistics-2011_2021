@@ -1,0 +1,38 @@
+---
+title: "int_2017"
+output: html_document
+date: "2024-01-29"
+editor_options: 
+  chunk_output_type: console
+---
+
+
+### Build a library
+```{R}
+library(dplyr)
+library(tidyr)
+
+```
+
+### Set working directory
+```{R}
+repo <- "~/repos/ak-energy-statistics-2011_2021/"
+setwd(repo)
+
+```
+
+## Load from Staging
+```{R}
+table_2.5a_2017 <- read.csv(file = "./2017/staging/table_2.5a.csv")
+
+
+```
+
+
+# add year to table_2.5
+```{R}
+table_2.5a_2017 <- table_2.5a_2017 %>%
+  mutate(Year = "2017", .before = "AEA.Reporting.ID")
+
+
+```

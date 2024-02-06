@@ -1,0 +1,39 @@
+---
+title: "int_2012"
+output: html_document
+date: "2024-01-29"
+editor_options: 
+  chunk_output_type: console
+---
+
+
+### Build a library
+```{R}
+library(dplyr)
+library(tidyr)
+
+```
+
+### Set working directory
+```{R}
+repo <- "~/repos/ak-energy-statistics-2011_2021/"
+setwd(repo)
+
+```
+
+## Load from Staging
+```{R}
+table_2.5a_2012 <- read.csv(file = "./2012/staging/table_2.5a.csv")
+
+
+```
+
+
+# add year to table_2.5
+```{R}
+# different column names, no reporting IDs
+table_2.5a_2012 <- table_2.5a_2012 %>%
+  mutate(Year = "2012", .before = "Utility.Name")
+
+
+```

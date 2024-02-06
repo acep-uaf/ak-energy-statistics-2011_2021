@@ -1,0 +1,367 @@
+---
+title: "pce_price_2011-2021"
+output: html_document
+date: "2024-02-04"
+editor_options: 
+  chunk_output_type: console
+---
+
+
+### Build a library
+```{R}
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(lubridate)
+library(readr)
+
+library(stringr)
+
+
+```
+
+
+### Set working directory
+```{R}
+repo <- "~/repos/ak-energy-statistics-2011_2021/"
+setwd(repo)
+
+```
+
+## Load from Staging
+```{R}
+
+years <- c(2011:2021)
+
+for(i in years) {
+  file <- paste("./", i, "/staging/table_2.5c.csv", sep = "")
+  df <- read_csv(file = file)
+  assign(paste("pce", i, sep = ""), df)
+  rm(i, file, df)
+}
+
+rm(years)
+
+```
+
+
+## add year to table_2.5
+```{R}
+# loop to add Year via mutate()
+years <- c(2011:2021)
+i <- NULL
+
+for(i in years) {
+  x <- paste("pce", i, sep = "")
+  assign(paste("pce", i, sep = ""), (get(x) %>% mutate(Year = paste(i), .before = 1)))
+}
+
+
+```
+
+
+Seward is a weirdo, overwrite for now
+```{R}
+# Seward...
+# pce2011[165,3] <- "Chugach Electric Assn Inc"
+# pce2012[168,3] <- "Chugach Electric Assn Inc"
+# pce2013[170,3] <- "Chugach Electric Assn Inc"
+
+
+pce2011$`Community Name` <- sub("Seward", "Chugach Electric Assn Inc", pce2011$`Community Name`)
+pce2012$`Community Name` <- sub("Seward", "Chugach Electric Assn Inc", pce2012$`Community Name`)
+pce2013$`Community Name` <- sub("Seward", "Chugach Electric Assn Inc", pce2013$`Community Name`)
+
+```
+
+
+## quick rename to facilitate rbind()
+years 2014-2018, "Reporter ID" vs "AEA Sales Reporting ID"
+years 2011-2013, "PCE Community" vs "PCE Community\n(Y/N)"
+```{R}
+
+# should have been a for loop...
+pce2014 <- rename(pce2014, "AEA Sales Reporting ID" = "Reporter ID")
+pce2015 <- rename(pce2015, "AEA Sales Reporting ID" = "Reporter ID")
+pce2016 <- rename(pce2016, "AEA Sales Reporting ID" = "Reporter ID")
+pce2017 <- rename(pce2017, "AEA Sales Reporting ID" = "Reporter ID")
+pce2018 <- rename(pce2018, "AEA Sales Reporting ID" = "Reporter ID")
+
+# PCE Community
+pce2011 <- rename(pce2011, "PCE Community\n(Y/N)" = "PCE Community")
+pce2012 <- rename(pce2012, "PCE Community\n(Y/N)" = "PCE Community")
+pce2013 <- rename(pce2013, "PCE Community\n(Y/N)" = "PCE Community")
+
+
+```
+
+
+
+
+
+## pull augmented crosswalk data
+```{R}
+
+augmented_crosswalk <- read_csv(file = "./trends/raw/augmented_crosswalk.csv")
+
+
+plus2011 <- left_join(pce2011, augmented_crosswalk, by = join_by("Community Name" ==  "Reporting Name"))
+plus2012 <- left_join(pce2012, augmented_crosswalk, by = join_by("Community Name" ==  "Reporting Name"))
+plus2013 <- left_join(pce2013, augmented_crosswalk, by = join_by("Community Name" ==  "Reporting Name"))
+
+
+```
+
+
+
+
+
+
+## We've got issues here, 2011 edition
+7 records won't crosswalk
+```{R}
+
+# initial join attempt, 7 errors
+plus2011 <- left_join(pce2011, augmented_crosswalk, by = join_by("Community Name" ==  "Reporting Name"))
+
+# pull the problem children
+problems2011 <- subset(plus2011, is.na(plus2011$`AEA Sales Reporting ID`))
+
+# duplicate crosswalk, fix by hand, then join twice (pce2011 <- crosswalk <- problem_crosswalk2011)
+problem_crosswalk2011 <- augmented_crosswalk
+
+problem_crosswalk2011$`Reporting Name` <- sub("Haines, Covenant Life", 
+                                              "Haines, Skagway", problem_crosswalk2011$`Reporting Name`)
+
+
+
+# Direct Inject
+# gonna have to get funky
+# replace NAs in `Community Name`
+pce2011$`Community Name` <- ifelse(pce2011$`Utility Name` == "Chugach Electric Assn Inc", 
+                                   "Chugach Electric Assn Inc",
+                                   pce2011$`Community Name`)
+
+pce2011$`Community Name` <- ifelse(pce2011$`Utility Name` == "Golden Valley Elec Assn Inc", 
+                                   "Golden Valley Elec Assn Inc",
+                                   pce2011$`Community Name`)
+
+pce2011$`Community Name` <- ifelse(pce2011$`Utility Name` == "Homer Electric Assn Inc", 
+                                   "Homer Electric Assn Inc",
+                                   pce2011$`Community Name`)
+
+pce2011$`Community Name` <- ifelse(pce2011$`Utility Name` == "Matanuska Electric Association", 
+                                   "Matanuska Electric Assn Inc",
+                                   pce2011$`Community Name`)
+
+
+
+# fancy work
+# tmp <- anti_join(problem_crosswalk2011, crosswalk)
+augmented_crosswalk <- rbind(augmented_crosswalk, anti_join(problem_crosswalk2011, augmented_crosswalk))
+
+
+# rerun join attempt, 1 error (Metlakatla, leave out for now)
+plus2011 <- left_join(pce2011, augmented_crosswalk, by = join_by("Community Name" ==  "Reporting Name"))
+
+# recheck the problem children
+problems2011 <- subset(plus2011, is.na(plus2011$`AEA Sales Reporting ID`))
+
+```
+
+
+
+
+
+
+
+## We've got issues here, 2012 edition
+only four this time!
+```{R}
+problem_crosswalk2012 <- augmented_crosswalk
+
+# initial join attempt
+plus2012 <- left_join(pce2012, augmented_crosswalk, by = join_by("Community Name" ==  "Reporting Name"))
+
+# 2012 problem children
+problems2012 <- subset(plus2012, is.na(plus2012$`AEA Sales Reporting ID`))
+
+# individual fixes
+problem_crosswalk2012$`Reporting Name` <- sub("Homer Electric Assn Inc", 
+                                              "Homer", problem_crosswalk2012$`Reporting Name`)
+
+problem_crosswalk2012$`Reporting Name` <- sub("Craig", 
+                                              "Craig, Klawock", problem_crosswalk2012$`Reporting Name`)
+
+# fancy work
+crosswalk <- rbind(augmented_crosswalk, anti_join(problem_crosswalk2012, augmented_crosswalk))
+
+# rerun join attempt, 1 error (Metlakatla)
+plus2012 <- left_join(pce2012, crosswalk, by = join_by("Community Name" ==  "Reporting Name"))
+
+# recheck the problem children
+problems2012 <- subset(plus2012, is.na(plus2012$`AEA Sales Reporting ID`))
+
+```
+
+
+
+
+## We've got issues here, 2013 edition
+```{R}
+problem_crosswalk2013 <- augmented_crosswalk
+
+# initial join attempt
+plus2013 <- left_join(pce2013, augmented_crosswalk, by = join_by("Community Name" ==  "Reporting Name"))
+
+# 2013 problem children
+problems2013 <- subset(plus2013, is.na(plus2013$`AEA Sales Reporting ID`))
+
+# individual fixes
+problem_crosswalk2013$`Reporting Name` <- sub("Kalifornsky Electric Assn Inc", 
+                                              "Kalifornsky", problem_crosswalk2013$`Reporting Name`)
+
+
+# fancy work
+crosswalk <- rbind(augmented_crosswalk, anti_join(problem_crosswalk2013, augmented_crosswalk))
+
+# rerun join attempt, 1 error (Metlakatla)
+plus2013 <- left_join(pce2013, crosswalk, by = join_by("Community Name" ==  "Reporting Name"))
+
+# recheck the problem children
+problems2013 <- subset(plus2013, is.na(plus2013$`AEA Sales Reporting ID`))
+
+
+```
+
+
+
+
+
+
+
+
+
+
+What do I really need? 
+  "Year"
+  "AEA Sales Reporting ID"
+  Name (of some sort)  <- but do I really? Maybe best to leave off until aggregated, then add names
+  "PCE Community\n(Y/N)"
+  
+```{R}
+
+df.list <- list(plus2011, 
+                plus2012, 
+                plus2013, 
+                pce2014, 
+                pce2015, 
+                pce2016, 
+                pce2017, 
+                pce2018, 
+                pce2019, 
+                pce2020, 
+                pce2021)
+
+pce_all <- NULL
+tmp <- NULL
+  
+
+# close, but not quite
+
+for(df in df.list){
+    tmp <- select(df, c("Year",
+                        "AEA Sales Reporting ID",
+                        "Residential Rate after PCE ($/kWh)",
+                        "PCE Community\n(Y/N)"
+                ))
+   pce_all <-  rbind(pce_all, tmp)
+}
+
+
+
+```
+
+
+# reckon with values in "PCE Community\n(Y/N)"
+```{R}
+# pull all values from (should be "yes"/"no", but some upper case)
+# should NOT be anything other than character strings of yes/no
+unique(pce_all$"PCE Community\n(Y/N)")
+
+# make all values upper case
+pce_all$"PCE Community\n(Y/N)" <- str_to_upper(pce_all$"PCE Community\n(Y/N)")
+
+# assign TRUE/FALSE
+# this will stay a string for now, but will hopefully load as a Boolean during read_csv in next script
+pce_all$`PCE Community\n(Y/N)` <- if_else(pce_all$`PCE Community\n(Y/N)` == "YES", "TRUE", "FALSE")
+
+
+
+```
+
+
+
+
+
+
+
+
+
+## add crosswalk data back in using `AEA Sales Reporting ID` as primary key
+Note: a little voodoo here
+  we're using 2020 crosswalk data
+  but we masssaged the reporting IDs of years 2011-2013
+  this will have to be reckoned with, but not now!
+```{R}
+
+colnames(pce2020)
+
+# pull community crosswalk data for use in final 
+crosswalk2020 <- pce2020[ , 2:8]
+
+# join truncated pce data and community crosswalk data
+final <- left_join(pce_all, crosswalk2020, by = join_by(`AEA Sales Reporting ID`))
+
+# change column `Community Name` to `Reporting Name` for join later
+final <- rename(final, `Reporting Name` = `Community Name`)
+
+
+final <- final[ , c("Year", 
+                    "AEA Sales Reporting ID", 
+                    "PCE ID", 
+                    "RCA CPCN", 
+                    "Utility Name", 
+                    "Reporting Name", 
+                    "Intertie Name", 
+                    "AEA Energy Region",
+                    "PCE Community\n(Y/N)", 
+                    "Residential Rate after PCE ($/kWh)"
+                   )
+               ]
+
+
+# tricky time-travel here
+# want the column as boolean, but only happens after save/load cycle
+final <- subset(load, load$"PCE Community\n(Y/N)" == TRUE)
+
+
+```
+
+
+
+# Write to file
+```{R}
+repo <- "~/repos/ak-energy-statistics-2011_2021/"
+setwd(repo)
+
+write_csv(final, file = "./trends/raw/pce_price_2011-2021.csv")
+
+# TRUE/FALSE successfully loaded as logical, not character
+load <- read_csv("./trends/raw/pce_price_2011-2021.csv")
+
+```
+
+
+
+
