@@ -35,7 +35,7 @@ setwd(save_raw)
 
 # I dream of idempotency..
 # Save each data frame with different filename using write_csv
-lapply(seq_along(dat), function(i) write_csv(dat[[i]], filenames[i]))
+# lapply(seq_along(dat), function(i) write_csv(dat[[i]], filenames[i]))
 
 
 
@@ -94,6 +94,34 @@ colnames(`Table `) <- `Table `[2, ]
 ```
 
 
+## table 2.4a
+"Generation is net of station service for EIA data and gross of (includes) station service for PCE data"
+
+"Fuel Types: AB=Agricultural By-Products, DFO=Distillate Fuel Oil, JF=Jet Fuel, NG=Natural Gas, OTH=Other, RFO=Residual Fuel Oil, SUB=Sub-bituminous Coal, WAT=Water at a Conventional Hydroelectric Turbine, WC=Waste Coal, WDS=Wood Solids, WND=Wind, WO=Waste/Other Oil"
+
+"Prime Movers: CA=Combined Cycle, steam part, CT=Combined Cycle=turbine part, GT=Gas Turbine, HY=Hydroelectric Turbine, IC=Internal Combustion Engine, ST=Steam Turbine, WT=Wind Turbine"
+```{R}
+# save title
+title_2.4a <- `Table 2.4a`[1,1]
+print(title_2.4a)
+
+# metadata riders, print in comments above this chunk, then delete for now
+print(`Table 2.4a`[2,1])
+print(`Table 2.4a`[3,1])
+print(`Table 2.4a`[4,1])
+
+# save fifth row as column names
+# watch out! different than others
+colnames(`Table 2.4a`) <- `Table 2.4a`[6, ]
+
+# delete extra rows
+`Table 2.4a` <- `Table 2.4a`[-c(1:6), ]
+
+
+setwd(save_staging)
+write.csv(`Table 2.4a`, file = "./table_2.4a.csv", row.names = FALSE)
+
+```
 
 
 # Tables 2.5x below

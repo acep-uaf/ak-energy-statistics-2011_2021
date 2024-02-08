@@ -65,18 +65,6 @@ for(i in filenames){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 # STAGING BELOW
 
 ## set target for cleaned files
@@ -87,6 +75,11 @@ setwd(save_staging)
 
 
 ```
+
+
+
+
+
 
 
 ### Template for raw -> staging
@@ -432,10 +425,14 @@ print(`Table 2.4a`[3,1])
 
 # save fifth row as column names
 # watch out! different than others
-colnames(`Table 2.4a`) <- `Table 2.4a`[5, ]
+colnames(`Table 2.4a`) <- `Table 2.4a`[6, ]
 
-# delete first row (title), and third row (column names)
-`Table 2.4a` <- `Table 2.4a`[-c(1:5), ]
+# delete extra rows
+`Table 2.4a` <- `Table 2.4a`[-c(1:6), ]
+
+
+setwd(save_staging)
+write.csv(`Table 2.4a`, file = "./table_2.4a.csv", row.names = FALSE)
 
 ```
 

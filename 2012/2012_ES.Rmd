@@ -34,7 +34,7 @@ setwd(save_raw)
 
 # I dream of idempotency..
 # Save each data frame with different filename using write_csv
-lapply(seq_along(dat), function(i) write_csv(dat[[i]], filenames[i]))
+# lapply(seq_along(dat), function(i) write_csv(dat[[i]], filenames[i]))
 
 
 
@@ -92,6 +92,23 @@ setwd(save_staging)
 
 ```
 
+
+# table 2.4a
+```{R}
+
+
+# save row as column names
+# watch out! different than others
+colnames(`Table 2.4a`) <- `Table 2.4a`[1, ]
+
+# delete extra rows
+`Table 2.4a` <- `Table 2.4a`[-c(1), ]
+
+
+setwd(save_staging)
+write.csv(`Table 2.4a`, file = "./table_2.4a.csv", row.names = FALSE)
+
+```
 
 
 

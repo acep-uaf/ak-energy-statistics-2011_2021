@@ -1,0 +1,250 @@
+"Utility Name","Plant Name","Community Name","Fuel Type","Prime Mover","Net Generation MMBtu","Total Fuel MMBtu","Emission Factor","CO2 Metric Tons from Fuel","Efficiency (Max = 1.00)","Net Generation MWh","Fuel Use","Estimated Average Heat Content","Source","Notes"
+"Akhiok, City of","Akhiok","Akhiok","DFO","IC","236","903","73.150000000000006","66","0.26","69","6510","0.13900000000000001","PCE",NA
+"Akiachak Native Community","Akiachak","Akiachak","DFO","IC","6392","18578","73.150000000000006","1359","0.34","1873","133956","0.13900000000000001","PCE",NA
+"Akiak City Council","Akiak","Akiak","DFO","IC","3911","12223","73.150000000000006","894","0.32","1146","88134","0.13900000000000001","PCE",NA
+"Akutan, City of","Akutan","Akutan","DFO","IC","1708","5516","73.150000000000006","403","0.31","501","39771","0.13900000000000001","PCE",NA
+"Alaska Electric Light & Power Company","Annex Creek","Juneau","WAT","HY","85491","239060",NA,NA,"0.36","25056","0",NA,"EIA",NA
+"Alaska Electric Light & Power Company","Auke Bay","Juneau","DFO","GT","863","7889","73.150000000000006","577","0.11","253","58002","0.13900000000000001","EIA",NA
+"Alaska Electric Light & Power Company","Auke Bay","Juneau","DFO","IC","72","401","73.150000000000006","29","0.18","21","2940","0.13900000000000001","EIA",NA
+"Alaska Electric Light & Power Company","Gold Creek","Juneau","DFO","IC","48","156","73.150000000000006","11","0.31","14","1176","0.13900000000000001","EIA",NA
+"Alaska Electric Light & Power Company","Gold Creek","Juneau","WAT","HY","16002","44747",NA,NA,"0.36","4690","0",NA,"EIA",NA
+"Alaska Electric Light & Power Company","Lake Dorothy","Juneau","WAT","HY","281555","787313",NA,NA,"0.36","82519","0",NA,"EIA",NA
+"Alaska Electric Light & Power Company","Lemon Creek","Juneau","DFO","GT","788","3907","73.150000000000006","286","0.2","231","28728","0.13900000000000001","EIA",NA
+"Alaska Electric Light & Power Company","Lemon Creek","Juneau","DFO","IC","682","2226","73.150000000000006","163","0.31","200","16380","0.13900000000000001","EIA",NA
+"Alaska Electric Light & Power Company","Salmon Creek 1","Juneau","WAT","HY","102606","286917",NA,NA,"0.36","30072","0",NA,"EIA",NA
+"Alaska Electric Light & Power Company","Snettisham","Juneau","WAT","HY","883135","2469519",NA,NA,"0.36","258832","0",NA,"EIA",NA
+"Alaska Environmental Power LLC","Delta Wind Farm","Fairbanks","WND","WT","5459","15265",NA,NA,"0.36","1600","0",NA,"EIA","In addition to Fairbanks, the GVEA service area includes 25 other communities."
+"Alaska Power & Telephone Company","Allakaket","Allakaket","DFO","IC","2379","7964","73.150000000000006","583","0.3","697","57422","0.13900000000000001","PCE","Provides power to Alatna via intertie. Includes Alatna's data."
+"Alaska Power & Telephone Company","Bettles","Bettles","DFO","IC","1957","6563","73.150000000000006","480","0.3","574","47322","0.13900000000000001","PCE","Provides power to Evansville via intertie. Includes Evansville's data."
+"Alaska Power & Telephone Company","Chistochina","Chistochina","DFO","IC","161","573","73.150000000000006","42","0.28000000000000003","47","4132","0.13900000000000001","PCE","Receives power from Slana via intertie. Refer to Slana for fuel use and cost data."
+"Alaska Power & Telephone Company","Coffman Cove","Coffman Cove","DFO","IC","-2","336","73.150000000000006","25","-0.01","-1","2426","0.13900000000000001","PCE","Part of the Alaska Power Company's grid on Prince of Wales Island. Receives power from Craig. Refer to Craig for fuel use and cost data."
+"Alaska Power & Telephone Company","Craig","Craig","DFO","IC","10729","32565","73.150000000000006","2382","0.33","3144","234803","0.13900000000000001","PCE","Provides power to Hollis, Klawock, Thorne Bay, Kasaan and Hydaburg via intertie. Includes data for all communities."
+"Alaska Power & Telephone Company","Eagle","Eagle","DFO","IC","2453","7285","73.150000000000006","533","0.34","719","52528","0.13900000000000001","PCE","Provides power to Eagle Village via intertie. Includes Eagle Village's data."
+"Alaska Power & Telephone Company","Haines","Haines","DFO","IC","4102","15258","73.150000000000006","1116","0.27","1202","110013","0.13900000000000001","PCE","Part of the Alaska Power Company's grid in the Upper Lynn Canal service area."
+"Alaska Power & Telephone Company","Healy Lake","Healy Lake","DFO","IC","118","1062","73.150000000000006","78","0.11","34","7660","0.13900000000000001","PCE",NA
+"Alaska Power & Telephone Company","Mentasta Lake","Mentasta Lake","DFO","IC","-1","12","73.150000000000006","1","-0.06","0","84","0.13900000000000001","PCE",NA
+"Alaska Power & Telephone Company","Naukati Bay","Naukati Bay","DFO","IC","1524","5185","73.150000000000006","379","0.28999999999999998","447","37388","0.13900000000000001","PCE",NA
+"Alaska Power & Telephone Company","Northway","Northway Village","DFO","IC","4220","13436","73.150000000000006","983","0.31","1237","96876","0.13900000000000001","PCE","Receives power from Northway via intertie. Refer to Northway for fuel use and cost data."
+"Alaska Power & Telephone Company","Skagway","Skagway","DFO","IC","642","3063","73.150000000000006","224","0.21","188","22087","0.13900000000000001","PCE","Part of the Alaska Power Company's grid in the UpperLynn Canal service area."
+"Alaska Power & Telephone Company","Slana","Slana","DFO","IC","4347","15200","73.150000000000006","1112","0.28999999999999998","1274","109596","0.13900000000000001","PCE","Provides power to Chistochina via intertie. Includes Chistochina's data."
+"Alaska Power & Telephone Company","Tok","Tok","DFO","IC","33280","96569","73.150000000000006","7064","0.34","9754","696292","0.13900000000000001","PCE","Provides power to Tanacross, Tetlin, Dot Lake, and Dot Lake Village via intertie. Includes data for all communities."
+"Alaska Power & Telephone Company","Whale Pass","Whale Pass","DFO","IC","1023","3602","73.150000000000006","264","0.28000000000000003","300","25975","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Alakanuk","Alakanuk","DFO","IC","7732","25290","73.150000000000006","1850","0.31","2266","182346","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Ambler","Ambler","DFO","IC","4291","12919","73.150000000000006","945","0.33","1258","93149","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Anvik","Anvik","DFO","IC","1430","4816","73.150000000000006","352","0.3","419","34728","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Brevig Mission","Brevig Mission","DFO","IC","3805","12103","73.150000000000006","885","0.31","1115","87263","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Chevak","Chevak","DFO","IC","5843","20025","73.150000000000006","1465","0.28999999999999998","1713","144385","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Eek","Eek","DFO","IC","2830","8629","73.150000000000006","631","0.33","829","62220","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Ekwok","Ekwok","DFO","IC","1719","6496","73.150000000000006","475","0.26","504","46841","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Elim","Elim","DFO","IC","4061","12559","73.150000000000006","919","0.32","1190","90551","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Emmonak","Emmonak","DFO","IC","10875","32830","73.150000000000006","2402","0.33","3187","236718","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Gambell","Gambell","DFO","IC","4964","16065","73.150000000000006","1175","0.31","1455","115833","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Goodnews Bay","Goodnews Bay","DFO","IC","2481","7682","73.150000000000006","562","0.32","727","55388","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Grayling","Grayling","DFO","IC","1966","6653","73.150000000000006","487","0.3","576","47967","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Holy Cross","Holy Cross","DFO","IC","2150","7189","73.150000000000006","526","0.3","630","51837","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Hooper Bay","Hooper Bay","DFO","IC","9163","28518","73.150000000000006","2086","0.32","2686","205623","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Huslia","Huslia","DFO","IC","3337","10346","73.150000000000006","757","0.32","978","74599","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Kaltag","Kaltag","DFO","IC","2417","7151","73.150000000000006","523","0.34","708","51561","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Kasigluk","Kasigluk","DFO","IC","8228","23402","73.150000000000006","1712","0.35","2411","168738","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Kiana","Kiana","DFO","IC","5204","15811","73.150000000000006","1157","0.33","1525","114002","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Kivalina","Kivalina","DFO","IC","4326","13096","73.150000000000006","958","0.33","1268","94423","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Kotlik","Kotlik","DFO","IC","6709","22297","73.150000000000006","1631","0.3","1966","160772","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Koyuk","Koyuk","DFO","IC","4444","13227","73.150000000000006","968","0.34","1302","95374","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Marshall","Marshall","DFO","IC","5410","16370","73.150000000000006","1197","0.33","1586","118032","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Mekoryuk","Mekoryuk","DFO","IC","2329","8182","73.150000000000006","598","0.28000000000000003","683","58992","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Minto","Minto","DFO","IC","2069","6087","73.150000000000006","445","0.34","606","43887","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Mountain Village","Mountain Village","DFO","IC","9907","29856","73.150000000000006","2184","0.33","2904","215271","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","New Stuyahok","New Stuyahok","DFO","IC","4744","14056","73.150000000000006","1028","0.34","1391","101351","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Noatak","Noatak","DFO","IC","6395","17985","73.150000000000006","1316","0.36","1874","129679","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Noorvik","Noorvik","DFO","IC","6569","20815","73.150000000000006","1523","0.32","1925","150080","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Nulato","Nulato","DFO","IC","3543","10701","73.150000000000006","783","0.33","1039","77158","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Old Harbor","Old Harbor","DFO","IC","2835","8215","73.150000000000006","601","0.35","831","59230","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Pilot Station","Pilot Station","DFO","IC","6161","18689","73.150000000000006","1367","0.33","1806","134752","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Quinhagak","Quinhagak","DFO","IC","4961","17188","73.150000000000006","1257","0.28999999999999998","1454","123934","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Russian Mission","Russian Mission","DFO","IC","3478","9789","73.150000000000006","716","0.36","1019","70580","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Saint Mary's","Saint Mary's","DFO","IC","10804","34239","73.150000000000006","2505","0.32","3167","246874","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Saint Michael","Saint Michael","DFO","IC","5869","18056","73.150000000000006","1321","0.33","1720","130190","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Savoonga","Savoonga","DFO","IC","6154","18718","73.150000000000006","1369","0.33","1804","134961","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Scammon Bay","Scammon Bay","DFO","IC","5715","16905","73.150000000000006","1237","0.34","1675","121894","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Selawik","Selawik","DFO","IC","9585","28658","73.150000000000006","2096","0.33","2809","206632","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Shageluk","Shageluk","DFO","IC","1286","4383","73.150000000000006","321","0.28999999999999998","377","31605","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Shaktoolik","Shaktoolik","DFO","IC","2515","8948","73.150000000000006","655","0.28000000000000003","737","64516","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Shishmaref","Shishmaref","DFO","IC","5564","18060","73.150000000000006","1321","0.31","1631","130221","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Shungnak","Shungnak","DFO","IC","5927","17481","73.150000000000006","1279","0.34","1737","126045","0.13900000000000001","PCE","Provides power to Kobuk via intertie. Includes Kobuk's data."
+"Alaska Village Electric Cooperative","Stebbins","Stebbins","DFO","IC","5178","16318","73.150000000000006","1194","0.32","1518","117657","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Teller","Teller","DFO","IC","2862","8565","73.150000000000006","627","0.33","839","61756","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Togiak","Togiak","DFO","IC","10265","31946","73.150000000000006","2337","0.32","3009","230343","0.13900000000000001","PCE",NA
+"Alaska Village Electric Cooperative","Toksook Bay","Toksook Bay","DFO","IC","8833","28089","73.150000000000006","2055","0.31","2589","202531","0.13900000000000001","PCE","Provides power to Nightmute and Tununak via intertie. Includes Nightmute's and Tununak's data."
+"Alaska Village Electric Cooperative","Upper Kalskag","Kalskag","DFO","IC","4529","13918","73.150000000000006","1018","0.33","1327","100356","0.13900000000000001","PCE","Provides power to Lower Kalskag via intertie. Includes Lower Kalskag's data."
+"Alaska Village Electric Cooperative","Wales","Wales","DFO","IC","2079","6646","73.150000000000006","486","0.31","609","47917","0.13900000000000001","PCE",NA
+"Alutiiq Power Company","Karluk","Karluk","DFO","IC","885","3339","73.150000000000006","244","0.27","259","24075","0.13900000000000001","PCE",NA
+"Anchorage Municipal Light & Power","Anchorage 1","Anchorage","DFO","GT","208","977","73.150000000000006","71","0.21","61","7434","0.13900000000000001","EIA","In addition to Anchorage, the CEA service area includes eight other communities."
+"Anchorage Municipal Light & Power","Anchorage 1","Anchorage","DFO","IC","386","977","73.150000000000006","71","0.39","113","7434","0.13900000000000001","EIA","In addition to Anchorage, the CEA service area includes eight other communities."
+"Anchorage Municipal Light & Power","Anchorage 1","Anchorage","NG","GT","75620","355118","53.06","18843","0.21","22163","348154","1.0209999999999999","EIA","In addition to Anchorage, the CEA service area includes eight other communities."
+"Anchorage Municipal Light & Power","Eklutna Lake","Anchorage","WAT","HY","306862","858079",NA,NA,"0.36","89936","0",NA,"EIA","In addition to Anchorage, the CEA service area includes eight other communities."
+"Anchorage Municipal Light & Power","George M Sullivan Generation Plant 2","Anchorage","DFO","CA","1190","0","73.150000000000006","0",NA,"349","0","0.13900000000000001","EIA","In addition to Anchorage, the CEA service area includes eight other communities."
+"Anchorage Municipal Light & Power","George M Sullivan Generation Plant 2","Anchorage","DFO","CT","3972","16493","73.150000000000006","1206","0.24","1164","125496","0.13900000000000001","EIA","In addition to Anchorage, the CEA service area includes eight other communities."
+"Anchorage Municipal Light & Power","George M Sullivan Generation Plant 2","Anchorage","NG","CA","406346","0","53.06","0",NA,"119093","0","1.0209999999999999","EIA","In addition to Anchorage, the CEA service area includes eight other communities."
+"Anchorage Municipal Light & Power","George M Sullivan Generation Plant 2","Anchorage","NG","CT","1359153","5578139","53.06","295976","0.24","398345","5468764","1.0209999999999999","EIA","In addition to Anchorage, the CEA service area includes eight other communities."
+"Anchorage Municipal Light & Power","George M Sullivan Generation Plant 2","Anchorage","NG","GT","147849","622336","53.06","33021","0.24","43332","610131","1.0209999999999999","EIA","In addition to Anchorage, the CEA service area includes eight other communities."
+"Anchorage Municipal Light & Power","George M Sullivan Generation Plant 2","Anchorage","OTH","CA","0","0",NA,NA,NA,"0","0",NA,"EIA","In addition to Anchorage, the CEA service area includes eight other communities."
+"Anchorage Municipal Light & Power","George M Sullivan Generation Plant 2","Anchorage","OTH","CT","0","0",NA,NA,NA,"0","0",NA,"EIA","In addition to Anchorage, the CEA service area includes eight other communities."
+"Aniak Light & Power","Aniak","Aniak","DFO","IC","8694","28217","73.150000000000006","2064","0.31","2548","203456","0.13900000000000001","PCE",NA
+"Arctic Village Electric Company","Arctic Village","Arctic Village","DFO","IC","1766","6493","73.150000000000006","475","0.27","518","46820","0.13900000000000001","PCE",NA
+"Atka, City of","Atka","Atka","DFO","IC","103","1254","73.150000000000006","92","0.08","30","9039","0.13900000000000001","PCE",NA
+"Atmautluak Tribal Utilities","Atmautluak","Atmautluak","DFO","IC","2452","7268","73.150000000000006","532","0.34","719","52408","0.13900000000000001","PCE",NA
+"Aurora Energy LLC Chena","Aurora Energy","Fairbanks","AB","ST","0","0",NA,NA,NA,"0","0",NA,"EIA","In addition to Fairbanks, the GVEA service area includes 25 other communities."
+"Aurora Energy LLC Chena","Aurora Energy","Fairbanks","DFO","ST","0","0","73.150000000000006","0",NA,"0","0","0.13900000000000001","EIA","In addition to Fairbanks, the GVEA service area includes 25 other communities."
+"Aurora Energy LLC Chena","Aurora Energy","Fairbanks","SUB","ST","640920","3202218","97.17","311160","0.2","187843","210117","19.582999999999998","EIA","In addition to Fairbanks, the GVEA service area includes 25 other communities."
+"Aurora Energy LLC Chena","Aurora Energy","Fairbanks","WDS","ST","0","0",NA,NA,NA,"0","0",NA,"EIA","In addition to Fairbanks, the GVEA service area includes 25 other communities."
+"Barrow Utilities & Electric Cooperative Inc.","Barrow","Barrow","DFO","GT","90","396","73.150000000000006","29","0.23","26","2772","0.13900000000000001","EIA",NA
+"Barrow Utilities & Electric Cooperative Inc.","Barrow","Barrow","NG","GT","171370","757524","53.06","40194","0.23","50226","757524","1.0209999999999999","EIA",NA
+"Barrow Utilities & Electric Cooperative Inc.","Barrow","Barrow","NG","IC","0","0","53.06","0",NA,"0","0","1.0209999999999999","EIA",NA
+"Beaver Joint Utilities","Beaver","Beaver","DFO","IC",NA,"4319","73.150000000000006","316","0.23",NA,"31141","0.13900000000000001","PCE",NA
+"Bethel Utilities Corporation","Bethel","Bethel","DFO","IC","145421","437785","73.150000000000006","32024","0.33","42620","3156572","0.13900000000000001","PCE","Provides power to Oscarville and sells power to Napakiak Ircinraq via intertie. Includes Oscarville's data."
+"Buckland, City of","Buckland","Buckland","DFO","IC","5972","21058","73.150000000000006","1540","0.28000000000000003","1750","151833","0.13900000000000001","PCE",NA
+"Chalkyitsik Village Council","Chalkyitsik","Chalkyitsik","DFO","IC","1232","4561","73.150000000000006","334","0.27","361","32889","0.13900000000000001","PCE",NA
+"Chenega Ira Council","Chenega Bay","Chenega Bay","DFO","IC","921","3197","73.150000000000006","234","0.28999999999999998","270","23050","0.13900000000000001","PCE",NA
+"Chignik, City of","Chignik","Chignik","DFO","IC","2901","9168","73.150000000000006","671","0.32","850","66106","0.13900000000000001","PCE",NA
+"Chignik Lagoon Power Utility","Chignik Lagoon","Chignik Lagoon","DFO","IC","1302","5221","73.150000000000006","382","0.25","382","37643","0.13900000000000001","PCE",NA
+"Chignik Lake Electric Utility","Chignik Lake","Chignik Lake","DFO","IC","1314","5341","73.150000000000006","391","0.25","385","38509","0.13900000000000001","PCE",NA
+"Chitina Electric Inc","Chitina","Chitina","DFO","IC","1568","6005","73.150000000000006","439","0.26","460","43298","0.13900000000000001","PCE",NA
+"Chugach Electric Assn Inc","Beluga","Anchorage","NG","CA","689091","0","53.06","0",NA,"201961","0","1.0209999999999999","EIA","In addition to Anchorage, the CEA service area includes eight other communities."
+"Chugach Electric Assn Inc","Beluga","Anchorage","NG","CT","2883348","10285290","53.06","545737","0.28000000000000003","845061","10285290","1.0209999999999999","EIA","In addition to Anchorage, the CEA service area includes eight other communities."
+"Chugach Electric Assn Inc","Beluga","Anchorage","NG","GT","1135247","4664731","53.06","247511","0.24","332722","4664731","1.0209999999999999","EIA","In addition to Anchorage, the CEA service area includes eight other communities."
+"Chugach Electric Assn Inc","Bernice Lake","Anchorage","NG","GT","143185","676245","53.06","35882","0.21","41965","644042","1.0209999999999999","EIA","In addition to Anchorage, the CEA service area includes eight other communities."
+"Chugach Electric Assn Inc","Cooper Lake","Anchorage","WAT","HY","122586","342788",NA,NA,"0.36","35928","0",NA,"EIA","In addition to Anchorage, the CEA service area includes eight other communities."
+"Chugach Electric Assn Inc","International","Anchorage","NG","GT","50702","280590","53.06","14888","0.18","14860","280590","1.0209999999999999","EIA","In addition to Anchorage, the CEA service area includes eight other communities."
+"Chugach Electric Assn Inc","Southcentral Power Project","Anchorage","NG","CA","657219","47114","53.06","2500","13.95","192620","47114","1.0209999999999999","EIA","In addition to Anchorage, the CEA service area includes eight other communities."
+"Chugach Electric Assn Inc","Southcentral Power Project","Anchorage","NG","CT","2575333","7092773","53.06","376343","0.36","754787","7092773","1.0209999999999999","EIA","In addition to Anchorage, the CEA service area includes eight other communities."
+"Circle Electric Utility","Circle","Circle","DFO","IC","1393","5213","73.150000000000006","381","0.27","408","37589","0.13900000000000001","PCE",NA
+"Copper Valley Elec Assn Inc","Glennallen","Valdez","DFO","IC","46314","135047","73.150000000000006","9879","0.34","13574","978600","0.13900000000000001","EIA","In addition to Valdez, the CVEA service area includes 14 other communities."
+"Copper Valley Elec Assn Inc","Solomon Gulch","Valdez","WAT","HY","186807","522369",NA,NA,"0.36","54750","0",NA,"EIA","In addition to Valdez, the CVEA service area includes 14 other communities."
+"Copper Valley Elec Assn Inc","Valdez","Valdez","DFO","GT","2446","13353","73.150000000000006","977","0.18","717","96768","0.13900000000000001","EIA","In addition to Valdez, the CVEA service area includes 14 other communities."
+"Copper Valley Elec Assn Inc","Valdez","Valdez","DFO","IC","14869","64532","73.150000000000006","4721","0.23","4358","467628","0.13900000000000001","EIA","In addition to Valdez, the CVEA service area includes 14 other communities."
+"Copper Valley Elec Assn Inc","Valdez Cogen","Valdez","JF","GT","0","0","70.88","0",NA,"0","0","0.13500000000000001","EIA","In addition to Valdez, the CVEA service area includes 14 other communities."
+"Copper Valley Elec Assn Inc","Valdez Cogen","Valdez","WO","GT","58096","201666","71.28","14375","0.28999999999999998","17027","43651","0.14299999999999999","EIA","In addition to Valdez, the CVEA service area includes 14 other communities."
+"Cordova Electric Cooperative","Humpback Creek","Cordova","WAT","HY","11976","33489",NA,NA,"0.36","3510","0",NA,"EIA",NA
+"Cordova Electric Cooperative","Orca","Cordova","DFO","IC","30418","98705","73.150000000000006","7220","0.31","8915","711695","0.13900000000000001","PCE",NA
+"Cordova Electric Cooperative","Power Creek","Cordova","WAT","HY","53821","150500",NA,NA,"0.36","15774","0",NA,"EIA",NA
+"Diomede Joint Utilities","Diomede","Diomede","DFO","IC","1355","2514","73.150000000000006","184","0.54","397","18124","0.13900000000000001","PCE",NA
+"Egegik Light & Power Co","Egegik","Egegik","DFO","IC","2060","7570","73.150000000000006","554","0.27","604","54584","0.13900000000000001","PCE",NA
+"Elfin Cove Utility Commission","Elfin Cove","Elfin Cove","DFO","IC","846","3245","73.150000000000006","237","0.26","248","23395","0.13900000000000001","PCE",NA
+"False Pass, City of","False Pass","False Pass","DFO","IC","2358","8108","73.150000000000006","593","0.28999999999999998","691","58462","0.13900000000000001","PCE",NA
+"Fire Island Wind LLC","Fire Island","Anchorage","WND","WT","152803","427284",NA,NA,"0.36","44784","0",NA,"EIA","In addition to Anchorage, the CEA service areaincludes eight other communities."
+"Galena, City of","Galena","Galena","DFO","IC","18522","59822","73.150000000000006","4376","0.31","5428","431338","0.13900000000000001","PCE",NA
+"G & K Inc","Cold Bay","Cold Bay","DFO","IC","8925","28671","73.150000000000006","2097","0.31","2616","206725","0.13900000000000001","PCE",NA
+"Gold Country Energy","Central","Central","DFO","IC","1791","6385","73.150000000000006","467","0.28000000000000003","525","46041","0.13900000000000001","PCE",NA
+"Golden Valley Elec Assn Inc","Delta Power","Fairbanks","DFO","GT","-580","305","73.150000000000006","22","-1.9","-170","2310","0.13900000000000001","EIA","In addition to Fairbanks, the GVEA service area includes 25 other communities."
+"Golden Valley Elec Assn Inc","Eva Creek","Fairbanks","WND","WT","242286","677506",NA,NA,"0.36","71010","0",NA,"EIA","In addition to Fairbanks, the GVEA service area includes 25 other communities."
+"Golden Valley Elec Assn Inc","Fairbanks","Fairbanks","DFO","GT","345","2471","73.150000000000006","181","0.14000000000000001","101","18858","0.13900000000000001","EIA","In addition to Fairbanks, the GVEA service area includes 25 other communities."
+"Golden Valley Elec Assn Inc","Fairbanks","Fairbanks","DFO","IC","-409","151","73.150000000000006","11","-2.71","-120","1134","0.13900000000000001","EIA","In addition to Fairbanks, the GVEA service area includes 25 other communities."
+"Golden Valley Elec Assn Inc","Fairbanks","Fairbanks","RFO","GT","23532","168504","78.8","13278","0.14000000000000001","6897","1199520","0.15","EIA","In addition to Fairbanks, the GVEA service area includes 25 other communities."
+"Golden Valley Elec Assn Inc","Healy","Fairbanks","DFO","IC","55","171","73.150000000000006","13","0.32","16","1260","0.13900000000000001","EIA","In addition to Fairbanks, the GVEA service area includes 25 other communities."
+"Golden Valley Elec Assn Inc","Healy","Fairbanks","DFO","ST","813","3262","73.150000000000006","239","0.25","238","24024","0.13900000000000001","EIA","In addition to Fairbanks, the GVEA service area includes 25 other communities."
+"Golden Valley Elec Assn Inc","Healy","Fairbanks","SUB","ST","0","0","97.17","0",NA,"0","0","19.582999999999998","EIA","In addition to Fairbanks, the GVEA service area includes 25 other communities."
+"Golden Valley Elec Assn Inc","Healy","Fairbanks","WC","ST","651910","2585805","95.52","246996","0.25","191064","184629","11.603999999999999","EIA","In addition to Fairbanks, the GVEA service area includes 25 other communities."
+"Golden Valley Elec Assn Inc","North Pole","Fairbanks","DFO","GT","1493","6373","73.150000000000006","466","0.23","438","48636","0.13900000000000001","EIA","In addition to Fairbanks, the GVEA service area includes 25 other communities."
+"Golden Valley Elec Assn Inc","North Pole","Fairbanks","JF","CA","230859","0","70.88","0",NA,"67661","0","0.13500000000000001","EIA","In addition to Fairbanks, the GVEA service area includes 25 other communities."
+"Golden Valley Elec Assn Inc","North Pole","Fairbanks","JF","CT","1008079","2779195","70.88","196989","0.36","295451","23345238","0.13500000000000001","EIA","In addition to Fairbanks, the GVEA service area includes 25 other communities."
+"Golden Valley Elec Assn Inc","North Pole","Fairbanks","RFO","GT","92446","388309","78.8","30599","0.24","27094","2764230","0.15","EIA","In addition to Fairbanks, the GVEA service area includes 25 other communities."
+"Golovin Power Utilities","Golovin","Golovin","DFO","IC","2755","9167","73.150000000000006","671","0.3","807","66097","0.13900000000000001","PCE",NA
+"Gustavus Electric Co","Gustavus","Gustavus","DFO","IC","221","953","73.150000000000006","70","0.23","65","6875","0.13900000000000001","PCE",NA
+"Gwitchyaa Zhee Utilities Company","Fort Yukon","Fort Yukon","DFO","IC","10823","28914","73.150000000000006","2115","0.37","3172","208476","0.13900000000000001","PCE",NA
+"Homer Electric Assn Inc","Bradley Lake","Kalifornsky","WAT","HY","1256483","3513510",NA,NA,"0.36","368254","0",NA,"EIA",NA
+"Homer Electric Assn Inc","Nikiski Co-Generation","Kalifornsky","NG","CA","181825","0","53.06","0",NA,"53290","0","1.0209999999999999","EIA",NA
+"Homer Electric Assn Inc","Nikiski Co-Generation","Kalifornsky","NG","CT","715916","2706451","53.06","143604","0.26","209823","2690310","1.0209999999999999","EIA",NA
+"Homer Electric Assn Inc","Seldovia","Kalifornsky","DFO","IC","297","1314","73.150000000000006","96","0.23","87","8904","0.13900000000000001","EIA",NA
+"Hughes Power & Light","Hughes","Hughes","DFO","IC","1405","7613","73.150000000000006","557","0.18","412","54889","0.13900000000000001","PCE",NA
+"Igiugig Electric Company","Igiugig","Igiugig","DFO","IC","1105","3967","73.150000000000006","290","0.28000000000000003","324","28605","0.13900000000000001","PCE",NA
+"I-N-N Electric Coop, Inc","Newhalen","Newhalen","DFO","IC","-854","688","73.150000000000006","50","-1.24","-250","4961","0.13900000000000001","PCE",NA
+"I-N-N Electric Coop, Inc","Newhalen","Newhalen","WAT","HY","11174","31247",NA,NA,"0.36","3275","0",NA,"EIA",NA
+"Inside Passage Electric","Angoon","Angoon","DFO","IC","6006","19325","73.150000000000006","1414","0.31","1760","139340","0.13900000000000001","PCE",NA
+"Inside Passage Electric","Hoonah","Hoonah","DFO","IC","15837","44295","73.150000000000006","3240","0.36","4642","319378","0.13900000000000001","PCE",NA
+"Inside Passage Electric","Kake","Kake","DFO","IC","10429","30016","73.150000000000006","2196","0.35","3057","216422","0.13900000000000001","PCE",NA
+"Ipnatchiaq Electric Company","Deering","Deering","DFO","IC","2406","7701","73.150000000000006","563","0.31","705","55527","0.13900000000000001","PCE",NA
+"Ketchikan Public Utilities","Beaver Falls","Ketchikan","WAT","HY","144884","405139",NA,NA,"0.36","42463","0",NA,"EIA",NA
+"Ketchikan Public Utilities","Ketchikan","Ketchikan","WAT","HY","71127","198893",NA,NA,"0.36","20846","0",NA,"EIA",NA
+"Ketchikan Public Utilities","Silvis","Ketchikan","WAT","HY","37522","104924",NA,NA,"0.36","10997","0",NA,"EIA",NA
+"Ketchikan Public Utilities","Swan Lake","Ketchikan","WAT","HY","235964","659826",NA,NA,"0.36","69157","0",NA,"EIA",NA
+"Ketchikan Public Utilities","S W Bailey","Ketchikan","DFO","IC","34816","73786","73.150000000000006","5397","0.47","10204","532476","0.13900000000000001","EIA",NA
+"King Cove, City of","King Cove","King Cove","DFO","IC","8619","24829","73.150000000000006","1816","0.35","2526","179028","0.13900000000000001","PCE",NA
+"King Cove, City of","King Cove","King Cove","WAT","HY","8299","23208",NA,NA,"0.36","2432","0",NA,"EIA",NA
+"Kipnuk Light Plant","Kipnuk","Kipnuk","DFO","IC","5752","16436","73.150000000000006","1202","0.35","1686","118507","0.13900000000000001","PCE",NA
+"Kodiak Electric Assn Inc","Kodiak","Kodiak","DFO","IC","19817","58730","73.150000000000006","4296","0.34","5808","426006","0.13900000000000001","EIA","The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
+"Kodiak Electric Assn Inc","Nymans Plant","Kodiak","DFO","IC","0","6740","73.150000000000006","493","0","0","48972","0.13900000000000001","EIA","The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
+"Kodiak Electric Assn Inc","Pillar Mountain","Kodiak","WND","WT","91097","254736",NA,NA,"0.36","26699","0",NA,"EIA","The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
+"Kodiak Electric Assn Inc","Port Lions","Kodiak","DFO","IC","0","252","73.150000000000006","18","0","0","1848","0.13900000000000001","EIA","The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
+"Kodiak Electric Assn Inc","Terror Lake","Kodiak","WAT","HY","406513","1136736",NA,NA,"0.36","119142","0",NA,"EIA","The KEA service area includes the communities of Port Lions, Chiniak, Womens Bay and Woody Island."
+"Kokhanok Village Council","Kokhanok","Kokhanok","DFO","IC","1240","4700","73.150000000000006","344","0.26","363","33888","0.13900000000000001","PCE",NA
+"Kotzebue Electric Association","Kotzebue","Kotzebue","DFO","IC","61570","185488","73.150000000000006","13568","0.33","18045","1337428","0.13900000000000001","PCE",NA
+"Kotzebue Electric Association","Kotzebue","Kotzebue","WND","WT","4081","11411",NA,NA,"0.36","1196","0",NA,"EIA",NA
+"Koyukuk, City of","Koyukuk","Koyukuk","DFO","IC","184","4068","73.150000000000006","298","0.24","54","29331","0.13900000000000001","PCE",NA
+"Kwethluk Incorporated d/b/a Kuiggluum Kallugvia","Kwethluk","Kwethluk","DFO","IC","4941","15612","73.150000000000006","1142","0.32","1448","112564","0.13900000000000001","PCE",NA
+"Kwigillingok Power Company","Kwigillingok","Kwigillingok","DFO","IC","3359","11085","73.150000000000006","811","0.3","984","79929","0.13900000000000001","PCE",NA
+"Larsen Bay Utility Company","Larsen Bay","Larsen Bay","DFO","IC","90","711","73.150000000000006","52","0.13","26","5125","0.13900000000000001","PCE",NA
+"Levelock Electrical Coop","Levelock","Levelock","DFO","IC","1447","5800","73.150000000000006","424","0.25","424","41817","0.13900000000000001","PCE",NA
+"Lime Village Electric Utility","Lime Village","Lime Village","DFO","IC","248","1047","73.150000000000006","77","0.24","73","7548","0.13900000000000001","PCE",NA
+"Manokotak Power Company","Manokotak","Manokotak","DFO","IC","1160","15734","73.150000000000006","1151","7.0000000000000007E-2","340","113450","0.13900000000000001","PCE",NA
+"Mcgrath Light & Power","McGrath","McGrath","DFO","IC","8865","26353","73.150000000000006","1928","0.34","2598","190015","0.13900000000000001","PCE",NA
+"Metlakatla Power & Light","Centennial","Metlakatla","DFO","IC","-645","679","73.150000000000006","50","-0.95","-189","4872","0.13900000000000001","EIA",NA
+"Metlakatla Power & Light","Chester Lake","Metlakatla","WAT","HY","14904","41675",NA,NA,"0.36","4368","0",NA,"EIA",NA
+"Metlakatla Power & Light","Purple Lake","Metlakatla","WAT","HY","55268","154544",NA,NA,"0.36","16198","0",NA,"EIA",NA
+"Middle Kuskokwim Electric","Chuathbaluk","Chuathbaluk","DFO","IC","375","3770","73.150000000000006","276","0.1","110","27180","0.13900000000000001","PCE",NA
+"Middle Kuskokwim Electric","Crooked Creek","Crooked Creek","DFO","IC",NA,"3140","73.150000000000006","230","0.28000000000000003",NA,"22641","0.13900000000000001","PCE",NA
+"Middle Kuskokwim Electric","Red Devil","Red Devil","DFO","IC","303","1511","73.150000000000006","111","0.2","89","10892","0.13900000000000001","PCE",NA
+"Middle Kuskokwim Electric","Sleetmute","Sleetmute","DFO","IC","812","3288","73.150000000000006","241","0.25","238","23707","0.13900000000000001","PCE",NA
+"Middle Kuskokwim Electric","Stony River","Stony River","DFO","IC","112","1917","73.150000000000006","140","0.09","33","13821","0.13900000000000001","PCE",NA
+"Naknek Electric Association","Naknek","Naknek","DFO","IC","66312","175379","73.150000000000006","12829","0.38","19435","1264538","0.13900000000000001","PCE","Provides power to South Naknek and King Salmon via intertie. Includes South Naknek's and King Salmon's data."
+"Napaskiak Electric Utility","Napaskiak","Napaskiak","DFO","IC","3054","10077","73.150000000000006","737","0.3","895","72661","0.13900000000000001","PCE",NA
+"Naterkaq Light Plant (City of Chefornak)","Chefornak","Chefornak","DFO","IC","5473","17035","73.150000000000006","1246","0.32","1604","122827","0.13900000000000001","PCE",NA
+"Native Village of Perryville","Perryville","Perryville","DFO","IC","582","2121","73.150000000000006","155","0.27","171","15291","0.13900000000000001","PCE",NA
+"Nelson Lagoon Electrical Coop","Nelson Lagoon","Nelson Lagoon","DFO","IC","1122","5241","73.150000000000006","383","0.21","329","37789","0.13900000000000001","PCE",NA
+"New Koliganek Village Council","Koliganek","Koliganek","DFO","IC","2335","8180","73.150000000000006","598","0.28999999999999998","684","58983","0.13900000000000001","PCE",NA
+"Nikolai, City of","Nikolai","Nikolai","DFO","IC","1384","5484","73.150000000000006","401","0.25","406","39545","0.13900000000000001","PCE",NA
+"Nome Joint Utility Systems","Snake River","Nome","DFO","IC","111727","285828","73.150000000000006","20908","0.39","32745","2060912","0.13900000000000001","PCE",NA
+"Nome Joint Utility Systems","Snake River","Nome","WND","WT","0","0",NA,NA,NA,"0","0",NA,"EIA",NA
+"North Slope Borough Power & Light","Anaktuvuk Pass","Anaktuvuk Pass","DFO","IC","13815","42026","73.150000000000006","3074","0.33","4049","303019","0.13900000000000001","PCE",NA
+"North Slope Borough Power & Light","Atqasuk","Atqasuk","DFO","IC","11560","37428","73.150000000000006","2738","0.31","3388","269865","0.13900000000000001","PCE",NA
+"North Slope Borough Power & Light","Kaktovik","Kaktovik","DFO","IC","15590","48035","73.150000000000006","3514","0.32","4569","346350","0.13900000000000001","PCE",NA
+"North Slope Borough Power & Light","Nuiqsut","Nuiqsut","DFO","IC","438","6650","73.150000000000006","486","7.0000000000000007E-2","128","47952","0.13900000000000001","PCE",NA
+"North Slope Borough Power & Light","Point Hope","Point Hope","DFO","IC","21651","63941","73.150000000000006","4677","0.34","6346","461039","0.13900000000000001","PCE",NA
+"North Slope Borough Power & Light","Point Lay","Point Lay","DFO","IC","11996","38219","73.150000000000006","2796","0.31","3516","275574","0.13900000000000001","PCE",NA
+"North Slope Borough Power & Light","Wainwright","Wainwright","DFO","IC","21637","66313","73.150000000000006","4851","0.33","6342","478137","0.13900000000000001","PCE",NA
+"Nunam Iqua Electric Company","Sheldon Point","Nunam Iqua","DFO","IC","3009","10219","73.150000000000006","748","0.28999999999999998","882","73684","0.13900000000000001","PCE",NA
+"Nushagak Electric Cooperative","Dillingham","Dillingham","DFO","IC","61963","173246","73.150000000000006","12673","0.36","18160","1249162","0.13900000000000001","PCE","Provides power to Aleknagik via intertie. Includes Aleknagik's data."
+"Ouzinkie, City of","Ouzinkie","Ouzinkie","DFO","IC","1484","5188","73.150000000000006","380","0.28999999999999998","435","37409","0.13900000000000001","PCE",NA
+"Pedro Bay Village Council","Pedro Bay","Pedro Bay","DFO","IC","581","2536","73.150000000000006","185","0.23","170","18284","0.13900000000000001","PCE",NA
+"Pelican Utility","Pelican","Pelican","DFO","IC","218","1897","73.150000000000006","139","0.18","64","13679","0.13900000000000001","PCE",NA
+"Petersburg, City of","Blind Slough","Petersburg","DFO","IC","2254","6938","73.150000000000006","508","0.32","661","50232","0.13900000000000001","EIA",NA
+"Petersburg, City of","Blind Slough","Petersburg","WAT","HY","39978","111793",NA,NA,"0.36","11717","0",NA,"EIA",NA
+"Pilot Point Electric Utility","Pilot Point","Pilot Point","DFO","IC","1404","5180","73.150000000000006","379","0.27","411","37352","0.13900000000000001","PCE",NA
+"Port Heiden Utilities","Port Heiden","Port Heiden","DFO","IC","1757","7913","73.150000000000006","579","0.22","515","57058","0.13900000000000001","PCE",NA
+"Puvurnaq Power Company","Kongiganak","Kongiganak","DFO","IC","2871","9790","73.150000000000006","716","0.28999999999999998","842","70588","0.13900000000000001","PCE",NA
+"Ruby, City of","Ruby","Ruby","DFO","IC","2217","7188","73.150000000000006","526","0.31","650","51828","0.13900000000000001","PCE",NA
+"Saint George, City of","Saint George","Saint George","DFO","IC","2298","7482","73.150000000000006","547","0.31","673","53951","0.13900000000000001","PCE",NA
+"Saint Paul Municipal Electric","Saint Paul","Saint Paul","DFO","IC","14121","41665","73.150000000000006","3048","0.34","4139","300418","0.13900000000000001","PCE",NA
+"Seward, City of","Seward","Seward","DFO","IC","1044","3324","73.150000000000006","243","0.31","306","24066","0.13900000000000001","EIA","The Cityof Seward service area includes the communities of Crown Point, Primrose, Bear Creek and Lowell Point."
+"Sitka, City & Borough of","Blue Lake","Sitka","WAT","HY","179004","500549",NA,NA,"0.36","52463","0",NA,"EIA",NA
+"Sitka, City & Borough of","Green Lake","Sitka","WAT","HY","207385","579913",NA,NA,"0.36","60781","0",NA,"EIA",NA
+"Sitka, City & Borough of","Jarvis Street","Sitka","DFO","IC","515","9943","73.150000000000006","727","0.05","151","71820","0.13900000000000001","EIA",NA
+"Takotna Community Assoc Inc","Takotna","Takotna","DFO","IC","684","3051","73.150000000000006","223","0.22","201","21997","0.13900000000000001","PCE",NA
+"Tanalian Electric Cooperative","Port Alsworth","Port Alsworth","DFO","IC","2614","9099","73.150000000000006","666","0.28999999999999998","766","65606","0.13900000000000001","PCE",NA
+"Tanana Power Company Inc","Tanana","Tanana","DFO","IC","3768","12103","73.150000000000006","885","0.31","1104","87269","0.13900000000000001","PCE",NA
+"Tatitlek Village Ira Council","Tatitlek","Tatitlek","DFO","IC","1561","5789","73.150000000000006","423","0.27","458","41743","0.13900000000000001","PCE",NA
+"TDX Adak Generating LLC","Adak","Adak","DFO","IC",NA,"29719","73.150000000000006","2174","0.31",NA,"214285","0.13900000000000001","PCE",NA
+"TDX Corporation","Sand Point","Sand Point","DFO","IC","10786","32033","73.150000000000006","2343","0.34","3161","230970","0.13900000000000001","PCE",NA
+"TDX Manley Generating LLC","Manley Hot Springs","Manley Hot Springs","DFO","IC","1455","4989","73.150000000000006","365","0.28999999999999998","426","35973","0.13900000000000001","PCE",NA
+"Tenakee Springs, City of","Tenakee Springs","Tenakee Springs","DFO","IC","1361","4380","73.150000000000006","320","0.31","399","31579","0.13900000000000001","PCE",NA
+"Tuluksak Traditional","Tuluksak","Tuluksak","DFO","IC","2317","7805","73.150000000000006","571","0.3","679","56275","0.13900000000000001","PCE",NA
+"Tuntutuliak Community","Tuntutuliak","Tuntutuliak","DFO","IC","2713","11598","73.150000000000006","848","0.23","795","83625","0.13900000000000001","PCE",NA
+"Twin Hills Village Council","Twin Hills","Twin Hills","DFO","IC","954","4230","73.150000000000006","309","0.23","280","30497","0.13900000000000001","PCE",NA
+"Umnak Power Company","Nikolski","Nikolski","DFO","IC","644","2860","73.150000000000006","209","0.23","189","20620","0.13900000000000001","PCE",NA
+"Unalakleet Valley Electric Cooperative","Unalakleet","Unalakleet","DFO","IC","11401","32361","73.150000000000006","2367","0.35","3341","233335","0.13900000000000001","PCE",NA
+"Unalaska, City of","Dutch Harbor","Unalaska","DFO","IC","153656","394973","73.150000000000006","28892","0.39","45034","2941806","0.13900000000000001","EIA",NA
+"Unalaska, City of","Unalaska Power Module","Unalaska","DFO","IC","597","1708","73.150000000000006","125","0.35","175","12726","0.13900000000000001","EIA",NA
+"Ungusraq Power Company","Newtok","Newtok","DFO","IC","1551","6039","73.150000000000006","442","0.26","455","43540","0.13900000000000001","PCE",NA
+"Venetie Village Electric","Venetie","Venetie","DFO","IC","2413","10454","73.150000000000006","765","0.23","707","75380","0.13900000000000001","PCE",NA
+"White Mountain, City of","White Mountain","White Mountain","DFO","IC","2526","9172","73.150000000000006","671","0.28000000000000003","740","66132","0.13900000000000001","PCE",NA
+"Wrangell, City of","Wrangell","Wrangell","DFO","IC","2037","8346","73.150000000000006","611","0.24","597","63714","0.13900000000000001","EIA",NA
+"Yakutat Power Inc","Yakutat","Yakutat","DFO","IC","20875","58324","73.150000000000006","4266","0.36","6118","420534","0.13900000000000001","PCE",NA

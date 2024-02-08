@@ -1,0 +1,417 @@
+---
+title: "emissions"
+output: html_document
+date: "2024-02-06"
+editor_options: 
+  chunk_output_type: console
+---
+
+
+### Build a library
+```{R}
+options(scipen=999)
+
+
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(lubridate)
+library(readr)
+
+library(stringr)
+
+
+```
+
+### Set working directory
+```{R}
+repo <- "~/repos/ak-energy-statistics-2011_2021/"
+setwd(repo)
+
+```
+
+
+## Load from Staging
+```{R}
+
+years <- c(2011:2021)
+
+for(i in years) {
+  file <- paste("./", i, "/staging/table_2.4a.csv", sep = "")
+  df <- read_csv(file = file)
+  assign(paste("em", i, sep = ""), df)
+  rm(i, file, df)
+}
+
+rm(years)
+
+```
+
+
+## add year to table_2.4a
+```{R}
+# loop to add Year via mutate()
+years <- c(2011:2021)
+i <- NULL
+
+for(i in years) {
+  x <- paste("em", i, sep = "")
+  assign(paste("em", i, sep = ""), (get(x) %>% mutate(Year = paste(i), .before = 1)))
+}
+
+
+```
+
+
+# Plant Name and Plant ID crosswalk
+```{R}
+# build a simple crosswalk for Plant Name and Plant ID
+crosswalk2017 <- em2017[ , c(2,4,5:7)]
+
+
+# drop duplicated rows
+# then drop Peter Pan Seafoods in King Cove, it's causing problems, zero generation data
+# drop "Chignik Bay", leave "Chignik", duplicated plant name causing problems
+comm_data <- crosswalk2017 %>% 
+  distinct(`AK Plant ID`, `Plant Name`, .keep_all = TRUE) %>%
+  filter(`AK Plant ID` != "P287") %>%
+  filter(`Plant Name` != "Chignik Bay")
+
+
+
+aug_crosswalk <- comm_data[ , c(1:3)]
+  
+
+```
+
+## problem children 2011
+looks like 2017 has the best matching ability, use 2017
+```{R}
+# problem children
+# em2011 = 11 (when referenced against 2017)
+# em2012 = 14 (when referenced against 2017)
+# em2013 = 18 (when referenced against 2017)
+
+
+# initial join attempt
+plus2011 <- left_join(em2011, aug_crosswalk, by = join_by("Plant Name"))
+
+# pull the problem children
+problems2011 <- subset(plus2011, is.na(plus2011$`AK Plant ID`))
+
+
+# Direct Inject
+# align 2011 with 2014-2021 names
+em2011$`Plant Name` <- ifelse(em2011$`Utility Name` == "Unalaska, City of", "Unalaska", em2011$`Plant Name`)
+em2011$`Plant Name` <- ifelse(em2011$`Plant Name` == "Kodiak", "Kodiak Microgrid", em2011$`Plant Name`)
+em2011$`Plant Name` <- ifelse(em2011$`Plant Name` == "Nymans Plant", "Nymans Plant Microgrid", em2011$`Plant Name`)
+em2011$`Plant Name` <- ifelse(em2011$`Plant Name` == "Port Lions", "Port Lions Microgrid", em2011$`Plant Name`)
+em2011$`Plant Name` <- ifelse(em2011$`Plant Name` == "Sheldon Point", "Nunam Iqua", em2011$`Plant Name`)
+em2011$`Plant Name` <- ifelse(em2011$`Plant Name` == "Fort Yukon", "Gwitchyaa Zhee", em2011$`Plant Name`)
+em2011$`Plant Name` <- ifelse(em2011$`Plant Name` == "Aurora Energy", "Aurora Energy LLC Chena", em2011$`Plant Name`)
+em2011$`Plant Name` <- ifelse(em2011$`Plant Name` == "Upper Kalskag", "Kalskag", em2011$`Plant Name`)
+
+
+
+# Direct Delete
+# these communities are intertied, zero generation
+# dropped in later years, drop now too
+em2011 <- em2011[-(which(em2011$`Plant Name` == "Kobuk")), ]
+em2011 <- em2011[-(which(em2011$`Plant Name` == "Napakiak")), ]
+
+
+# rerun join attempt
+plus2011 <- left_join(em2011, aug_crosswalk, by = join_by("Plant Name"))
+
+# check problem children, should be zero
+problems2011 <- subset(plus2011, is.na(plus2011$`AK Plant ID`))
+
+
+```
+
+
+
+## problem children 2012
+looks like 2017 has the best matching ability, use 2017
+```{R}
+# problem children
+# em2011 = 11 (when referenced against 2017)
+# em2012 = 14 (when referenced against 2017)
+# em2013 = 18 (when referenced against 2017)
+
+
+# initial join attempt
+plus2012 <- left_join(em2012, aug_crosswalk, by = join_by("Plant Name"))
+
+# pull the problem children
+problems2012 <- subset(plus2012, is.na(plus2012$`AK Plant ID`))
+
+
+# Direct Inject
+# this could be a for loop
+em2012$`Plant Name` <- ifelse(em2012$`Plant Name` == "Blue Lake", "Blue Lake Hydro", em2012$`Plant Name`)
+em2012$`Plant Name` <- ifelse(em2012$`Plant Name` == "Galena", "Galena Electric Utility", em2012$`Plant Name`)
+em2012$`Plant Name` <- ifelse(em2012$`Plant Name` == "Lake Dorothy", "Lake Dorothy Hydroelectric Project", em2012$`Plant Name`)
+em2012$`Plant Name` <- ifelse(em2012$`Plant Name` == "Eklutna Lake", "Eklutna Hydro Project", em2012$`Plant Name`)
+em2012$`Plant Name` <- ifelse(em2012$`Plant Name` == "Fire Island", "Fire Island Wind", em2012$`Plant Name`)
+em2012$`Plant Name` <- ifelse(em2012$`Plant Name` == "Eva Creek", "Eva Creek Wind", em2012$`Plant Name`)
+em2012$`Plant Name` <- ifelse(em2012$`Plant Name` == "Pillar Mountain", "Pillar Mountain Wind Project Microgrid", em2012$`Plant Name`)
+em2012$`Plant Name` <- ifelse(em2012$`Plant Name` == "Terror Lake", "Terror Lake Microgrid", em2012$`Plant Name`)
+em2012$`Plant Name` <- ifelse(em2012$`Plant Name` == "Nymans Plant", "Nymans Plant Microgrid", em2012$`Plant Name`)
+em2012$`Plant Name` <- ifelse(em2012$`Plant Name` == "Port Lions", "Port Lions Microgrid", em2012$`Plant Name`)
+em2012$`Plant Name` <- ifelse(em2012$`Plant Name` == "Sheldon Point", "Nunam Iqua", em2012$`Plant Name`)
+em2012$`Plant Name` <- ifelse(em2012$`Plant Name` == "Fort Yukon", "Gwitchyaa Zhee", em2012$`Plant Name`)
+em2012$`Plant Name` <- ifelse(em2012$`Plant Name` == "Upper Kalskag", "Kalskag", em2012$`Plant Name`)
+em2012$`Plant Name` <- ifelse(em2012$`Plant Name` == "Kodiak", "Kodiak Microgrid", em2012$`Plant Name`)
+
+
+# rerun join attempt
+plus2012 <- left_join(em2012, aug_crosswalk, by = join_by("Plant Name"))
+
+# pull the problem children
+problems2012 <- subset(plus2012, is.na(plus2012$`AK Plant ID`))
+
+```
+
+
+
+## problem children 2012
+looks like 2017 has the best matching ability, use 2017
+```{R}
+# problem children
+# em2011 = 11 (when referenced against 2017)
+# em2012 = 14 (when referenced against 2017)
+# em2013 = 18 (when referenced against 2017)
+
+
+# initial join attempt
+plus2013 <- left_join(em2013, aug_crosswalk, by = join_by("Plant Name"))
+
+# pull the problem children
+problems2013 <- subset(plus2013, is.na(plus2013$`AK Plant ID`))
+
+
+# Direct Inject
+# this could be a for loop
+em2013$`Plant Name` <- ifelse(em2013$`Plant Name` == "Blue Lake", "Blue Lake Hydro", em2013$`Plant Name`)
+em2013$`Plant Name` <- ifelse(em2013$`Plant Name` == "Galena", "Galena Electric Utility", em2013$`Plant Name`)
+em2013$`Plant Name` <- ifelse(em2013$`Plant Name` == "Lake Dorothy", "Lake Dorothy Hydroelectric Project", em2013$`Plant Name`)
+em2013$`Plant Name` <- ifelse(em2013$`Plant Name` == "Eklutna Lake", "Eklutna Hydro Project", em2013$`Plant Name`)
+em2013$`Plant Name` <- ifelse(em2013$`Plant Name` == "Fire Island", "Fire Island Wind", em2013$`Plant Name`)
+em2013$`Plant Name` <- ifelse(em2013$`Plant Name` == "Eva Creek", "Eva Creek Wind", em2013$`Plant Name`)
+em2013$`Plant Name` <- ifelse(em2013$`Plant Name` == "Pillar Mountain", "Pillar Mountain Wind Project Microgrid", em2013$`Plant Name`)
+em2013$`Plant Name` <- ifelse(em2013$`Plant Name` == "Terror Lake", "Terror Lake Microgrid", em2013$`Plant Name`)
+em2013$`Plant Name` <- ifelse(em2013$`Plant Name` == "Nymans Plant", "Nymans Plant Microgrid", em2013$`Plant Name`)
+em2013$`Plant Name` <- ifelse(em2013$`Plant Name` == "Port Lions", "Port Lions Microgrid", em2013$`Plant Name`)
+em2013$`Plant Name` <- ifelse(em2013$`Plant Name` == "Sheldon Point", "Nunam Iqua", em2013$`Plant Name`)
+em2013$`Plant Name` <- ifelse(em2013$`Plant Name` == "Fort Yukon", "Gwitchyaa Zhee", em2013$`Plant Name`)
+em2013$`Plant Name` <- ifelse(em2013$`Plant Name` == "Upper Kalskag", "Kalskag", em2013$`Plant Name`)
+em2013$`Plant Name` <- ifelse(em2013$`Plant Name` == "Kodiak", "Kodiak Microgrid", em2013$`Plant Name`)
+em2013$`Plant Name` <- ifelse(em2013$`Plant Name` == "Aurora Energy", "Aurora Energy LLC Chena", em2013$`Plant Name`)
+
+
+# rerun join attempt
+plus2013 <- left_join(em2013, aug_crosswalk, by = join_by("Plant Name"))
+
+# pull the problem children
+problems2013 <- subset(plus2013, is.na(plus2013$`AK Plant ID`))
+
+
+```
+
+
+# Problem with column names between years
+2014:2017 merge
+
+### Generation
+2014:2017 = "
+2018
+```{R}
+
+# testing
+# tmp <- rbind(em2018, em2020)
+
+em2018 <- em2018 %>%
+  rename("AK Plant ID" = "Plant ID")
+
+# Generation MWh
+# 2011:2013 = "Net Generation MWh"
+# 2014:2017 = "Generation MWh"
+# 2018 = "Net Generation MWh"
+# 2019:2021 = "Generation (PCE=gross, EIA=net)  MWh"
+plus2011 <- rename(plus2011, "Generation (PCE=gross, EIA=net)  MWh" = "Net Generation MWh")
+plus2012 <- rename(plus2012, "Generation (PCE=gross, EIA=net)  MWh" = "Net Generation MWh")
+plus2013 <- rename(plus2013, "Generation (PCE=gross, EIA=net)  MWh" = "Net Generation MWh")
+
+em2014 <- rename(em2014, "Generation (PCE=gross, EIA=net)  MWh" = "Generation MWh")
+em2015 <- rename(em2015, "Generation (PCE=gross, EIA=net)  MWh" = "Generation MWh")
+em2016 <- rename(em2016, "Generation (PCE=gross, EIA=net)  MWh" = "Generation MWh")
+em2017 <- rename(em2017, "Generation (PCE=gross, EIA=net)  MWh" = "Generation MWh")
+
+em2018 <- rename(em2018, "Generation (PCE=gross, EIA=net)  MWh" = "Net Generation MWh")
+
+
+# Generation MMBtu
+# 2011:2013 = "Net Generation MMBtu"
+# 2041:2021 = "Generation MMBtu"
+plus2011 <- rename(plus2011, "Generation MMBtu" = "Net Generation MMBtu")
+plus2012 <- rename(plus2012, "Generation MMBtu" = "Net Generation MMBtu")
+plus2013 <- rename(plus2013, "Generation MMBtu" = "Net Generation MMBtu")
+
+em2018 <- rename(em2018, "Generation MMBtu" = "Net Generation MMBtu")
+
+
+# Fuel Unit
+# 2011:2013 = Column Not Present
+# 2014 = "Fuel Unit"
+# 2015:2017 = "Fuel Units"
+# 2018 = Column Not Present
+# 2019:2021 = "Fuel Unit"
+plus2011 <- mutate(plus2011, "Fuel Unit" = NA)
+plus2012 <- mutate(plus2012, "Fuel Unit" = NA)
+plus2013 <- mutate(plus2013, "Fuel Unit" = NA)
+
+em2014 <- rename(em2014, "Fuel Unit" = "Fuel Units")
+em2015 <- rename(em2015, "Fuel Unit" = "Fuel Units")
+em2016 <- rename(em2016, "Fuel Unit" = "Fuel Units")
+em2017 <- rename(em2017, "Fuel Unit" = "Fuel Units")
+
+em2018 <- mutate(em2018, "Fuel Unit" = NA)
+
+
+
+# Emissions Factor
+# 2011 = "Emission Factor (kg CO2/MMBtu)"
+# 2012:2018 = "Emission Factor"
+# 2019:2021 = "Emission Factor kgCO2 per MMBtu"
+plus2011 <- plus2011 %>% rename("Emission Factor kgCO2 per MMBtu" = "Emission Factor (kg CO2/MMBtu)")
+
+plus2012 <- plus2012 %>% rename("Emission Factor kgCO2 per MMBtu" = "Emission Factor")
+plus2013 <- plus2013 %>% rename("Emission Factor kgCO2 per MMBtu" = "Emission Factor")
+em2014 <- em2014 %>% rename("Emission Factor kgCO2 per MMBtu" = "Emission Factor")
+em2015 <- em2015 %>% rename("Emission Factor kgCO2 per MMBtu" = "Emission Factor")
+em2016 <- em2016 %>% rename("Emission Factor kgCO2 per MMBtu" = "Emission Factor")
+em2017 <- em2017 %>% rename("Emission Factor kgCO2 per MMBtu" = "Emission Factor")
+em2018 <- em2018 %>% rename("Emission Factor kgCO2 per MMBtu" = "Emission Factor")
+
+
+
+
+
+
+```
+
+
+# Combine!
+What do I really need? 
+```{R}
+
+df.list <- list(plus2011, 
+                plus2012, 
+                plus2013, 
+                em2014, 
+                em2015, 
+                em2016, 
+                em2017, 
+                em2018, 
+                em2019, 
+                em2020, 
+                em2021)
+
+raw_em <- NULL
+tmp <- NULL
+  
+
+# close, but not quite
+
+for(df in df.list){
+    tmp <- select(df, c("Year",
+                        "AK Plant ID",
+                        "Fuel Type",
+                        "Prime Mover",
+                        "Fuel Use",
+                        "Fuel Unit",
+                        "Generation (PCE=gross, EIA=net)  MWh",
+                        "Generation MMBtu",
+                        "Total Fuel MMBtu",
+                        "Emission Factor kgCO2 per MMBtu",
+                        "CO2 Metric Tons from Fuel"
+                ))
+   raw_em <-  rbind(raw_em, tmp)
+   rm(tmp)
+}
+
+
+
+
+
+```
+
+
+## post-combine cleaning
+```{R}
+
+em <- raw_em %>% 
+  # convert "-" to NA
+  mutate(`Fuel Use` = na_if(`Fuel Use`, "-"),
+         `Total Fuel MMBtu` = na_if(`Total Fuel MMBtu`, "-"),
+         `CO2 Metric Tons from Fuel` = na_if(`CO2 Metric Tons from Fuel`, "-")) %>%
+           
+  # convert some columns to numeric 
+  # burn decimals
+  # take absolute value of generation MWw, MMBtu, and Total Fuel (somehow there are negatives? wtf)
+  mutate(`Fuel Use` = round(as.numeric(`Fuel Use`), 0),
+         `Total Fuel MMBtu` = abs(round(as.numeric(`Total Fuel MMBtu`), 0)),
+         `CO2 Metric Tons from Fuel` = round(as.numeric(`CO2 Metric Tons from Fuel`), 0),
+         `Generation (PCE=gross, EIA=net)  MWh` = abs(round(`Generation (PCE=gross, EIA=net)  MWh`, 0)),
+         `Total Fuel MMBtu` = abs(`Total Fuel MMBtu`),
+         `Generation MMBtu` = abs(`Generation MMBtu`)) %>%
+
+  # drop batteries from generation/emission data
+  filter(`Fuel Type` != "MWH") 
+
+
+
+
+
+
+
+```
+
+
+## join community data
+```{R}
+final <- left_join(em, comm_data) %>%
+               select(c("Year",
+                        "AK Plant ID",
+                        "Plant Name",
+                        "Utility Name",
+                        "Intertie Name",
+                        "Energy Region",
+                        "Fuel Type",
+                        "Prime Mover",
+                        "Fuel Use",
+                        "Fuel Unit",
+                        "Generation (PCE=gross, EIA=net)  MWh",
+                        "Generation MMBtu",
+                        "Total Fuel MMBtu",
+                        "Emission Factor kgCO2 per MMBtu",
+                        "CO2 Metric Tons from Fuel"
+                ))
+
+
+
+
+```
+
+
+# write to file
+```{R}
+setwd(repo)
+
+write_csv(final, file = "./trends/raw/generation_emissions.csv")
+
+
+
+
+```
