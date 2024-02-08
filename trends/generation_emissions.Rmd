@@ -424,7 +424,7 @@ em <- raw_em %>%
          `CO2 Metric Tons from Fuel` = round(as.numeric(`CO2 Metric Tons from Fuel`), 0),
          `Generation (PCE=gross, EIA=net)  MWh` = abs(round(`Generation (PCE=gross, EIA=net)  MWh`, 0)),
          `Total Fuel MMBtu` = abs(`Total Fuel MMBtu`),
-         `Generation MMBtu` = abs(`Generation MMBtu`)) %>%
+         `Generation MMBtu` = abs(round(`Generation MMBtu`, 0))) %>%
 
   # drop batteries from generation/emission data
   filter(`Fuel Type` != "MWH") %>%
@@ -468,6 +468,41 @@ final <- left_join(em, comm_data) %>%
 
 ```
 
+
+```{R}
+
+final <- rename(final, "AEA Energy Region" = "Energy Region")
+
+
+
+# Add ACEP region to revenue data
+# rural remote, coastal, railbelt
+unique(final$`AEA Energy Region`)
+
+final$`ACEP Energy Region` <- "error"
+
+final$`ACEP Energy Region` <- if_else(final$`AEA Energy Region` == c("Railbelt"), 
+                           "Railbelt", final$`ACEP Energy Region`)
+
+final$`ACEP Energy Region` <- if_else(final$`AEA Energy Region` %in% c("Southeast", "Kodiak", "Copper River/Chugach"), 
+                           "Coastal", final$`ACEP Energy Region`)
+
+final$`ACEP Energy Region` <- if_else(final$`AEA Energy Region` %in% c("North Slope", 
+                                                        "Bering Straits", 
+                                                        "Yukon-Koyukuk/Upper Tanana",
+                                                        "Lower Yukon-Kuskokwim", 
+                                                        "Bristol Bay",
+                                                        "Aleutians",
+                                                        "Northwest Arctic"
+                                                        ),
+                           "Rural Remote", final$`ACEP Energy Region`)
+
+
+
+# test, this should return 0 records
+sub <- subset(final, `ACEP Energy Region` == "error")
+
+```
 
 
 

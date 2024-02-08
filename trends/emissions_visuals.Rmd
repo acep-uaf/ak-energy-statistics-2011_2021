@@ -1,0 +1,70 @@
+---
+title: "emissions visuals"
+output: html_document
+date: "2024-02-08"
+editor_options: 
+  chunk_output_type: console
+---
+
+
+### library
+```{R}
+options(scipen=999)
+
+library(ggplot2)
+library(dplyr)
+library(readr)
+
+library(see)
+
+
+```
+
+
+## load 
+```{R}
+repo <- "~/repos/ak-energy-statistics-2011_2021/"
+setwd(repo)
+
+
+generation_emissions <- read_csv("./trends/raw/generation_emissions.csv")
+
+
+```
+
+
+
+
+
+
+
+
+# boxplot
+```{R}
+# plot
+generation_emissions %>%
+  ggplot( aes(x=`ACEP Energy Region`, y=`CO2 Metric Tons from Fuel`, fill=`ACEP Energy Region`)) +
+    # geom_boxplot(outlier.alpha = 0) +
+    geom_violinhalf() +
+    scale_fill_manual(values = c("#98BAD6", "#A4CD9A", "#E3918F", "#F1BF42")) +
+    geom_jitter(color="black", size=0.4, alpha=0.8, width = 0.1, height = 0) +
+    theme_classic() +
+    theme(legend.position = "none",
+          plot.title = element_text(size=20, hjust = 0.5),
+          plot.subtitle = element_text(size=14, hjust = 0.5),
+          plot.caption = element_text(size = 8)) +
+  
+    labs(title = "Price of Electricity, Residential, 2011",
+         subtitle = "Inflation-adjusted to 2021 dollars, post PCE Subsidy",
+         caption = "Inflation-adjustment calculated using BLS Cost Price Index, AK Urban",
+         x = "Region",
+         y = "Cents/kWh") +
+  
+    coord_flip() +
+    
+    ylim(c(0,50)) 
+    
+
+
+
+```
