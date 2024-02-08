@@ -68,15 +68,18 @@ for(i in years) {
 # build a simple crosswalk for Plant Name and Plant ID
 crosswalk2017 <- em2017[ , c(2,4,5:7)]
 
-
 # drop duplicated rows
 # then drop Peter Pan Seafoods in King Cove, it's causing problems, zero generation data
 # drop "Chignik Bay", leave "Chignik", duplicated plant name causing problems
-comm_data <- crosswalk2017 %>% 
+raw_comm_data <- crosswalk2017 %>% 
   distinct(`AK Plant ID`, `Plant Name`, .keep_all = TRUE) %>%
   filter(`AK Plant ID` != "P287") %>%
   filter(`Plant Name` != "Chignik Bay")
 
+# new pv installations, 2020
+# add to comm_data
+pv <- em2020[c(110, 236) , c(2,4,5:7)]
+comm_data <- rbind(raw_comm_data, pv)
 
 
 aug_crosswalk <- comm_data[ , c(1:3)]
@@ -175,7 +178,7 @@ problems2012 <- subset(plus2012, is.na(plus2012$`AK Plant ID`))
 
 
 
-## problem children 2012
+## problem children 2013
 looks like 2017 has the best matching ability, use 2017
 ```{R}
 # problem children
@@ -295,11 +298,67 @@ em2017 <- em2017 %>% rename("Emission Factor kgCO2 per MMBtu" = "Emission Factor
 em2018 <- em2018 %>% rename("Emission Factor kgCO2 per MMBtu" = "Emission Factor")
 
 
-
-
-
-
 ```
+
+
+
+## Issues with AK Plant ID column
+Looks like ID conventions changed in 2021 (P1 vs P001)
+This is going to cause problems going forward
+Let's cut to the chase: burn the "P" and convert ID to straight numeric
+
+### the loop is eluding me right now, just run 11 lines
+```{R}
+plus2011$`AK Plant ID` <- as.numeric(sub(pattern = "P", replacement = "", plus2011$`AK Plant ID`))
+plus2012$`AK Plant ID` <- as.numeric(sub(pattern = "P", replacement = "", plus2012$`AK Plant ID`))
+plus2013$`AK Plant ID` <- as.numeric(sub(pattern = "P", replacement = "", plus2013$`AK Plant ID`))
+
+em2014$`AK Plant ID` <- as.numeric(sub(pattern = "P", replacement = "", em2014$`AK Plant ID`))
+em2015$`AK Plant ID` <- as.numeric(sub(pattern = "P", replacement = "", em2015$`AK Plant ID`))
+em2016$`AK Plant ID` <- as.numeric(sub(pattern = "P", replacement = "", em2016$`AK Plant ID`))
+
+em2017$`AK Plant ID` <- as.numeric(sub(pattern = "P", replacement = "", em2017$`AK Plant ID`))
+em2018$`AK Plant ID` <- as.numeric(sub(pattern = "P", replacement = "", em2018$`AK Plant ID`))
+em2019$`AK Plant ID` <- as.numeric(sub(pattern = "P", replacement = "", em2019$`AK Plant ID`))
+
+em2020$`AK Plant ID` <- as.numeric(sub(pattern = "P", replacement = "", em2020$`AK Plant ID`))
+em2021$`AK Plant ID` <- as.numeric(sub(pattern = "P", replacement = "", em2021$`AK Plant ID`))
+
+# also run on the crosswalks
+aug_crosswalk$`AK Plant ID` <- as.numeric(sub(pattern = "P", replacement = "", aug_crosswalk$`AK Plant ID`))
+comm_data$`AK Plant ID` <- as.numeric(sub(pattern = "P", replacement = "", comm_data$`AK Plant ID`))
+crosswalk2017$`AK Plant ID` <- as.numeric(sub(pattern = "P", replacement = "", crosswalk2017$`AK Plant ID`))
+
+
+
+
+
+# df.list <- list(plus2011, 
+#                 plus2012, 
+#                 plus2013, 
+#                 em2014, 
+#                 em2015, 
+#                 em2016, 
+#                 em2017, 
+#                 em2018, 
+#                 em2019, 
+#                 em2020, 
+#                 em2021)
+# 
+# 
+# for(df in df.list){
+#   df <- mutate(df, `AK Plant ID` = as.numeric(sub(pattern = "P", replacement = "", `AK Plant ID`)))
+# }
+
+# # below are two options that work outside of loop, can't get to assign properly in loop
+# plus2011$`AK Plant ID` <- as.numeric(sub(pattern = "P", replacement = "", plus2011$`AK Plant ID`))
+# 
+# plus2012 <- plus2012 %>%
+#   mutate(`AK Plant ID` = as.numeric(sub(pattern = "P", replacement = "", `AK Plant ID`)))
+
+# rm(df.list)
+```
+
 
 
 # Combine!
@@ -344,7 +403,7 @@ for(df in df.list){
 
 
 
-
+rm(df.list)
 ```
 
 
@@ -368,7 +427,12 @@ em <- raw_em %>%
          `Generation MMBtu` = abs(`Generation MMBtu`)) %>%
 
   # drop batteries from generation/emission data
-  filter(`Fuel Type` != "MWH") 
+  filter(`Fuel Type` != "MWH") %>%
+
+  # Peter Pan, King Cove is messing with my data
+  # Also, records show zero generation
+  # delete for now
+  filter(`AK Plant ID` != 287)
 
 
 
@@ -403,6 +467,23 @@ final <- left_join(em, comm_data) %>%
 
 
 ```
+
+
+
+
+
+
+# final check for problems
+```{R}
+
+# pull the problem children
+problems <- subset(final, is.na(final$`Plant Name`))
+
+
+```
+
+
+
 
 
 # write to file
