@@ -6,22 +6,6 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Watch out, columns are not uniform across years. This is going to be a headache later!
-# It looks like columns are somewhat contiguous, can be grouped as follows:
-2011
-  different from 2012 and 2013 in first column name at least ("UtilityName" vs "Utility.Name").
-  also has 4 more columns
-  
-2012, 2013
-  21 columns, not sure what's going on here. Missing all cross-reference data (maybe join from later years?)
-  
-2014, 2015, 2016, 2017, 2018
-  28 columns (2018 is an outlier with 27 columns)
-  
-2019, 2020, 2021
-  28 columns, possibly different names than above
-
-
 ### Build a library
 ```{R}
 library(dplyr)
@@ -34,11 +18,12 @@ library(readxl)
 library(readr)
 
 
-library(see)  #slices violin plots in half
-library(ggridges)
+library(see)  # slices violin plots in half
+library(ggridges) # mountains beyond mountains
+library(ggrepel) # labels on ends of lines
+
 library(forcats)
 ```
-
 
 ### Set working directory
 ```{R}
@@ -47,342 +32,25 @@ setwd(repo)
 
 ```
 
-
-
-
-# New Data from Neil
-## truncate to 2011-plus
-```{R}
-sales <- read_xlsx(path = "~/Desktop/new_workbooks_from_neil/Energy Stats--Financial tables_2023-11-13.xlsx",
-                          sheet = "Annual Sales FINAL 06262023") %>%
-         filter(Year >= 2011) %>%
-        # town named Platinum (pop 14) is crazy outlier, drop
-         filter(`AEA Reporting ID` != "SR-142")
-
-
-
-
-```
-
-
-# bug: copper valley electric assn (Valdez) intertie ID 
-  years 2001-2018, intertie ID = 216-1982
-  years 2019-2021, intertie ID = 2016-0000
-```{R}
-# fix
-sales$intertie_id <- ifelse(sales$intertie_id == "216-0000", "216-1982", sales$intertie_id)
-
-check <- subset(sales, intertie_id == "216-0000")
-
-```
-
-
-# Join Intertie Data
-```{R}
-interties <- read_xlsx(path = "~/Desktop/new_workbooks_from_neil/Energy Stats--Financial tables_2023-11-13.xlsx",
-                          sheet = "LOOKUP INTERTIES 2023-11-08")
-
-# combine to get community/intertie names
-sales_interties <- left_join(sales, interties, by = join_by(intertie_id == intertie_id))
-
-```
-
-
-# AK Consumer Price Index
-https://fred.stlouisfed.org/series/CUUSA427SEHF01
-this data came with 2 CPIs per year (January, July)
-wanted 1 CPI per year, so I averaged the two
+### Load data
 ```{R}
 
-ak_cpi <- read_csv("~/Google Drive/Shared drives/AK-EnergyStatistics/revenue_box_whisker/CUUSA427SEHF01.csv") %>%
-  mutate(Year = year(Date)) %>%
-  select(-c(Date)) %>%
-  group_by(Year) %>%
-  summarize(`AK CPI` = mean(CPI)) 
-
-
-```
-
-
-## Build dataframe of nominal prices
-```{R}
-
-
-prices <- sales_interties %>%
-  
-  # add AK Consumer Price Index data
-  left_join(., ak_cpi, by = join_by(Year == Year)) %>%
-  
-  # calculate nominal prices
-  mutate(`Residential Price kWh (nominal dollars)` = 
-          (`Residential revenue (1000$)`/`Residential Sales (MWh)`)*100, 
-            .after = `Residential Sales (MWh)`) %>%
-  mutate(`Commercial Price kWh (nominal dollars)` = 
-          (`Commercial Revenue (1000$)`/`Commercial Sales (MWh)`)*100, 
-            .after = `Commercial Sales (MWh)`) %>%
-  mutate(`Industrial Price kWh (nominal dollars)` = 
-          (`Industrial Revenue (1000$)`/`Industrial Sales (MWh)`)*100, 
-            .after = `Industrial Sales (MWh)`) %>%
-  select(c("Year",
-           "AEA Reporting ID",
-           "Residential Price kWh (nominal dollars)",
-           "Commercial Price kWh (nominal dollars)",
-           "Industrial Price kWh (nominal dollars)"),
-           "AK CPI")
-
-
-```
-
-
-
-# load PCE-adjusted Residential Prices
-```{R}
-# load pce data
-pce_sales <- read_csv("./trends/raw/pce_price_2011-2021.csv") %>%
-  mutate("Residential Price kWh (nominal dollars)" = (`Residential Rate after PCE ($/kWh)`)*100) %>% 
-  rename("AEA Reporting ID" = "AEA Sales Reporting ID") %>%
-  select(-c("PCE Community\n(Y/N)")) 
-  
-
-sales_minus_residential <- prices %>%
-  mutate("Residential Price kWh (nominal dollars)" = NULL) %>%
-  select(c("Year",
-         "AEA Reporting ID",
-         "Commercial Price kWh (nominal dollars)",
-         "Industrial Price kWh (nominal dollars)",
-         "AK CPI"))
-
-
-# add `Commercial $/kWh` and `Other $/kWh` to PCE communities
-pce_sales_plus_commercial_other <- left_join(pce_sales, 
-                                             sales_minus_residential, 
-                                             join_by(`Year`, `AEA Reporting ID`)) %>%
-                                     select(c("Year",
-                                              "AEA Reporting ID",
-                                              "Residential Price kWh (nominal dollars)",
-                                              "Commercial Price kWh (nominal dollars)",
-                                              "Industrial Price kWh (nominal dollars)",
-                                              "AK CPI"))
-
-
-# burn PCE communities from raw_sales in order to set up for r_bind() next
-non_pce_prices <- anti_join(prices, pce_sales, by = join_by(`AEA Reporting ID`))
-
-
-prices_pce <- rbind(non_pce_prices, pce_sales_plus_commercial_other)
-
-
-```
-
-
-  
-  
-  
-  
-  
-
-  
-```{R}
-  
-prices_pce_inflation <- prices_pce %>%
-  # calculate inflation adjusted prices
-  mutate(`Residential Price kWh (2021 dollars)` = 
-           (`Residential Price kWh (nominal dollars)`*335.4480/`AK CPI`), 
-            .after = `Residential Price kWh (nominal dollars)`) %>%
-  mutate(`Commercial Price kWh (2021 dollars)` = 
-           (`Commercial Price kWh (nominal dollars)`*335.4480/`AK CPI`), 
-            .after = `Commercial Price kWh (nominal dollars)`) %>%
-  mutate(`Industrial Price kWh (2021 dollars)` = 
-           (`Industrial Price kWh (nominal dollars)`*335.4480/`AK CPI`), 
-            .after = `Industrial Price kWh (nominal dollars)`) %>%
-  
-  # finally, select statement to narrow things down
-  select(c("Year", 
-           "AEA Reporting ID",
-           "Residential Price kWh (2021 dollars)",
-           "Commercial Price kWh (2021 dollars)",
-           "Industrial Price kWh (2021 dollars)",
-           "AK CPI"
-           )) %>%
-  rename("AEA Sales Reporting ID" = "AEA Reporting ID")
-
-
-
-
-# Now that cleaning is done, add community crosswalk data
-crosswalk2020 <- read_csv("./trends/raw/crosswalk2020.csv")
-
-# need to figure out SR-195 (Metlakatla, Southeast), SR-199 (Seward, Railbelt), SR-9 (Paxson, Chugach)
-crosswalk2020 <- rbind(crosswalk2020, c("SR-195", NA, NA, NA, "Metlakatla", NA, "Southeast"))
-crosswalk2020 <- rbind(crosswalk2020, c("SR-199", NA, NA, NA, "Seward", NA, "Railbelt"))
-crosswalk2020 <- rbind(crosswalk2020, c("SR-9", NA, NA, NA, "Paxson", NA, "Copper River/Chugach"))
-
-# join inflation-adjusted plus PCE prices AND regional data
-final <- left_join(prices_pce_inflation, crosswalk2020, join_by(`AEA Sales Reporting ID`))
-
-
-# Add ACEP region to revenue data
-# rural remote, coastal, railbelt
-unique(final$`AEA Energy Region`)
-
-final$`ACEP Energy Region` <- "error"
-
-final$`ACEP Energy Region` <- if_else(final$`AEA Energy Region` == c("Railbelt"), 
-                           "Railbelt", final$`ACEP Energy Region`)
-
-final$`ACEP Energy Region` <- if_else(final$`AEA Energy Region` %in% c("Southeast", "Kodiak", "Copper River/Chugach"), 
-                           "Coastal", final$`ACEP Energy Region`)
-
-final$`ACEP Energy Region` <- if_else(final$`AEA Energy Region` %in% c("North Slope", 
-                                                        "Bering Straits", 
-                                                        "Yukon-Koyukuk/Upper Tanana",
-                                                        "Lower Yukon-Kuskokwim", 
-                                                        "Bristol Bay",
-                                                        "Aleutians",
-                                                        "Northwest Arctic"
-                                                        ),
-                           "Rural Remote", final$`ACEP Energy Region`)
-
-
-
-# test, this should return 0 records
-sub <- subset(final, `ACEP Energy Region` == "error")
+price <- read_csv("./trends/raw/price_inflation_pce.csv")
 
 ```
 
 
 
 
-## pivot longer to get Residential, Commercial, Industrial
-```{R}
-p_final <- final %>%
-             rename(c("Residential" = "Residential Price kWh (2021 dollars)",
-                      "Commercial" = "Commercial Price kWh (2021 dollars)",
-                      "Industrial" = "Industrial Price kWh (2021 dollars)")) %>%
-             pivot_longer( 
-             cols = c("Residential",
-                      "Commercial",
-                      "Industrial"), 
-             names_to ="Type", 
-             values_to = "Price")
-
-
-
-
-```
-
-
-# boxplot of     price over time
-```{R}
-
-
-# facet_grid by region by residential/commercial/industrial
-
-p_final %>%
-  filter(`ACEP Energy Region` == "Coastal") %>%
-  mutate(YearFct = as.factor(Year)) %>% 
-  
-  ggplot( aes(y=Price, x=YearFct, fill = YearFct)) +
-  geom_boxplot(outlier.alpha = 0) +
-  facet_grid(~Type) +
-  theme_classic() +
-  
-  theme(legend.position = "none",
-        plot.title = element_text(size=20, hjust = 0.5),
-        plot.subtitle = element_text(size=14, hjust = 0.5),
-        plot.caption = element_text(size = 8)) +
-  
-  labs(title = "Price of Electricity, Coastal, 2011-2021",
-       subtitle = "Inflation-adjusted to 2021 dollars, post PCE Subsidy",
-       caption = "Inflation-adjustment calculated using BLS Cost Price Index, AK Urban",
-       x = "Year",
-       y = "Cents per kWh") +
-
-  ylim(c(0,100)) 
-  
-
-
-
-
-
-
-
-
-# ridges over time
-final %>%
-  filter(`ACEP Energy Region` == "Coastal") %>%
-  mutate(YearFct = fct_rev(as.factor(Year))) %>%
-  ggplot( aes(x=`Residential Price kWh (2021 dollars)`, y=YearFct, fill = YearFct)) +
-  geom_density_ridges() + 
-  theme_classic() +
-  theme(legend.position = "none") +
-  ggtitle("Price per kWh (2021 dollars), Coastal Residential")
-
-
-
-
-# Boxplot of revenue
-plot_region <- "Railbelt"
-final %>%
-  filter(`ACEP Energy Region` == paste(plot_region)) %>%
-  mutate(YearFct = as.factor(Year)) %>% 
-  
-  ggplot( aes(y=`Residential Price kWh (2021 dollars)`, x=YearFct, fill = YearFct)) +
-  # geom_violin() +
-  geom_boxplot(outlier.alpha = 0) +
-  theme_classic() +
-  
-  theme(legend.position = "none") +
-  ggtitle(paste("Revenue per kWh, Residential, ", plot_region, sep = " ")) +
-  ylab("Revenue per kWh, cents") +
-  xlab("Year") +
-  
-  ylim(c(0,100)) 
-
-
-```
-
-
-
-
-
-# ridges over time
-```{R}
-
-# subset residential 2021 data, drop rows with NAs
-# final <- rev11_21 %>% 
-#   select(c("Year", "Reporting name", "ACEP energy region", "Residential revenue (1000$)", "Residential Sales (MWh)", "`Residential Revenue kWh`" )) %>%
-#   drop_na(`Residential Revenue kWh`)
-# 
-# 
-# 
-# 
-# final %>%
-#   filter(`ACEP energy region` == "Coastal") %>%
-#   mutate(YearFct = fct_rev(as.factor(Year))) %>%
-#   ggplot( aes(x=`Residential Revenue kWh`, y=YearFct, fill = YearFct)) +
-#   geom_density_ridges() + 
-#   theme_classic() +
-#   ggtitle("Revenue, Coastal")
-
-```
-
-
-
-
-
-
-
-
-# subset of Residential Revenue all Regions, 2021
+## subset of Residential Revenue all Regions, 2021
 ```{R}
 # want statewide box too, so duplicate res_rev21, set ACEP energy region = "State", rbind back in.
-tmp_state <- final %>% 
+tmp_state <- price %>% 
   mutate("ACEP Energy Region" = "State")
 
 
 # subset residential 2021 data, drop rows with NAs
-state <- rbind(final, tmp_state) %>%
+state <- rbind(price, tmp_state) %>%
   select(c("Year", 
            "Reporting Name", 
            "ACEP Energy Region", 
@@ -398,6 +66,26 @@ state11 <- state %>%
 
 ```
 
+
+
+
+## pivot longer to get Residential, Commercial, Industrial
+```{R}
+p_price <- price %>%
+             rename(c("Residential" = "Residential Price kWh (2021 dollars)",
+                      "Commercial" = "Commercial Price kWh (2021 dollars)",
+                      "Industrial" = "Industrial Price kWh (2021 dollars)")) %>%
+             pivot_longer( 
+             cols = c("Residential",
+                      "Commercial",
+                      "Industrial"), 
+             names_to ="Type", 
+             values_to = "Price")
+
+
+
+
+```
 
 
 ## boxplot of 2021 data, grouped by region
@@ -438,7 +126,167 @@ state11 %>%
 
 
 
+
+
+# region by residential/commercial/industrial
+```{R}
+plot_region <- "Railbelt"
+
+viz <- price %>%
+  filter(`ACEP Energy Region` == paste(plot_region)) %>%
+  # drop_na(`Residential Price kWh (2021 dollars)`,
+  #         `Commercial Price kWh (2021 dollars)`,
+  #         `Industrial Price kWh (2021 dollars)`) %>%
+  group_by(`ACEP Energy Region`, Year) %>%
+  summarize(Residential = mean(`Residential Price kWh (2021 dollars)`, na.rm = TRUE),
+            Commercial = mean(`Commercial Price kWh (2021 dollars)`, na.rm = TRUE),
+            Industrial = mean(`Industrial Price kWh (2021 dollars)`, na.rm = TRUE)) %>%
+   pivot_longer( 
+     cols = c(Residential,
+              Commercial,
+              Industrial), 
+     names_to = "Type", 
+     values_to = "Price")
+
+viz %>%  
+  mutate(label = if_else(Year == max(Year), as.character(Type), NA_character_)) %>%
+  ggplot( aes(y=Price, x=Year, color = Type)) +
+  geom_line(linewidth=1.5) +
+  geom_label_repel(aes(label = label,),
+                  nudge_x = 1,
+                  nudge_y = 1,
+                  na.rm = TRUE) +
+  theme_classic() +
+  
+  scale_color_manual(values = c("#8F949E", "#5B3B25", "#9668A0")) +
+  theme(legend.position = "none",
+        plot.title = element_text(size=20, hjust = 0.5),
+        plot.subtitle = element_text(size=14, hjust = 0.5),
+        plot.caption = element_text(size = 8)) +
+  
+  labs(title = paste("Price of Electricity, ", plot_region, ", 2011-2021",sep = ""),
+       subtitle = "Inflation-adjusted to 2021 dollars, post PCE Subsidy",
+       caption = "Inflation-adjustment calculated using BLS Cost Price Index, AK Urban",
+       x = "Year",
+       y = "Cents per kWh") +
+
+   ylim(c(0,30)) +
+   scale_x_continuous(breaks=seq(2011,2021,2))
+
+
+
+```
+
+
+
+```{R}
+# ridges over time
+price %>%
+  filter(`ACEP Energy Region` == "Coastal") %>%
+  mutate(YearFct = fct_rev(as.factor(Year))) %>%
+  ggplot( aes(x=`Residential Price kWh (2021 dollars)`, y=YearFct, fill = YearFct)) +
+  geom_density_ridges() + 
+  theme_classic() +
+  theme(legend.position = "none") +
+  ggtitle("Price per kWh (2021 dollars), Coastal Residential")
+
+
+
+
+# Boxplot of revenue
+plot_region <- "Railbelt"
+price %>%
+  filter(`ACEP Energy Region` == paste(plot_region)) %>%
+  mutate(YearFct = as.factor(Year)) %>% 
+  
+  ggplot( aes(y=`Residential Price kWh (2021 dollars)`, x=YearFct, fill = YearFct)) +
+  # geom_violin() +
+  geom_boxplot(outlier.alpha = 0) +
+  theme_classic() +
+  
+  theme(legend.position = "none") +
+  ggtitle(paste("Revenue per kWh, Residential, ", plot_region, sep = " ")) +
+  ylab("Revenue per kWh, cents") +
+  xlab("Year") +
+  
+  ylim(c(0,100)) 
+
+
+```
+
+
+
+
+
+# ridges over time
+```{R}
+
+# subset residential 2021 data, drop rows with NAs
+# price <- rev11_21 %>% 
+#   select(c("Year", "Reporting name", "ACEP energy region", "Residential revenue (1000$)", "Residential Sales (MWh)", "`Residential Revenue kWh`" )) %>%
+#   drop_na(`Residential Revenue kWh`)
+# 
+# 
+# 
+# 
+# price %>%
+#   filter(`ACEP energy region` == "Coastal") %>%
+#   mutate(YearFct = fct_rev(as.factor(Year))) %>%
+#   ggplot( aes(x=`Residential Revenue kWh`, y=YearFct, fill = YearFct)) +
+#   geom_density_ridges() + 
+#   theme_classic() +
+#   ggtitle("Revenue, Coastal")
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Junkyard below
+
+# DEPRECATED price over time
+# boxplots over time by region, facet-wrapped
+# too busy!
+```{R}
+# facet_grid by region by residential/commercial/industrial
+p_price %>%
+  filter(`ACEP Energy Region` == "Coastal") %>%
+  mutate(YearFct = as.factor(Year)) %>%
+
+  # boxplot code
+  ggplot( aes(y=Price, x=YearFct, fill = YearFct)) +
+  geom_boxplot(outlier.alpha = 0) +
+  facet_grid(~Type) +
+  theme_classic() +
+
+  theme(legend.position = "none",
+        plot.title = element_text(size=20, hjust = 0.5),
+        plot.subtitle = element_text(size=14, hjust = 0.5),
+        plot.caption = element_text(size = 8)) +
+  
+  labs(title = "Price of Electricity, Coastal, 2011-2021",
+       subtitle = "Inflation-adjusted to 2021 dollars, post PCE Subsidy",
+       caption = "Inflation-adjustment calculated using BLS Cost Price Index, AK Urban",
+       x = "Year",
+       y = "Cents per kWh") 
+
+  ylim(c(0,100))
+  
+
+```
 
 
 ## dealing with outliers in rural remote

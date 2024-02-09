@@ -1,0 +1,266 @@
+---
+title: "sales_inflation_pce"
+output: html_document
+date: "2024-02-09"
+editor_options: 
+  chunk_output_type: console
+---
+
+# Watch out, columns are not uniform across years. This is going to be a headache later!
+# It looks like columns are somewhat contiguous, can be grouped as follows:
+2011
+  different from 2012 and 2013 in first column name at least ("UtilityName" vs "Utility.Name").
+  also has 4 more columns
+  
+2012, 2013
+  21 columns, not sure what's going on here. Missing all cross-reference data (maybe join from later years?)
+  
+2014, 2015, 2016, 2017, 2018
+  28 columns (2018 is an outlier with 27 columns)
+  
+2019, 2020, 2021
+  28 columns, possibly different names than above
+
+
+### Build a library
+```{R}
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(lubridate)
+
+
+library(readxl)
+library(readr)
+
+
+library(see)  # slices violin plots in half
+library(ggridges) # mountains beyond mountains
+library(ggrepel) # labels on ends of lines
+
+library(forcats)
+```
+
+
+### Set working directory
+```{R}
+repo <- "~/repos/ak-energy-statistics-2011_2021/"
+setwd(repo)
+
+```
+
+
+
+
+# New Data from Neil
+## truncate to 2011-plus
+```{R}
+sales <- read_xlsx(path = "~/Desktop/new_workbooks_from_neil/Energy Stats--Financial tables_2023-11-13.xlsx",
+                          sheet = "Annual Sales FINAL 06262023") %>%
+         filter(Year >= 2011) %>%
+        # town named Platinum (pop 14) is crazy outlier, drop
+         filter(`AEA Reporting ID` != "SR-142")
+
+
+
+
+```
+
+
+# bug: copper valley electric assn (Valdez) intertie ID 
+  years 2001-2018, intertie ID = 216-1982
+  years 2019-2021, intertie ID = 2016-0000
+```{R}
+# fix
+sales$intertie_id <- ifelse(sales$intertie_id == "216-0000", "216-1982", sales$intertie_id)
+
+check <- subset(sales, intertie_id == "216-0000")
+
+```
+
+
+# Join Intertie Data
+```{R}
+interties <- read_xlsx(path = "~/Desktop/new_workbooks_from_neil/Energy Stats--Financial tables_2023-11-13.xlsx",
+                          sheet = "LOOKUP INTERTIES 2023-11-08")
+
+# combine to get community/intertie names
+sales_interties <- left_join(sales, interties, by = join_by(intertie_id == intertie_id))
+
+```
+
+
+# AK Consumer Price Index
+https://fred.stlouisfed.org/series/CUUSA427SEHF01
+this data came with 2 CPIs per year (January, July)
+wanted 1 CPI per year, so I averaged the two
+```{R}
+
+ak_cpi <- read_csv("~/Google Drive/Shared drives/AK-EnergyStatistics/revenue_box_whisker/CUUSA427SEHF01.csv") %>%
+  mutate(Year = year(Date)) %>%
+  select(-c(Date)) %>%
+  group_by(Year) %>%
+  summarize(`AK CPI` = mean(CPI)) 
+
+
+```
+
+
+## Build dataframe of nominal prices
+```{R}
+
+
+prices <- sales_interties %>%
+  
+  # add AK Consumer Price Index data
+  left_join(., ak_cpi, by = join_by(Year == Year)) %>%
+  
+  # calculate nominal prices
+  mutate(`Residential Price kWh (nominal dollars)` = 
+          (`Residential revenue (1000$)`/`Residential Sales (MWh)`)*100, 
+            .after = `Residential Sales (MWh)`) %>%
+  mutate(`Commercial Price kWh (nominal dollars)` = 
+          (`Commercial Revenue (1000$)`/`Commercial Sales (MWh)`)*100, 
+            .after = `Commercial Sales (MWh)`) %>%
+  mutate(`Industrial Price kWh (nominal dollars)` = 
+          (`Industrial Revenue (1000$)`/`Industrial Sales (MWh)`)*100, 
+            .after = `Industrial Sales (MWh)`) %>%
+  select(c("Year",
+           "AEA Reporting ID",
+           "Residential Price kWh (nominal dollars)",
+           "Commercial Price kWh (nominal dollars)",
+           "Industrial Price kWh (nominal dollars)"),
+           "AK CPI")
+
+
+```
+
+
+
+# load PCE-adjusted Residential Prices
+```{R}
+# load pce data
+pce_sales <- read_csv("./trends/raw/pce_price_2011-2021.csv") %>%
+  mutate("Residential Price kWh (nominal dollars)" = (`Residential Rate after PCE ($/kWh)`)*100) %>% 
+  rename("AEA Reporting ID" = "AEA Sales Reporting ID") %>%
+  select(-c("PCE Community\n(Y/N)")) 
+  
+
+sales_minus_residential <- prices %>%
+  mutate("Residential Price kWh (nominal dollars)" = NULL) %>%
+  select(c("Year",
+         "AEA Reporting ID",
+         "Commercial Price kWh (nominal dollars)",
+         "Industrial Price kWh (nominal dollars)",
+         "AK CPI"))
+
+
+# add `Commercial $/kWh` and `Other $/kWh` to PCE communities
+pce_sales_plus_commercial_other <- left_join(pce_sales, 
+                                             sales_minus_residential, 
+                                             join_by(`Year`, `AEA Reporting ID`)) %>%
+                                     select(c("Year",
+                                              "AEA Reporting ID",
+                                              "Residential Price kWh (nominal dollars)",
+                                              "Commercial Price kWh (nominal dollars)",
+                                              "Industrial Price kWh (nominal dollars)",
+                                              "AK CPI"))
+
+
+# burn PCE communities from raw_sales in order to set up for r_bind() next
+non_pce_prices <- anti_join(prices, pce_sales, by = join_by(`AEA Reporting ID`))
+
+
+prices_pce <- rbind(non_pce_prices, pce_sales_plus_commercial_other)
+
+
+```
+
+  
+
+  
+```{R}
+  
+prices_pce_inflation <- prices_pce %>%
+  # calculate inflation adjusted prices
+  mutate(`Residential Price kWh (2021 dollars)` = 
+           (`Residential Price kWh (nominal dollars)`*335.4480/`AK CPI`), 
+            .after = `Residential Price kWh (nominal dollars)`) %>%
+  mutate(`Commercial Price kWh (2021 dollars)` = 
+           (`Commercial Price kWh (nominal dollars)`*335.4480/`AK CPI`), 
+            .after = `Commercial Price kWh (nominal dollars)`) %>%
+  mutate(`Industrial Price kWh (2021 dollars)` = 
+           (`Industrial Price kWh (nominal dollars)`*335.4480/`AK CPI`), 
+            .after = `Industrial Price kWh (nominal dollars)`) %>%
+  
+  # finally, select statement to narrow things down
+  select(c("Year", 
+           "AEA Reporting ID",
+           "Residential Price kWh (2021 dollars)",
+           "Commercial Price kWh (2021 dollars)",
+           "Industrial Price kWh (2021 dollars)",
+           "AK CPI"
+           )) %>%
+  rename("AEA Sales Reporting ID" = "AEA Reporting ID")
+
+
+
+
+# Now that cleaning is done, add community crosswalk data
+crosswalk2020 <- read_csv("./trends/raw/crosswalk2020.csv")
+
+# need to figure out SR-195 (Metlakatla, Southeast), SR-199 (Seward, Railbelt), SR-9 (Paxson, Chugach)
+crosswalk2020 <- rbind(crosswalk2020, c("SR-195", NA, NA, NA, "Metlakatla", NA, "Southeast"))
+crosswalk2020 <- rbind(crosswalk2020, c("SR-199", NA, NA, NA, "Seward", NA, "Railbelt"))
+crosswalk2020 <- rbind(crosswalk2020, c("SR-9", NA, NA, NA, "Paxson", NA, "Copper River/Chugach"))
+
+# join inflation-adjusted plus PCE prices AND regional data
+final <- left_join(prices_pce_inflation, crosswalk2020, join_by(`AEA Sales Reporting ID`))
+
+
+# Add ACEP region to revenue data
+# rural remote, coastal, railbelt
+unique(final$`AEA Energy Region`)
+
+final$`ACEP Energy Region` <- "error"
+
+final$`ACEP Energy Region` <- if_else(final$`AEA Energy Region` == c("Railbelt"), 
+                           "Railbelt", final$`ACEP Energy Region`)
+
+final$`ACEP Energy Region` <- if_else(final$`AEA Energy Region` %in% c("Southeast", "Kodiak", "Copper River/Chugach"), 
+                           "Coastal", final$`ACEP Energy Region`)
+
+final$`ACEP Energy Region` <- if_else(final$`AEA Energy Region` %in% c("North Slope", 
+                                                        "Bering Straits", 
+                                                        "Yukon-Koyukuk/Upper Tanana",
+                                                        "Lower Yukon-Kuskokwim", 
+                                                        "Bristol Bay",
+                                                        "Aleutians",
+                                                        "Northwest Arctic"
+                                                        ),
+                           "Rural Remote", final$`ACEP Energy Region`)
+
+
+
+# test, this should return 0 records
+sub <- subset(final, `ACEP Energy Region` == "error")
+
+```
+
+
+# write to file
+```{R}
+setwd(repo)
+
+
+write_csv(final, "./trends/raw/price_inflation_pce.csv")
+
+load <- read_csv("./trends/raw/price_inflation_pce.csv")
+
+
+```
+
+
+
+
+

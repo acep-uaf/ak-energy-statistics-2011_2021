@@ -42,7 +42,28 @@ generation_emissions <- read_csv("./trends/raw/generation_emissions.csv")
 # boxplot
 ```{R}
 # plot
-generation_emissions %>%
+tmp <- generation_emissions %>%
+  group_by(`ACEP Energy Region`, `Year`) %>%
+  summarize(emissions = sum(`CO2 Metric Tons from Fuel`, na.rm = TRUE),
+            generation = sum(`Generation (PCE=gross, EIA=net)  MWh`, na.rm = TRUE)) %>%
+  mutate(CO2_per_MWh = emissions/generation)
+
+tmp %>%
+  filter(Year != 2020) %>%
+  ggplot(aes(x = Year, y = emissions, fill = `ACEP Energy Region`)) +
+  geom_line()
+
+
+  # validation aggregation
+aggregate(`Plant Name` ~ Year + `ACEP Energy Region`, generation_emissions, FUN = function(x) length(x))
+
+
+
+
+
+
+
+
   mutate(`kg CO2 per MWh` = ((`CO2 Metric Tons from Fuel`*1000)/`Generation (PCE=gross, EIA=net)  MWh`)) %>%
   filter(Year == 2021) %>%
   drop_na(`ACEP Energy Region`) %>%
