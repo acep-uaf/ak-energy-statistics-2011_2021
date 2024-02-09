@@ -1,0 +1,274 @@
+AK Plant ID,Utility Name,Plant Name,Intertie Name,AEA Energy Region,ACEP Energy Region
+107,"Atka, City of",Atka,Atka_grid,Aleutians,Rural Remote
+141,"False Pass, City of",False Pass,False Pass_grid,Aleutians,Rural Remote
+143,G & K Inc,Cold Bay,Cold Bay_grid,Aleutians,Rural Remote
+177,"King Cove, City of",King Cove,King Cove_grid,Aleutians,Rural Remote
+212,Nelson Lagoon Electrical Coop,Nelson Lagoon,Nelson Lagoon_grid,Aleutians,Rural Remote
+237,"Saint George, City of",Saint George,Saint George_grid,Aleutians,Rural Remote
+238,Saint Paul Municipal Electric,Saint Paul,Saint Paul_grid,Aleutians,Rural Remote
+251,TDX Adak Generating LLC,Adak,Adak_grid,Aleutians,Rural Remote
+252,TDX Corporation,Sand Point,Sand Point_grid,Aleutians,Rural Remote
+261,Umnak Power Company,Nikolski,Nikolski_grid,Aleutians,Rural Remote
+263,"Unalaska, City of",Dutch Harbor,Unalaska_grid,Aleutians,Rural Remote
+264,"Unalaska, City of",Unalaska Power Module,Unalaska_grid,Aleutians,Rural Remote
+266,Unisea Inc,Unisea G 2,Unalaska_grid,Aleutians,Rural Remote
+271,Westward Seafoods Inc,Westward Seafoods,Unalaska_grid,Aleutians,Rural Remote
+5,"Akutan, City of",Akutan,Akutan_grid,Aleutians,Rural Remote
+291,"Unalaska, City of",Unalaska,Unalaska_grid,Aleutians,Rural Remote
+135,Diomede Joint Utilities,Diomede,Diomede_grid,Bering Straits,Rural Remote
+153,Golovin Power Utilities,Golovin,Golovin_grid,Bering Straits,Rural Remote
+215,Nome Joint Utility Systems,Snake River,Nome_grid,Bering Straits,Rural Remote
+262,Unalakleet Valley Electric Cooperative,Unalakleet,Unalakleet_grid,Bering Straits,Rural Remote
+272,"White Mountain, City of",White Mountain,White Mountain_grid,Bering Straits,Rural Remote
+48,Alaska Village Electric Cooperative,Brevig Mission,Brevig Mission_grid,Bering Straits,Rural Remote
+50,Alaska Village Electric Cooperative,Elim,Elim_grid,Bering Straits,Rural Remote
+52,Alaska Village Electric Cooperative,Gambell,Gambell_grid,Bering Straits,Rural Remote
+58,Alaska Village Electric Cooperative,Koyuk,Koyuk_grid,Bering Straits,Rural Remote
+68,Alaska Village Electric Cooperative,Savoonga,Savoonga_grid,Bering Straits,Rural Remote
+71,Alaska Village Electric Cooperative,Shishmaref,Shishmaref_grid,Bering Straits,Rural Remote
+74,Alaska Village Electric Cooperative,Stebbins,Stebbins_grid,Bering Straits,Rural Remote
+95,Alaska Village Electric Cooperative,Shaktoolik,Shaktoolik_grid,Bering Straits,Rural Remote
+96,Alaska Village Electric Cooperative,Teller,Teller_grid,Bering Straits,Rural Remote
+98,Alaska Village Electric Cooperative,Wales,Wales_grid,Bering Straits,Rural Remote
+73,Alaska Village Electric Cooperative,Saint Michael,Stebbins_grid,Bering Straits,Rural Remote
+116,Chignik Lagoon Power Utility,Chignik Lagoon,Chignik Lagoon_grid,Bristol Bay,Rural Remote
+117,Chignik Lake Electric Utility,Chignik Lake,Chignik Lake_grid,Bristol Bay,Rural Remote
+118,"Chignik, City of",Chignik,Chignik_grid,Bristol Bay,Rural Remote
+125,"Clark's Point, City of",Clark's Point,Clark's Point_grid,Bristol Bay,Rural Remote
+139,Egegik Light & Power Co,Egegik,Egegik_grid,Bristol Bay,Rural Remote
+161,Igiugig Electric Company,Igiugig,Igiugig_grid,Bristol Bay,Rural Remote
+162,"I-N-N Electric Coop, Inc",Newhalen,Newhalen_grid,Bristol Bay,Rural Remote
+188,Kokhanok Village Council,Kokhanok,Kokhanok_grid,Bristol Bay,Rural Remote
+194,Levelock Electrical Coop,Levelock,Levelock_grid,Bristol Bay,Rural Remote
+196,Manokotak Power Company,Manokotak,Manokotak_grid,Bristol Bay,Rural Remote
+207,Naknek Electric Association,Naknek,Naknek_grid,Bristol Bay,Rural Remote
+213,New Koliganek Village Council,Koliganek,Koliganek_grid,Bristol Bay,Rural Remote
+224,Nushagak Electric Cooperative,Dillingham,Dillingham_grid,Bristol Bay,Rural Remote
+227,Pedro Bay Village Council,Pedro Bay,Pedro Bay_grid,Bristol Bay,Rural Remote
+230,Pilot Point Electric Utility,Pilot Point,Pilot Point_grid,Bristol Bay,Rural Remote
+232,Port Heiden Utilities,Port Heiden,Port Heiden_grid,Bristol Bay,Rural Remote
+248,Tanalian Electric Cooperative,Port Alsworth,Port Alsworth_grid,Bristol Bay,Rural Remote
+61,Alaska Village Electric Cooperative,New Stuyahok,New Stuyahok_grid,Bristol Bay,Rural Remote
+75,Alaska Village Electric Cooperative,Togiak,Togiak_grid,Bristol Bay,Rural Remote
+211,Native Village of Perryville,Perryville,Perryville_grid,Bristol Bay,Rural Remote
+260,Twin Hills Village Council,Twin Hills,Twin Hills_grid,Bristol Bay,Rural Remote
+115,Chenega Ira Council,Chenega Bay,Chenega_grid,Copper River/Chugach,Coastal
+119,Chitina Electric Inc,Chitina,Chitina_grid,Copper River/Chugach,Coastal
+126,"Copper Valley Elec Assn, Inc",Allison Creek Hydro,CopperValley_grid,Copper River/Chugach,Coastal
+127,"Copper Valley Elec Assn, Inc",Glennallen,CopperValley_grid,Copper River/Chugach,Coastal
+128,"Copper Valley Elec Assn, Inc",Solomon Gulch,CopperValley_grid,Copper River/Chugach,Coastal
+129,"Copper Valley Elec Assn, Inc",Valdez,CopperValley_grid,Copper River/Chugach,Coastal
+130,"Copper Valley Elec Assn, Inc",Valdez Cogen,CopperValley_grid,Copper River/Chugach,Coastal
+132,Cordova Electric Cooperative,Humpback Creek,Cordova_grid,Copper River/Chugach,Coastal
+133,Cordova Electric Cooperative,Orca,Cordova_grid,Copper River/Chugach,Coastal
+134,Cordova Electric Cooperative,Power Creek,Cordova_grid,Copper River/Chugach,Coastal
+250,Tatitlek Village Ira Council,Tatitlek,Tatitlek_grid,Copper River/Chugach,Coastal
+292,Cordova Electric Cooperative,"Cordova, Eyak",Cordova_grid,Copper River/Chugach,Coastal
+27,Alaska Power & Telephone Company,Slana,Slana_grid,Copper River/Chugach,Coastal
+32,Alaska Power & Telephone Company,Chistochina,Slana_grid,Copper River/Chugach,Coastal
+38,Alaska Power & Telephone Company,Mentasta Lake,Slana_grid,Copper River/Chugach,Coastal
+100,Karluk IRA Tribal Council,Karluk,Karluk_grid,Kodiak,Coastal
+180,Kodiak Electric Assn Inc,ESS Battery Microgrid,Kodiak_grid,Kodiak,Coastal
+181,Kodiak Electric Assn Inc,Flywheel Energy Storage System Microgrid,Kodiak_grid,Kodiak,Coastal
+182,Kodiak Electric Assn Inc,Kodiak Microgrid,Kodiak_grid,Kodiak,Coastal
+183,Kodiak Electric Assn Inc,Nymans Plant Microgrid,Kodiak_grid,Kodiak,Coastal
+184,Kodiak Electric Assn Inc,Pillar Mountain Wind Project Microgrid,Kodiak_grid,Kodiak,Coastal
+186,Kodiak Electric Assn Inc,Swampy Acres Microgrid,Kodiak_grid,Kodiak,Coastal
+187,Kodiak Electric Assn Inc,Terror Lake Microgrid,Kodiak_grid,Kodiak,Coastal
+2,"Akhiok, City of",Akhiok,Akhiok_grid,Kodiak,Coastal
+225,"Ouzinkie, City of",Ouzinkie,Ouzinkie_grid,Kodiak,Coastal
+91,Alaska Village Electric Cooperative,Old Harbor,Old Harbor_grid,Kodiak,Coastal
+185,Kodiak Electric Assn Inc,Port Lions Microgrid,Kodiak_grid,Kodiak,Coastal
+193,Larsen Bay Utility Company,Larsen Bay,Larsen Bay_grid,Kodiak,Coastal
+105,Aniak Light & Power,Aniak,Aniak_grid,Lower Yukon-Kuskokwim,Rural Remote
+108,Atmautluak Tribal Utilities,Atmautluak,Atmautluak_grid,Lower Yukon-Kuskokwim,Rural Remote
+178,Kipnuk Light Plant,Kipnuk,Kipnuk_grid,Lower Yukon-Kuskokwim,Rural Remote
+191,Kwethluk Incorporated d/b/a Kuiggluum Kallugvia,Kwethluk,Kwethluk_grid,Lower Yukon-Kuskokwim,Rural Remote
+192,Kwigillingok Power Company,Kwigillingok,Kwigillingok_grid,Lower Yukon-Kuskokwim,Rural Remote
+195,Lime Village Electric Utility,Lime Village,Lime Village_grid,Lower Yukon-Kuskokwim,Rural Remote
+202,Middle Kuskokwim Electric,Chuathbaluk,Chuathbaluk_grid,Lower Yukon-Kuskokwim,Rural Remote
+203,Middle Kuskokwim Electric,Crooked Creek,Crooked Creek_grid,Lower Yukon-Kuskokwim,Rural Remote
+204,Middle Kuskokwim Electric,Red Devil,Red Devil_grid,Lower Yukon-Kuskokwim,Rural Remote
+205,Middle Kuskokwim Electric,Sleetmute,Sleetmute_grid,Lower Yukon-Kuskokwim,Rural Remote
+206,Middle Kuskokwim Electric,Stony River,Stony River_grid,Lower Yukon-Kuskokwim,Rural Remote
+209,Napaskiak Electric Utility,Napaskiak,Napaskiak_grid,Lower Yukon-Kuskokwim,Rural Remote
+210,Naterkaq Light Plant (City of Chefornak),Chefornak,Chefornak_grid,Lower Yukon-Kuskokwim,Rural Remote
+223,Nunam Iqua Electric Company,Nunam Iqua,Nunam Iqua_grid,Lower Yukon-Kuskokwim,Rural Remote
+233,Puvurnaq Power Company,Kongiganak,Kongiganak_grid,Lower Yukon-Kuskokwim,Rural Remote
+259,Tuntutuliak Community,Tuntutuliak,Tuntutuliak_grid,Lower Yukon-Kuskokwim,Rural Remote
+265,Ungusraq Power Company,Newtok,Newtok_grid,Lower Yukon-Kuskokwim,Rural Remote
+3,Akiachak Native Community,Akiachak,Akiachak_grid,Lower Yukon-Kuskokwim,Rural Remote
+4,Akiak City Council,Akiak,Akiak_grid,Lower Yukon-Kuskokwim,Rural Remote
+45,Alaska Village Electric Cooperative,Alakanuk,Emmonak_grid,Lower Yukon-Kuskokwim,Rural Remote
+47,Alaska Village Electric Cooperative,Bethel,Bethel_grid,Lower Yukon-Kuskokwim,Rural Remote
+49,Alaska Village Electric Cooperative,Chevak,Chevak_grid,Lower Yukon-Kuskokwim,Rural Remote
+51,Alaska Village Electric Cooperative,Emmonak,Emmonak_grid,Lower Yukon-Kuskokwim,Rural Remote
+53,Alaska Village Electric Cooperative,Hooper Bay,Hooper Bay_grid,Lower Yukon-Kuskokwim,Rural Remote
+54,Alaska Village Electric Cooperative,Kasigluk,Kasigluk_grid,Lower Yukon-Kuskokwim,Rural Remote
+57,Alaska Village Electric Cooperative,Kotlik,Kotlik_grid,Lower Yukon-Kuskokwim,Rural Remote
+59,Alaska Village Electric Cooperative,Marshall,Marshall_grid,Lower Yukon-Kuskokwim,Rural Remote
+65,Alaska Village Electric Cooperative,Pilot Station,Pilot Station_grid,Lower Yukon-Kuskokwim,Rural Remote
+66,Alaska Village Electric Cooperative,Quinhagak,Quinhagak_grid,Lower Yukon-Kuskokwim,Rural Remote
+67,Alaska Village Electric Cooperative,Saint Mary's,Saint Mary's_grid,Lower Yukon-Kuskokwim,Rural Remote
+69,Alaska Village Electric Cooperative,Scammon Bay,Scammon Bay_grid,Lower Yukon-Kuskokwim,Rural Remote
+76,Alaska Village Electric Cooperative,Toksook Bay,Toksook Bay_grid,Lower Yukon-Kuskokwim,Rural Remote
+77,Alaska Village Electric Cooperative,Kalskag,Upper Kalskag_grid,Lower Yukon-Kuskokwim,Rural Remote
+80,Alaska Village Electric Cooperative,Eek,Eek_grid,Lower Yukon-Kuskokwim,Rural Remote
+82,Alaska Village Electric Cooperative,Goodnews Bay,Goodnews Bay_grid,Lower Yukon-Kuskokwim,Rural Remote
+87,Alaska Village Electric Cooperative,Mekoryuk,Mekoryuk_grid,Lower Yukon-Kuskokwim,Rural Remote
+93,Alaska Village Electric Cooperative,Russian Mission,Russian Mission_grid,Lower Yukon-Kuskokwim,Rural Remote
+231,Platinum Commercial Company LLC.,Platinum,Platinum_grid,Lower Yukon-Kuskokwim,Rural Remote
+258,Tuluksak Traditional,Tuluksak,Tuluksak_grid,Lower Yukon-Kuskokwim,Rural Remote
+60,Alaska Village Electric Cooperative,Mountain Village,Mountain Village_grid,Lower Yukon-Kuskokwim,Rural Remote
+64,Alaska Village Electric Cooperative,Nunapitchuk,Kasigluk_grid,Lower Yukon-Kuskokwim,Rural Remote
+89,Alaska Village Electric Cooperative,Nightmute,Toksook Bay_grid,Lower Yukon-Kuskokwim,Rural Remote
+97,Alaska Village Electric Cooperative,Tununak,Toksook Bay_grid,Lower Yukon-Kuskokwim,Rural Remote
+99,Alaska Village Electric Cooperative,Lower Kalskag,Upper Kalskag_grid,Lower Yukon-Kuskokwim,Rural Remote
+110,Barrow Utilities & Electric Cooperative Inc.,Barrow,Utqiagvik_grid,North Slope,Rural Remote
+216,North Slope Borough Power & Light,Anaktuvuk Pass,Anaktuvuk Pass_grid,North Slope,Rural Remote
+217,North Slope Borough Power & Light,Atqasuk,Atqasuk_grid,North Slope,Rural Remote
+218,North Slope Borough Power & Light,Kaktovik,Kaktovik_grid,North Slope,Rural Remote
+219,North Slope Borough Power & Light,Nuiqsut,Nuiqsut_grid,North Slope,Rural Remote
+220,North Slope Borough Power & Light,Point Hope,Point Hope_grid,North Slope,Rural Remote
+221,North Slope Borough Power & Light,Point Lay,Point Lay_grid,North Slope,Rural Remote
+222,North Slope Borough Power & Light,Wainwright,Wainwright_grid,North Slope,Rural Remote
+254,TDX North Slope Generating Co,TNSG North Plant,Deadhorse_grid,North Slope,Rural Remote
+255,TDX North Slope Generating Co,TNSG South Plant,Deadhorse_grid,North Slope,Rural Remote
+113,"Buckland, City of",Buckland,Buckland_grid,Northwest Arctic,Rural Remote
+169,Ipnatchiaq Electric Company,Deering,Deering_grid,Northwest Arctic,Rural Remote
+189,Kotzebue Electric Association,Kotzebue,Kotzebue_grid,Northwest Arctic,Rural Remote
+46,Alaska Village Electric Cooperative,Ambler,Ambler_grid,Northwest Arctic,Rural Remote
+55,Alaska Village Electric Cooperative,Kiana,Kiana_grid,Northwest Arctic,Rural Remote
+56,Alaska Village Electric Cooperative,Kivalina,Kivalina_grid,Northwest Arctic,Rural Remote
+62,Alaska Village Electric Cooperative,Noatak,Noatak_grid,Northwest Arctic,Rural Remote
+63,Alaska Village Electric Cooperative,Noorvik,Noorvik_grid,Northwest Arctic,Rural Remote
+70,Alaska Village Electric Cooperative,Selawik,Selawik_grid,Northwest Arctic,Rural Remote
+72,Alaska Village Electric Cooperative,Shungnak,Shungnak_grid,Northwest Arctic,Rural Remote
+101,Anchorage Municipal Light and Power,Anchorage 1,Railbelt_grid,Railbelt,Railbelt
+102,Anchorage Municipal Light and Power,Eklutna Hydro Project,Railbelt_grid,Railbelt,Railbelt
+103,Anchorage Municipal Light and Power,George M Sullivan Generation Plant 2,Railbelt_grid,Railbelt,Railbelt
+109,Aurora Energy LLC,Aurora Energy LLC Chena,Railbelt_grid,Railbelt,Railbelt
+120,Chugach Electric Assn Inc,Beluga,Railbelt_grid,Railbelt,Railbelt
+121,Chugach Electric Assn Inc,Cooper Lake,Railbelt_grid,Railbelt,Railbelt
+123,Chugach Electric Assn Inc,Southcentral Power Project,Railbelt_grid,Railbelt,Railbelt
+136,Doyon Utilities - Fort Greely,Fort Greely Power Plant,Railbelt_grid,Railbelt,Railbelt
+137,Doyon Utilities - Ft. Wainwright,Utility Plants Section,Railbelt_grid,Railbelt,Railbelt
+138,"Doyon Utilities, LLC",JBER Landfill Gas Power Plant,Railbelt_grid,Railbelt,Railbelt
+14,Alaska Environmental Power,Delta Wind Farm,Railbelt_grid,Railbelt,Railbelt
+142,Fire Island Wind LLC,Fire Island Wind,Railbelt_grid,Railbelt,Railbelt
+146,Golden Valley Elec Assn Inc,Battery Energy Storage System,Railbelt_grid,Railbelt,Railbelt
+147,Golden Valley Elec Assn Inc,Delta Power,Railbelt_grid,Railbelt,Railbelt
+148,Golden Valley Elec Assn Inc,Eva Creek Wind,Railbelt_grid,Railbelt,Railbelt
+149,Golden Valley Elec Assn Inc,Fairbanks,Railbelt_grid,Railbelt,Railbelt
+150,Golden Valley Elec Assn Inc,Healy,Railbelt_grid,Railbelt,Railbelt
+151,Golden Valley Elec Assn Inc,North Pole,Railbelt_grid,Railbelt,Railbelt
+155,Homer Electric Assn Inc,Bernice Lake,Railbelt_grid,Railbelt,Railbelt
+156,Homer Electric Assn Inc,Bradley Lake,Railbelt_grid,Railbelt,Railbelt
+157,Homer Electric Assn Inc,Nikiski Co-Generation,Railbelt_grid,Railbelt,Railbelt
+158,Homer Electric Assn Inc,Seldovia,Railbelt_grid,Railbelt,Railbelt
+159,Homer Electric Assn Inc,Soldotna,Railbelt_grid,Railbelt,Railbelt
+197,Matanuska Electric Assn Inc,Eklutna Generation Station,Railbelt_grid,Railbelt,Railbelt
+239,City of Seward - (AK),Seward,Railbelt_grid,Railbelt,Railbelt
+257,Tesoro Alaska Company LLC,Tesoro Kenai Cogeneration Plant,Railbelt_grid,Railbelt,Railbelt
+267,University of Alaska,University of Alaska Fairbanks,Railbelt_grid,Railbelt,Railbelt
+268,U S Air Force-Eielson AFB,Eielson AFB Central Heat & Power Plant,Railbelt_grid,Railbelt,Railbelt
+1,Agrium US Inc,Agrium Kenai Nitrogen Operations,Railbelt_grid,Railbelt,Railbelt
+122,Chugach Electric Assn Inc,International,Railbelt_grid,Railbelt,Railbelt
+279,Golden Valley Elec Assn Inc,Chena 6,Railbelt_grid,Railbelt,Railbelt
+10,Alaska Electric Light & Power Company,Lake Dorothy Hydroelectric Project,Juneau_grid,Southeast,Coastal
+11,Alaska Electric Light & Power Company,Lemon Creek,Juneau_grid,Southeast,Coastal
+12,Alaska Electric Light & Power Company,Salmon Creek 1,Juneau_grid,Southeast,Coastal
+13,Alaska Electric Light & Power Company,Snettisham,Juneau_grid,Southeast,Coastal
+140,Elfin Cove Utility Commission,Elfin Cove,Elfin Cove_grid,Southeast,Coastal
+15,Alaska Power & Telephone Company,Black Bear Lake,Prince of Wales Is._grid,Southeast,Coastal
+16,Alaska Power & Telephone Company,Goat Lake Hydro,UpperLynnCanal_grid,Southeast,Coastal
+163,Inside Passage Electric,Angoon,Angoon_grid,Southeast,Coastal
+164,Inside Passage Electric,Hoonah,Hoonah_grid,Southeast,Coastal
+165,Inside Passage Electric,Kake,Kake_grid,Southeast,Coastal
+166,Inside Passage Electric,Chilkat Valley,UpperLynnCanal_grid,Southeast,Coastal
+17,Alaska Power & Telephone Company,Kasidaya Creek Hydro,UpperLynnCanal_grid,Southeast,Coastal
+171,Ketchikan Public Utilities,Beaver Falls,SEAPA_grid,Southeast,Coastal
+172,Ketchikan Public Utilities,Ketchikan,SEAPA_grid,Southeast,Coastal
+173,Ketchikan Public Utilities,S W Bailey,SEAPA_grid,Southeast,Coastal
+174,Ketchikan Public Utilities,Silvis,SEAPA_grid,Southeast,Coastal
+175,Southeast Alaska Power Agency,Swan Lake,SEAPA_grid,Southeast,Coastal
+176,Ketchikan Public Utilities,Whitman,SEAPA_grid,Southeast,Coastal
+18,Alaska Power & Telephone Company,South Fork,Prince of Wales Is._grid,Southeast,Coastal
+199,Metlakatla Power & Light,Centennial,Metlakatla_grid,Southeast,Coastal
+20,Alaska Power & Telephone Company,Craig,Prince of Wales Is._grid,Southeast,Coastal
+200,Metlakatla Power & Light,Chester Lake,Metlakatla_grid,Southeast,Coastal
+201,Metlakatla Power & Light,Purple Lake,Metlakatla_grid,Southeast,Coastal
+21,Alaska Power & Telephone Company,False Island,Prince of Wales Is._grid,Southeast,Coastal
+22,Alaska Power & Telephone Company,Haines,UpperLynnCanal_grid,Southeast,Coastal
+228,Pelican Utility,Pelican,Pelican_grid,Southeast,Coastal
+229,Petersburg Borough - (AK),Blind Slough,SEAPA_grid,Southeast,Coastal
+23,Alaska Power & Telephone Company,Hydaburg,Prince of Wales Is._grid,Southeast,Coastal
+24,Alaska Power & Telephone Company,Klawock Power Generation Station,Prince of Wales Is._grid,Southeast,Coastal
+240,"Sitka, City & Borough of",Blue Lake Hydro,Sitka_grid,Southeast,Coastal
+241,"Sitka, City & Borough of",Green Lake,Sitka_grid,Southeast,Coastal
+242,"Sitka, City & Borough of",Jarvis Street,Sitka_grid,Southeast,Coastal
+244,Southeast Alaska Power Agency,Tyee Lake Hydroelectric Facility,SEAPA_grid,Southeast,Coastal
+256,"Tenakee Springs, City of",Tenakee Springs,Tenakee Springs_grid,Southeast,Coastal
+26,Alaska Power & Telephone Company,Skagway,UpperLynnCanal_grid,Southeast,Coastal
+273,"Wrangell, City of",Wrangell,SEAPA_grid,Southeast,Coastal
+28,Alaska Power & Telephone Company,Thorne Bay Plant,Prince of Wales Is._grid,Southeast,Coastal
+35,Alaska Power & Telephone Company,Gustavus,Gustavus_grid,Southeast,Coastal
+40,Alaska Power & Telephone Company,Whale Pass,Whale_Pass_grid,Southeast,Coastal
+6,Alaska Electric Light & Power Company,Annex Creek,Juneau_grid,Southeast,Coastal
+7,Alaska Electric Light & Power Company,Auke Bay,Juneau_grid,Southeast,Coastal
+78,Alaska Village Electric Cooperative,Yakutat,Yakutat_grid,Southeast,Coastal
+8,Alaska Electric Light & Power Company,Gold Creek,Juneau_grid,Southeast,Coastal
+9,Alaska Electric Light & Power Company,Industrial Plant,Juneau_grid,Southeast,Coastal
+167,Inside Passage Electric,Klukwan,UpperLynnCanal_grid,Southeast,Coastal
+19,Alaska Power & Telephone Company,Viking,Prince of Wales Is._grid,Southeast,Coastal
+278,"Inside Passage Elec Coop, Inc",Klawock,Prince of Wales Is._grid,Southeast,Coastal
+280,Sitka City of & Borough of,Blue Lake Fish Valve,Sitka_grid,Southeast,Coastal
+33,Alaska Power & Telephone Company,Coffman Cove,Prince of Wales Is._grid,Southeast,Coastal
+37,Alaska Power & Telephone Company,Hollis,Prince of Wales Is._grid,Southeast,Coastal
+43,Alaska Power & Telephone Company,Naukati Bay,Prince of Wales Is._grid,Southeast,Coastal
+81,Alaska Village Electric Cooperative,Ekwok,Ekwok_grid,Bristol Bay,Rural Remote
+106,Arctic Village Electric Company,Arctic Village,Arctic Village_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+111,Beaver Joint Utilities,Beaver,Beaver_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+112,Birch Creek Electric Company,Birch Creek,Birch Creek_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+114,Chalkyitsik Village Council,Chalkyitsik,Chalkyitsik_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+124,Circle Electric Utility,Circle,Circle_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+144,"Galena, City of",Galena Electric Utility,Galena_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+145,Gold Country Energy,Central,Central_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+154,Gwitchyaa Zhee Utilities Company,Gwitchyaa Zhee,Fort Yukon_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+160,Hughes Power & Light,Hughes,Hughes_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+190,"Koyukuk, City of",Koyukuk,Koyukuk_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+198,Mcgrath Light & Power,McGrath,McGrath_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+214,"Nikolai, City of",Nikolai,Nikolai_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+234,Rampart Village Council,Rampart,Rampart_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+236,"Ruby, City of",Ruby,Ruby_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+247,Takotna Community Assoc Inc,Takotna,Takotna_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+249,Tanana Power Company Inc,Tanana,Tanana_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+25,Alaska Power & Telephone Company,Northway,Northway_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+253,TDX Manley Generating LLC,Manley Hot Springs,Manley Hot Springs_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+270,Venetie Village Electric,Venetie,Venetie_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+29,Alaska Power & Telephone Company,Tok,Tok_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+30,Alaska Power & Telephone Company,Allakaket,Allakaket_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+31,Alaska Power & Telephone Company,Bettles,Bettles_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+34,Alaska Power & Telephone Company,Eagle,Eagle_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+36,Alaska Power & Telephone Company,Healy Lake,Healy Lake_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+79,Alaska Village Electric Cooperative,Anvik,Anvik_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+83,Alaska Village Electric Cooperative,Grayling,Grayling_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+84,Alaska Village Electric Cooperative,Holy Cross,Holy Cross_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+85,Alaska Village Electric Cooperative,Huslia,Huslia_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+86,Alaska Village Electric Cooperative,Kaltag,Kaltag_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+88,Alaska Village Electric Cooperative,Minto,Minto_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+90,Alaska Village Electric Cooperative,Nulato,Nulato_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+94,Alaska Village Electric Cooperative,Shageluk,Shageluk_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+246,Stevens Village Ira Council,Stevens Village,Stevens Village_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+39,Alaska Power & Telephone Company,Tetlin,Tok_grid,Yukon-Koyukuk/Upper Tanana,Rural Remote
+281,Alyeska Seafoods Inc,Alyeska Seafoods,NA,NA,NA
+282,Ounalshka Corp,American President Lines Ltd,NA,NA,NA
+283,Icicle Seafoods Inc,Bering Star,NA,NA,NA
+284,Phillips Alaska Inc,Central Production Facility 1,NA,NA,NA
+285,Phillips Alaska Inc,Central Production Facility 2,NA,NA,NA
+286,Phillips Alaska Inc,Central Production Facility 3,NA,NA,NA
+288,BP Exploration Alaska,Lisburne Production Center,NA,NA,NA
+289,Offshore Systems Inc,Offshore Systems,NA,NA,NA
+290,Conoco Phillips Alaska Inc,Seawater Treatment Plant,NA,NA,NA
+152,Golden Valley Elec Assn Inc,GVEA Solar Farm,Railbelt_grid,Railbelt,Railbelt
+235,Renewable IPP,Willow Solar,Railbelt_grid,Railbelt,Railbelt

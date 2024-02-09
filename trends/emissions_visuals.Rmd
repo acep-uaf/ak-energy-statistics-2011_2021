@@ -43,9 +43,12 @@ generation_emissions <- read_csv("./trends/raw/generation_emissions.csv")
 ```{R}
 # plot
 generation_emissions %>%
-  ggplot( aes(x=`ACEP Energy Region`, y=`CO2 Metric Tons from Fuel`, fill=`ACEP Energy Region`)) +
+  mutate(`kg CO2 per MWh` = ((`CO2 Metric Tons from Fuel`*1000)/`Generation (PCE=gross, EIA=net)  MWh`)) %>%
+  filter(Year == 2021) %>%
+  drop_na(`ACEP Energy Region`) %>%
+  ggplot( aes(x=`ACEP Energy Region`, y=(`kg CO2 per MWh`), fill=`ACEP Energy Region`)) +
     # geom_boxplot(outlier.alpha = 0) +
-    geom_violinhalf() +
+    geom_boxplot(outlier.alpha = 0) +
     scale_fill_manual(values = c("#98BAD6", "#A4CD9A", "#E3918F", "#F1BF42")) +
     geom_jitter(color="black", size=0.4, alpha=0.8, width = 0.1, height = 0) +
     theme_classic() +
@@ -54,15 +57,15 @@ generation_emissions %>%
           plot.subtitle = element_text(size=14, hjust = 0.5),
           plot.caption = element_text(size = 8)) +
   
-    labs(title = "Price of Electricity, Residential, 2011",
-         subtitle = "Inflation-adjusted to 2021 dollars, post PCE Subsidy",
-         caption = "Inflation-adjustment calculated using BLS Cost Price Index, AK Urban",
+    labs(title = "CO2",
+         subtitle = "lorem",
+         caption = "lorem",
          x = "Region",
-         y = "Cents/kWh") +
+         y = "kg CO2 per MWh") +
   
     coord_flip() +
-    
-    ylim(c(0,50)) 
+  
+    ylim(0,1000)
     
 
 

@@ -476,7 +476,7 @@ final <- rename(final, "AEA Energy Region" = "Energy Region")
 
 
 # Add ACEP region to revenue data
-# rural remote, coastal, railbelt
+# rural rsemote, coastal, railbelt
 unique(final$`AEA Energy Region`)
 
 final$`ACEP Energy Region` <- "error"
@@ -531,3 +531,54 @@ write_csv(final, file = "./trends/raw/generation_emissions.csv")
 
 
 ```
+
+
+
+
+
+
+# comm_data crosswalk
+```{R}
+
+comm_data <- rename(comm_data, "AEA Energy Region" = "Energy Region")
+
+
+
+# Add ACEP region to revenue data
+# rural remote, coastal, railbelt
+unique(comm_data$`AEA Energy Region`)
+
+comm_data$`ACEP Energy Region` <- "error"
+
+comm_data$`ACEP Energy Region` <- if_else(comm_data$`AEA Energy Region` == c("Railbelt"), 
+                           "Railbelt", comm_data$`ACEP Energy Region`)
+
+comm_data$`ACEP Energy Region` <- if_else(comm_data$`AEA Energy Region` %in% c("Southeast", "Kodiak", "Copper River/Chugach"), 
+                           "Coastal", comm_data$`ACEP Energy Region`)
+
+comm_data$`ACEP Energy Region` <- if_else(comm_data$`AEA Energy Region` %in% c("North Slope", 
+                                                        "Bering Straits", 
+                                                        "Yukon-Koyukuk/Upper Tanana",
+                                                        "Lower Yukon-Kuskokwim", 
+                                                        "Bristol Bay",
+                                                        "Aleutians",
+                                                        "Northwest Arctic"
+                                                        ),
+                           "Rural Remote", comm_data$`ACEP Energy Region`)
+
+
+
+# test, this should return 0 records
+sub <- subset(comm_data, `ACEP Energy Region` == "error")
+
+```
+
+# write comm_data
+```{R}
+setwd(repo)
+
+write_csv(comm_data, file = "./trends/raw/community_data.csv")
+
+
+```
+
