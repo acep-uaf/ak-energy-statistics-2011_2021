@@ -341,9 +341,6 @@ final <- final[ , c("Year",
                ]
 
 
-# tricky time-travel here
-# want the column as boolean, but only happens after save/load cycle
-final <- subset(load, load$"PCE Community\n(Y/N)" == TRUE)
 
 
 ```
@@ -355,13 +352,36 @@ final <- subset(load, load$"PCE Community\n(Y/N)" == TRUE)
 repo <- "~/repos/ak-energy-statistics-2011_2021/"
 setwd(repo)
 
-write_csv(final, file = "./trends/raw/pce_price_2011-2021.csv")
+write_csv(final, file = "./trends/raw/prices_pce.csv")
 
 # TRUE/FALSE successfully loaded as logical, not character
-load <- read_csv("./trends/raw/pce_price_2011-2021.csv")
+load <- read_csv("./trends/raw/prices_pce.csv")
 
 ```
 
 
+# tricky time-travel here
+```{R}
+
+# want the column as boolean, but only happens after save/load cycle
+final_final <- subset(load, load$"PCE Community\n(Y/N)" == TRUE)
+# EXPECT AN ERROR HERE IF RUNNING WHOLE SCRIPT
+# skip this line, write to file, load, run this line, rewrite to file
+# sorry everybody
+
+```
+
+
+# Write to file again
+```{R}
+repo <- "~/repos/ak-energy-statistics-2011_2021/"
+setwd(repo)
+
+write_csv(final_final, file = "./trends/raw/prices_pce.csv")
+
+# TRUE/FALSE successfully loaded as logical, not character
+load <- read_csv("./trends/raw/prices_pce.csv")
+
+```
 
 

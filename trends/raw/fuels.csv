@@ -1,0 +1,19 @@
+kg_co2_factor, Fuel Type, text_name
+975, AB, Agricultural By Products
+2325, BIT, Bituminous Coal
+10.18, DFO, Distillate Fuel Oil 
+9.75, JF,Jet Fuel
+25.254, LFG,Landfill Gas
+1389, LIG, Lignite Coal
+54.44, NG, Natural Gas 
+9.45, OBL, Other Biomass Liquid
+NA, OG, NA
+NA, OTH, Other 
+10.21, RFO, Residual Fuel Oil 
+1676, SUB, Sub Bituminous Coal 
+0, SUN, Solar
+0, WAT, Water
+2819, WC, Waste Coal
+1640, WDS, Wood Solids 
+0, WND, Wind
+10.21, WO, Waste Oil

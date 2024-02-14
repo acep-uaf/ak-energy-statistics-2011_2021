@@ -1,0 +1,97 @@
+---
+title: "prices_pce_inflation_population"
+output: html_document
+date: "2024-02-13"
+editor_options: 
+  chunk_output_type: console
+---
+
+## Build a library
+```{R}
+options(scipen=999)
+
+library(dplyr)
+library(readr)
+
+
+
+
+
+```
+
+
+# Load data
+```{R}
+# set working directory
+repo <- "~/repos/ak-energy-statistics-2011_2021/"
+setwd(repo)
+
+prices <- read_csv("./trends/raw/prices_pce_inflation.csv")
+
+
+
+```
+
+
+# loop the loop!
+```{R}
+years <- 2011:2021
+regions <- unique(prices$`ACEP Energy Region`)
+weight_factors <- NULL
+
+empty_weights <- prices %>%
+  mutate(`residential_weighted_price` = NA, .after = "Residential Customers") %>%
+  mutate(residential_weight = NA, .after = "Residential Customers") %>%
+  mutate(`commercial_weighted_price` = NA, .after = "Commercial Customers") %>%
+  mutate(commercial_weight = NA, .after = "Commercial Customers") %>%
+  mutate(`industrial_weighted_price` = NA, .after = "Industrial Customers") %>%
+  mutate(industrial_weight = NA, .after = "Industrial Customers") %>%
+  mutate(total_weight = NA, .after = "Total Customers")
+
+
+# calculate weighting factors
+for(y in years){
+  tmp <- empty_weights %>%
+    filter(Year == y)%>%
+    mutate(residential_weight = `Residential Customers`/sum(`Residential Customers`, na.rm = T), 
+           commercial_weight = `Commercial Customers`/sum(`Commercial Customers`, na.rm = T),
+           industrial_weight = `Industrial Customers`/sum(`Industrial Customers`, na.rm = T),
+           total_weight = `Total Customers`/sum(`Total Customers`, na.rm = T)
+           )
+  weight_factors <- rbind(weight_factors, tmp)
+  rm(tmp)
+}
+
+
+
+# calculate weighted prices
+weighted_prices <- NULL
+
+for(y in years){
+  tmp <- weight_factors %>%
+    filter(Year == y)%>%
+    mutate(residential_weighted_price = `Residential Price kWh (2021 dollars)`*residential_weight) %>%
+    mutate(commercial_weighted_price = `Commercial Price kWh (2021 dollars)`*commercial_weight) %>%
+    mutate(industrial_weighted_price = `Industrial Price kWh (2021 dollars)`*industrial_weight)
+  weighted_prices <- rbind(weighted_prices, tmp)
+  rm(tmp)
+}
+
+
+```
+
+
+
+# write to file
+```{R}
+write_csv(weighted_prices, file = "./trends/raw/prices_pce_inflation_population.csv")
+
+load <- read_csv("./trends/raw/prices_pce_inflation_population.csv")
+
+
+```
+
+
+
+
+

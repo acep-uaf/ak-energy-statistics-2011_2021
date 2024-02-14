@@ -1,0 +1,135 @@
+---
+title: "emissions_rebuild"
+output: html_document
+date: "2024-02-10"
+editor_options: 
+  chunk_output_type: console
+---
+
+### Build a library
+```{R}
+options(scipen=999)
+
+
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(lubridate)
+library(readr)
+
+library(stringr)
+
+
+```
+
+### Set working directory, load data
+```{R}
+repo <- "~/repos/ak-energy-statistics-2011_2021/"
+setwd(repo)
+
+raw_emissions <- read_csv(file = "./trends/raw/raw_emissions.csv")
+
+```
+
+
+Here's the thing. This data is a mess. There are calculated columns that are not calculated. 
+There are emissions factors that are wildly inconsistent across the same fuel (does each plant use a different factor?).
+There is a complete breakdown of CO2 calculation. Instead of piecemealing things back together with duct tape, 
+it's better to rebuild the entire calculation. We're going to assume that `Fuel Use` is valid and rebuild from there.
+
+
+
+# can I calculate CO2 directly from `Fuel Use`?
+### we're going to try
+### bypass :
+           `Generation MMBtu`,
+           `Total Fuel MMBtu`, 
+           `Emission Factor kgCO2 per MMBtu`, 
+           `CO2 Metric Tons from Fuel`
+           
+           
+           
+# First, chase down `Fuel Types` and `Prime Movers`:
+### Fuel
+AB=Agricultural By-Products \
+BIT=Bituminous Coal\
+DFO=Distillate Fuel Oil\ 
+JF=Jet Fuel\
+LFG=Landfill Gas, JBER only\
+LIG=Lignite Coal\
+NG=Natural Gas\ 
+OBL=Other Biomass Liquid? `Unisea G 2, Unalaska` only, Internal Combustion plant\
+OG=?? `Tesoro Kenai Cogeneration Plant` only, No generation data, Ignore?\
+OTH=Other\ 
+RFO=Residual Fuel Oil\ 
+SUB=Sub-bituminous Coal\ 
+SUN=Solar
+WAT=Water at a Conventional Hydroelectric Turbine\ 
+WC=Waste Coal\
+WDS=Wood Solids\ 
+WND=Wind\ 
+WO=Waste/Other Oil
+
+### Prime Movers:
+CA=Combined Cycle, steam part\ 
+CT=Combined Cycle=turbine part\ 
+GT=Gas Turbine\
+HY=Hydroelectric Turbine\ 
+IC=Internal Combustion Engine\
+OT=?? `Nuiqsut` only, Natural Gas input, No generation data, Ignore?
+PV=Photovoltaic\
+ST=Steam Turbine\ 
+WT=Wind Turbine
+
+
+EPA Source: https://www.epa.gov/climateleadership/ghg-emission-factors-hub
+
+
+# Then, establish `energy_content` per unit fuel
+These factors are published online, just have to hunt them down
+```{R}
+fuels <- read_csv("./trends/raw/fuels.csv")
+
+
+
+agg_fuel <- raw_emissions %>%
+  mutate(fuel_mmbtu = round(`Total Fuel MMBtu`/`Fuel Use`,3)) %>%
+  group_by(`Fuel Type`, `Prime Mover`, fuel_mmbtu) %>%
+  summarize(count = length(fuel_mmbtu))
+
+
+```
+
+# Next, recalculate `new_kg_co2`
+```{R}
+
+# looks great, send it!
+emissions <- left_join(raw_emissions, fuels, join_by(`Fuel Type`)) %>%
+  mutate(new_kg_co2 = round(`Fuel Use`*kg_co2_factor/1000, 0))
+
+
+
+```
+
+
+
+# Fire away!
+```{R}
+
+setwd(repo)
+
+write.csv(emissions, "./trends/raw/emissions.csv")
+
+
+
+```
+
+
+
+
+
+
+
+
+
+

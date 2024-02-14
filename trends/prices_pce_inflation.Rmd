@@ -50,8 +50,6 @@ setwd(repo)
 ```
 
 
-
-
 # New Data from Neil
 ## truncate to 2011-plus
 ```{R}
@@ -96,11 +94,12 @@ this data came with 2 CPIs per year (January, July)
 wanted 1 CPI per year, so I averaged the two
 ```{R}
 
-ak_cpi <- read_csv("~/Google Drive/Shared drives/AK-EnergyStatistics/revenue_box_whisker/CUUSA427SEHF01.csv") %>%
-  mutate(Year = year(Date)) %>%
-  select(-c(Date)) %>%
-  group_by(Year) %>%
-  summarize(`AK CPI` = mean(CPI)) 
+ak_cpi <- read.csv("./trends/CUUSA427SA0.csv") %>%
+  mutate(date = ymd(DATE)) %>%
+  mutate(`AK CPI` = CUUSA427SA0) %>%
+  filter(month(date) == 1) %>%
+  mutate(Year = year(date)) %>%
+  select(Year, `AK CPI`)
 
 
 ```
@@ -128,8 +127,12 @@ prices <- sales_interties %>%
   select(c("Year",
            "AEA Reporting ID",
            "Residential Price kWh (nominal dollars)",
+           "Residential Customers",
            "Commercial Price kWh (nominal dollars)",
+           "Commercial Customers",
            "Industrial Price kWh (nominal dollars)"),
+           "Industrial Customers",
+           "Total Customers",
            "AK CPI")
 
 
@@ -140,7 +143,7 @@ prices <- sales_interties %>%
 # load PCE-adjusted Residential Prices
 ```{R}
 # load pce data
-pce_sales <- read_csv("./trends/raw/pce_price_2011-2021.csv") %>%
+pce_sales <- read_csv("./trends/raw/prices_pce.csv") %>%
   mutate("Residential Price kWh (nominal dollars)" = (`Residential Rate after PCE ($/kWh)`)*100) %>% 
   rename("AEA Reporting ID" = "AEA Sales Reporting ID") %>%
   select(-c("PCE Community\n(Y/N)")) 
@@ -150,8 +153,12 @@ sales_minus_residential <- prices %>%
   mutate("Residential Price kWh (nominal dollars)" = NULL) %>%
   select(c("Year",
          "AEA Reporting ID",
+         "Residential Customers",
          "Commercial Price kWh (nominal dollars)",
+         "Commercial Customers",
          "Industrial Price kWh (nominal dollars)",
+         "Industrial Customers",
+         "Total Customers",
          "AK CPI"))
 
 
@@ -162,8 +169,12 @@ pce_sales_plus_commercial_other <- left_join(pce_sales,
                                      select(c("Year",
                                               "AEA Reporting ID",
                                               "Residential Price kWh (nominal dollars)",
+                                              "Residential Customers",
                                               "Commercial Price kWh (nominal dollars)",
+                                              "Commercial Customers",
                                               "Industrial Price kWh (nominal dollars)",
+                                              "Industrial Customers",
+                                              "Total Customers",
                                               "AK CPI"))
 
 
@@ -197,8 +208,12 @@ prices_pce_inflation <- prices_pce %>%
   select(c("Year", 
            "AEA Reporting ID",
            "Residential Price kWh (2021 dollars)",
+           "Residential Customers",
            "Commercial Price kWh (2021 dollars)",
+           "Commercial Customers",
            "Industrial Price kWh (2021 dollars)",
+           "Industrial Customers",
+           "Total Customers",
            "AK CPI"
            )) %>%
   rename("AEA Sales Reporting ID" = "AEA Reporting ID")
@@ -248,14 +263,43 @@ sub <- subset(final, `ACEP Energy Region` == "error")
 ```
 
 
+# reorder column names
+```{R}
+
+final_final <- final %>%
+  select(c("Year",
+           "AEA Sales Reporting ID",
+           "PCE ID", 
+           "RCA CPCN",
+           "Utility Name",
+           "Reporting Name",
+           "Intertie Name",
+           "AEA Energy Region",
+           "ACEP Energy Region",
+           "Residential Price kWh (2021 dollars)",
+           "Residential Customers",
+           "Commercial Price kWh (2021 dollars)",
+           "Commercial Customers",
+           "Industrial Price kWh (2021 dollars)"),
+           "Industrial Customers",
+           "Total Customers",
+           "AK CPI")
+
+
+```
+
+
+
+
+
 # write to file
 ```{R}
 setwd(repo)
 
 
-write_csv(final, "./trends/raw/price_inflation_pce.csv")
+write_csv(final_final, "./trends/raw/prices_pce_inflation.csv")
 
-load <- read_csv("./trends/raw/price_inflation_pce.csv")
+load <- read_csv("./trends/raw/prices_pce_inflation.csv")
 
 
 ```

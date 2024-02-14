@@ -15,7 +15,9 @@ library(ggplot2)
 library(dplyr)
 library(readr)
 
-library(see)
+library(see) # use for half violin plots
+library(ggrepel) # labels on ends of lines
+library(ggstream)
 
 
 ```
@@ -27,10 +29,207 @@ repo <- "~/repos/ak-energy-statistics-2011_2021/"
 setwd(repo)
 
 
-generation_emissions <- read_csv("./trends/raw/generation_emissions.csv")
+emissions <- read_csv("./trends/raw/emissions.csv")
 
 
 ```
+
+
+
+
+
+## subset of Residential Revenue, All Regions, 2021
+```{R}
+# want statewide box too, so duplicate res_rev21, set ACEP energy region = "State", rbind back in.
+tmp_state <- emissions %>% 
+  mutate("ACEP Energy Region" = "State")
+
+
+# subset residential 2021 data, drop rows with NAs
+state <- rbind(emissions, tmp_state) 
+
+rm(tmp_state)
+
+
+```
+
+
+
+
+
+# Statewide
+## line
+```{R}
+viz <- state %>%
+  group_by(`ACEP Energy Region`, Year) %>%
+  summarize(Generation = mean(`Generation (PCE=gross, EIA=net)  MWh`, na.rm = TRUE),
+            Emissions = mean(`new_kg_co2`, na.rm = TRUE)) %>%
+  mutate(Em_Gen = (Emissions/Generation)*1000) %>%
+  drop_na(`ACEP Energy Region`) %>%
+  filter(Year != 2011) %>%
+  filter(Year != 2020)
+
+
+viz %>%  
+  mutate(label = if_else(Year == max(Year), as.character(`ACEP Energy Region`), NA_character_)) %>%
+  ggplot( aes(y=Em_Gen, x=Year, color = `ACEP Energy Region`)) +
+  geom_line(linewidth=1.5) +
+  geom_label_repel(aes(label = label,),
+                  nudge_x = 1,
+                  nudge_y = 5,
+                  na.rm = TRUE) +
+  theme_classic() +
+  
+  scale_color_manual(values = c("#98BAD6", "#A4CD9A", "#E3918F", "#F1BF42")) + #Coastal, Railbelt, Rural, State 
+  theme(legend.position = "none",
+        plot.title = element_text(size=20, hjust = 0.5),
+        plot.subtitle = element_text(size=14, hjust = 0.5),
+        plot.caption = element_text(size = 8)) +
+  
+  labs(title = "CO2 Emissions Rate, 2011-2021",
+       subtitle = "Lorem ipsum",
+       caption = "Lorem ipsum",
+       x = "Year",
+       y = "CO2 kg/MWh Generated") +
+
+   # ylim(c(0,1000)) +
+   scale_x_continuous(breaks=seq(2011,2021,1))
+
+
+```
+
+
+
+
+# Regional
+## line
+```{R}
+
+
+plot_region <- "Railbelt"
+
+viz <- emissions %>%
+  filter(`ACEP Energy Region` == paste(plot_region)) %>%
+  # replace(is.na(`new_kg_co2`), 0) %>%
+  group_by(`Fuel Type`, Year) %>%
+  summarize(Generation = mean(`Generation (PCE=gross, EIA=net)  MWh`, na.rm = TRUE),
+            Emissions = mean(`new_kg_co2`, na.rm = TRUE)) %>%
+
+  mutate(Em_Gen = (Emissions/Generation)*1000) %>%
+  # drop_na(`Prime Mover`) %>%
+  # replace(is.na(.), 0) %>%
+  filter(Year != 2020)
+
+
+viz %>%  
+  mutate(label = if_else(Year == max(Year), as.character(`Fuel Type`), NA_character_)) %>%
+  ggplot( aes(y=Em_Gen, x=Year, color = `Fuel Type`)) +
+  geom_line(linewidth=1.5) +
+  geom_label_repel(aes(label = label,),
+                  nudge_x = 1,
+                  nudge_y = 5,
+                  na.rm = TRUE) +
+  theme_classic() +
+  
+  # scale_color_manual(values = c("#98BAD6", "#A4CD9A", "#E3918F", "#F1BF42")) + #Coastal, Railbelt, Rural, State 
+  theme(legend.position = "none",
+        plot.title = element_text(size=20, hjust = 0.5),
+        plot.subtitle = element_text(size=14, hjust = 0.5),
+        plot.caption = element_text(size = 8)) +
+  
+  labs(title = paste("CO2 Emissions by Fuel, ", plot_region, ", 2011-2021",sep = ""),
+       subtitle = "Lorem ipsum",
+       caption = "Lorem ipsum",
+       x = "Year",
+       y = "CO2 kg/MWh Generated??") +
+
+   # ylim(c(0,1000)) +
+   scale_x_continuous(breaks=seq(2011,2021,1))
+
+
+```
+
+
+# stacked bar, percentage co2 produced
+```{R}
+plot_region <- "Coastal"
+
+
+year <- emissions %>%
+  filter(`ACEP Energy Region` == paste(plot_region)) %>%
+  group_by(Year) %>%
+  summarize(total_co2 = sum(`new_kg_co2`, na.rm = TRUE))
+
+
+viz <- emissions %>%
+  filter(`ACEP Energy Region` == paste(plot_region)) %>%
+  group_by(`Fuel Type`, Year) %>%
+  summarize(fuel_co2 = sum(`new_kg_co2`, na.rm = TRUE)) %>%
+  left_join(year, join_by(Year)) %>%
+  mutate(percent_co2 = round((fuel_co2/total_co2)*100, 0)) %>%
+  
+  filter(percent_co2 > 0) %>%
+  filter(Year != 2020)
+
+
+check <- viz %>%
+  group_by(Year) %>%
+  summarize(total_percent = sum(percent_co2))
+
+
+
+# quick sanity check, plot without percentages
+# viz <- emissions %>%
+#   filter(`ACEP Energy Region` == paste(plot_region)) %>%
+#   group_by(`Fuel Type`, Year) %>%
+#   summarize(fuel_co2 = sum(`new_kg_co2`, na.rm = TRUE)) %>%
+#   filter(Year != 2020) %>%
+#   filter(fuel_co2 > 0)
+
+
+
+
+viz %>%  
+  # mutate(label = if_else(Year == max(Year), as.character(`Fuel Type`), NA_character_)) %>%
+  ggplot( aes(y=percent_co2, x=Year, fill = `Fuel Type`)) +
+  geom_stream(type = "proportional") +
+  # geom_label_repel(aes(label = label,),
+  #                 nudge_x = 1,
+  #                 nudge_y = 5,
+  #                 na.rm = TRUE) +
+  theme_classic() +
+  
+  # scale_color_manual(values = c("#98BAD6", "#A4CD9A", "#E3918F", "#F1BF42")) + #Coastal, Railbelt, Rural, State 
+  # theme(legend.position = "none",
+  #       plot.title = element_text(size=20, hjust = 0.5),
+  #       plot.subtitle = element_text(size=14, hjust = 0.5),
+  #       plot.caption = element_text(size = 8)) +
+  # 
+  # labs(title = paste("CO2 Emissions by Fuel, ", plot_region, ", 2011-2021",sep = ""),
+  #      subtitle = "Lorem ipsum",
+  #      caption = "Lorem ipsum",
+  #      x = "Year",
+  #      y = "CO2 kg/MWh Generated??") +
+
+   # ylim(c(0,105)) +
+   scale_x_continuous(breaks=seq(2011,2021,1))
+
+
+
+
+```
+
+
+## smooth?
+```{R}
+
+
+
+
+```
+
+
+
 
 
 
@@ -46,7 +245,8 @@ tmp <- generation_emissions %>%
   group_by(`ACEP Energy Region`, `Year`) %>%
   summarize(emissions = sum(`CO2 Metric Tons from Fuel`, na.rm = TRUE),
             generation = sum(`Generation (PCE=gross, EIA=net)  MWh`, na.rm = TRUE)) %>%
-  mutate(CO2_per_MWh = emissions/generation)
+  mutate(CO2_per_MWh = emissions/generation) %>%
+  drop_na(`ACEP Energy Region`)
 
 tmp %>%
   filter(Year != 2020) %>%
@@ -63,30 +263,30 @@ aggregate(`Plant Name` ~ Year + `ACEP Energy Region`, generation_emissions, FUN 
 
 
 
-
-  mutate(`kg CO2 per MWh` = ((`CO2 Metric Tons from Fuel`*1000)/`Generation (PCE=gross, EIA=net)  MWh`)) %>%
-  filter(Year == 2021) %>%
-  drop_na(`ACEP Energy Region`) %>%
-  ggplot( aes(x=`ACEP Energy Region`, y=(`kg CO2 per MWh`), fill=`ACEP Energy Region`)) +
-    # geom_boxplot(outlier.alpha = 0) +
-    geom_boxplot(outlier.alpha = 0) +
-    scale_fill_manual(values = c("#98BAD6", "#A4CD9A", "#E3918F", "#F1BF42")) +
-    geom_jitter(color="black", size=0.4, alpha=0.8, width = 0.1, height = 0) +
-    theme_classic() +
-    theme(legend.position = "none",
-          plot.title = element_text(size=20, hjust = 0.5),
-          plot.subtitle = element_text(size=14, hjust = 0.5),
-          plot.caption = element_text(size = 8)) +
-  
-    labs(title = "CO2",
-         subtitle = "lorem",
-         caption = "lorem",
-         x = "Region",
-         y = "kg CO2 per MWh") +
-  
-    coord_flip() +
-  
-    ylim(0,1000)
+# 
+#   mutate(`kg CO2 per MWh` = ((`CO2 Metric Tons from Fuel`*1000)/`Generation (PCE=gross, EIA=net)  MWh`)) %>%
+#   filter(Year == 2021) %>%
+#   drop_na(`ACEP Energy Region`) %>%
+#   ggplot( aes(x=`ACEP Energy Region`, y=(`kg CO2 per MWh`), fill=`ACEP Energy Region`)) +
+#     # geom_boxplot(outlier.alpha = 0) +
+#     geom_boxplot(outlier.alpha = 0) +
+#     scale_fill_manual(values = c("#98BAD6", "#A4CD9A", "#E3918F", "#F1BF42")) +
+#     geom_jitter(color="black", size=0.4, alpha=0.8, width = 0.1, height = 0) +
+#     theme_classic() +
+#     theme(legend.position = "none",
+#           plot.title = element_text(size=20, hjust = 0.5),
+#           plot.subtitle = element_text(size=14, hjust = 0.5),
+#           plot.caption = element_text(size = 8)) +
+#   
+#     labs(title = "CO2",
+#          subtitle = "lorem",
+#          caption = "lorem",
+#          x = "Region",
+#          y = "kg CO2 per MWh") +
+#   
+#     coord_flip() +
+#   
+#     ylim(0,1000)
     
 
 

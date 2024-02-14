@@ -248,6 +248,7 @@ problems2013 <- subset(plus2013, is.na(plus2013$`AEA Sales Reporting ID`))
 years 2014-2018 "AEA Reporting ID" vs "AEA Sales Reporting ID"
 ```{R}
 
+# AEA ID
 # should have been a for loop...
 rev2014 <- rename(rev2014, "AEA Sales Reporting ID" = "AEA Reporting ID")
 rev2015 <- rename(rev2015, "AEA Sales Reporting ID" = "AEA Reporting ID")
@@ -256,17 +257,30 @@ rev2017 <- rename(rev2017, "AEA Sales Reporting ID" = "AEA Reporting ID")
 rev2018 <- rename(rev2018, "AEA Sales Reporting ID" = "AEA Reporting ID")
 
 
-
-
 ```
 
 
+# Customers Clean
+2019 "SR-10" has a "." value, causing column to read as character
+NOTE: column `Residential Sales MWh` has awful \n character (excel artifact)
+      code must be run exactly like below, otherwise won't recognize
+```{R}
+rev2019$`Residential Sales
+ MWh` <- sub(".", "0", rev2019$`Residential Sales
+ MWh`)
+
+rev2019$`Residential Customers` <- sub(".", "0", rev2019$`Residential Customers`)
+
+
+# Customers
+plus2011 <- rename(plus2011, "Residential Customers" = "Residential Customers (Accounts)")
+plus2011 <- rename(plus2011, "Commercial Customers" = "Commercial Customers (Accounts)")
+plus2011 <- rename(plus2011, "Other Customers" = "Other Customers (Accounts)")
+plus2011 <- rename(plus2011, "Total Customers" = "Total Customers (Accounts)")
 
 
 
-
-
-
+```
 
 
 
@@ -302,8 +316,12 @@ for(df in df.list){
     tmp <- select(df, c("Year",
                         "AEA Sales Reporting ID",
                         "Residential $/kWh",
+                        "Residential Customers",
                         "Commercial $/kWh",
-                        "Other $/kWh"
+                        "Commercial Customers",
+                        "Other $/kWh",
+                        "Other Customers",
+                        "Total Customers"
                 ))
    rev_all <-  rbind(rev_all, tmp)
 }
@@ -317,7 +335,24 @@ prob <- subset(rev_all, is.na(rev_all$`AEA Sales Reporting ID`))
 # drop em!
 rev_all <- drop_na(rev_all, `AEA Sales Reporting ID`)
 
+# some columns not reading as numeric
+rev_all$`Year` <- as.numeric(rev_all$`Year`)
+rev_all$`Residential Customers` <- as.numeric(rev_all$`Residential Customers`)
+
 ```
+
+
+# round some of these columns
+```{R}
+rev_all <- rev_all %>%
+  mutate_at(vars(matches(c("Residential Customers",
+                           "Commercial Customers",
+                           "Other Customers",
+                           "Total Customers"
+                           ))),
+                      round, 0)
+```
+
 
 
 ## add crosswalk data back in using `AEA Sales Reporting ID` as primary key
@@ -343,8 +378,12 @@ final <- final[ , c("Year",
                     "Intertie Name", 
                     "AEA Energy Region",
                     "Residential $/kWh",
+                    "Residential Customers",
                     "Commercial $/kWh",
-                    "Other $/kWh"
+                    "Commercial Customers",
+                    "Other $/kWh",
+                    "Other Customers",
+                    "Total Customers"
                    )
                ]
 
@@ -359,7 +398,7 @@ final <- final[ , c("Year",
 repo <- "~/repos/ak-energy-statistics-2011_2021/"
 setwd(repo)
 
-write_csv(final, file = "./trends/raw/raw_price_2011-2021.csv")
+write_csv(final, file = "./trends/raw/raw_prices.csv")
 
 
 

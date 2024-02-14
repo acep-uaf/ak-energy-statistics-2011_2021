@@ -519,13 +519,31 @@ problems <- subset(final, is.na(final$`Plant Name`))
 
 
 
+# Emissions is a raging dumpster fire
+# Burn Emissions data, write as `generation.csv` (we don't want anyone to use these numbers)
+# Rebuild Emissions in another script
+```{R}
+
+generation <- final[, 1:11]
+
+setwd(repo)
+
+write_csv(generation, file = "./trends/raw/generation.csv")
+
+
+
+
+```
+
+
+
 
 
 # write to file
 ```{R}
 setwd(repo)
 
-write_csv(final, file = "./trends/raw/generation_emissions.csv")
+write_csv(final, file = "./trends/raw/raw_emissions.csv")
 
 
 
