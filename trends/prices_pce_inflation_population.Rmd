@@ -53,10 +53,10 @@ empty_weights <- prices %>%
 for(y in years){
   tmp <- empty_weights %>%
     filter(Year == y)%>%
-    mutate(residential_weight = `Residential Customers`/sum(`Residential Customers`, na.rm = T), 
-           commercial_weight = `Commercial Customers`/sum(`Commercial Customers`, na.rm = T),
-           industrial_weight = `Industrial Customers`/sum(`Industrial Customers`, na.rm = T),
-           total_weight = `Total Customers`/sum(`Total Customers`, na.rm = T)
+    mutate(residential_weight = `Residential Customers`/max(`Residential Customers`, na.rm = T), 
+           commercial_weight = `Commercial Customers`/max(`Commercial Customers`, na.rm = T),
+           industrial_weight = `Industrial Customers`/max(`Industrial Customers`, na.rm = T),
+           total_weight = `Total Customers`/max(`Total Customers`, na.rm = T)
            )
   weight_factors <- rbind(weight_factors, tmp)
   rm(tmp)
