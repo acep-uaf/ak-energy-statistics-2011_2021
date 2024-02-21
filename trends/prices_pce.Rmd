@@ -384,4 +384,32 @@ load <- read_csv("./trends/raw/prices_pce.csv")
 
 ```
 
+# write list of PCE Communities
+```{R}
+
+communities_pce <- final %>%
+  filter(Year == "2021") %>%
+  select(c("AEA Sales Reporting ID", 
+            "PCE ID", 
+            "RCA CPCN", 
+            "Utility Name", 
+            "Reporting Name", 
+            "Intertie Name", 
+            "AEA Energy Region",
+            "PCE Community\n(Y/N)"
+           )
+         )
+
+
+
+repo <- "~/repos/ak-energy-statistics-2011_2021/"
+setwd(repo)
+
+write_csv(communities_pce, file = "./trends/raw/communities_pce.csv")
+
+
+```
+
+
+
 
