@@ -15,6 +15,7 @@ library(tidyr)
 library(ggplot2)
 library(lubridate)
 library(forcats)
+library(stringr)
 
 library(readxl)
 library(readr)
@@ -120,7 +121,10 @@ weighted <- long_price %>%
 # Line graph of price by sector by region
 # POPULATION-WEIGHTED
 ```{R}
-plot_region <- "Rural Remote"
+
+viz <- NULL
+
+plot_region <- "Railbelt"
 
 # with weighted data
 viz <- weighted %>%
@@ -148,9 +152,30 @@ viz %>%
        x = "Year",
        y = "Cents/kWh") +
 
-   ylim(c(0,110)) +
+# Coastal
+   # ylim(c(0,90)) +
+# Railbelt
+   ylim(c(0,50)) +
+# Rural Remote
+   # ylim(c(0,120)) +
+
+
    scale_x_continuous(breaks=seq(2011,2021,2))
 
+
+# prep for write
+setwd(repo)
+setwd("./trends/visuals/price_sector")
+
+# write the source data
+viz_data_filepath <- gsub(" ", "_", (paste("./price_sector_", str_to_lower(plot_region), ".csv", sep = "")))
+write_csv(viz, file = viz_data_filepath)
+
+# write the visual
+viz_plot_filename <- gsub(" ", "_", (paste("price_sector_", str_to_lower(plot_region), ".eps", sep = "")))
+ggsave(filename = viz_plot_filename, device = "eps", )
+
+setwd(repo)
 
 ```
 
