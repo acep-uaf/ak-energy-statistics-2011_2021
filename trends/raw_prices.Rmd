@@ -8,6 +8,8 @@ editor_options:
 
 ### Build a library
 ```{R}
+options(scipen=999)
+
 library(dplyr)
 library(tidyr)
 library(ggplot2)
@@ -31,7 +33,7 @@ years <- c(2011:2021)
 
 for(i in years) {
   file <- paste("./", i, "/staging/table_2.5a.csv", sep = "")
-  df <- read_csv(file = file)
+  df <- read_csv(file = file, na = c(".", "-", "NA"))
   assign(paste("rev", i, sep = ""), df)
   rm(i, file, df)
 }
@@ -261,17 +263,8 @@ rev2018 <- rename(rev2018, "AEA Sales Reporting ID" = "AEA Reporting ID")
 
 
 # Customers Clean
-2019 "SR-10" has a "." value, causing column to read as character
-NOTE: column `Residential Sales MWh` has awful \n character (excel artifact)
-      code must be run exactly like below, otherwise won't recognize
+
 ```{R}
-rev2019$`Residential Sales
- MWh` <- sub(".", "0", rev2019$`Residential Sales
- MWh`)
-
-rev2019$`Residential Customers` <- sub(".", "0", rev2019$`Residential Customers`)
-
-
 # Customers
 plus2011 <- rename(plus2011, "Residential Customers" = "Residential Customers (Accounts)")
 plus2011 <- rename(plus2011, "Commercial Customers" = "Commercial Customers (Accounts)")
@@ -281,6 +274,116 @@ plus2011 <- rename(plus2011, "Total Customers" = "Total Customers (Accounts)")
 
 
 ```
+
+
+Generation Clean
+```{R}
+# 2011
+plus2011 <- plus2011 %>%
+  rename("Residential Sales MWh" = "Residential Sales (MWh)") %>%
+  rename("Commercial Sales MWh" = "Commercial Sales  (MWh)") %>%
+  rename("Other Sales MWh" = "Other Sales (MWh)") %>%
+  rename("Total Sales MWh" = "Total Sales (MWh)") 
+
+
+
+
+# 2012 and 2013 have the same schema
+# 2012
+plus2012 <- plus2012 %>%
+              rename("Residential Sales MWh" = "Residential Sales") %>%
+              rename("Commercial Sales MWh" = "Commercial Sales") %>%
+              rename("Other Sales MWh" = "Other Sales") %>%
+              rename("Total Sales MWh" = "Total Sales")
+
+
+# 2013
+plus2013 <- plus2013 %>%
+              rename("Residential Sales MWh" = "Residential Sales") %>%
+              rename("Commercial Sales MWh" = "Commercial Sales") %>%
+              rename("Other Sales MWh" = "Other Sales") %>%
+              rename("Total Sales MWh" = "Total Sales")
+
+
+
+# This could be a loop
+# 2014-2018 have the same schema
+
+# 2014
+rev2014 <- rev2014 %>%
+                rename("Residential Sales MWh" = "Residential Sales") %>%
+                rename("Commercial Sales MWh" = "Commercial Sales") %>%
+                rename("Other Sales MWh" = "Other Sales") %>%
+                rename("Total Sales MWh" = "Total Sales") 
+
+# 2015
+rev2015 <- rev2015 %>%
+                rename("Residential Sales MWh" = "Residential Sales") %>%
+                rename("Commercial Sales MWh" = "Commercial Sales") %>%
+                rename("Other Sales MWh" = "Other Sales") %>%
+                rename("Total Sales MWh" = "Total Sales") 
+
+# 2016
+rev2016 <- rev2016 %>%
+                rename("Residential Sales MWh" = "Residential Sales") %>%
+                rename("Commercial Sales MWh" = "Commercial Sales") %>%
+                rename("Other Sales MWh" = "Other Sales") %>%
+                rename("Total Sales MWh" = "Total Sales") 
+# 2017
+rev2017 <- rev2017 %>%
+                rename("Residential Sales MWh" = "Residential Sales") %>%
+                rename("Commercial Sales MWh" = "Commercial Sales") %>%
+                rename("Other Sales MWh" = "Other Sales") %>%
+                rename("Total Sales MWh" = "Total Sales") 
+
+# 2018
+rev2018 <- rev2018 %>%
+                rename("Residential Sales MWh" = "Residential Sales") %>%
+                rename("Commercial Sales MWh" = "Commercial Sales") %>%
+                rename("Other Sales MWh" = "Other Sales") %>%
+                rename("Total Sales MWh" = "Total Sales") 
+
+
+
+# This could be a loop
+# 2019-2021 have the same schema
+# 2019
+rev2019 <- rename(rev2019, "Residential Sales MWh" = `Residential Sales
+ MWh`)
+rev2019 <- rename(rev2019, "Commercial Sales MWh" = `Commercial Sales 
+MWh`)
+rev2019 <- rename(rev2019, "Other Sales MWh" = `Other Sales 
+MWh`)
+rev2019 <- rename(rev2019, "Total Sales MWh" = `Total Sales 
+MWh`)
+
+
+# 2020
+rev2020 <- rename(rev2020, "Residential Sales MWh" = `Residential Sales
+ MWh`)
+rev2020 <- rename(rev2020, "Commercial Sales MWh" = `Commercial Sales 
+MWh`)
+rev2020 <- rename(rev2020, "Other Sales MWh" = `Other Sales 
+MWh`)
+rev2020 <- rename(rev2020, "Total Sales MWh" = `Total Sales 
+MWh`)
+
+
+#2021
+rev2021 <- rename(rev2021, "Residential Sales MWh" = `Residential Sales
+ MWh`)
+rev2021 <- rename(rev2021, "Commercial Sales MWh" = `Commercial Sales 
+MWh`)
+rev2021 <- rename(rev2021, "Other Sales MWh" = `Other Sales 
+MWh`)
+rev2021 <- rename(rev2021, "Total Sales MWh" = `Total Sales 
+MWh`)
+
+
+
+```
+
+
 
 
 
@@ -317,10 +420,13 @@ for(df in df.list){
                         "AEA Sales Reporting ID",
                         "Residential $/kWh",
                         "Residential Customers",
+                        "Residential Sales MWh",
                         "Commercial $/kWh",
                         "Commercial Customers",
+                        "Commercial Sales MWh",
                         "Other $/kWh",
                         "Other Customers",
+                        "Other Sales MWh",
                         "Total Customers"
                 ))
    rev_all <-  rbind(rev_all, tmp)
@@ -379,10 +485,13 @@ final <- final[ , c("Year",
                     "AEA Energy Region",
                     "Residential $/kWh",
                     "Residential Customers",
+                    "Residential Sales MWh",
                     "Commercial $/kWh",
                     "Commercial Customers",
+                    "Commercial Sales MWh",
                     "Other $/kWh",
                     "Other Customers",
+                    "Other Sales MWh",
                     "Total Customers"
                    )
                ]

@@ -24,21 +24,15 @@ editor_options:
 
 ### Build a library
 ```{R}
+options(scipen=999)
+
 library(dplyr)
 library(tidyr)
-library(ggplot2)
 library(lubridate)
 
 
 library(readxl)
 library(readr)
-
-
-library(see)  # slices violin plots in half
-library(ggridges) # mountains beyond mountains
-library(ggrepel) # labels on ends of lines
-
-library(forcats)
 ```
 
 
@@ -53,37 +47,38 @@ setwd(repo)
 # New Data from Neil
 ## truncate to 2011-plus
 ```{R}
-sales <- read_xlsx(path = "~/Desktop/new_workbooks_from_neil/Energy Stats--Financial tables_2023-11-13.xlsx",
-                          sheet = "Annual Sales FINAL 06262023") %>%
-         filter(Year >= 2011) %>%
-        # town named Platinum (pop 14) is crazy outlier, drop
-         filter(`AEA Reporting ID` != "SR-142")
+# sales <- read_xlsx(path = "~/Desktop/new_workbooks_from_neil/Energy Stats--Financial tables_2023-11-13.xlsx",
+#                           sheet = "Annual Sales FINAL 06262023") %>%
+#          filter(Year >= 2011) %>%
+#         # town named Platinum (pop 14) is crazy outlier, drop
+#          filter(`AEA Reporting ID` != "SR-142")
 
 
-
+raw_prices <- read_csv(file = "./trends/raw/raw_prices.csv")
 
 ```
 
 
+#### DEPRECATED?
 # bug: copper valley electric assn (Valdez) intertie ID 
   years 2001-2018, intertie ID = 216-1982
   years 2019-2021, intertie ID = 2016-0000
 ```{R}
-# fix
-sales$intertie_id <- ifelse(sales$intertie_id == "216-0000", "216-1982", sales$intertie_id)
-
-check <- subset(sales, intertie_id == "216-0000")
+# # fix
+# sales$intertie_id <- ifelse(sales$intertie_id == "216-0000", "216-1982", sales$intertie_id)
+# 
+# check <- subset(sales, intertie_id == "216-0000")
 
 ```
 
-
+### DEPRECATED?
 # Join Intertie Data
 ```{R}
-interties <- read_xlsx(path = "~/Desktop/new_workbooks_from_neil/Energy Stats--Financial tables_2023-11-13.xlsx",
-                          sheet = "LOOKUP INTERTIES 2023-11-08")
-
-# combine to get community/intertie names
-sales_interties <- left_join(sales, interties, by = join_by(intertie_id == intertie_id))
+# interties <- read_xlsx(path = "~/Desktop/new_workbooks_from_neil/Energy Stats--Financial tables_2023-11-13.xlsx",
+#                           sheet = "LOOKUP INTERTIES 2023-11-08")
+# 
+# # combine to get community/intertie names
+# sales_interties <- left_join(sales, interties, by = join_by(intertie_id == intertie_id))
 
 ```
 
@@ -109,32 +104,34 @@ ak_cpi <- read.csv("./trends/CUUSA427SA0.csv") %>%
 ```{R}
 
 
-prices <- sales_interties %>%
+prices <- raw_prices %>%
   
   # add AK Consumer Price Index data
   left_join(., ak_cpi, by = join_by(Year == Year)) %>%
   
   # calculate nominal prices
   mutate(`Residential Price kWh (nominal dollars)` = 
-          (`Residential revenue (1000$)`/`Residential Sales (MWh)`)*100, 
-            .after = `Residential Sales (MWh)`) %>%
+           (`Residential $/kWh`)*100, 
+            .after = `Residential Sales MWh`) %>%
   mutate(`Commercial Price kWh (nominal dollars)` = 
-          (`Commercial Revenue (1000$)`/`Commercial Sales (MWh)`)*100, 
-            .after = `Commercial Sales (MWh)`) %>%
-  mutate(`Industrial Price kWh (nominal dollars)` = 
-          (`Industrial Revenue (1000$)`/`Industrial Sales (MWh)`)*100, 
-            .after = `Industrial Sales (MWh)`) %>%
+          (`Commercial $/kWh`)*100, 
+            .after = `Commercial Sales MWh`) %>%
+  mutate(`Other Price kWh (nominal dollars)` = 
+          (`Other $/kWh`)*100, 
+            .after = `Other Sales MWh`) %>%
   select(c("Year",
-           "AEA Reporting ID",
+           "AEA Sales Reporting ID",
            "Residential Price kWh (nominal dollars)",
            "Residential Customers",
+           "Residential Sales MWh",
            "Commercial Price kWh (nominal dollars)",
            "Commercial Customers",
-           "Industrial Price kWh (nominal dollars)"),
-           "Industrial Customers",
+           "Commercial Sales MWh",
+           "Other Price kWh (nominal dollars)",
+           "Other Customers",
+           "Other Sales MWh",
            "Total Customers",
-           "AK CPI")
-
+           "AK CPI"))
 
 ```
 
@@ -145,41 +142,47 @@ prices <- sales_interties %>%
 # load pce data
 pce_sales <- read_csv("./trends/raw/prices_pce.csv") %>%
   mutate("Residential Price kWh (nominal dollars)" = (`Residential Rate after PCE ($/kWh)`)*100) %>% 
-  rename("AEA Reporting ID" = "AEA Sales Reporting ID") %>%
   select(-c("PCE Community\n(Y/N)")) 
   
 
 sales_minus_residential <- prices %>%
   mutate("Residential Price kWh (nominal dollars)" = NULL) %>%
   select(c("Year",
-         "AEA Reporting ID",
-         "Residential Customers",
-         "Commercial Price kWh (nominal dollars)",
-         "Commercial Customers",
-         "Industrial Price kWh (nominal dollars)",
-         "Industrial Customers",
-         "Total Customers",
-         "AK CPI"))
+           "AEA Sales Reporting ID",
+           # "Residential Price kWh (nominal dollars)",
+           "Residential Customers",
+           "Residential Sales MWh",
+           "Commercial Price kWh (nominal dollars)",
+           "Commercial Customers",
+           "Commercial Sales MWh",
+           "Other Price kWh (nominal dollars)",
+           "Other Customers",
+           "Other Sales MWh",
+           "Total Customers",
+           "AK CPI"))
 
 
 # add `Commercial $/kWh` and `Other $/kWh` to PCE communities
 pce_sales_plus_commercial_other <- left_join(pce_sales, 
                                              sales_minus_residential, 
-                                             join_by(`Year`, `AEA Reporting ID`)) %>%
-                                     select(c("Year",
-                                              "AEA Reporting ID",
-                                              "Residential Price kWh (nominal dollars)",
-                                              "Residential Customers",
-                                              "Commercial Price kWh (nominal dollars)",
-                                              "Commercial Customers",
-                                              "Industrial Price kWh (nominal dollars)",
-                                              "Industrial Customers",
-                                              "Total Customers",
-                                              "AK CPI"))
+                                             join_by(`Year`, `AEA Sales Reporting ID`)) %>%
+                                  select(c("Year",
+                                           "AEA Sales Reporting ID",
+                                           "Residential Price kWh (nominal dollars)",
+                                           "Residential Customers",
+                                           "Residential Sales MWh",
+                                           "Commercial Price kWh (nominal dollars)",
+                                           "Commercial Customers",
+                                           "Commercial Sales MWh",
+                                           "Other Price kWh (nominal dollars)",
+                                           "Other Customers",
+                                           "Other Sales MWh",
+                                           "Total Customers",
+                                           "AK CPI"))
 
 
 # burn PCE communities from raw_sales in order to set up for r_bind() next
-non_pce_prices <- anti_join(prices, pce_sales, by = join_by(`AEA Reporting ID`))
+non_pce_prices <- anti_join(prices, pce_sales, by = join_by(`AEA Sales Reporting ID`))
 
 
 prices_pce <- rbind(non_pce_prices, pce_sales_plus_commercial_other)
@@ -200,24 +203,25 @@ prices_pce_inflation <- prices_pce %>%
   mutate(`Commercial Price kWh (2021 dollars)` = 
            (`Commercial Price kWh (nominal dollars)`*335.4480/`AK CPI`), 
             .after = `Commercial Price kWh (nominal dollars)`) %>%
-  mutate(`Industrial Price kWh (2021 dollars)` = 
-           (`Industrial Price kWh (nominal dollars)`*335.4480/`AK CPI`), 
-            .after = `Industrial Price kWh (nominal dollars)`) %>%
+  mutate(`Other Price kWh (2021 dollars)` = 
+           (`Other Price kWh (nominal dollars)`*335.4480/`AK CPI`), 
+            .after = `Other Price kWh (nominal dollars)`) %>%
   
   # finally, select statement to narrow things down
-  select(c("Year", 
-           "AEA Reporting ID",
+  select(c("Year",
+           "AEA Sales Reporting ID",
            "Residential Price kWh (2021 dollars)",
            "Residential Customers",
+           "Residential Sales MWh",
            "Commercial Price kWh (2021 dollars)",
            "Commercial Customers",
-           "Industrial Price kWh (2021 dollars)",
-           "Industrial Customers",
+           "Commercial Sales MWh",
+           "Other Price kWh (2021 dollars)",
+           "Other Customers",
+           "Other Sales MWh",
            "Total Customers",
            "AK CPI"
-           )) %>%
-  rename("AEA Sales Reporting ID" = "AEA Reporting ID")
-
+           ))
 
 
 
@@ -278,12 +282,15 @@ final_final <- final %>%
            "ACEP Energy Region",
            "Residential Price kWh (2021 dollars)",
            "Residential Customers",
+           "Residential Sales MWh",
            "Commercial Price kWh (2021 dollars)",
            "Commercial Customers",
-           "Industrial Price kWh (2021 dollars)"),
-           "Industrial Customers",
+           "Commercial Sales MWh",
+           "Other Price kWh (2021 dollars)",
+           "Other Customers",
+           "Other Sales MWh",
            "Total Customers",
-           "AK CPI")
+           "AK CPI"))
 
 
 ```

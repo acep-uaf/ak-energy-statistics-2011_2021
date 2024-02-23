@@ -8,6 +8,8 @@ editor_options:
 
 ### Build a library
 ```{R}
+options(scipen=999)
+
 library(dplyr)
 library(tidyr)
 library(ggplot2)
@@ -61,83 +63,45 @@ ggplot(aes(x =`Total Customers`,
        subtitle = "Do larger communities pay lower rates?") +
   
   
-  ylim(0,250) +
-  xlim(300,120000)
+  # ylim(0,250) +
+  xlim(0,120000)
+
+
+
 
 ```
 
 
-## pivot longer to get Residential, Commercial, Industrial
+## pivot longer to get Residential, Commercial, Other
 ```{R}
 p_price <- price %>%
              rename(c("Residential" = "Residential Price kWh (2021 dollars)",
                       "Commercial" = "Commercial Price kWh (2021 dollars)",
-                      "Industrial" = "Industrial Price kWh (2021 dollars)")) %>%
+                      "Other" = "Other Price kWh (2021 dollars)")) %>%
              pivot_longer( 
              cols = c("Residential",
                       "Commercial",
-                      "Industrial"), 
+                      "Other"), 
              names_to ="Sector", 
              values_to = "Price")
 
 long_price <- p_price %>%
-  mutate(Customers = NA) %>%
-  mutate(Customers = ifelse(Sector == "Residential", `Residential Customers`, Customers)) %>%
-  mutate(Customers = ifelse(Sector == "Commercial", `Commercial Customers`, Customers)) %>%
-  mutate(Customers = ifelse(Sector == "Industrial", `Industrial Customers`, Customers)) %>%
-  mutate(Customers = round(Customers, 0)) %>%
+  # mutate(Customers = NA) %>%
+  # mutate(Customers = ifelse(Sector == "Residential", `Residential Customers`, Customers)) %>%
+  # mutate(Customers = ifelse(Sector == "Commercial", `Commercial Customers`, Customers)) %>%
+  # mutate(Customers = ifelse(Sector == "Other", `Other Customers`, Customers)) %>%
+  # mutate(Customers = round(Customers, 0)) %>%
   
   select("Year",
          "Reporting Name",
          "ACEP Energy Region",
          "Sector",
          "Price",
-         "Customers")
+         "Total Customers")
 
 
 
 ```
-
-# cut communities below 300
-```{R}
-# cut communities below threshold population
-no_small <- price %>%
-             filter(`Total Customers` > 300) %>%
-             rename(c("Residential" = "Residential Price kWh (2021 dollars)",
-                      "Commercial" = "Commercial Price kWh (2021 dollars)",
-                      "Industrial" = "Industrial Price kWh (2021 dollars)")) %>%
-             pivot_longer( 
-             cols = c("Residential",
-                      "Commercial",
-                      "Industrial"), 
-             names_to ="Sector", 
-             values_to = "Price")
-
-long_no_small <- no_small %>%
-  mutate(Customers = NA) %>%
-  mutate(Customers = ifelse(Sector == "Residential", `Residential Customers`, Customers)) %>%
-  mutate(Customers = ifelse(Sector == "Commercial", `Commercial Customers`, Customers)) %>%
-  mutate(Customers = ifelse(Sector == "Industrial", `Industrial Customers`, Customers)) %>%
-  mutate(Customers = round(Customers, 0)) %>%
-  
-  select("Year",
-         "Reporting Name",
-         "ACEP Energy Region",
-         "Sector",
-         "Price",
-         "Customers")
-
-# calculate averages
-avg_no_small <- long_no_small %>%
-  drop_na() %>%
-  group_by(`ACEP Energy Region`, Sector, Year) %>%
-  summarize(avg_price = mean(Price, na.rm=T),
-            weighted_price = mean(Price, na.rm=T))
-
-
-
-```
-
 
 
 
@@ -147,14 +111,14 @@ weighted <- long_price %>%
   drop_na() %>%
   group_by(`ACEP Energy Region`, Sector, Year) %>%
   summarize(avg_price = mean(Price, na.rm=T),
-            weighted_price = weighted.mean(Price, Customers, na.rm=T))
+            weighted_price = weighted.mean(Price, `Total Customers`, na.rm=T))
 
 ```
 
 
 
 # Line graph of price by sector by region
-# NON-WEIGHTED
+# POPULATION-WEIGHTED
 ```{R}
 plot_region <- "Rural Remote"
 
@@ -172,99 +136,19 @@ viz %>%
                   na.rm = TRUE) +
   theme_classic() +
   
-  scale_color_manual(values = c("#848BA7", "#645345", "#8F6A9D")) + #Commercial, Industrial, Residential
+  scale_color_manual(values = c("#848BA7", "#645345", "#8F6A9D")) + #Commercial, Other, Residential
   theme(legend.position = "none",
         plot.title = element_text(size=20, hjust = 0.5),
         plot.subtitle = element_text(size=18, hjust = 0.5),
         plot.caption = element_text(size = 10)) +
   
-  labs(title = "Avg Price of Electricity, 2011-2021",
-       subtitle = paste(plot_region, " Region",sep = ""),
+  labs(title = "Population-Weighted Price of Electricity",
+       subtitle = paste(plot_region, " Region", sep = ""),
        caption = "Inflation-adjusted (2021 dollars), post-PCE subsidy",
        x = "Year",
        y = "Cents/kWh") +
 
-   ylim(c(0,120)) +
-   scale_x_continuous(breaks=seq(2011,2021,2))
-
-
-```
-
-
-
-# Line graph of price by sector by region
-# POPULATION WEIGHTED
-```{R}
-plot_region <- "Rural Remote"
-
-# with weighted data
-viz <- weighted %>%
-  filter(`ACEP Energy Region` == paste(plot_region))
-
-viz %>%  
-  mutate(label = if_else(Year == max(Year), as.character(Sector), NA_character_)) %>%
-  ggplot( aes(y=weighted_price, x=Year, color = Sector)) +
-  geom_line(linewidth=1.5) +
-  geom_label_repel(aes(label = label,),
-                  nudge_x = 1,
-                  nudge_y = 1,
-                  na.rm = TRUE) +
-  theme_classic() +
-  
-  scale_color_manual(values = c("#848BA7", "#645345", "#8F6A9D")) + #Commercial, Industrial, Residential
-  theme(legend.position = "none",
-        plot.title = element_text(size=20, hjust = 0.5),
-        plot.subtitle = element_text(size=18, hjust = 0.5),
-        plot.caption = element_text(size = 10)) +
-  
-  labs(title = "Weighted Population, Price of Electricity, 2011-2021",
-       subtitle = paste(plot_region, " Region",sep = ""),
-       caption = "Population weighted averages, inflation-adjusted (2021 dollars), post-PCE subsidy",
-       x = "Year",
-       y = "Cents/kWh") +
-
-   ylim(c(0,120)) +
-   scale_x_continuous(breaks=seq(2011,2021,2))
-
-
-```
-
-
-# Line graph of price by sector by region
-# MINUS SMALL COMMUNITIES (300 ppl)
-```{R}
-
-# plot
-
-plot_region <- "Coastal"
-
-# with small communities cut
-viz <- avg_no_small %>%
-  filter(`ACEP Energy Region` == paste(plot_region))
-
-viz %>%  
-  mutate(label = if_else(Year == max(Year), as.character(Sector), NA_character_)) %>%
-  ggplot( aes(y=avg_price, x=Year, color = Sector)) +
-  geom_line(linewidth=1.5) +
-  geom_label_repel(aes(label = label,),
-                  nudge_x = 1,
-                  nudge_y = 1,
-                  na.rm = TRUE) +
-  theme_classic() +
-  
-  scale_color_manual(values = c("#848BA7", "#645345", "#8F6A9D")) + #Commercial, Industrial, Residential
-  theme(legend.position = "none",
-        plot.title = element_text(size=20, hjust = 0.5),
-        plot.subtitle = element_text(size=18, hjust = 0.5),
-        plot.caption = element_text(size = 10)) +
-  
-  labs(title = "MINUS SMALL COMMUNITIES (<300), Price of Electricity, 2011-2021",
-       subtitle = paste(plot_region, " Region",sep = ""),
-       caption = "Comunities < 300 removed, inflation-adjusted (2021 dollars), post-PCE subsidy",
-       x = "Year",
-       y = "Cents/kWh") +
-
-   ylim(c(0,100)) +
+   ylim(c(0,110)) +
    scale_x_continuous(breaks=seq(2011,2021,2))
 
 
@@ -278,8 +162,9 @@ viz %>%
 
 
 # plot
-viz <- no_small %>%
-  filter(Sector == "Residential") %>%
+viz <- long_price %>%
+  filter(Sector == "Residential") %>% 
+  filter(Price > 0) %>%
   left_join(weighted, join_by(Year, Sector, `ACEP Energy Region`))
   
 viz %>%
@@ -336,96 +221,6 @@ viz %>%
 ```
 
 
-## raincloud plot of 2021 data, grouped by region
-# straight data points, no weighting
-```{R}
-
-# plot
-no_small %>%
-  filter(Sector == "Residential") %>%
-  mutate(fct_total_customers = as_factor(`Total Customers`)) %>%
-  ggplot( aes(x=`ACEP Energy Region`, 
-              y=Price, 
-              fill=`ACEP Energy Region`,
-              size = `Total Customers`,
-              group = `ACEP Energy Region`)) +
-
-  
-  geom_rain(alpha = 0.7, rain.side = 'r',
-            violin.args = list(color = "black", alpha = 1),
-            boxplot.args = list(alpha = 1, color = "black", outlier.shape = NA),
-            boxplot.args.pos = list(
-              position = ggpp::position_dodgenudge(x = .1, width = 0.1), width = 0.1
-            )) +
-  
-  
-    scale_fill_manual(values = c("#98BAD6", "#A4CD9A", "#E3918F")) +
-    theme_classic() +
-    theme(legend.position = "none",
-          plot.title = element_text(size=20, hjust = 0.5),
-          plot.subtitle = element_text(size=14, hjust = 0.5),
-          plot.caption = element_text(size = 8)) +
-  
-    labs(title = "Price of Electricity, Residential, 2011-2021",
-         subtitle = "Inflation-adjusted to 2021 dollars, post PCE Subsidy",
-         caption = "Inflation-adjustment calculated using BLS Cost Price Index, AK Urban",
-         x = "Region",
-         y = "unitless?") +
-  
-    coord_flip() 
-
-    ylim(c(0,75))
-    
-
-    #E3918F Rural Remote
-    #98BAD6 Coastal
-    #A4CD9A Railbelt
-    #F1BF42 State
-
-```
-
-
-# Line graph of three regions, all sectors
-# NOT WEIGHTED
-```{R}
-
-viz <- long_price %>%
-  group_by(`ACEP Energy Region`, Year) %>%
-  summarize(avg_price = mean(Price, na.rm = T))
-
-
-
-viz %>%  
-  mutate(label = if_else(Year == max(Year), as.character(`ACEP Energy Region`), NA_character_)) %>%
-  ggplot( aes(y=avg_price, x=Year, color = `ACEP Energy Region`)) +
-  geom_line(linewidth=1.5) +
-  geom_label_repel(aes(label = label,),
-                  nudge_x = 1,
-                  nudge_y = 1,
-                  na.rm = TRUE) +
-  theme_classic() +
-  
-  scale_color_manual(values = c("#98BAD6", "#A4CD9A", "#E3918F")) +
-  theme(legend.position = "none",
-        plot.title = element_text(size=20, hjust = 0.5),
-        plot.subtitle = element_text(size=14, hjust = 0.5),
-        plot.caption = element_text(size = 8)) +
-  
-  labs(title = "Average Price of Electricity, 2011-2021",
-       subtitle = "Inflation-adjusted to 2021 dollars, post PCE Subsidy",
-       caption = "Inflation-adjustment calculated using BLS Cost Price Index, AK Urban",
-       x = "Year",
-       y = "Cents per kWh") +
-
-   ylim(0,75) +
-   scale_x_continuous(breaks=seq(2011,2021,2)) 
-
-
-
-
-```
-
-
 
 # Line graph of three regions, all sectors
 # POP WEIGHTED
@@ -459,7 +254,7 @@ viz %>%
        x = "Year",
        y = "Cents per kWh") +
 
-   ylim(0,70) +
+   ylim(0,75) +
    scale_x_continuous(breaks=seq(2011,2021,2)) 
 
 
@@ -467,43 +262,224 @@ viz %>%
 
 ```
 
+
+
+
+
+# DEPRECATED: cut communities below 300
+```{R}
+# # cut communities below threshold population
+# no_small <- price %>%
+#              filter(`Total Customers` > 300) %>%
+#              rename(c("Residential" = "Residential Price kWh (2021 dollars)",
+#                       "Commercial" = "Commercial Price kWh (2021 dollars)",
+#                       "Other" = "Other Price kWh (2021 dollars)")) %>%
+#              pivot_longer( 
+#              cols = c("Residential",
+#                       "Commercial",
+#                       "Other"), 
+#              names_to ="Sector", 
+#              values_to = "Price")
+# 
+# long_no_small <- no_small %>%
+#   mutate(Customers = NA) %>%
+#   mutate(Customers = ifelse(Sector == "Residential", `Residential Customers`, Customers)) %>%
+#   mutate(Customers = ifelse(Sector == "Commercial", `Commercial Customers`, Customers)) %>%
+#   mutate(Customers = ifelse(Sector == "Other", `Other Customers`, Customers)) %>%
+#   mutate(Customers = round(Customers, 0)) %>%
+#   
+#   select("Year",
+#          "Reporting Name",
+#          "ACEP Energy Region",
+#          "Sector",
+#          "Price",
+#          "Customers")
+# 
+# # calculate averages
+# avg_no_small <- long_no_small %>%
+#   drop_na() %>%
+#   group_by(`ACEP Energy Region`, Sector, Year) %>%
+#   summarize(avg_price = mean(Price, na.rm=T),
+#             weighted_price = mean(Price, na.rm=T))
+
+
+
+```
+
+
+
+# DEPRECATED
+# Line graph of price by sector by region
+# MINUS SMALL COMMUNITIES (300 ppl)
+```{R}
+
+# # plot
+# 
+# plot_region <- "Coastal"
+# 
+# # with small communities cut
+# viz <- avg_no_small %>%
+#   filter(`ACEP Energy Region` == paste(plot_region))
+# 
+# viz %>%  
+#   mutate(label = if_else(Year == max(Year), as.character(Sector), NA_character_)) %>%
+#   ggplot( aes(y=avg_price, x=Year, color = Sector)) +
+#   geom_line(linewidth=1.5) +
+#   geom_label_repel(aes(label = label,),
+#                   nudge_x = 1,
+#                   nudge_y = 1,
+#                   na.rm = TRUE) +
+#   theme_classic() +
+#   
+#   scale_color_manual(values = c("#848BA7", "#645345", "#8F6A9D")) + #Commercial, Other, Residential
+#   theme(legend.position = "none",
+#         plot.title = element_text(size=20, hjust = 0.5),
+#         plot.subtitle = element_text(size=18, hjust = 0.5),
+#         plot.caption = element_text(size = 10)) +
+#   
+#   labs(title = "MINUS SMALL COMMUNITIES (<300), Price of Electricity, 2011-2021",
+#        subtitle = paste(plot_region, " Region",sep = ""),
+#        caption = "Comunities < 300 removed, inflation-adjusted (2021 dollars), post-PCE subsidy",
+#        x = "Year",
+#        y = "Cents/kWh") +
+# 
+#    ylim(c(0,100)) +
+#    scale_x_continuous(breaks=seq(2011,2021,2))
+
+
+```
+
+
+# DEPRECATED
+## raincloud plot of 2021 data, grouped by region
+# straight data points, no weighting
+```{R}
+
+# # plot
+# no_small %>%
+#   filter(Sector == "Residential") %>%
+#   mutate(fct_total_customers = as_factor(`Total Customers`)) %>%
+#   ggplot( aes(x=`ACEP Energy Region`, 
+#               y=Price, 
+#               fill=`ACEP Energy Region`,
+#               size = `Total Customers`,
+#               group = `ACEP Energy Region`)) +
+# 
+#   
+#   geom_rain(alpha = 0.7, rain.side = 'r',
+#             violin.args = list(color = "black", alpha = 1),
+#             boxplot.args = list(alpha = 1, color = "black", outlier.shape = NA),
+#             boxplot.args.pos = list(
+#               position = ggpp::position_dodgenudge(x = .1, width = 0.1), width = 0.1
+#             )) +
+#   
+#   
+#     scale_fill_manual(values = c("#98BAD6", "#A4CD9A", "#E3918F")) +
+#     theme_classic() +
+#     theme(legend.position = "none",
+#           plot.title = element_text(size=20, hjust = 0.5),
+#           plot.subtitle = element_text(size=14, hjust = 0.5),
+#           plot.caption = element_text(size = 8)) +
+#   
+#     labs(title = "Price of Electricity, Residential, 2011-2021",
+#          subtitle = "Inflation-adjusted to 2021 dollars, post PCE Subsidy",
+#          caption = "Inflation-adjustment calculated using BLS Cost Price Index, AK Urban",
+#          x = "Region",
+#          y = "unitless?") +
+#   
+#     coord_flip() 
+# 
+#     ylim(c(0,75))
+#     
+# 
+#     #E3918F Rural Remote
+#     #98BAD6 Coastal
+#     #A4CD9A Railbelt
+#     #F1BF42 State
+
+```
+
+
+
+# DEPRECATED
+# Line graph of three regions, all sectors
+# NOT WEIGHTED
+```{R}
+# 
+# viz <- long_price %>%
+#   group_by(`ACEP Energy Region`, Year) %>%
+#   summarize(avg_price = mean(Price, na.rm = T))
+# 
+# 
+# 
+# viz %>%  
+#   mutate(label = if_else(Year == max(Year), as.character(`ACEP Energy Region`), NA_character_)) %>%
+#   ggplot( aes(y=avg_price, x=Year, color = `ACEP Energy Region`)) +
+#   geom_line(linewidth=1.5) +
+#   geom_label_repel(aes(label = label,),
+#                   nudge_x = 1,
+#                   nudge_y = 1,
+#                   na.rm = TRUE) +
+#   theme_classic() +
+#   
+#   scale_color_manual(values = c("#98BAD6", "#A4CD9A", "#E3918F")) +
+#   theme(legend.position = "none",
+#         plot.title = element_text(size=20, hjust = 0.5),
+#         plot.subtitle = element_text(size=14, hjust = 0.5),
+#         plot.caption = element_text(size = 8)) +
+#   
+#   labs(title = "Average Price of Electricity, 2011-2021",
+#        subtitle = "Inflation-adjusted to 2021 dollars, post PCE Subsidy",
+#        caption = "Inflation-adjustment calculated using BLS Cost Price Index, AK Urban",
+#        x = "Year",
+#        y = "Cents per kWh") +
+# 
+#    ylim(0,75) +
+#    scale_x_continuous(breaks=seq(2011,2021,2)) 
+
+
+
+
+```
+
+
 # Line graph of three regions, all sectors
 # Small communities removed
 ```{R}
 
-viz <- avg_no_small %>%
-  group_by(`ACEP Energy Region`, Year) %>%
-  summarize(avg_price = mean(avg_price))
-
-
-
-viz %>%  
-  mutate(label = if_else(Year == max(Year), as.character(`ACEP Energy Region`), NA_character_)) %>%
-  ggplot( aes(y=avg_price, x=Year, color = `ACEP Energy Region`)) +
-  geom_line(linewidth=1.5) +
-  geom_label_repel(aes(label = label,),
-                  nudge_x = 1,
-                  nudge_y = 1,
-                  na.rm = TRUE) +
-  theme_classic() +
-  
-  scale_color_manual(values = c("#98BAD6", "#A4CD9A", "#E3918F")) +
-  theme(legend.position = "none",
-        plot.title = element_text(size=20, hjust = 0.5),
-        plot.subtitle = element_text(size=14, hjust = 0.5),
-        plot.caption = element_text(size = 8)) +
-  
-  labs(title = "SMALL COMM REMOVED (below 300 ppl) Average Price of Electricity, 2011-2021",
-       subtitle = "Inflation-adjusted to 2021 dollars, post PCE Subsidy",
-       caption = "Inflation-adjustment calculated using BLS Cost Price Index, AK Urban",
-       x = "Year",
-       y = "Cents per kWh") +
-
-   ylim(0,70) +
-   scale_x_continuous(breaks=seq(2011,2021,2)) 
-
-
-
+# viz <- avg_no_small %>%
+#   group_by(`ACEP Energy Region`, Year) %>%
+#   summarize(avg_price = mean(avg_price))
+# 
+# 
+# 
+# viz %>%  
+#   mutate(label = if_else(Year == max(Year), as.character(`ACEP Energy Region`), NA_character_)) %>%
+#   ggplot( aes(y=avg_price, x=Year, color = `ACEP Energy Region`)) +
+#   geom_line(linewidth=1.5) +
+#   geom_label_repel(aes(label = label,),
+#                   nudge_x = 1,
+#                   nudge_y = 1,
+#                   na.rm = TRUE) +
+#   theme_classic() +
+#   
+#   scale_color_manual(values = c("#98BAD6", "#A4CD9A", "#E3918F")) +
+#   theme(legend.position = "none",
+#         plot.title = element_text(size=20, hjust = 0.5),
+#         plot.subtitle = element_text(size=14, hjust = 0.5),
+#         plot.caption = element_text(size = 8)) +
+#   
+#   labs(title = "SMALL COMM REMOVED (below 300 ppl) Average Price of Electricity, 2011-2021",
+#        subtitle = "Inflation-adjusted to 2021 dollars, post PCE Subsidy",
+#        caption = "Inflation-adjustment calculated using BLS Cost Price Index, AK Urban",
+#        x = "Year",
+#        y = "Cents per kWh") +
+# 
+#    ylim(0,70) +
+#    scale_x_continuous(breaks=seq(2011,2021,2)) 
+# 
+# 
+# 
 
 ```
 
@@ -515,33 +491,33 @@ viz %>%
 #NON WEIGHTED
 ## boxplot of 2021 data, grouped by region
 ```{R}
-# plot
-price %>%
-  filter(Year == 2011) %>%
-  ggplot( aes(x=`ACEP Energy Region`, 
-              y=`Residential Price kWh (2021 dollars)`, 
-              fill=`ACEP Energy Region`,
-              size=`Residential Customers`)) +
-    # geom_boxplot(outlier.alpha = 0) +
-    geom_violinhalf() +
-    scale_fill_manual(values = c("#98BAD6", "#A4CD9A", "#E3918F")) +
-    geom_jitter(color="black", alpha=0.8, width = 0.1, height = 0) +
-    theme_classic() +
-    theme(legend.position = "none",
-          plot.title = element_text(size=20, hjust = 0.5),
-          plot.subtitle = element_text(size=14, hjust = 0.5),
-          plot.caption = element_text(size = 8)) +
-  
-    labs(title = "Price of Electricity, Residential, 2011",
-         subtitle = "Inflation-adjusted to 2021 dollars, post PCE Subsidy",
-         caption = "Inflation-adjustment calculated using BLS Cost Price Index, AK Urban",
-         x = "Region",
-         y = "Cents/kWh") +
-  
-    coord_flip() +
-    
-    ylim(c(0,50)) 
-    
+# # plot
+# price %>%
+#   filter(Year == 2011) %>%
+#   ggplot( aes(x=`ACEP Energy Region`, 
+#               y=`Residential Price kWh (2021 dollars)`, 
+#               fill=`ACEP Energy Region`,
+#               size=`Residential Customers`)) +
+#     # geom_boxplot(outlier.alpha = 0) +
+#     geom_violinhalf() +
+#     scale_fill_manual(values = c("#98BAD6", "#A4CD9A", "#E3918F")) +
+#     geom_jitter(color="black", alpha=0.8, width = 0.1, height = 0) +
+#     theme_classic() +
+#     theme(legend.position = "none",
+#           plot.title = element_text(size=20, hjust = 0.5),
+#           plot.subtitle = element_text(size=14, hjust = 0.5),
+#           plot.caption = element_text(size = 8)) +
+#   
+#     labs(title = "Price of Electricity, Residential, 2011",
+#          subtitle = "Inflation-adjusted to 2021 dollars, post PCE Subsidy",
+#          caption = "Inflation-adjustment calculated using BLS Cost Price Index, AK Urban",
+#          x = "Region",
+#          y = "Cents/kWh") +
+#   
+#     coord_flip() +
+#     
+#     ylim(c(0,50)) 
+#     
 
     #E3918F Rural Remote
     #98BAD6 Coastal
@@ -594,76 +570,76 @@ price %>%
 # DEPRECATED price over time
 # boxplots over time by region, facet-wrapped
 # too busy!
-```{R}
-# facet_grid by region by residential/commercial/industrial
-p_price %>%
-  filter(`ACEP Energy Region` == "Coastal") %>%
-  mutate(YearFct = as.factor(Year)) %>%
-
-  # boxplot code
-  ggplot( aes(y=Price, x=YearFct, fill = YearFct)) +
-  geom_boxplot(outlier.alpha = 0) +
-  facet_grid(~Type) +
-  theme_classic() +
-
-  theme(legend.position = "none",
-        plot.title = element_text(size=20, hjust = 0.5),
-        plot.subtitle = element_text(size=14, hjust = 0.5),
-        plot.caption = element_text(size = 8)) +
-  
-  labs(title = "Price of Electricity, Coastal, 2011-2021",
-       subtitle = "Inflation-adjusted to 2021 dollars, post PCE Subsidy",
-       caption = "Inflation-adjustment calculated using BLS Cost Price Index, AK Urban",
-       x = "Year",
-       y = "Cents per kWh") 
-
-  ylim(c(0,100))
-  
-
-```
-
-
-## dealing with outliers in rural remote
-```{R}
-data <- res_rev21
-dim(data)
- 
-list_quantiles <- tapply(data$`Residential Revenue kWh`, data$`ACEP energy region`, quantile)
- 
-Q1s <- sapply(1:3, function(i) list_quantiles[[i]][2])
-Q3s <- sapply(1:3, function(i) list_quantiles[[i]][4])
- 
-IQRs <- tapply(data$`Residential Revenue kWh`, data$`ACEP energy region`, IQR)
- 
-Lowers <- Q1s - 1.5*IQRs
-Uppers <- Q3s + 1.5*IQRs
- 
-datas <- split(data, data$`ACEP energy region`)
- 
-data_no_outlier <- NULL
-for (i in 1:3){
-out <- subset(datas[[i]], datas[[i]]$`Residential Revenue kWh` > Lowers[i] & datas[[i]]$`Residential Revenue kWh` < Uppers[i])
-data_no_outlier <- rbind(data_no_outlier, out)
-}
- 
-dim(data_no_outlier)
-
-
-
-```
-
-## colnames comparison
-probably not worth pursuing, just pull common columns and join
-```{R}
-cols <- data.frame   (col2021 = c(colnames(rev2021)), 
-                      col2020 = c(colnames(rev2020)),
-                      col2019 = c(colnames(rev2019)),
-                      col2018 = c(colnames(rev2018)),
-                      col2017 = c(colnames(rev2017)),
-                      col2016 = c(colnames(rev2016))
-                      )
-```
-
+# ```{R}
+# # facet_grid by region by residential/commercial/Other
+# p_price %>%
+#   filter(`ACEP Energy Region` == "Coastal") %>%
+#   mutate(YearFct = as.factor(Year)) %>%
+# 
+#   # boxplot code
+#   ggplot( aes(y=Price, x=YearFct, fill = YearFct)) +
+#   geom_boxplot(outlier.alpha = 0) +
+#   facet_grid(~Type) +
+#   theme_classic() +
+# 
+#   theme(legend.position = "none",
+#         plot.title = element_text(size=20, hjust = 0.5),
+#         plot.subtitle = element_text(size=14, hjust = 0.5),
+#         plot.caption = element_text(size = 8)) +
+#   
+#   labs(title = "Price of Electricity, Coastal, 2011-2021",
+#        subtitle = "Inflation-adjusted to 2021 dollars, post PCE Subsidy",
+#        caption = "Inflation-adjustment calculated using BLS Cost Price Index, AK Urban",
+#        x = "Year",
+#        y = "Cents per kWh") 
+# 
+#   ylim(c(0,100))
+#   
+# 
+# ```
+# 
+# 
+# ## dealing with outliers in rural remote
+# ```{R}
+# data <- res_rev21
+# dim(data)
+#  
+# list_quantiles <- tapply(data$`Residential Revenue kWh`, data$`ACEP energy region`, quantile)
+#  
+# Q1s <- sapply(1:3, function(i) list_quantiles[[i]][2])
+# Q3s <- sapply(1:3, function(i) list_quantiles[[i]][4])
+#  
+# IQRs <- tapply(data$`Residential Revenue kWh`, data$`ACEP energy region`, IQR)
+#  
+# Lowers <- Q1s - 1.5*IQRs
+# Uppers <- Q3s + 1.5*IQRs
+#  
+# datas <- split(data, data$`ACEP energy region`)
+#  
+# data_no_outlier <- NULL
+# for (i in 1:3){
+# out <- subset(datas[[i]], datas[[i]]$`Residential Revenue kWh` > Lowers[i] & datas[[i]]$`Residential Revenue kWh` < Uppers[i])
+# data_no_outlier <- rbind(data_no_outlier, out)
+# }
+#  
+# dim(data_no_outlier)
+# 
+# 
+# 
+# ```
+# 
+# ## colnames comparison
+# probably not worth pursuing, just pull common columns and join
+# ```{R}
+# cols <- data.frame   (col2021 = c(colnames(rev2021)), 
+#                       col2020 = c(colnames(rev2020)),
+#                       col2019 = c(colnames(rev2019)),
+#                       col2018 = c(colnames(rev2018)),
+#                       col2017 = c(colnames(rev2017)),
+#                       col2016 = c(colnames(rev2016))
+#                       )
+# ```
+# 
 
 
 
