@@ -188,23 +188,26 @@ non_pce_prices <- anti_join(prices, pce_sales, by = join_by(`AEA Sales Reporting
 prices_pce <- rbind(non_pce_prices, pce_sales_plus_commercial_other)
 
 
+
 ```
 
   
 
-  
+# calculate inflation-adjustment 
+# join community data
+# add ACEP regions
 ```{R}
   
 prices_pce_inflation <- prices_pce %>%
   # calculate inflation adjusted prices
   mutate(`Residential Price kWh (2021 dollars)` = 
-           (`Residential Price kWh (nominal dollars)`*335.4480/`AK CPI`), 
+           (`Residential Price kWh (nominal dollars)`*232.679/`AK CPI`), 
             .after = `Residential Price kWh (nominal dollars)`) %>%
   mutate(`Commercial Price kWh (2021 dollars)` = 
-           (`Commercial Price kWh (nominal dollars)`*335.4480/`AK CPI`), 
+           (`Commercial Price kWh (nominal dollars)`*232.679/`AK CPI`), 
             .after = `Commercial Price kWh (nominal dollars)`) %>%
   mutate(`Other Price kWh (2021 dollars)` = 
-           (`Other Price kWh (nominal dollars)`*335.4480/`AK CPI`), 
+           (`Other Price kWh (nominal dollars)`*232.679/`AK CPI`), 
             .after = `Other Price kWh (nominal dollars)`) %>%
   
   # finally, select statement to narrow things down

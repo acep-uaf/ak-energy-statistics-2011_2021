@@ -68,6 +68,10 @@ ggplot(aes(x =`Total Customers`,
   xlim(0,120000)
 
 
+# linear reg
+model <- lm(`Total Customers` ~ `Residential Price kWh (2021 dollars)`, data = price)
+summary(model)
+
 
 
 ```
