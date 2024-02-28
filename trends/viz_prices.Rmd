@@ -61,7 +61,7 @@ ggplot(aes(x =`Total Customers`,
         plot.subtitle = element_text(size=14, hjust = 0.5),
         plot.caption = element_text(size = 8)) +
   labs(title = "Price v Population, All Regions, Residential",
-       subtitle = "Do larger communities pay lower rates?") +
+       subtitle = "Do larger communities pay lower rates? (No, but some tiny communities pay very high rates)") +
   
   
   # ylim(0,250) +
@@ -136,7 +136,7 @@ viz <- weighted %>%
 
 viz %>%  
   mutate(label = if_else(Year == max(Year), as.character(Sector), NA_character_)) %>%
-  ggplot( aes(y=avg_price, x=Year, color = Sector)) +
+  ggplot( aes(y=weighted_price, x=Year, color = Sector)) +
   geom_line(linewidth=1.5) +
   geom_label_repel(aes(label = label,),
                   nudge_x = 1,
@@ -159,7 +159,7 @@ viz %>%
 # Coastal
    # ylim(c(0,90)) +
 # Railbelt
-   ylim(c(0,50)) +
+   ylim(c(0,25)) +
 # Rural Remote
    # ylim(c(0,120)) +
 

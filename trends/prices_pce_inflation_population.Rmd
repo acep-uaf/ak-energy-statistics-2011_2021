@@ -44,8 +44,8 @@ empty_weights <- prices %>%
   mutate(residential_weight = NA, .after = "Residential Customers") %>%
   mutate(`commercial_weighted_price` = NA, .after = "Commercial Customers") %>%
   mutate(commercial_weight = NA, .after = "Commercial Customers") %>%
-  mutate(`industrial_weighted_price` = NA, .after = "Industrial Customers") %>%
-  mutate(industrial_weight = NA, .after = "Industrial Customers") %>%
+  mutate(`other_weighted_price` = NA, .after = "Other Customers") %>%
+  mutate(industrial_weight = NA, .after = "Other Customers") %>%
   mutate(total_weight = NA, .after = "Total Customers")
 
 
@@ -55,7 +55,7 @@ for(y in years){
     filter(Year == y)%>%
     mutate(residential_weight = `Residential Customers`/max(`Residential Customers`, na.rm = T), 
            commercial_weight = `Commercial Customers`/max(`Commercial Customers`, na.rm = T),
-           industrial_weight = `Industrial Customers`/max(`Industrial Customers`, na.rm = T),
+           other_weight = `Other Customers`/max(`Other Customers`, na.rm = T),
            total_weight = `Total Customers`/max(`Total Customers`, na.rm = T)
            )
   weight_factors <- rbind(weight_factors, tmp)
@@ -72,7 +72,7 @@ for(y in years){
     filter(Year == y)%>%
     mutate(residential_weighted_price = `Residential Price kWh (2021 dollars)`*residential_weight) %>%
     mutate(commercial_weighted_price = `Commercial Price kWh (2021 dollars)`*commercial_weight) %>%
-    mutate(industrial_weighted_price = `Industrial Price kWh (2021 dollars)`*industrial_weight)
+    mutate(other_weighted_price = `Other Price kWh (2021 dollars)`*other_weight)
   weighted_prices <- rbind(weighted_prices, tmp)
   rm(tmp)
 }
