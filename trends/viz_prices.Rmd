@@ -47,9 +47,10 @@ price <- read_csv("./trends/raw/prices_pce_inflation.csv")
 # do larger communities have cheaper rates? (no)
 ```{R}
 price %>%
+  # filter(Year == 2018) %>%
   filter(`Total Customers` > 0) %>%
 ggplot(aes(x =`Total Customers`, 
-           y = `Residential Price kWh (2021 dollars)`)) + 
+           y = `Other Price kWh (2021 dollars)`)) + 
            # size = `Residential Customers`,
            # color = `ACEP Energy Region`)) +
   geom_point() +
@@ -60,12 +61,13 @@ ggplot(aes(x =`Total Customers`,
         plot.title = element_text(size=20, hjust = 0.5),
         plot.subtitle = element_text(size=14, hjust = 0.5),
         plot.caption = element_text(size = 8)) +
-  labs(title = "Price v Population, All Regions, Residential",
-       subtitle = "Do larger communities pay lower rates? (No, but some tiny communities pay very high rates)") +
+  labs(title = "Price v Population, All Regions",
+       subtitle = "Do larger communities pay lower rates?") +
+  
   
   
   # ylim(0,250) +
-  xlim(0,120000)
+  xlim(0,8000)
 
 
 # linear reg
@@ -74,7 +76,21 @@ summary(model)
 
 
 
+test <- price %>%
+  filter(`Total Customers` > 0) %>%
+  filter(`Total Customers` < 50) %>%
+  filter(Year == 2021)
+
+
+tmp <- price %>%
+  filter(`ACEP Energy Region` == "Rural Remote")
+
+  length(unique(tmp$`AEA Sales Reporting ID`))
+
+
+
 ```
+
 
 
 ## pivot longer to get Residential, Commercial, Other

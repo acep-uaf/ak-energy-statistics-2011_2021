@@ -6,6 +6,12 @@ editor_options:
   chunk_output_type: console
 ---
 
+
+########################
+# THIS CODE IS DEPRECATED
+########################
+
+
 ## Build a library
 ```{R}
 options(scipen=999)
