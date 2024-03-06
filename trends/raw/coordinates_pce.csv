@@ -1,0 +1,195 @@
+"AEA Sales Reporting ID","PCE ID","RCA CPCN","Utility Name","Reporting Name","Intertie Name","AEA Energy Region","PCE Community
+(Y/N)","latitude","longitude"
+"SR-1",0,1,"Alaska Electric Light&Power Co","Juneau","Juneau_grid","Southeast",FALSE,58.3019444,-134.4197222
+"SR-10",0,227,"TDX North Slope Generating Co","Deadhorse","Deadhorse_grid","North Slope",FALSE,70.2055556,-148.5116667
+"SR-100",331420,169,"Alaska Village Electric Cooperative","Koyuk","Koyuk_grid","Bering Straits",TRUE,64.9319444,-161.1569444
+"SR-101",332140,687,"Koyukuk, City of","Koyukuk","Koyukuk_grid","Yukon-Koyukuk/Upper Tanana",TRUE,64.8802778,-157.7008333
+"SR-102",332150,281,"Kwethluk Incorporated d/b/a Kuiggluum Kallugvia","Kwethluk","Kwethluk_grid","Lower Yukon-Kuskokwim",TRUE,60.8122222,-161.4358333
+"SR-103",332160,376,"Kwigillingok Power Company","Kwigillingok","Kwigillingok_grid","Lower Yukon-Kuskokwim",TRUE,59.8644444,-163.1341667
+"SR-104",332170,353,"Larsen Bay Utility Company","Larsen Bay","Larsen Bay_grid","Kodiak",TRUE,57.54,-153.9786111
+"SR-105",332180,330,"Levelock Electrical Coop","Levelock","Levelock_grid","Bristol Bay",TRUE,59.1141667,-156.8588889
+"SR-106",332190,570,"Lime Village Electric Utility","Lime Village","Lime Village_grid","Lower Yukon-Kuskokwim",TRUE,61.3563889,-155.4355556
+"SR-107",331430,169,"Alaska Village Electric Cooperative","Lower Kalskag","Upper Kalskag_grid","Lower Yukon-Kuskokwim",TRUE,61.5122222,-160.3580556
+"SR-108",332200,264,"Manley Utilities","Manley Hot Springs","Manley Hot Springs_grid","Yukon-Koyukuk/Upper Tanana",TRUE,65.0011111,-150.6338889
+"SR-109",332210,321,"Manokotak Power Company","Manokotak","Manokotak_grid","Bristol Bay",TRUE,58.9813889,-159.0583333
+"SR-11",331005,684,"TDX Adak Generating LLC","Adak","Adak_grid","Aleutians",TRUE,51.88,-176.6580556
+"SR-110",331440,169,"Alaska Village Electric Cooperative","Marshall","Marshall_grid","Lower Yukon-Kuskokwim",TRUE,61.8777778,-162.0811111
+"SR-111",332220,44,"Mcgrath Light & Power","McGrath","McGrath_grid","Yukon-Koyukuk/Upper Tanana",TRUE,62.9563889,-155.5958333
+"SR-112",331450,169,"Alaska Village Electric Cooperative","Mekoryuk","Mekoryuk_grid","Lower Yukon-Kuskokwim",TRUE,60.3880556,-166.185
+"SR-113",331160,2,"Alaska Power & Telephone Company","Mentasta Lake","Slana_grid","Copper River/Chugach",TRUE,62.9211111,-143.7691667
+"SR-114",331460,169,"Alaska Village Electric Cooperative","Minto","Minto_grid","Yukon-Koyukuk/Upper Tanana",TRUE,65.150411,-149.349708
+"SR-115",331470,169,"Alaska Village Electric Cooperative","Mountain Village","Mountain Village_grid","Lower Yukon-Kuskokwim",TRUE,62.0855556,-163.7294444
+"SR-116",332280,22,"Naknek Electric Association","Naknek","Naknek_grid","Bristol Bay",TRUE,58.7283333,-157.0138889
+"SR-117",332290,319,"Napakiak Ircinraq","Napakiak","Bethel_grid","Lower Yukon-Kuskokwim",TRUE,60.6966667,-161.9519444
+"SR-118",332300,625,"Napaskiak Electric Utility","Napaskiak","Napaskiak_grid","Lower Yukon-Kuskokwim",TRUE,60.7080556,-161.7661111
+"SR-119",331170,2,"Alaska Power & Telephone Company","Naukati Bay","Prince of Wales Is._grid","Southeast",TRUE,55.8736111,-133.1847222
+"SR-12",331010,449,"Akhiok, City of","Akhiok","Akhiok_grid","Kodiak",TRUE,56.9455556,-154.1702778
+"SR-120",332320,340,"Nelson Lagoon Electrical Coop","Nelson Lagoon","Nelson Lagoon_grid","Aleutians",TRUE,56.0006152,-161.206974
+"SR-121",331480,169,"Alaska Village Electric Cooperative","New Stuyahok","New_Stuyahok_grid","Bristol Bay",TRUE,59.4527778,-157.3119444
+"SR-122",332870,375,"Ungusraq Power Company","Newtok","Newtok_grid","Lower Yukon-Kuskokwim",TRUE,60.9427778,-164.6294444
+"SR-123",331490,169,"Alaska Village Electric Cooperative","Nightmute","Toksook Bay_grid","Lower Yukon-Kuskokwim",TRUE,60.4794444,-164.7238889
+"SR-124",332330,416,"Nikolai, City of","Nikolai","Nikolai_grid","Yukon-Koyukuk/Upper Tanana",TRUE,63.0133333,-154.375
+"SR-125",332740,242,"Umnak Power Company","Nikolski","Nikolski_grid","Aleutians",TRUE,52.9380556,-168.8677778
+"SR-126",331500,169,"Alaska Village Electric Cooperative","Noatak","Noatak_grid","Northwest Arctic",TRUE,67.5711111,-162.9652778
+"SR-127",332340,150,"Nome Joint Utility Systems","Nome","Nome_grid","Bering Straits",TRUE,64.5011111,-165.4063889
+"SR-128",331510,169,"Alaska Village Electric Cooperative","Noorvik","Noorvik_grid","Northwest Arctic",TRUE,66.8383333,-161.0327778
+"SR-129",331180,2,"Alaska Power & Telephone Company","Northway","Northway_grid","Yukon-Koyukuk/Upper Tanana",TRUE,62.9616667,-141.9372222
+"SR-13",331020,412,"Akiachak Native Community","Akiachak","Akiachak_grid","Lower Yukon-Kuskokwim",TRUE,60.9094444,-161.4313889
+"SR-130",332380,254,"North Slope Borough Power & Light","Nuiqsut","Nuiqsut_grid","North Slope",TRUE,70.2175,-150.9763889
+"SR-131",331520,169,"Alaska Village Electric Cooperative","Nulato","Nulato_grid","Yukon-Koyukuk/Upper Tanana",TRUE,64.7194444,-158.1030556
+"SR-132",332420,408,"Nunam Iqua Electric Company","Nunam Iqua","Nunam Iqua_grid","Lower Yukon-Kuskokwim",TRUE,62.5336111,-164.8411111
+"SR-133",331530,169,"Alaska Village Electric Cooperative","Nunapitchuk","Kasigluk_grid","Lower Yukon-Kuskokwim",TRUE,60.8969444,-162.4594444
+"SR-134",331540,169,"Alaska Village Electric Cooperative","Old Harbor","Old Harbor_grid","Kodiak",TRUE,57.2027778,-153.3038889
+"SR-135",332440,357,"Ouzinkie, City of","Ouzinkie","Ouzinkie_grid","Kodiak",TRUE,57.9236111,-152.5022222
+"SR-136",332450,662,"Pedro Bay Village Council","Pedro Bay","Pedro Bay_grid","Bristol Bay",TRUE,59.7872222,-154.1061111
+"SR-137",332460,24,"Pelican Utility","Pelican","Pelican_grid","Southeast",TRUE,57.9608333,-136.2275
+"SR-138",332470,659,"Native Village of Perryville","Perryville","Perryville_grid","Bristol Bay",TRUE,55.9139846,-159.1632767
+"SR-139",332480,425,"Pilot Point Electric Utility","Pilot Point","Pilot Point_grid","Bristol Bay",TRUE,57.5641667,-157.5791667
+"SR-14",331030,635,"Akiak City Council","Akiak","Akiak_grid","Lower Yukon-Kuskokwim",TRUE,60.9122222,-161.2138889
+"SR-140",331550,169,"Alaska Village Electric Cooperative","Pilot Station","Pilot Station_grid","Lower Yukon-Kuskokwim",TRUE,61.9388889,-162.875
+"SR-141",331560,169,"Alaska Village Electric Cooperative","Pitkas Point","Saint Mary's_grid","Lower Yukon-Kuskokwim",TRUE,62.0327778,-163.2877778
+"SR-143",332390,254,"North Slope Borough Power & Light","Point Hope","Point Hope_grid","North Slope",TRUE,68.3486111,-166.7347222
+"SR-144",332400,254,"North Slope Borough Power & Light","Point Lay","Point Lay_grid","North Slope",TRUE,69.743857,-163.008442
+"SR-145",332590,447,"Tanalian Electric Cooperative","Port Alsworth","Port Alsworth_grid","Bristol Bay",TRUE,60.2025,-154.3127778
+"SR-146",332500,399,"Port Heiden Utilities","Port Heiden","Port Heiden_grid","Bristol Bay",TRUE,56.9325614,-158.6249699
+"SR-147",331570,169,"Alaska Village Electric Cooperative","Quinhagak","Quinhagak_grid","Lower Yukon-Kuskokwim",TRUE,59.7488889,-161.9158333
+"SR-148",332520,759,"Rampart Village Council","Rampart","Rampart_grid","Yukon-Koyukuk/Upper Tanana",TRUE,65.505,-150.17
+"SR-149",332250,343,"Middle Kuskokwim Electric","Red Devil","Red Devil_grid","Lower Yukon-Kuskokwim",TRUE,61.7611111,-157.3125
+"SR-15",331040,293,"Akutan, City of","Akutan","Akutan_grid","Aleutians",TRUE,54.1355556,-165.7730556
+"SR-150",332530,364,"Ruby, City of","Ruby","Ruby_grid","Yukon-Koyukuk/Upper Tanana",TRUE,64.7394444,-155.4869444
+"SR-151",331580,169,"Alaska Village Electric Cooperative","Russian Mission","Russian Mission_grid","Lower Yukon-Kuskokwim",TRUE,61.785,-161.3202778
+"SR-152",332550,410,"Saint George, City of","Saint George","Saint George_grid","Aleutians",TRUE,56.6,-169.5416667
+"SR-153",331660,169,"Alaska Village Electric Cooperative","Saint Mary's","Saint Mary's_grid","Lower Yukon-Kuskokwim",TRUE,62.0530556,-163.1658333
+"SR-154",331670,169,"Alaska Village Electric Cooperative","Saint Michael","Stebbins_grid","Bering Straits",TRUE,63.4780556,-162.0391667
+"SR-155",332560,339,"Saint Paul Municipal Electric","Saint Paul","Saint Paul_grid","Aleutians",TRUE,57.1222222,-170.275
+"SR-156",332540,749,"TDX Corporation","Sand Point","Sand Point_grid","Aleutians",TRUE,55.3397222,-160.4972222
+"SR-157",331590,169,"Alaska Village Electric Cooperative","Savoonga","Savoonga_grid","Bering Straits",TRUE,63.6941667,-170.4788889
+"SR-158",331600,169,"Alaska Village Electric Cooperative","Scammon Bay","Scammon Bay_grid","Lower Yukon-Kuskokwim",TRUE,61.8427778,-165.5816667
+"SR-159",331610,169,"Alaska Village Electric Cooperative","Selawik","Selawik_grid","Northwest Arctic",TRUE,66.6038889,-160.0069444
+"SR-16",331240,169,"Alaska Village Electric Cooperative","Alakanuk","Emmonak_grid","Lower Yukon-Kuskokwim",TRUE,62.6888889,-164.6152778
+"SR-160",331620,169,"Alaska Village Electric Cooperative","Shageluk","Shageluk_grid","Yukon-Koyukuk/Upper Tanana",TRUE,62.6822222,-159.5619444
+"SR-161",331630,169,"Alaska Village Electric Cooperative","Shaktoolik","Shaktoolik_grid","Bering Straits",TRUE,64.3338889,-161.1538889
+"SR-162",331640,169,"Alaska Village Electric Cooperative","Shishmaref","Shishmaref_grid","Bering Straits",TRUE,66.2566667,-166.0719444
+"SR-163",331650,169,"Alaska Village Electric Cooperative","Shungnak","Shungnak_grid","Northwest Arctic",TRUE,66.8880556,-157.1363889
+"SR-164",331190,2,"Alaska Power & Telephone Company","Skagway","Haines_grid","Southeast",TRUE,59.4583333,-135.3138889
+"SR-165",331195,2,"Alaska Power & Telephone Company","Slana","Slana_grid","Copper River/Chugach",TRUE,62.7069444,-143.9611111
+"SR-166",332260,343,"Middle Kuskokwim Electric","Sleetmute","Sleetmute_grid","Lower Yukon-Kuskokwim",TRUE,61.7025,-157.1697222
+"SR-167",331680,169,"Alaska Village Electric Cooperative","Stebbins","Stebbins_grid","Bering Straits",TRUE,63.5222222,-162.2880556
+"SR-168",332570,709,"Stevens Village Ira Council","Stevens Village","Stevens Village_grid","Yukon-Koyukuk/Upper Tanana",TRUE,66.0063889,-149.0908333
+"SR-169",332270,343,"Middle Kuskokwim Electric","Stony River","Stony River_grid","Lower Yukon-Kuskokwim",TRUE,61.7830556,-156.5880556
+"SR-17",331050,2,"Alaska Power & Telephone Company","Allakaket","Allakaket_grid","Yukon-Koyukuk/Upper Tanana",TRUE,66.5655556,-152.6455556
+"SR-170",332580,394,"Takotna Community Assoc Inc","Takotna","Takotna_grid","Yukon-Koyukuk/Upper Tanana",TRUE,62.9886111,-156.0641667
+"SR-171",332600,92,"Tanana Power Company Inc","Tanana","Tanana_grid","Yukon-Koyukuk/Upper Tanana",TRUE,65.1719444,-152.0788889
+"SR-172",332610,586,"Tatitlek Village Ira Council","Tatitlek","Tatitlek_grid","Copper River/Chugach",TRUE,60.8647222,-146.6786111
+"SR-173",331685,61,"Teller Power Company","Teller","Teller_grid","Bering Straits",TRUE,65.2636111,-166.3608333
+"SR-174",332630,363,"Tenakee Springs, City of","Tenakee Springs","Tenakee Springs_grid","Southeast",TRUE,57.7808333,-135.2188889
+"SR-175",331200,2,"Alaska Power & Telephone Company","Tetlin","Tok_grid","Yukon-Koyukuk/Upper Tanana",TRUE,63.1350512,-142.5238796
+"SR-176",331210,2,"Alaska Power & Telephone Company","Thorne Bay","Prince of Wales Is._grid","Southeast",TRUE,55.6877778,-132.5222222
+"SR-177",331690,169,"Alaska Village Electric Cooperative","Togiak","Togiak_grid","Bristol Bay",TRUE,59.0619444,-160.3763889
+"SR-178",331220,2,"Alaska Power & Telephone Company","Tok","Tok_grid","Yukon-Koyukuk/Upper Tanana",TRUE,63.3366667,-142.9855556
+"SR-179",331700,169,"Alaska Village Electric Cooperative","Toksook Bay","Toksook Bay_grid","Lower Yukon-Kuskokwim",TRUE,60.5337752,-165.1036627
+"SR-18",331250,169,"Alaska Village Electric Cooperative","Ambler","Ambler_grid","Northwest Arctic",TRUE,67.0861111,-157.8513889
+"SR-180",332710,664,"Tuluksak Traditional","Tuluksak","Tuluksak_grid","Lower Yukon-Kuskokwim",TRUE,61.1025,-160.9616667
+"SR-181",332720,344,"Tuntutuliak Community","Tuntutuliak","Tuntutuliak_grid","Lower Yukon-Kuskokwim",TRUE,60.3430556,-162.6630556
+"SR-182",331710,169,"Alaska Village Electric Cooperative","Tununak","Toksook Bay_grid","Lower Yukon-Kuskokwim",TRUE,60.5855556,-165.2558333
+"SR-183",332730,729,"Twin Hills Village Council","Twin Hills","Twin Hills_grid","Bristol Bay",TRUE,59.0791667,-160.275
+"SR-184",332850,741,"Unalakleet Valley Electric Cooperative","Unalakleet","Unalakleet_grid","Bering Straits",TRUE,63.8730556,-160.7880556
+"SR-185",332860,106,"Unalaska, City of","Unalaska","Unalaska_grid","Aleutians",TRUE,53.8736111,-166.5366667
+"SR-186",332880,663,"Venetie Village Electric","Venetie","Venetie_grid","Yukon-Koyukuk/Upper Tanana",TRUE,67.0138889,-146.4186111
+"SR-187",332410,254,"North Slope Borough Power & Light","Wainwright","Wainwright_grid","North Slope",TRUE,70.6369444,-160.0383333
+"SR-188",331730,169,"Alaska Village Electric Cooperative","Wales","Wales_grid","Bering Straits",TRUE,65.6091667,-168.0875
+"SR-189",331230,2,"Alaska Power & Telephone Company","Whale Pass","Whale_Pass_grid","Southeast",TRUE,56.1152778,-133.1208333
+"SR-19",332350,254,"North Slope Borough Power & Light","Anaktuvuk Pass","Anaktuvuk Pass_grid","North Slope",TRUE,68.1433333,-151.7358333
+"SR-190",332890,409,"White Mountain, City of","White Mountain","White Mountain_grid","Bering Straits",TRUE,64.6813889,-163.4055556
+"SR-191",332900,53,"Alaska Village Electric Cooperative","Yakutat","Yakutat_grid","Southeast",TRUE,59.5469444,-139.7272222
+"SR-192",0,10,"Copper Valley Elec Assn, Inc","Valdez","CopperValley_grid","Copper River/Chugach",FALSE,61.1308333,-146.3483333
+"SR-193",0,100,"Sitka, City & Borough of","Sitka","Sitka_grid","Southeast",FALSE,57.0530556,-135.33
+"SR-194",0,214,"Barrow Utilities & Electric Cooperative Inc.","Utqiagvik","Utqiagvik_grid","North Slope",FALSE,71.2905556,-156.7886111
+"SR-198",0,212,"Petersburg, City of","Petersburg","SEAPA_grid","Southeast",FALSE,56.8112667,-132.9512425
+"SR-20",332650,240,"Inside Passage Electric","Angoon","Angoon_grid","Southeast",TRUE,57.5033333,-134.5838889
+"SR-200",0,111,"Wrangell, City of","Wrangell","SEAPA_grid","Southeast",FALSE,56.4708333,-132.3766667
+"SR-21",331760,5,"Aniak Light & Power","Aniak","Aniak_grid","Lower Yukon-Kuskokwim",TRUE,61.5783333,-159.5222222
+"SR-22",331260,169,"Alaska Village Electric Cooperative","Anvik","Anvik_grid","Yukon-Koyukuk/Upper Tanana",TRUE,62.6561111,-160.2066667
+"SR-23",331770,747,"Arctic Village Electric Company","Arctic Village","Arctic Village_grid","Yukon-Koyukuk/Upper Tanana",TRUE,68.1269444,-145.5377778
+"SR-24",331750,291,"Andreanof Electric Corp","Atka","Atka_grid","Aleutians",TRUE,52.1961111,-174.2005556
+"SR-25",331780,337,"Atmautluak Tribal Utilities","Atmautluak","Atmautluak_grid","Lower Yukon-Kuskokwim",TRUE,60.8669444,-162.2730556
+"SR-26",332360,254,"North Slope Borough Power & Light","Atqasuk","Atqasuk_grid","North Slope",TRUE,70.4691667,-157.3994444
+"SR-27",331790,420,"Beaver Joint Utilities","Beaver","Beaver_grid","Yukon-Koyukuk/Upper Tanana",TRUE,66.3594444,-147.3963889
+"SR-28",331800,43,"Bethel Utilities Corp","Bethel","Bethel_grid","Lower Yukon-Kuskokwim",TRUE,60.7922222,-161.7558333
+"SR-29",331060,2,"Alaska Power & Telephone Company","Bettles","Bettles_grid","Yukon-Koyukuk/Upper Tanana",TRUE,66.9188889,-151.5161111
+"SR-3",0,8,"Chugach Electric Assn Inc","Anchorage","Railbelt_grid","Railbelt",FALSE,61.2180556,-149.9002778
+"SR-30",331810,767,"Birch Creek Electric Company","Birch Creek","Birch Creek_grid","Yukon-Koyukuk/Upper Tanana",TRUE,66.2590355,-145.8190168
+"SR-31",331270,169,"Alaska Village Electric Cooperative","Brevig Mission","Brevig Mission_grid","Bering Straits",TRUE,65.3347222,-166.4891667
+"SR-32",331820,432,"Buckland, City of","Buckland","Buckland_grid","Northwest Arctic",TRUE,65.9797222,-161.1230556
+"SR-33",331830,341,"Central Electric Inc.","Central","Central_grid","Yukon-Koyukuk/Upper Tanana",TRUE,65.5725,-144.8030556
+"SR-34",331840,682,"Chalkyitsik Village Council","Chalkyitsik","Chalkyitsik_grid","Yukon-Koyukuk/Upper Tanana",TRUE,66.6544444,-143.7222222
+"SR-35",332310,365,"Naterkaq Light Plant (City of Chefornak)","Chefornak","Chefornak_grid","Lower Yukon-Kuskokwim",TRUE,60.16,-164.2658333
+"SR-36",331850,686,"Chenega Ira Council","Chenega Bay","Chenega_grid","Copper River/Chugach",TRUE,60.0633333,-148.0113889
+"SR-37",331280,169,"Alaska Village Electric Cooperative","Chevak","Chevak_grid","Lower Yukon-Kuskokwim",TRUE,61.5277778,-165.5863889
+"SR-38",331860,297,"Chignik, City of","Chignik","Chignik_grid","Bristol Bay",TRUE,56.2952778,-158.4022222
+"SR-39",331870,658,"Chignik Lagoon Power Utility","Chignik Lagoon","Chignik Lagoon_grid","Bristol Bay",TRUE,56.3084393,-158.5302391
+"SR-4",0,13,"Golden Valley Elec Assn Inc","Fairbanks","Railbelt_grid","Railbelt",FALSE,64.8377778,-147.7163889
+"SR-40",331880,437,"Chignik Lake Electric Utility","Chignik Lake","Chignik Lake_grid","Bristol Bay",TRUE,56.2555556,-158.7625
+"SR-41",332660,240,"Inside Passage Electric","Chilkat Valley","Haines_grid","Southeast",TRUE,59.399702,-135.8964089
+"SR-42",331070,2,"Alaska Power & Telephone Company","Chistochina","Slana_grid","Copper River/Chugach",TRUE,62.5717828,-144.6541704
+"SR-43",331890,368,"Chitina Electric Inc","Chitina","Chitina_grid","Copper River/Chugach",TRUE,61.5158333,-144.4369444
+"SR-44",332230,343,"Middle Kuskokwim Electric","Chuathbaluk","Chuathbaluk_grid","Lower Yukon-Kuskokwim",TRUE,61.5719444,-159.245
+"SR-45",331900,256,"Circle Electric Utility","Circle","Circle_grid","Yukon-Koyukuk/Upper Tanana",TRUE,65.8255556,-144.0605556
+"SR-46",331910,360,"Clark's Point, City of","Clark's Point","Clark's Point_grid","Bristol Bay",TRUE,58.8441667,-158.5508333
+"SR-47",331080,2,"Alaska Power & Telephone Company","Coffman Cove","Prince of Wales Is._grid","Southeast",TRUE,56.0138889,-132.8277778
+"SR-48",331980,88,"G & K Inc","Cold Bay","Cold Bay_grid","Aleutians",TRUE,55.1858333,-162.7211111
+"SR-49",331920,160,"Cordova Electric Cooperative","Cordova","Cordova_grid","Copper River/Chugach",TRUE,60.5427778,-145.7575
+"SR-5",0,32,"Homer Electric Assn Inc","Homer","Railbelt_grid","Railbelt",FALSE,59.6425,-151.5483333
+"SR-50",331090,2,"Alaska Power & Telephone Company","Craig","Prince of Wales Is._grid","Southeast",TRUE,55.4763889,-133.1483333
+"SR-51",332240,343,"Middle Kuskokwim Electric","Crooked Creek","Crooked Creek_grid","Lower Yukon-Kuskokwim",TRUE,61.87,-158.1108333
+"SR-52",332060,369,"Ipnatchiaq Electric Company","Deering","Deering_grid","Northwest Arctic",TRUE,66.0755556,-162.7172222
+"SR-53",332430,45,"Nushagak Electric Cooperative","Dillingham","Dillingham_grid","Bristol Bay",TRUE,59.0397222,-158.4575
+"SR-54",331930,383,"Diomede Joint Utilities","Diomede","Diomede_grid","Bering Straits",TRUE,65.7537652,-168.92315
+"SR-55",331100,2,"Alaska Power & Telephone Company","Dot Lake","Tok_grid","Yukon-Koyukuk/Upper Tanana",TRUE,63.6613889,-144.0644444
+"SR-56",331110,2,"Alaska Power & Telephone Company","Eagle","Eagle_grid","Yukon-Koyukuk/Upper Tanana",TRUE,64.7880556,-141.2
+"SR-57",331290,169,"Alaska Village Electric Cooperative","Eek","Eek_grid","Lower Yukon-Kuskokwim",TRUE,60.2188889,-162.0244444
+"SR-58",331940,320,"Egegik Light & Power Co","Egegik","Egegik_grid","Bristol Bay",TRUE,58.2155556,-157.3758333
+"SR-59",331950,688,"City of Ekwok","Ekwok","New_Stuyahok_grid","Bristol Bay",TRUE,59.3497222,-157.4752778
+"SR-6",0,103,"Ketchikan Public Utilities","Ketchikan","SEAPA_grid","Southeast",FALSE,55.3422222,-131.6461111
+"SR-60",331960,701,"Elfin Cove Utility Commission","Elfin Cove","Elfin Cove_grid","Southeast",TRUE,58.1944444,-136.3433333
+"SR-61",331300,169,"Alaska Village Electric Cooperative","Elim","Elim_grid","Bering Straits",TRUE,64.6175,-162.2605556
+"SR-62",331310,169,"Alaska Village Electric Cooperative","Emmonak","Emmonak_grid","Lower Yukon-Kuskokwim",TRUE,62.7777778,-164.5230556
+"SR-63",331970,442,"False Pass, City of","False Pass","False Pass_grid","Aleutians",TRUE,54.8508333,-163.415
+"SR-64",332020,63,"Gwitchyaa Zhee Utilities Company","Fort Yukon","Fort Yukon_grid","Yukon-Koyukuk/Upper Tanana",TRUE,66.5647222,-145.2738889
+"SR-65",331990,274,"Galena, City of","Galena","Galena_grid","Yukon-Koyukuk/Upper Tanana",TRUE,64.7333333,-156.9275
+"SR-66",331320,169,"Alaska Village Electric Cooperative","Gambell","Gambell_grid","Bering Straits",TRUE,63.7797222,-171.7411111
+"SR-67",332000,373,"Golovin Power Utilities","Golovin","Golovin_grid","Bering Straits",TRUE,64.5433333,-163.0291667
+"SR-68",331330,169,"Alaska Village Electric Cooperative","Goodnews Bay","Goodnews Bay_grid","Lower Yukon-Kuskokwim",TRUE,59.1188889,-161.5875
+"SR-69",331340,169,"Alaska Village Electric Cooperative","Grayling","Grayling_grid","Yukon-Koyukuk/Upper Tanana",TRUE,62.9036111,-160.0647222
+"SR-7",0,16,"Kodiak Electric Assn Inc","Kodiak","Kodiak_grid","Kodiak",FALSE,57.79,-152.4072222
+"SR-70",332010,417,"Alaska Power & Telephone Company","Gustavus","Gustavus_grid","Southeast",TRUE,58.4133333,-135.7369444
+"SR-71",331120,2,"Alaska Power & Telephone Company","Haines","Haines_grid","Southeast",TRUE,59.228589,-135.444114
+"SR-72",331130,2,"Alaska Power & Telephone Company","Healy Lake","Healy Lake_grid","Yukon-Koyukuk/Upper Tanana",TRUE,63.9872308,-144.6998325
+"SR-73",331140,2,"Alaska Power & Telephone Company","Hollis","Prince of Wales Is._grid","Southeast",TRUE,55.5566667,-132.6363889
+"SR-74",331350,169,"Alaska Village Electric Cooperative","Holy Cross","Holy Cross_grid","Yukon-Koyukuk/Upper Tanana",TRUE,62.1994444,-159.7713889
+"SR-75",332670,240,"Inside Passage Electric","Hoonah","Hoonah_grid","Southeast",TRUE,58.11,-135.4436111
+"SR-76",331360,169,"Alaska Village Electric Cooperative","Hooper Bay","Hooper Bay_grid","Lower Yukon-Kuskokwim",TRUE,61.5311111,-166.0966667
+"SR-77",332030,332,"Hughes Power & Light","Hughes","Hughes_grid","Yukon-Koyukuk/Upper Tanana",TRUE,66.0488889,-154.2555556
+"SR-78",331370,169,"Alaska Village Electric Cooperative","Huslia","Huslia_grid","Yukon-Koyukuk/Upper Tanana",TRUE,65.6986111,-156.3997222
+"SR-79",331150,2,"Alaska Power & Telephone Company","Hydaburg","Prince of Wales Is._grid","Southeast",TRUE,55.2080556,-132.8266667
+"SR-8",0,18,"Matanuska Electric Assn Inc","Wasilla","Railbelt_grid","Railbelt",FALSE,61.5813889,-149.4394444
+"SR-80",332040,681,"Igiugig Electric Company","Igiugig","Igiugig_grid","Bristol Bay",TRUE,59.3277778,-155.8947222
+"SR-81",332050,280,"I-N-N Electric Coop, Inc","Iliamna","Newhalen_grid","Bristol Bay",TRUE,59.7567965,-154.9110837
+"SR-82",332680,240,"Inside Passage Electric","Kake","Kake_grid","Southeast",TRUE,56.9758333,-133.9472222
+"SR-83",332370,254,"North Slope Borough Power & Light","Kaktovik","Kaktovik_grid","North Slope",TRUE,70.1319444,-143.6238889
+"SR-84",331720,169,"Alaska Village Electric Cooperative","Kalskag","Upper Kalskag_grid","Lower Yukon-Kuskokwim",TRUE,61.5372222,-160.3052778
+"SR-85",331380,169,"Alaska Village Electric Cooperative","Kaltag","Kaltag_grid","Yukon-Koyukuk/Upper Tanana",TRUE,64.3272222,-158.7219444
+"SR-86",331740,683,"Alutiiq Power Company","Karluk","Karluk_grid","Kodiak",TRUE,57.5719444,-154.4555556
+"SR-87",331390,169,"Alaska Village Electric Cooperative","Kasigluk","Kasigluk_grid","Lower Yukon-Kuskokwim",TRUE,60.8955556,-162.5180556
+"SR-88",331400,169,"Alaska Village Electric Cooperative","Kiana","Kiana_grid","Northwest Arctic",TRUE,66.975,-160.4227778
+"SR-89",332070,289,"King Cove, City of","King Cove","King Cove_grid","Aleutians",TRUE,55.0616667,-162.3102778
+"SR-90",332080,446,"Kipnuk Light Plant","Kipnuk","Kipnuk_grid","Lower Yukon-Kuskokwim",TRUE,59.9388889,-164.0413889
+"SR-91",331410,169,"Alaska Village Electric Cooperative","Kivalina","Kivalina_grid","Northwest Arctic",TRUE,67.7269444,-164.5333333
+"SR-92",331155,2,"Alaska Power & Telephone Company","Klawock","Prince of Wales Is._grid","Southeast",TRUE,55.5522222,-133.0958333
+"SR-93",332700,240,"Inside Passage Electric","Klukwan","Haines_grid","Southeast",TRUE,59.4038889,-135.8844444
+"SR-94",332090,407,"Kobuk Valley Electric Company","Kobuk","Shungnak_grid","Northwest Arctic",TRUE,66.9072222,-156.8811111
+"SR-95",332100,660,"Kokhanok Village Council","Kokhanok","Kokhanok_grid","Bristol Bay",TRUE,59.4394444,-154.7761111
+"SR-96",332110,661,"New Koliganek Village Council","Koliganek","Koliganek_grid","Bristol Bay",TRUE,59.7286111,-157.2844444
+"SR-97",332510,395,"Puvurnaq Power Company","Kongiganak","Kongiganak_grid","Lower Yukon-Kuskokwim",TRUE,59.9532731,-162.8951327
+"SR-98",332120,285,"Kotlik Joint Utility","Kotlik","Kotlik_grid","Lower Yukon-Kuskokwim",TRUE,63.0341667,-163.5533333
+"SR-99",332130,17,"Kotzebue Electric Association","Kotzebue","Kotzebue_grid","Northwest Arctic",TRUE,66.8983333,-162.5966667

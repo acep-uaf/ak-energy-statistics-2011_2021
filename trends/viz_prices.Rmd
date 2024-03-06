@@ -44,48 +44,48 @@ price <- read_csv("./trends/raw/prices_pce_inflation.csv")
 
 # exploratory
 # price vs population
-# do larger communities have cheaper rates? (no)
+# do larger communities have cheaper rates? (sort of)
 ```{R}
-price %>%
-  # filter(Year == 2018) %>%
-  filter(`Total Customers` > 0) %>%
-ggplot(aes(x =`Total Customers`, 
-           y = `Other Price kWh (2021 dollars)`)) + 
-           # size = `Residential Customers`,
-           # color = `ACEP Energy Region`)) +
-  geom_point() +
-  geom_smooth() +
-  # facet_grid(rows = vars(`ACEP Energy Region`)) +
-  theme_classic() +
-  theme(legend.position = "none",
-        plot.title = element_text(size=20, hjust = 0.5),
-        plot.subtitle = element_text(size=14, hjust = 0.5),
-        plot.caption = element_text(size = 8)) +
-  labs(title = "Price v Population, All Regions",
-       subtitle = "Do larger communities pay lower rates?") +
-  
-  
-  
-  # ylim(0,250) +
-  xlim(0,8000)
-
-
-# linear reg
-model <- lm(`Total Customers` ~ `Residential Price kWh (2021 dollars)`, data = price)
-summary(model)
-
-
-
-test <- price %>%
-  filter(`Total Customers` > 0) %>%
-  filter(`Total Customers` < 50) %>%
-  filter(Year == 2021)
-
-
-tmp <- price %>%
-  filter(`ACEP Energy Region` == "Rural Remote")
-
-  length(unique(tmp$`AEA Sales Reporting ID`))
+# price %>%
+#   # filter(Year == 2018) %>%
+#   filter(`Total Customers` > 0) %>%
+# ggplot(aes(x =`Total Customers`, 
+#            y = `Other Price kWh (2021 dollars)`)) + 
+#            # size = `Residential Customers`,
+#            # color = `ACEP Energy Region`)) +
+#   geom_point() +
+#   geom_smooth() +
+#   # facet_grid(rows = vars(`ACEP Energy Region`)) +
+#   theme_classic() +
+#   theme(legend.position = "none",
+#         plot.title = element_text(size=20, hjust = 0.5),
+#         plot.subtitle = element_text(size=14, hjust = 0.5),
+#         plot.caption = element_text(size = 8)) +
+#   labs(title = "Price v Population, All Regions",
+#        subtitle = "Do larger communities pay lower rates?") +
+#   
+#   
+#   
+#   # ylim(0,250) +
+#   xlim(0,8000)
+# 
+# 
+# # linear reg
+# model <- lm(`Total Customers` ~ `Residential Price kWh (2021 dollars)`, data = price)
+# summary(model)
+# 
+# 
+# 
+# test <- price %>%
+#   filter(`Total Customers` > 0) %>%
+#   filter(`Total Customers` < 50) %>%
+#   filter(Year == 2021)
+# 
+# 
+# tmp <- price %>%
+#   filter(`ACEP Energy Region` == "Rural Remote")
+# 
+#   length(unique(tmp$`AEA Sales Reporting ID`))
 
 
 
@@ -107,17 +107,18 @@ p_price <- price %>%
              values_to = "Price")
 
 long_price <- p_price %>%
-  # mutate(Customers = NA) %>%
-  # mutate(Customers = ifelse(Sector == "Residential", `Residential Customers`, Customers)) %>%
-  # mutate(Customers = ifelse(Sector == "Commercial", `Commercial Customers`, Customers)) %>%
-  # mutate(Customers = ifelse(Sector == "Other", `Other Customers`, Customers)) %>%
-  # mutate(Customers = round(Customers, 0)) %>%
+  mutate(Customers = NA) %>%
+  mutate(Customers = ifelse(Sector == "Residential", `Residential Customers`, Customers)) %>%
+  mutate(Customers = ifelse(Sector == "Commercial", `Commercial Customers`, Customers)) %>%
+  mutate(Customers = ifelse(Sector == "Other", `Other Customers`, Customers)) %>%
+  mutate(Customers = round(Customers, 0)) %>%
   
   select("Year",
          "Reporting Name",
          "ACEP Energy Region",
          "Sector",
          "Price",
+         "Customers",
          "Total Customers")
 
 
@@ -132,23 +133,50 @@ weighted <- long_price %>%
   drop_na() %>%
   group_by(`ACEP Energy Region`, Sector, Year) %>%
   summarize(avg_price = mean(Price, na.rm=T),
-            weighted_price = weighted.mean(Price, `Total Customers`, na.rm=T))
+            weighted_price = weighted.mean(Price, `Customers`, na.rm=T))
+
+```
+
+
+explore rural remote customer fiasco
+We're noticing huge swings in number of customers in each sector
+Looks like there was a reclassification event?
+```{R}
+# cust <- long_price %>%
+#   drop_na() %>%
+#   group_by(`ACEP Energy Region`, Year, Sector) %>%
+#   summarize(sector_customers = sum(`Customers`)) 
+# 
+# plot_region <- "Coastal"
+# 
+# cust %>% 
+#   filter(`ACEP Energy Region` == plot_region) %>%
+#   ggplot() +
+#   geom_line(aes(y=sector_customers, x=Year, color=Sector)) +
+#   labs(title = paste(plot_region, "Region", "Customers by Sector", sep=" "),
+#        y = "Customers") +
+#   scale_y_continuous(breaks=seq(0,200000,5000))
+
+
 
 ```
 
 
 
+
 # Line graph of price by sector by region
 # POPULATION-WEIGHTED
+# 2011-2019
 ```{R}
 
 viz <- NULL
 
-plot_region <- "Railbelt"
+plot_region <- "Coastal"
 
 # with weighted data
 viz <- weighted %>%
-  filter(`ACEP Energy Region` == paste(plot_region))
+  filter(`ACEP Energy Region` == paste(plot_region)) %>%
+  filter(Year <= 2019)
 
 viz %>%  
   mutate(label = if_else(Year == max(Year), as.character(Sector), NA_character_)) %>%
@@ -160,24 +188,24 @@ viz %>%
                   na.rm = TRUE) +
   theme_classic() +
   
-  scale_color_manual(values = c("#848BA7", "#645345", "#8F6A9D")) + #Commercial, Other, Residential
+  scale_color_manual(values = c("#e29617", "#fad900", "#0084c1")) + #Commercial, Other, Residential
   theme(legend.position = "none",
         plot.title = element_text(size=20, hjust = 0.5),
         plot.subtitle = element_text(size=18, hjust = 0.5),
         plot.caption = element_text(size = 10)) +
   
-  labs(title = "Population-Weighted Price of Electricity",
+  labs(title = "Average Price of Electricity by Sector",
        subtitle = paste(plot_region, " Region", sep = ""),
-       caption = "Inflation-adjusted (2021 dollars), post-PCE subsidy",
+       caption = "Population-Weighted averages, Inflation-adjusted (2021 dollars), post-PCE subsidy",
        x = "Year",
        y = "Cents/kWh") +
 
 # Coastal
    # ylim(c(0,90)) +
 # Railbelt
-   ylim(c(0,25)) +
+   # ylim(c(0,85)) +
 # Rural Remote
-   # ylim(c(0,120)) +
+   ylim(c(0,45)) +
 
 
    scale_x_continuous(breaks=seq(2011,2021,2))
@@ -191,7 +219,7 @@ setwd("./trends/visuals/price_sector")
 viz_data_filepath <- gsub(" ", "_", (paste("./price_sector_", str_to_lower(plot_region), ".csv", sep = "")))
 write_csv(viz, file = viz_data_filepath)
 
-# write the visual
+# write the visual in EPS
 viz_plot_filename <- gsub(" ", "_", (paste("price_sector_", str_to_lower(plot_region), ".eps", sep = "")))
 ggsave(filename = viz_plot_filename, device = "eps", )
 
@@ -203,6 +231,7 @@ setwd(repo)
 
 ## half violin of yearly data, grouped by region
 # straight data points, no weighting
+# 2011-2019
 ```{R}
 
 
@@ -210,6 +239,7 @@ setwd(repo)
 viz <- long_price %>%
   filter(Sector == "Residential") %>% 
   filter(Price > 0) %>%
+  filter(Year <= 2019) %>%
   left_join(weighted, join_by(Year, Sector, `ACEP Energy Region`))
   
 viz %>%
@@ -247,7 +277,7 @@ viz %>%
           plot.subtitle = element_text(size=14, hjust = 0.5),
           plot.caption = element_text(size = 8)) +
   
-    labs(title = "Price of Residential Electricity, 2011-2021",
+    labs(title = "Price of Residential Electricity, 2011-2019",
          subtitle = "Population-weighted averages",
          caption = "Inflation-adjusted to 2021 dollars, post PCE Subsidy",
          x = "Region",
@@ -273,6 +303,7 @@ viz %>%
 
 viz <- weighted %>%
   group_by(`ACEP Energy Region`, Year) %>%
+  filter(Year <= 2019) %>%
   summarize(weighted_price = mean(weighted_price))
 
 
