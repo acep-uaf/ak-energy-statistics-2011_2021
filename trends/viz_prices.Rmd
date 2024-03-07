@@ -286,12 +286,8 @@ viz %>%
     ylim(c(0,65)) +
     coord_flip() 
 
-    
 
-    #E3918F Rural Remote
-    #98BAD6 Coastal
-    #A4CD9A Railbelt
-    #F1BF42 State
+
 
 ```
 
@@ -307,32 +303,49 @@ viz <- weighted %>%
   summarize(weighted_price = mean(weighted_price))
 
 
-
-viz %>%  
-  mutate(label = if_else(Year == max(Year), as.character(`ACEP Energy Region`), NA_character_)) %>%
+# commented code below add labels at ends of lines
+viz %>%
+  # mutate(label = if_else(Year == max(Year), as.character(`ACEP Energy Region`), NA_character_)) %>%
   ggplot( aes(y=weighted_price, x=Year, color = `ACEP Energy Region`)) +
   geom_line(linewidth=1.5) +
-  geom_label_repel(aes(label = label,),
-                  nudge_x = 1,
-                  nudge_y = 1,
-                  na.rm = TRUE) +
-  theme_classic() +
-  
+  # geom_label_repel(aes(label = label,),
+  #                 nudge_x = 1,
+  #                 nudge_y = 1,
+  #                 na.rm = TRUE) +
+  theme_bw() +
+
   scale_color_manual(values = c("#98BAD6", "#A4CD9A", "#E3918F")) +
-  theme(legend.position = "none",
-        plot.title = element_text(size=20, hjust = 0.5),
-        plot.subtitle = element_text(size=14, hjust = 0.5),
-        plot.caption = element_text(size = 8)) +
-  
-  labs(title = "Population-Weighted Average Price of Electricity, 2011-2021",
-       subtitle = "Inflation-adjusted to 2021 dollars, post PCE Subsidy",
-       caption = "Inflation-adjustment calculated using BLS Cost Price Index, AK Urban",
-       x = "Year",
+  theme(legend.position = "right",
+        legend.title = element_blank(),
+        legend.text = element_text(size=12),
+        # plot.title = element_text(size=20, hjust = 0.5),
+        # plot.subtitle = element_text(size=14, hjust = 0.5),
+        axis.text = element_text(size=12),
+        axis.title = element_text(size=14),
+        plot.caption = element_text(size = 10)) +
+
+  labs(title = element_blank(),
+       subtitle = element_blank(),
+       caption = "Population-weighted averages, inflation-adjusted to 2021 dollars, post PCE Subsidy",
+       x = element_blank(),
        y = "Cents per kWh") +
 
-   ylim(0,75) +
-   scale_x_continuous(breaks=seq(2011,2021,2)) 
+   scale_y_continuous(breaks=seq(0,60,10), limits=c(0,60), expand = expansion(mult = 0)) +
+   scale_x_continuous(breaks=seq(2011,2019,1), limits=c(2011,2019), expand = expansion(mult = 0)) 
 
+
+
+# write the source data
+viz_data_filepath <- "./trends/visuals/price_region/price_region.csv"
+write_csv(viz, file = viz_data_filepath)
+
+# write the visual in EPS
+viz_plot_filename <- "./trends/visuals/price_region/price_region.eps"
+ggsave(filename = viz_plot_filename, 
+       device = "eps", 
+       height = 4,
+       width = 6.5,
+       units = "in")
 
 
 
