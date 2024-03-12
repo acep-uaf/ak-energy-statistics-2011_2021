@@ -163,72 +163,6 @@ Looks like there was a reclassification event?
 
 
 
-
-# Line graph of price by sector by region
-# POPULATION-WEIGHTED
-# 2011-2019
-```{R}
-
-viz <- NULL
-
-plot_region <- "Coastal"
-
-# with weighted data
-viz <- weighted %>%
-  filter(`ACEP Energy Region` == paste(plot_region)) %>%
-  filter(Year <= 2019)
-
-viz %>%  
-  mutate(label = if_else(Year == max(Year), as.character(Sector), NA_character_)) %>%
-  ggplot( aes(y=weighted_price, x=Year, color = Sector)) +
-  geom_line(linewidth=1.5) +
-  geom_label_repel(aes(label = label,),
-                  nudge_x = 1,
-                  nudge_y = 1,
-                  na.rm = TRUE) +
-  theme_classic() +
-  
-  scale_color_manual(values = c("#e29617", "#fad900", "#0084c1")) + #Commercial, Other, Residential
-  theme(legend.position = "none",
-        plot.title = element_text(size=20, hjust = 0.5),
-        plot.subtitle = element_text(size=18, hjust = 0.5),
-        plot.caption = element_text(size = 10)) +
-  
-  labs(title = "Average Price of Electricity by Sector",
-       subtitle = paste(plot_region, " Region", sep = ""),
-       caption = "Population-Weighted averages, Inflation-adjusted (2021 dollars), post-PCE subsidy",
-       x = "Year",
-       y = "Cents/kWh") +
-
-# Coastal
-   # ylim(c(0,90)) +
-# Railbelt
-   # ylim(c(0,85)) +
-# Rural Remote
-   ylim(c(0,45)) +
-
-
-   scale_x_continuous(breaks=seq(2011,2021,2))
-
-
-# prep for write
-setwd(repo)
-setwd("./trends/visuals/price_sector")
-
-# write the source data
-viz_data_filepath <- gsub(" ", "_", (paste("./price_sector_", str_to_lower(plot_region), ".csv", sep = "")))
-write_csv(viz, file = viz_data_filepath)
-
-# write the visual in EPS
-viz_plot_filename <- gsub(" ", "_", (paste("price_sector_", str_to_lower(plot_region), ".eps", sep = "")))
-ggsave(filename = viz_plot_filename, device = "eps", )
-
-setwd(repo)
-
-```
-
-
-
 ## half violin of yearly data, grouped by region
 # straight data points, no weighting
 # 2011-2019
@@ -321,7 +255,7 @@ viz %>%
         # plot.title = element_text(size=20, hjust = 0.5),
         # plot.subtitle = element_text(size=14, hjust = 0.5),
         axis.text = element_text(size=12),
-        axis.title = element_text(size=14),
+        axis.title = element_text(size=13),
         plot.caption = element_text(size = 10)) +
 
   labs(title = element_blank(),
@@ -353,6 +287,99 @@ ggsave(filename = viz_plot_filename,
 
 
 
+# Line graph of price by sector by region
+# POPULATION-WEIGHTED
+# 2011-2019
+```{R}
+
+viz <- NULL
+
+plot_region <- "Rural Remote"
+
+# with weighted data
+viz <- weighted %>%
+  filter(`ACEP Energy Region` == paste(plot_region)) %>%
+  filter(Year <= 2019)
+
+viz %>%  
+  # mutate(label = if_else(Year == max(Year), as.character(Sector), NA_character_)) %>%
+  ggplot( aes(y=weighted_price, x=Year, color = Sector)) +
+  geom_line(linewidth=1.5) +
+  # geom_label_repel(aes(label = label,),
+  #                 nudge_x = 1,
+  #                 nudge_y = 1,
+  #                 na.rm = TRUE) +
+  theme_bw() +
+  
+  scale_color_manual(values = c("#e29617", "#fad900", "#0084c1")) + #Commercial, Other, Residential
+  theme(legend.position = "right",
+        legend.title = element_blank(),
+        legend.text = element_text(size=12),
+        # plot.title = element_text(size=20, hjust = 0.5),
+        # plot.subtitle = element_text(size=14, hjust = 0.5),
+        axis.text = element_text(size=12),
+        axis.title = element_text(size=13),
+        plot.caption = element_text(size = 8)) +
+  
+  labs(title = element_blank(),
+       subtitle = element_blank(),
+       caption = "Population-Weighted averages, Inflation-adjusted (2021 dollars), post-PCE subsidy",
+       x = element_blank(),
+       y = "Cents/kWh") +
+
+# Coastal
+   # ylim(c(0,50)) +
+  
+# Railbelt
+   # ylim(c(0,30)) +
+  
+# Rural Remote
+   # ylim(c(0,75)) +
+
+   scale_y_continuous(breaks=seq(0,75,10), limits=c(0,75), expand = expansion(mult = 0)) +
+   scale_x_continuous(breaks=seq(2011,2019,1), limits=c(2011,2019), expand = expansion(mult = 0)) 
+
+
+# write the source data
+viz_data_filepath <- gsub(" ", "_", (paste("./trends/visuals/price_sector_", str_to_lower(plot_region), ".csv", sep = "")))
+write_csv(viz, file = viz_data_filepath)
+
+# write the visual in EPS
+viz_plot_filename <- gsub(" ", "_", (paste("./trends/visuals/price_sector_", str_to_lower(plot_region), ".eps", sep = "")))
+ggsave(filename = viz_plot_filename, 
+       device = "eps", 
+       height = 4,
+       width = 6.5,
+       units = "in")
+
+
+```
+
+
+
+# ridges over time
+# NONWEIGHTED (distribution)
+```{R}
+price %>%
+  filter(`ACEP Energy Region` == "Coastal") %>%
+  mutate(YearFct = fct_rev(as.factor(Year))) %>%
+  ggplot( aes(x=`Residential Price kWh (2021 dollars)`, y=YearFct, fill = YearFct)) +
+  geom_density_ridges() + 
+  theme_classic() +
+  theme(legend.position = "none") +
+  ggtitle("Price per kWh (2021 dollars), Coastal Residential")
+
+
+
+```
+
+
+
+
+
+########################
+# JUNKYARD BELOW
+########################
 
 
 # DEPRECATED: cut communities below 300
@@ -614,44 +641,6 @@ ggsave(filename = viz_plot_filename,
     #F1BF42 State
 
 ```
-
-
-
-
-
-
-
-
-
-# ridges over time
-# NONWEIGHTED (distribution)
-```{R}
-price %>%
-  filter(`ACEP Energy Region` == "Coastal") %>%
-  mutate(YearFct = fct_rev(as.factor(Year))) %>%
-  ggplot( aes(x=`Residential Price kWh (2021 dollars)`, y=YearFct, fill = YearFct)) +
-  geom_density_ridges() + 
-  theme_classic() +
-  theme(legend.position = "none") +
-  ggtitle("Price per kWh (2021 dollars), Coastal Residential")
-
-
-
-```
-
-
-
-
-
-
-
-
-
-
-
-# Junkyard below
-
-
 
 
 
