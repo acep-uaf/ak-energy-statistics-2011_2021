@@ -260,7 +260,7 @@ viz %>%
 
   labs(title = element_blank(),
        subtitle = element_blank(),
-       caption = "Population-weighted averages, inflation-adjusted to 2021 dollars, post PCE Subsidy",
+       caption = "Pop-weighted means, inflation-adjusted to 2021 dollars, post PCE Subsidy",
        x = element_blank(),
        y = "Cents per kWh") +
 
@@ -354,6 +354,44 @@ ggsave(filename = viz_plot_filename,
 
 
 ```
+
+
+### Consumption per capita
+```{R}
+consumption <- read_csv("./trends/raw/consumption-per-capita.csv")
+
+long_consumption <- pivot_longer(consumption,
+                     cols = c(Coastal, Railbelt, "Rural Remote"),
+                     names_to = "Region",
+                     values_to = "Consumption")
+
+
+long_consumption %>%  
+  ggplot( aes(y=Consumption, x=Year, color = Region)) +
+  geom_line(linewidth=1.5) +
+  theme_bw() +
+  
+  scale_color_manual(values = c("#98BAD6", "#A4CD9A", "#E3918F")) + #Commercial, Other, Residential
+  theme(legend.position = "right",
+        legend.title = element_blank(),
+        legend.text = element_text(size=12),
+        axis.text = element_text(size=12),
+        axis.title = element_text(size=13),
+        plot.caption = element_text(size = 8)) +
+  
+  labs(title = element_blank(),
+       subtitle = element_blank(),
+       x = element_blank(),
+       y = "kWh") +
+
+
+   scale_y_continuous(breaks=seq(0,10000,1000), limits=c(3000,10000), expand = expansion(mult = 0)) +
+   scale_x_continuous(breaks=seq(2011,2019,1), limits=c(2011,2019), expand = expansion(mult = 0)) 
+
+
+```
+
+
 
 
 
