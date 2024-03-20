@@ -179,8 +179,8 @@ viz <- long_price %>%
 viz %>%
   ggplot() +
   
-    geom_violinhalf(aes(x=`ACEP Energy Region`, 
-                        y=Price, 
+    geom_violinhalf(aes(x=`ACEP Energy Region`,
+                        y=Price,
                         fill=`ACEP Energy Region`),
                     position = position_nudge(x=.1, y=0)) +
   
@@ -207,7 +207,7 @@ viz %>%
 
     theme_classic() +
     theme(legend.position = "none",
-          plot.title = element_text(size=20, hjust = 0.5),
+          plot.title = element_text(size=18, hjust = 0.5),
           plot.subtitle = element_text(size=14, hjust = 0.5),
           plot.caption = element_text(size = 8)) +
   
