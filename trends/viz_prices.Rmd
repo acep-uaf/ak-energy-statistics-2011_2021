@@ -175,6 +175,10 @@ viz <- long_price %>%
   filter(Price > 0) %>%
   filter(Year <= 2019) %>%
   left_join(weighted, join_by(Year, Sector, `ACEP Energy Region`))
+
+mean_region <- viz %>%
+  group_by(`ACEP Energy Region`) %>%
+  summarize(mean_weighted_price = mean(weighted_price))
   
 viz %>%
   ggplot() +
@@ -192,15 +196,21 @@ viz %>%
                 alpha=0.5, 
                 width = .1,
                 height = 0
-                # position = position_nudge(x=-0.1, y=0)
                 ) +
-  
-    geom_boxplot(aes(x=`ACEP Energy Region`,
-                     y=weighted_price,
-                     fill=`ACEP Energy Region`),
-                 width=0.4,
-                 alpha=0.7,
-                 position = position_nudge(x=0.3, y=0)) +
+
+    # coastal mean line
+    geom_segment(data=mean_region, aes(x=1.1, xend=1.45,
+                                       y=mean_region$mean_weighted_price[1], yend=mean_region$mean_weighted_price[1]),
+                                       size=1.2) +
+    # railbelt mean line
+    geom_segment(data=mean_region, aes(x=2.1, xend=2.43,
+                                       y=mean_region$mean_weighted_price[2], yend=mean_region$mean_weighted_price[2]),
+                                       size=1.2) +
+    # rural remote mean line
+    geom_segment(data=mean_region, aes(x=3.1, xend=3.49,
+                                       y=mean_region$mean_weighted_price[3], yend=mean_region$mean_weighted_price[3]),
+                                       size=1.2) +
+
   
     scale_fill_manual(values = c("#98BAD6", "#A4CD9A", "#E3918F")) +
     scale_color_manual(values = c("#98BAD6", "#A4CD9A", "#E3918F")) +
@@ -211,13 +221,14 @@ viz %>%
           plot.subtitle = element_text(size=14, hjust = 0.5),
           plot.caption = element_text(size = 8)) +
   
-    labs(title = "Price of Residential Electricity, 2011-2019",
-         subtitle = "Population-weighted averages",
+    labs(
+         # title = "Price of Residential Electricity, 2011-2019",
+         # subtitle = "Population-weighted averages",
          caption = "Inflation-adjusted to 2021 dollars, post PCE Subsidy",
          x = "Region",
          y = "Cents/kWh") +
 
-    ylim(c(0,65)) +
+    ylim(c(0,180)) +
     coord_flip() 
 
 
