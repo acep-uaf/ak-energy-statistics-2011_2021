@@ -18,6 +18,11 @@ Types of changes
 ### Added
  
 - errata.md  
+- Annual_Summary_Tables.xlsx  
+- Energy_Stats_Financial_Tables.xlsx  
+- Energy_Stats_Generation_Tables.xlsx  
+- Energy_Stats_Infrastructure_2021.xlsx  
+- Table_1_PCE_worksheets.xlsx
 
 ### Updated workbooks by Neil McMahon
 
