@@ -1,5 +1,11 @@
 # Alaska Energy Statistics, 2011 - 2021
 
+**WARNING**
+> This data contains inconsistencies. Please pay special attention to the [errata](errata.md). This repository is designed to act as an archive for the workbooks as delivered via contract.
+
+**NOTE**
+> This data has been reproduced in an updated form for the [2024 Alaska Electricity Trends Report](https://acep-uaf.github.io/aetr-web-book-2024/). This report includes updated data for download that addresses many of the issues in the [errata](errata.md).
+
 ## Overview
 
 This repository is the landing page for [ACEP](https://uaf.edu/acep)'s support of the Alaska Energy Statistics workbooks and reports. 
