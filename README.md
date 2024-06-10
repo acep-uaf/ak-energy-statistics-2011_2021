@@ -45,6 +45,8 @@ Team supporting development of the 2011-2021 workbooks:
   review and analysis. 
 - Vanessa Raymond (UAF ACEP) - Supported workbook archiving and distribution.
 - Dayne Broderson (UAF ACEP)- Supported workbook repository and website for distribution
+- Jesse Kaczmarski (UAF ACEP) - Supported errata development, data dictionary, and data validity. Continued maintenance and support.
+- Elizabeth (Liz) Dobbins (UAF ACEP) - Supported data governance transition. Continued maintenance and support.
 
 Funding support from this team was provided by leveraging support from multiple
 partners that included: Office of Naval Research (ONR) funded Alaska Regional Collaboration for Technology Innovation and Commercialization (ARCTIC) program, the Denali Commission, the State of Alaska, Univeristy of Alaska Fairbanks (UAF) Alaska Center for Energy and Power (ACEP), and Univeristy of Alaska Anchorage (UAA) Institute of Social and Economic Research (ISER).
