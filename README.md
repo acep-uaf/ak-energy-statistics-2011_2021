@@ -42,9 +42,9 @@ Team supporting development of the 2011-2021 workbooks:
   disctionary. 
 - Gwen Holdmann (UAF ACEP) - Collaborated on review and feedback of workbooks.
 - Ian MacDougall (UAF ACEP)  - Led collection of workbooks into a repository and supported
-  review and analysis. 
+  review and analysis. Continued maintenance and support.
 - Vanessa Raymond (UAF ACEP) - Supported workbook archiving and distribution.
-- Dayne Broderson (UAF ACEP)- Supported workbook repository and website for distribution
+- Dayne Broderson (UAF ACEP) - Supported workbook repository and website for distribution
 - Jesse Kaczmarski (UAF ACEP) - Supported errata development, data dictionary, and data validity. Continued maintenance and support.
 - Elizabeth (Liz) Dobbins (UAF ACEP) - Supported data governance transition. Continued maintenance and support.
 

@@ -5,6 +5,7 @@ There are known issues with the 2011-2021 Alaska Energy Statistics Workbooks. Si
 # Table of Contents
 ## General Issues
 - The Eva Creek Wind Farm is a power plant in the GVEA service territory that goes by "Eva Creek" from 2011 to 2013, and then "Eva Creek Wind" from 2014 onward.
+- There is missing data from the Southcentral Power Project from 2013-2020 representing approximately 2.9 GWh. For more information on how we determined this and access to the missing data, please visit: https://github.com/acep-uaf/aetr-web-book-2024/tree/main/data/patches/patch_001
 
 ## File Specific Issues
 - [2022 Alaska Energy Statistics Workbook](#2022-alaska-energy-statistics-workbook)
