@@ -21,12 +21,14 @@ There are known issues with the 2011-2021 Alaska Energy Statistics Workbooks. Si
 > [https://github.com/acep-uaf/ak-energy-statistics-2011_2021/blob/main/workbooks/2022_AK_Energy_Statistics.xlsx](https://github.com/acep-uaf/ak-energy-statistics-2011_2021/blob/main/workbooks/2022_AK_Energy_Statistics.xlsx)
 
 - Bradley Lake data from the EIA does not match utility purchase data as reported to the Regulatory Commission of Alaska (RCA). In particular, the following difference is found: `EIA 376,661 MWh -- Utility purchases 367,214 MWh`.
+- Financial data for the City of Seward appears to be missing.
 
 ## 2021 Alaska Energy Statistics Workbook
 
 > [https://github.com/acep-uaf/ak-energy-statistics-2011_2021/blob/main/workbooks/2021_AK_Energy_Statistics.xlsx](https://github.com/acep-uaf/ak-energy-statistics-2011_2021/blob/main/workbooks/2021_AK_Energy_Statistics.xlsx)
 
 - Bradley Lake data from the EIA does not match utility purchase data as reported to the Regulatory Commission of Alaska (RCA). In particular, the following difference is found: `EIA 391,018 MWh -- Utility purchases 421,446 MWh`.
+- Financial data for the City of Seward appears to be missing.
 
 ## 2020 Alaska Energy Statistics Workbook
 
