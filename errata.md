@@ -58,3 +58,15 @@ There are known issues with the 2011-2021 Alaska Energy Statistics Workbooks. Si
 > [https://github.com/acep-uaf/ak-energy-statistics-2011_2021/blob/main/workbooks/2011_AK_Energy_Statistics.xlsx](https://github.com/acep-uaf/ak-energy-statistics-2011_2021/blob/main/workbooks/2011_AK_Energy_Statistics.xlsx)
 
 - `Table 2.3b` The community of Unalaska has a missing name for their power plant. According to the data in the workbooks from 2012-2021, this should be "Unalaska Power Module". We recommend accounting for this if the plant names are used in your analysis.
+
+## Energy Statistics Composite Financial Tables
+> [https://github.com/acep-uaf/ak-energy-statistics-2011_2021/blob/main/workbooks/Energy_Stats_Financial_Tables.xlsx](https://github.com/acep-uaf/ak-energy-statistics-2011_2021/blob/main/workbooks/Energy_Stats_Financial_Tables.xlsx)
+
+Total sales is roughly the sum of residential, commercial, and other sales (with other being the sum of transportation, community and government). Parallel calculations were done for revenue. There are these exceptions:
+
+- There is a subset of communities where total revenue was obtained directly from the utilities without a breakdown into categories. Each category is left blank so do not sum to the total value.
+- In some cases, the other revenue category is blank in the workbook but apparently included in the total.
+  - Sitka, City & Borough in 2021
+  - Alaska Electric Light&Power Co in 2018 (for sales also)
+- For Sitka, City & Borough in 2021 unbilled customers are included in the total sales, but not in the other category
+- Sometimes these figures do not have data for all 12 months and so are underestimates of the true amounts.
