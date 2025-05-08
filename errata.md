@@ -69,5 +69,4 @@ Total sales is roughly the sum of residential, commercial, and other sales (with
   - Sitka, City & Borough in 2021
   - Alaska Electric Light&Power Co in 2018 (for sales also)
 - For Sitka, City & Borough in 2021 unbilled customers are included in the total sales, but not in the other category
-
-  Sometimes these figures do not have data for all 12 months and so are underestimates of the true amounts.
+- Sometimes these figures do not have data for all 12 months and so are underestimates of the true amounts.
