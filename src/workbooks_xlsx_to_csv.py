@@ -1,13 +1,10 @@
 import pandas as pd
 
 def read_and_clean(file, sheet_name, output_csv):
-    # Read the Excel sheet
     df = pd.read_excel(file, sheet_name=sheet_name)
+
+    df_clean = df.loc[:, ~df.columns.str.contains('^Unnamed')]
     
-    # Drop columns where all values are NaN
-    df_clean = df.dropna(axis=1, how='all')
-    
-    # Save to CSV without the index column
     df_clean.to_csv(output_csv, index=False)
 
 
