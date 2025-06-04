@@ -37,3 +37,11 @@ infrastructure = pd.read_excel(
     header = 0
 )
 infrastructure.to_csv('workbooks_csv/infrastructure.csv', index = False)
+
+
+plants = pd.read_excel(
+    'workbooks/Energy_Stats_Infrastructure_2021.xlsx',
+    sheet_name = 'LOOKUP PLANTS 2023-11-13',
+    header = 0
+)
+plants.to_csv('workbooks_csv/plants.csv', index = False)
