@@ -58,7 +58,7 @@ Types of changes
 - Updated charts for each workbook
 
 
-## [1.0.0] - 2023-04-26
+## [1.0.0] - 2024-04-26
 
 ### Added
 - The 2011-2021 excel workbooks from Neil via Steve.
