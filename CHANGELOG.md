@@ -13,6 +13,10 @@ Types of changes
 - **Fixed** for any bug fixes.
 - **Security** in case of vulnerabilities.
 
+### Added
+- AEDG_Lookup_Tables_Final.xlsx
+
+
 ## [2.0.0] - 2025-10-13
 
 ### Added
