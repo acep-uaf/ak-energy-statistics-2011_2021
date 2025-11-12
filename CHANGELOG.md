@@ -17,7 +17,7 @@ Types of changes
 - AEDG_Lookup_Tables_Final.xlsx
 
 
-## [2.0.0] - 2024-03-01
+## [2.0.0] - 2025-10-13
 
 ### Added
  
@@ -62,10 +62,13 @@ Types of changes
 - Updated charts for each workbook
 
 
-## [1.0.0] - 2023-12-11
+## [1.0.0] - 2024-04-26
 
 ### Added
 - The 2011-2021 excel workbooks from Neil via Steve.
 - Initial structure for the website to present the data and context of the data.
 - Add CC-BY-SA 4.0 License
+
+### Updated
+- Jesse Kaczmarski added missing Kotzebue battery data to the 2021 workbook (sourced from EIA-923)
 
