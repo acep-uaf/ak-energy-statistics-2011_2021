@@ -13,8 +13,15 @@ Types of changes
 - **Fixed** for any bug fixes.
 - **Security** in case of vulnerabilities.
 
+
+## [2.0.1] - 2026-01-22
+
 ### Added
 - AEDG_Lookup_Tables_Final.xlsx
+
+### Fixed
+- changed operator for wind generation at St. Paul
+- removed the PCE values for Cordova in 2020/2021 which duplicated the EIA data.
 
 
 ## [2.0.0] - 2025-10-13
