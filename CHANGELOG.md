@@ -14,6 +14,11 @@ Types of changes
 - **Security** in case of vulnerabilities.
 
 
+### Added
+- sales_monthly_pce_eia_consolidated.xlsx
+
+
+
 ## [2.0.1] - 2026-01-22
 
 ### Added
